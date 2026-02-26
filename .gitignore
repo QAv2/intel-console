@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Database
+data/intel.db
+data/intel.db-wal
+data/intel.db-shm
+
+# Editor
+.python-version
