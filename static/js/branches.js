@@ -399,4 +399,36 @@ const ENTITY_BRANCH_MAP = {
     263: { branch: 'intelligence', ring: 2 },  // Operation Condor
     // Legal & Judicial — Senate investigation
     264: { branch: 'legal', ring: 2 },  // Kerry Committee Investigation
+
+    // ---- UAP DISCLOSURE EXPANSION ----
+    // Legal & Judicial — key legal architect of UAP disclosure
+    265: { branch: 'legal', ring: 1 },  // Daniel Sheehan
+    // Legal & Judicial — academic freedom case
+    266: { branch: 'legal', ring: 3 },  // John Mack
+    // Intelligence & Covert — disclosure advocacy
+    267: { branch: 'intelligence', ring: 3 },  // Steven Greer
+    // Intelligence & Covert — Pentagon UAP insiders
+    268: { branch: 'intelligence', ring: 2 },  // Luis Elizondo
+    269: { branch: 'intelligence', ring: 2 },  // David Grusch
+    270: { branch: 'intelligence', ring: 3 },  // David Fravor
+    271: { branch: 'intelligence', ring: 3 },  // Ryan Graves
+    // Political & Government — UAP legislation authors
+    272: { branch: 'political', ring: 2 },  // Chuck Schumer
+    273: { branch: 'political', ring: 3 },  // Mike Rounds
+    274: { branch: 'political', ring: 3 },  // Tim Burchett
+    // Legal & Judicial — disclosure organizations
+    275: { branch: 'legal', ring: 2 },  // New Paradigm Institute
+    276: { branch: 'legal', ring: 2 },  // Christic Institute
+    // Intelligence & Covert — witness organizations
+    277: { branch: 'intelligence', ring: 3 },  // Disclosure Project
+    278: { branch: 'intelligence', ring: 3 },  // Americans for Safe Aerospace
+    // Intelligence & Covert — Pentagon UAP programs
+    279: { branch: 'intelligence', ring: 2 },  // AATIP
+    280: { branch: 'intelligence', ring: 3 },  // Project Blue Book
+    281: { branch: 'intelligence', ring: 3 },  // UAP Task Force
+    // Legal & Judicial — UAP legislation
+    282: { branch: 'legal', ring: 2 },  // UAP Disclosure Act
+    283: { branch: 'legal', ring: 3 },  // Enhanced UAP Whistleblower Protection Act
+    // Legal & Judicial — congressional event
+    284: { branch: 'legal', ring: 2 },  // Grusch Congressional Hearing
 };
