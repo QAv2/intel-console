@@ -16,3 +16,4 @@ data/intel.db-shm
 
 # Editor
 .python-version
+.env
