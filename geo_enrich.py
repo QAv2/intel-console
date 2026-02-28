@@ -85,6 +85,43 @@ GEO_COORDS = {
     4:   (40.0848, -82.8968, "inference"),    # Les Wexner → Columbus OH
     111: (40.7587, -73.9706, "inference"),    # Henry Kissinger → NYC (Kissinger Associates)
     287: (46.2260, 6.1866, "inference"),      # Klaus Schwab → WEF, Cologny
+
+    # ── Expanded persons by centrality (30 additional) ──
+    1:   (40.7719, -73.9639, "inference"),    # Jeffrey Epstein → NYC (9 E 71st St)
+    33:  (26.6777, -80.0367, "inference"),    # Donald Trump → Mar-a-Lago, Palm Beach FL
+    2:   (40.7677, -73.9650, "inference"),    # Ghislaine Maxwell → Upper East Side, NYC
+    32:  (34.7465, -92.2896, "inference"),    # Bill Clinton → Little Rock AR
+    3:   (51.5256, -0.0776, "inference"),     # Robert Maxwell → London (Mirror Group)
+    108: (51.4194, -0.6052, "inference"),     # Prince Andrew → Royal Lodge, Windsor
+    145: (26.7056, -80.0364, "inference"),    # Virginia Giuffre → West Palm Beach FL
+    18:  (25.7907, -80.1300, "inference"),    # Meyer Lansky → Miami Beach FL
+    135: (48.8566, 2.3522, "inference"),      # Jean-Luc Brunel → Paris
+    176: (38.9072, -77.0558, "inference"),    # Prince Bandar bin Sultan → Saudi Embassy, DC
+    212: (29.7604, -95.3698, "inference"),    # George H.W. Bush → Houston TX
+    5:   (32.0853, 34.7818, "inference"),     # Ehud Barak → Tel Aviv
+    11:  (40.7625, -73.9710, "inference"),    # Roy Cohn → Midtown NYC
+    53:  (32.0684, 34.7916, "inference"),     # Rafi Eitan → Tel Aviv (LAKAM)
+    134: (40.7195, -74.0089, "inference"),    # Harvey Weinstein → Tribeca, NYC
+    211: (38.8977, -77.0365, "inference"),    # Ronald Reagan → White House, DC
+    265: (38.0293, -78.4767, "inference"),    # Daniel Sheehan → Charlottesville VA
+    27:  (36.5100, -4.8829, "inference"),     # Adnan Khashoggi → Marbella, Spain
+    119: (40.7614, -73.9706, "inference"),    # Charles Bronfman → NYC (Mega Group)
+    160: (55.7520, 37.6175, "inference"),     # Vladimir Putin → Moscow (Kremlin)
+    204: (38.8719, -77.0163, "inference"),    # Jonathan Pollard → Washington Navy Yard, DC
+    8:   (38.8934, -77.0249, "inference"),    # William Barr → DOJ, DC
+    16:  (38.8977, -77.0248, "inference"),    # J. Edgar Hoover → FBI HQ, DC
+    17:  (38.9517, -77.1467, "inference"),    # James Angleton → CIA, Langley VA
+    39:  (40.6575, -73.8437, "inference"),    # John Gotti → Howard Beach, Queens NYC
+    42:  (39.9526, -75.1652, "inference"),    # John Stanfa → Philadelphia PA
+    114: (38.9007, -77.0517, "inference"),    # Sandy Berger → White House, DC
+    124: (40.7580, -73.9713, "inference"),    # Jes Staley → JPMorgan, NYC
+    129: (34.0549, -118.2578, "inference"),   # Tom Barrack → Colony Capital, Los Angeles
+    189: (51.5074, -0.1278, "inference"),     # Peter Mandelson → London
+    203: (45.5017, -73.5673, "inference"),    # Ari Ben-Menashe → Montreal
+    10:  (38.9517, -77.1467, "inference"),    # William Casey → CIA, Langley VA
+    22:  (47.1660, 8.5155, "inference"),      # Marc Rich → Zug, Switzerland
+    31:  (38.9007, -77.0369, "inference"),    # Hillary Clinton → Washington DC
+    37:  (25.7617, -80.1918, "inference"),    # Alexander Acosta → Miami FL
 }
 
 # Lippo Group latitude correction (South hemisphere)
