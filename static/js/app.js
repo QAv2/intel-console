@@ -53,11 +53,15 @@
         // Load stats
         try {
             const stats = await API.getStats();
-            document.getElementById('stats-bar').innerHTML = `
+            let statsHtml = `
                 <span class="stat-item"><span class="stat-value">${stats.entities}</span> entities</span>
                 <span class="stat-item"><span class="stat-value">${stats.relationships}</span> relationships</span>
-                <span class="stat-item"><span class="stat-value">${stats.sources}</span> sources</span>
-            `;
+                <span class="stat-item"><span class="stat-value">${stats.sources}</span> sources</span>`;
+            if (stats.signals) {
+                statsHtml += `
+                <span class="stat-item"><span class="stat-value">${stats.signals}</span> signals</span>`;
+            }
+            document.getElementById('stats-bar').innerHTML = statsHtml;
         } catch (e) { console.warn('Stats load failed:', e); }
 
         // Init timeline slider

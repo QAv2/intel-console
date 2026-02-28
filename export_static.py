@@ -126,6 +126,29 @@ def main():
 
     graph = {"nodes": nodes, "edges": edges}
 
+    # ---- Signals ----
+    sig_rows = db.execute(
+        """SELECT id, entity_id, source_feed, headline, url, snippet,
+                  matched_name, published_at, collected_at
+           FROM signals
+           WHERE relevance != 'dismissed'
+           ORDER BY collected_at DESC"""
+    ).fetchall()
+    signals_by_entity = {}
+    for row in sig_rows:
+        eid = str(row["entity_id"])
+        signals_by_entity.setdefault(eid, []).append({
+            "id": row["id"],
+            "source_feed": row["source_feed"],
+            "headline": row["headline"],
+            "url": row["url"],
+            "snippet": row["snippet"],
+            "matched_name": row["matched_name"],
+            "published_at": row["published_at"],
+            "collected_at": row["collected_at"],
+        })
+    sig_count = len(sig_rows)
+
     # ---- Stats ----
     ent_count = db.execute("SELECT COUNT(*) as c FROM entities").fetchone()["c"]
     rel_count = db.execute("SELECT COUNT(*) as c FROM relationships").fetchone()["c"]
@@ -146,6 +169,7 @@ def main():
         "entities": ent_count,
         "relationships": rel_count,
         "sources": src_count,
+        "signals": sig_count,
         "by_type": by_type,
         "by_tier": by_tier,
     }
@@ -183,9 +207,10 @@ def main():
     write_json("relationships.json", {str(k): v for k, v in rels_by_entity.items()})
     write_json("sources.json", {str(k): v for k, v in entity_sources.items()})
     write_json("centrality.json", centrality)
+    write_json("signals.json", signals_by_entity)
 
     db.close()
-    print(f"\nDone. {len(nodes)} entities, {len(edges)} edges, {src_count} sources exported.")
+    print(f"\nDone. {len(nodes)} entities, {len(edges)} edges, {src_count} sources, {sig_count} signals exported.")
 
 
 if __name__ == "__main__":

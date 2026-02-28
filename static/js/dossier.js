@@ -33,10 +33,11 @@ const Dossier = {
         this.currentEntityId = entityId;
         highlightNode(entityId);
 
-        const [entity, relationships, entitySources] = await Promise.all([
+        const [entity, relationships, entitySources, signals] = await Promise.all([
             API.getEntity(entityId),
             API.getRelationships(entityId),
             API.getEntitySources(entityId),
+            API.getSignals(entityId),
         ]);
 
         const meta = entity.metadata || {};
@@ -126,6 +127,35 @@ const Dossier = {
                     html += `<span class="entity-source-detail">${esc(details.join(', '))}</span>`;
                 }
                 html += s.url ? `</a>` : `</span>`;
+            });
+            html += `</div>`;
+        }
+
+        // ---- Signals ----
+        if (signals && signals.length > 0) {
+            const FEED_COLORS = {
+                reuters: '#ff8c00', bbc: '#bb1919', guardian: '#052962',
+                npr: '#2883c6', aljazeera: '#fa9000', ap: '#e02020',
+                fed_register: '#34d399', sec_edgar: '#4a9eff', ofac_sdn: '#f87171',
+            };
+            html += `<div class="panel-section-label">Signals (${signals.length})</div>`;
+            html += `<div class="signal-list">`;
+            signals.forEach(s => {
+                const feedColor = FEED_COLORS[s.source_feed] || '#888';
+                html += `<a class="signal-item" href="${esc(s.url)}" target="_blank" style="border-left-color:${feedColor}">`;
+                html += `<span class="signal-headline">${esc(s.headline)}</span>`;
+                html += `<div class="signal-meta">`;
+                html += `<span class="signal-feed" style="color:${feedColor}">${esc(s.source_feed.replace('_', ' '))}</span>`;
+                const timeStr = s.published_at || s.collected_at || '';
+                if (timeStr) {
+                    html += `<span class="signal-time">${esc(timeStr)}</span>`;
+                }
+                html += `</div>`;
+                if (s.snippet) {
+                    const truncated = s.snippet.length > 150 ? s.snippet.slice(0, 150) + '...' : s.snippet;
+                    html += `<span class="signal-snippet">${esc(truncated)}</span>`;
+                }
+                html += `</a>`;
             });
             html += `</div>`;
         }

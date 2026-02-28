@@ -100,6 +100,26 @@ CREATE TABLE IF NOT EXISTS seed_provenance (
 );
 
 -- ============================================================
+-- Signals (temporal news/feed layer)
+-- ============================================================
+
+CREATE TABLE IF NOT EXISTS signals (
+    id            INTEGER PRIMARY KEY AUTOINCREMENT,
+    entity_id     INTEGER NOT NULL REFERENCES entities(id) ON DELETE CASCADE,
+    source_feed   TEXT NOT NULL,
+    headline      TEXT NOT NULL,
+    url           TEXT NOT NULL,
+    snippet       TEXT DEFAULT '',
+    matched_name  TEXT DEFAULT '',
+    published_at  TEXT DEFAULT '',
+    collected_at  TEXT DEFAULT (datetime('now')),
+    relevance     TEXT DEFAULT 'auto' CHECK (relevance IN ('auto','confirmed','dismissed'))
+);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_signals_dedup ON signals(url, entity_id);
+CREATE INDEX IF NOT EXISTS idx_signals_entity ON signals(entity_id);
+CREATE INDEX IF NOT EXISTS idx_signals_collected ON signals(collected_at);
+
+-- ============================================================
 -- FTS5 Virtual Table
 -- ============================================================
 

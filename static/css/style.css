@@ -849,6 +849,65 @@ a.entity-source-item .entity-source-title {
     margin-top: 1px;
 }
 
+/* Signal items */
+.signal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.signal-item {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 8px;
+    background: rgba(255,255,255,0.015);
+    border-radius: 3px;
+    border-left: 3px solid #888;
+    text-decoration: none;
+    transition: background 0.15s;
+}
+
+.signal-item:hover {
+    background: var(--surface-hover);
+}
+
+.signal-headline {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--accent);
+    line-height: 1.4;
+}
+
+.signal-meta {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 2px;
+}
+
+.signal-feed {
+    font-family: var(--font-mono);
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-tertiary);
+}
+
+.signal-time {
+    font-family: var(--font-mono);
+    font-size: 8px;
+    color: var(--text-dim);
+}
+
+.signal-snippet {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: var(--text-dim);
+    margin-top: 3px;
+    line-height: 1.4;
+}
+
 .panel-section-label {
     font-family: var(--font-mono);
     font-size: 9px;
