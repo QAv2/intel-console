@@ -5,6 +5,8 @@ import json
 import os
 import sqlite3
 
+from geo_enrich import export_geo
+
 DB_PATH = os.path.join(os.path.dirname(__file__), "data", "intel.db")
 OUT_DIR = os.path.join(os.path.dirname(__file__), "static", "data")
 
@@ -208,6 +210,9 @@ def main():
     write_json("sources.json", {str(k): v for k, v in entity_sources.items()})
     write_json("centrality.json", centrality)
     write_json("signals.json", signals_by_entity)
+
+    # ---- Geo-enriched exports ----
+    export_geo(db, OUT_DIR)
 
     db.close()
     print(f"\nDone. {len(nodes)} entities, {len(edges)} edges, {src_count} sources, {sig_count} signals exported.")
