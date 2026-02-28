@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intel Console</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1 class="header-title">Intel Console</h1>
+        <p class="header-sub">Civilian OSINT Dashboard</p>
+    </header>
+
+    <!-- Breadcrumb navigation -->
+    <div class="breadcrumb-bar" id="breadcrumb-bar"></div>
+
+    <!-- Stats bar -->
+    <div class="stats-bar" id="stats-bar"></div>
+
+    <!-- Evidence Tier Legend -->
+    <div class="legend" id="tier-legend">
+        <div class="legend-title">Evidence Tiers</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#34d399"></span> Documented</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#fbbf24"></span> Credible</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#fb923c"></span> Inference</div>
+        <div class="legend-item"><span class="legend-dot" style="background:#f87171"></span> Speculative</div>
+    </div>
+
+    <!-- Search -->
+    <div class="search-container">
+        <div class="search-wrap">
+            <span class="search-icon">&#x1F50D;</span>
+            <input type="text" id="search-input" placeholder="Search entities..." autocomplete="off">
+        </div>
+        <div class="search-results" id="search-results"></div>
+    </div>
+
+    <!-- Timeline slider -->
+    <div class="timeline-container" id="timeline-container"></div>
+
+    <!-- Filter bar -->
+    <div class="filter-bar" id="filter-bar">
+        <div class="filter-group">
+            <span class="filter-label">Evidence</span>
+            <label class="tier-toggle" data-tier="documented">
+                <input type="checkbox" checked> <span class="tier-dot tier-documented"></span> Doc
+            </label>
+            <label class="tier-toggle" data-tier="credible">
+                <input type="checkbox" checked> <span class="tier-dot tier-credible"></span> Cred
+            </label>
+            <label class="tier-toggle" data-tier="inference">
+                <input type="checkbox" checked> <span class="tier-dot tier-inference"></span> Inf
+            </label>
+            <label class="tier-toggle" data-tier="speculative">
+                <input type="checkbox" checked> <span class="tier-dot tier-speculative"></span> Spec
+            </label>
+        </div>
+        <div class="filter-group" id="type-filters"></div>
+    </div>
+
+    <!-- SVG Map -->
+    <svg id="map-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+
+    <!-- Bottom Toolbar -->
+    <div class="toolbar">
+        <button id="btn-reset" title="Reset View"><span class="btn-label">Reset</span></button>
+        <div class="toolbar-sep"></div>
+        <button id="btn-zoom-in" title="Zoom In"><span class="btn-label">+</span></button>
+        <button id="btn-zoom-out" title="Zoom Out"><span class="btn-label">-</span></button>
+        <div class="toolbar-sep"></div>
+        <button id="btn-connections" title="Toggle Connections" class="active"><span class="btn-label">Edges</span></button>
+        <div class="toolbar-sep"></div>
+        <button id="btn-back-to-map" title="Back to Map" style="display:none"><span class="btn-label">Map</span></button>
+    </div>
+
+    <!-- Dossier panel -->
+    <div class="panel" id="dossier-panel">
+        <button class="panel-close" id="panel-close">&times;</button>
+        <div class="panel-inner" id="panel-inner"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/api.js"></script>
+    <script src="js/branches.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/dossier.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
