@@ -122,6 +122,27 @@ GEO_COORDS = {
     22:  (47.1660, 8.5155, "inference"),      # Marc Rich → Zug, Switzerland
     31:  (38.9007, -77.0369, "inference"),    # Hillary Clinton → Washington DC
     37:  (25.7617, -80.1918, "inference"),    # Alexander Acosta → Miami FL
+
+    # ── Iran Conflict expansion (Feb-Mar 2026) ──
+    290: (35.6892, 51.3890, "credible"),      # IRGC → Tehran
+    291: (35.6892, 51.3890, "credible"),      # Quds Force → Tehran
+    292: (35.7050, 51.4180, "documented"),     # Ali Khamenei → Supreme Leader compound, Tehran
+    293: (35.6997, 51.4230, "documented"),     # Ali Shamkhani → MOIS HQ, Tehran
+    294: (35.5200, 51.7700, "documented"),     # Mohammad Pakpour → Parchin
+    295: (35.7219, 51.3897, "documented"),     # Aziz Nasirzadeh → Defense Ministry, Tehran
+    296: (35.7050, 51.4180, "documented"),     # Abdul Rahim Mousavi → Supreme Leader compound
+    297: (35.6892, 51.3890, "credible"),       # Masoud Pezeshkian → Tehran
+    298: (27.9506, -82.4572, "documented"),    # CENTCOM → MacDill AFB, Tampa FL
+    304: (33.7250, 51.7270, "documented"),     # Natanz Nuclear Facility
+    305: (34.8820, 51.2590, "documented"),     # Fordow Enrichment Plant
+    306: (35.5200, 51.7700, "documented"),     # Parchin Military Complex
+    307: (25.3500, 60.3800, "documented"),     # Konarak Naval Base
+    308: (24.5000, 60.0000, "credible"),       # USS Abraham Lincoln → North Arabian Sea
+    309: (25.5000, 57.0000, "credible"),       # USS Gerald R. Ford → Gulf of Oman
+    310: (33.8938, 35.5018, "credible"),       # Hezbollah → Beirut, Lebanon
+    311: (15.3694, 44.1910, "credible"),       # Ansar Allah (Houthis) → Sana'a, Yemen
+    312: (35.7300, 51.3400, "documented"),     # AEOI → Tehran
+    313: (35.6997, 51.4230, "documented"),     # Iranian Ministry of Intelligence → Tehran
 }
 
 # Lippo Group latitude correction (South hemisphere)
