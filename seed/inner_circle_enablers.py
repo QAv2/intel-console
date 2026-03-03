@@ -682,3 +682,21 @@ NEW_ENTITY_SOURCES = [
     {"entity_name": "Maxwell Trial (2021)", "source_id": 117},
     {"entity_name": "Maxwell Trial (2021)", "source_id": 126},
 ]
+
+# ============================================================
+# Compatibility aliases for add_expansion.py
+# ============================================================
+
+SOURCES = NEW_SOURCES
+ENTITIES = NEW_ENTITIES
+RELATIONSHIPS = NEW_RELATIONSHIPS
+
+# Convert list-of-dicts format to dict-of-lists format
+ENTITY_SOURCES = {}
+for _es in NEW_ENTITY_SOURCES:
+    _name = _es["entity_name"]
+    _sid = _es["source_id"]
+    if _name not in ENTITY_SOURCES:
+        ENTITY_SOURCES[_name] = []
+    if _sid not in ENTITY_SOURCES[_name]:
+        ENTITY_SOURCES[_name].append(_sid)
