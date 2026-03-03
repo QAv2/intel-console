@@ -583,6 +583,116 @@ GEO_COORDS = {
 
     # ── Dynasties ──
     # (Rockefellers, Morgan, etc. already covered in Financial section above)
+
+    # ══════════════════════════════════════════════════════════════════════
+    # RITUAL & OCCULT
+    # ══════════════════════════════════════════════════════════════════════
+    "Jack Parsons":                  (34.1478, -118.1445, "inference"),   # Pasadena CA (JPL)
+    "Aleister Crowley":              (51.5074, -0.1278, "inference"),     # London (born/lived)
+    "Michael Aquino":                (37.7749, -122.4194, "inference"),   # San Francisco (Presidio)
+    "L. Ron Hubbard":                (34.0522, -118.2437, "inference"),   # Los Angeles
+    "Anton LaVey":                   (37.7749, -122.4194, "inference"),   # San Francisco
+    "Larry King":                    (41.2565, -95.9345, "inference"),    # Omaha NE (Franklin)
+    "Paul Bonacci":                  (41.2565, -95.9345, "inference"),    # Omaha NE
+    "John DeCamp":                   (40.8136, -96.7026, "inference"),    # Lincoln NE
+    "Ordo Templi Orientis":          (51.5074, -0.1278, "credible"),     # London (historic HQ)
+    "Temple of Set":                 (37.7749, -122.4194, "credible"),    # San Francisco
+    "Church of Scientology":         (34.0979, -118.3106, "credible"),    # Los Angeles (HQ)
+    "Thule Society":                 (48.1351, 11.5820, "credible"),      # Munich Germany
+    "Process Church of the Final Judgment": (51.5074, -0.1278, "credible"), # London (founded)
+    "The Finders":                   (38.9072, -77.0369, "credible"),     # Washington DC
+    "Presidio Abuse Case":           (37.7985, -122.4580, "documented"),  # Presidio SF
+    "Franklin Cover-Up":             (41.2565, -95.9345, "credible"),     # Omaha NE
+    "Operation Snow White":          (34.0979, -118.3106, "credible"),    # Los Angeles (Scientology HQ)
+    "Babalon Working":               (34.1478, -118.1445, "credible"),    # Pasadena CA
+
+    # ══════════════════════════════════════════════════════════════════════
+    # FALSE FLAGS & COVERT OPS
+    # ══════════════════════════════════════════════════════════════════════
+    "Operation Northwoods":          (38.8711, -77.0562, "documented"),   # Pentagon (JCS)
+    "Gulf of Tonkin Incident":       (19.8000, 106.5000, "documented"),   # Gulf of Tonkin, Vietnam
+    "Gulf of Tonkin Resolution":     (38.8899, -77.0091, "documented"),   # US Capitol
+    "Operation Gladio":              (41.9028, 12.4964, "credible"),      # Rome (primary theater)
+    "USS Liberty Attack":            (31.4000, 33.3000, "documented"),    # Eastern Mediterranean
+    "Operation Ajax":                (35.6892, 51.3890, "documented"),    # Tehran Iran
+    "Operation PBSuccess":           (14.6349, -90.5069, "documented"),   # Guatemala City
+    "Operation Paperclip":           (38.9072, -77.0369, "credible"),     # Washington DC (coordinated)
+    "Strategy of Tension":           (41.9028, 12.4964, "credible"),      # Italy (primary theater)
+    "Lyman Lemnitzer":               (38.8711, -77.0562, "inference"),    # Pentagon
+    "Mohammad Mossadegh":            (35.6892, 51.3890, "documented"),    # Tehran Iran
+    "Jacobo Árbenz":                 (14.6349, -90.5069, "documented"),   # Guatemala City
+    "Daniele Ganser":                (47.5596, 7.5886, "inference"),      # Basel Switzerland
+    "Fred Hampton":                  (41.8781, -87.6298, "documented"),   # Chicago IL
+    "NATO":                          (50.8773, 4.3209, "documented"),     # Brussels Belgium
+    "Joint Chiefs of Staff":         (38.8711, -77.0562, "documented"),   # Pentagon
+    "United Fruit Company":          (42.3601, -71.0589, "credible"),     # Boston MA (HQ)
+    "Wernher von Braun":             (34.7304, -86.5861, "inference"),    # Huntsville AL (NASA)
+    "Admiral Thomas Moorer":         (38.8711, -77.0562, "inference"),    # Pentagon
+
+    # ══════════════════════════════════════════════════════════════════════
+    # FINANCIAL SYSTEM DEEP
+    # ══════════════════════════════════════════════════════════════════════
+    "Bank for International Settlements": (47.5530, 7.5920, "documented"), # Basel Switzerland
+    "BlackRock":                     (40.7527, -73.9772, "documented"),   # NYC (HQ)
+    "Vanguard":                      (40.0493, -75.5131, "documented"),   # Malvern PA
+    "State Street Corporation":      (42.3601, -71.0589, "documented"),   # Boston MA
+    "International Monetary Fund":   (38.8991, -77.0432, "documented"),   # Washington DC
+    "World Bank":                    (38.8993, -77.0422, "documented"),   # Washington DC
+    "SWIFT":                         (50.6803, 4.3642, "documented"),     # La Hulpe Belgium
+    "Goldman Sachs":                 (40.7143, -74.0144, "documented"),   # NYC (HQ)
+    "Citigroup":                     (40.7205, -74.0112, "documented"),   # NYC (HQ)
+    "Plunge Protection Team":        (38.8977, -77.0365, "credible"),     # Treasury DC
+    "Exchange Stabilization Fund":   (38.8977, -77.0365, "credible"),     # Treasury DC
+    "Larry Fink":                    (40.7527, -73.9772, "inference"),    # NYC (BlackRock)
+    "Timothy Geithner":              (40.7143, -74.0144, "inference"),    # NYC (NY Fed)
+    "Hank Paulson":                  (40.7143, -74.0144, "inference"),    # NYC (Goldman)
+    "Robert Rubin":                  (40.7143, -74.0144, "inference"),    # NYC (Goldman→Treasury)
+    "Ben Bernanke":                  (38.8928, -77.0450, "inference"),    # Federal Reserve DC
+    "Glass-Steagall Repeal":         (38.8899, -77.0091, "documented"),   # US Capitol
+    "2008 Financial Crisis":         (40.7068, -74.0090, "credible"),     # Wall Street NYC
+    "LIBOR Scandal":                 (51.5130, -0.0890, "documented"),    # City of London
+    "Petrodollar System":            (24.7136, 46.6753, "credible"),      # Riyadh Saudi Arabia
+
+    # ══════════════════════════════════════════════════════════════════════
+    # TECH SURVEILLANCE
+    # ══════════════════════════════════════════════════════════════════════
+    "Five Eyes":                     (38.9517, -77.1467, "credible"),     # CIA Langley (coordination hub)
+    "GCHQ":                          (51.8986, -2.1245, "documented"),    # Cheltenham UK
+    "XKeyscore":                     (39.1086, -76.7714, "credible"),     # NSA Fort Meade
+    "ECHELON":                       (-35.3225, 148.9988, "credible"),    # Pine Gap Australia
+    "Room 641A":                     (37.7876, -122.3999, "documented"),  # 611 Folsom St SF
+    "Vault 7":                       (38.9517, -77.1467, "credible"),     # CIA Langley
+    "MYSTIC":                        (39.1086, -76.7714, "credible"),     # NSA Fort Meade
+    "Tempora":                       (50.8280, -0.1375, "credible"),      # Bude Cornwall UK (cable tap)
+    "Carnivore":                     (38.8977, -77.0248, "credible"),     # FBI DC
+    "ThinThread":                    (39.1086, -76.7714, "credible"),     # NSA Fort Meade
+    "Thomas Drake":                  (39.1086, -76.7714, "inference"),    # NSA Fort Meade
+    "Mark Klein":                    (37.7876, -122.3999, "inference"),   # San Francisco (AT&T)
+    "Keith Alexander":               (39.1086, -76.7714, "inference"),    # NSA Fort Meade
+    "USA FREEDOM Act":               (38.8899, -77.0091, "documented"),   # US Capitol
+    "FISA Amendments Act":           (38.8899, -77.0091, "documented"),   # US Capitol
+    "Jewel v. NSA":                  (37.7876, -122.3999, "documented"),  # SF Federal Court
+    "ACLU v. Clapper":               (40.7143, -74.0144, "documented"),   # NYC Federal Court
+
+    # ══════════════════════════════════════════════════════════════════════
+    # COSMOLOGY & ORIGINS
+    # ══════════════════════════════════════════════════════════════════════
+    "Gobekli Tepe":                  (37.2233, 38.9225, "documented"),    # Sanliurfa Turkey
+    "Puma Punku":                    (-16.5617, -68.6800, "documented"),   # Tiwanaku Bolivia
+    "Great Sphinx":                  (29.9753, 31.1376, "documented"),    # Giza Egypt
+    "Younger Dryas Impact Hypothesis": (42.3601, -71.0589, "credible"),   # Boston (research center)
+    "Gunung Padang":                 (-6.9943, 107.0567, "documented"),   # West Java Indonesia
+    "Baalbek":                       (34.0067, 36.2039, "documented"),    # Baalbek Lebanon
+    "Graham Hancock":                (51.7520, -1.2577, "inference"),     # Bath UK
+    "Randall Carlson":               (33.7490, -84.3880, "inference"),    # Atlanta GA
+    "Robert Schoch":                 (42.3505, -71.1054, "inference"),    # Boston (Boston U)
+    "John Anthony West":             (40.7128, -74.0060, "inference"),    # New York
+    "Klaus Schmidt":                 (48.1327, 11.5760, "inference"),     # Munich (DAI)
+    "Danny Hilman Natawidjaja":      (-6.2088, 106.8456, "inference"),    # Jakarta Indonesia
+    "Robert Bauval":                 (36.7670, 3.0477, "inference"),      # Alexandria Egypt origin
+    "Michael Cremo":                 (26.1420, -81.7948, "inference"),    # Florida
+    "Smithsonian Institution":       (38.8881, -77.0260, "documented"),   # Washington DC
+    "Geological Society of America": (39.7576, -105.2206, "documented"),  # Boulder CO
 }
 
 
