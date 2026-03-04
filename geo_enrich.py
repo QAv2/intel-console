@@ -693,6 +693,121 @@ GEO_COORDS = {
     "Michael Cremo":                 (26.1420, -81.7948, "inference"),    # Florida
     "Smithsonian Institution":       (38.8881, -77.0260, "documented"),   # Washington DC
     "Geological Society of America": (39.7576, -105.2206, "documented"),  # Boulder CO
+
+    # ══════════════════════════════════════════════════════════════════════
+    # EXPANSION: FREEMASONRY (19 entities)
+    # ══════════════════════════════════════════════════════════════════════
+    "Albert Pike":                       (38.8977, -77.0365, "documented"),   # Washington DC (lived/buried there)
+    "Manly P. Hall":                     (34.0522, -118.2437, "inference"),   # Los Angeles CA
+    "Licio Gelli":                       (43.3188, 11.3308, "inference"),     # Arezzo Italy
+    "Roberto Calvi":                     (51.5074, -0.0784, "documented"),    # Blackfriars Bridge London
+    "P.D. Houston":                      (38.8977, -77.0365, "inference"),    # Washington DC
+    "Albert Mackey":                     (32.7765, -79.9311, "inference"),    # Charleston SC
+    "William Donovan":                   (38.8977, -77.0365, "documented"),   # Washington DC (OSS HQ)
+    "Scottish Rite Southern Jurisdiction": (38.9027, -77.0365, "documented"), # House of the Temple DC
+    "York Rite":                         (38.8977, -77.0365, "inference"),    # Washington DC
+    "Propaganda Due":                    (41.9028, 12.4964, "documented"),    # Rome Italy
+    "United Grand Lodge of England":     (51.5167, -0.1321, "documented"),    # Great Queen St London
+    "Grand Orient de France":            (48.8649, 2.3391, "documented"),     # Rue Cadet Paris
+    "Shriners":                          (33.5207, -86.8025, "inference"),    # Tampa FL HQ
+    "Sovereign Military Order of Malta": (41.9053, 12.4793, "documented"),    # Via Condotti Rome
+    "Knights Templar":                   (31.7788, 35.2346, "documented"),    # Jerusalem (Temple Mount)
+    "P2 Lodge Scandal":                  (41.9028, 12.4964, "documented"),    # Rome Italy
+    "Calvi Murder":                      (51.5081, -0.1038, "documented"),    # Blackfriars Bridge London
+    "Banco Ambrosiano Collapse":         (45.4642, 9.1900, "documented"),     # Milan Italy
+    "House of the Temple":               (38.9064, -77.0313, "documented"),   # 1733 16th St NW DC
+
+    # ══════════════════════════════════════════════════════════════════════
+    # EXPANSION: PEDOPHILE NETWORKS (19 entities)
+    # ══════════════════════════════════════════════════════════════════════
+    "Marc Dutroux":                      (50.4669, 3.8817, "documented"),     # Charleroi Belgium
+    "Keith Raniere":                     (42.6526, -73.7562, "documented"),   # Albany NY (NXIVM HQ)
+    "Peter Scully":                      (8.4542, 124.6319, "documented"),    # Cagayan de Oro Philippines
+    "Cardinal Bernard Law":              (42.3601, -71.0589, "documented"),   # Boston MA
+    "Leon Brittan":                      (51.5074, -0.1278, "documented"),    # London
+    "Cyril Smith":                       (53.5956, -2.1575, "documented"),    # Rochdale UK
+    "Peter Hayman":                      (51.5074, -0.1278, "inference"),     # London
+    "Peter Ball":                        (50.8688, -0.0832, "documented"),    # Lewes UK
+    "NXIVM":                             (42.6526, -73.7562, "documented"),   # Albany NY
+    "Dutroux Network":                   (50.4669, 3.8817, "documented"),     # Belgium
+    "Dutroux Affair":                    (50.4669, 3.8817, "documented"),     # Belgium
+    "Boston Globe Spotlight Team":       (42.3601, -71.0589, "documented"),   # Boston MA
+    "Westminster Dossier Disappearance": (51.4995, -0.1248, "documented"),    # Westminster London
+    "NXIVM Trial":                       (40.6815, -73.9761, "documented"),   # Brooklyn Federal Court
+    "Spotlight Investigation":           (42.3601, -71.0589, "documented"),   # Boston MA
+    "Australian Royal Commission":       (-35.2820, 149.1287, "documented"),  # Canberra Australia
+    "Independent Inquiry into Child Sexual Abuse": (51.5074, -0.1278, "documented"), # London
+    "Operation Yewtree":                 (51.5074, -0.1278, "documented"),    # London (Met Police)
+    "Operation Midland":                 (51.5074, -0.1278, "documented"),    # London (Met Police)
+
+    # ══════════════════════════════════════════════════════════════════════
+    # EXPANSION: DRUG TRAFFICKING (19 entities)
+    # ══════════════════════════════════════════════════════════════════════
+    "Freeway Rick Ross":                 (33.9425, -118.2551, "documented"),  # South Central LA
+    "Michael Levine":                    (40.7128, -74.0060, "inference"),    # New York
+    "Cele Castillo":                     (29.4241, -98.4936, "inference"),    # San Antonio TX
+    "Bo Gritz":                          (43.6150, -116.2023, "inference"),   # Boise ID
+    "Khun Sa":                           (20.0000, 99.0000, "credible"),      # Shan State Myanmar
+    "Oscar Danilo Blandon":              (34.0195, -118.4912, "inference"),   # Los Angeles CA
+    "Norwin Meneses":                    (12.1150, -86.2362, "inference"),    # Managua Nicaragua
+    "Enrique Camarena":                  (20.6597, -103.3496, "documented"),  # Guadalajara Mexico (killed)
+    "Air America":                       (17.9667, 102.6000, "documented"),   # Vientiane Laos (base)
+    "Nugan Hand Bank":                   (-33.8688, 151.2093, "documented"), # Sydney Australia
+    "Cali Cartel":                       (3.4516, -76.5320, "documented"),    # Cali Colombia
+    "Los Zetas":                         (25.4260, -100.0029, "credible"),    # Monterrey Mexico
+    "DEA":                               (38.8859, -77.0243, "documented"),   # Arlington VA HQ
+    "ATF":                               (38.8964, -77.0299, "documented"),   # Washington DC
+    "Dark Alliance":                     (37.3382, -121.8863, "documented"),  # San Jose Mercury News
+    "Operation Fast and Furious":        (32.2226, -110.9747, "documented"),  # Tucson AZ (ATF office)
+    "Golden Triangle Drug Trade":        (20.5000, 100.0000, "documented"),   # Myanmar/Laos/Thailand
+    "Mena Airport Operations":           (34.5456, -94.2024, "documented"),   # Mena AR
+    "Mena Airport":                      (34.5456, -94.2024, "documented"),   # Mena AR
+
+    # ══════════════════════════════════════════════════════════════════════
+    # EXPANSION: ELECTION INTERFERENCE (19 entities)
+    # ══════════════════════════════════════════════════════════════════════
+    "Alexander Nix":                     (51.5074, -0.1278, "inference"),     # London (CA HQ)
+    "Christopher Wylie":                 (51.5074, -0.1278, "inference"),     # London
+    "Clint Curtis":                      (28.0395, -81.9498, "inference"),    # Florida
+    "Bev Harris":                        (47.6062, -122.3321, "inference"),   # Seattle WA
+    "Robert Mercer":                     (40.9176, -72.6621, "inference"),    # Head of the Harbor NY
+    "John Bolton":                       (38.8977, -77.0365, "inference"),    # Washington DC
+    "Cambridge Analytica":               (51.5156, -0.1419, "documented"),    # New Oxford St London
+    "SCL Group":                         (51.5074, -0.1278, "documented"),    # London
+    "Dominion Voting Systems":           (43.6510, -79.3470, "documented"),   # Toronto Canada HQ
+    "ES&S":                              (41.2565, -95.9345, "documented"),   # Omaha NE
+    "Internet Research Agency":          (59.9311, 30.3609, "documented"),    # St Petersburg Russia
+    "Black Box Voting":                  (47.6062, -122.3321, "credible"),    # Seattle WA
+    "Brooks Brothers Riot (2000)":       (25.7617, -80.1918, "documented"),   # Miami-Dade FL
+    "Bush v. Gore (2000)":               (38.8907, -77.0043, "documented"),   # Supreme Court DC
+    "Citizens United v. FEC (2010)":     (38.8907, -77.0043, "documented"),   # Supreme Court DC
+    "2016 Russian Interference":         (38.8977, -77.0365, "documented"),   # Washington DC
+    "Halderman Report (2021)":           (33.7490, -84.3880, "documented"),   # Atlanta GA (Curling v. Raffensperger)
+    "Help America Vote Act":             (38.8977, -77.0365, "documented"),   # Washington DC
+    "Project Alamo":                     (29.4241, -98.4936, "documented"),   # San Antonio TX
+
+    # ══════════════════════════════════════════════════════════════════════
+    # EXPANSION: ENERGY SUPPRESSION (19 entities)
+    # ══════════════════════════════════════════════════════════════════════
+    "Nikola Tesla":                      (40.7549, -73.9840, "documented"),   # New Yorker Hotel (died)
+    "Thomas Townsend Brown":             (38.8977, -77.0365, "inference"),    # Washington DC area
+    "Stanley Meyer":                     (39.9612, -82.9988, "documented"),   # Columbus OH (died)
+    "Martin Fleischmann":                (50.9367, -1.3965, "documented"),    # Southampton UK
+    "Stanley Pons":                      (40.7608, -111.8910, "documented"),  # University of Utah
+    "Eugene Mallove":                    (41.7658, -72.6734, "documented"),   # Connecticut
+    "Thomas Valone":                     (38.8977, -77.0365, "documented"),   # Washington DC (PTO)
+    "John Hutchison":                    (49.2827, -123.1207, "credible"),    # Vancouver BC
+    "General Electric":                  (42.3142, -73.2551, "documented"),   # Schenectady NY (HQ)
+    "Westinghouse":                      (40.4406, -79.9959, "documented"),   # Pittsburgh PA
+    "American Medical Association":      (41.8781, -87.6298, "documented"),   # Chicago IL (HQ)
+    "Federation of American Scientists": (38.8977, -77.0365, "documented"),   # Washington DC
+    "DOE":                               (38.8741, -77.0286, "documented"),   # Washington DC
+    "Invention Secrecy Act of 1951":     (38.8977, -77.0365, "documented"),   # Washington DC
+    "Patent Secrecy Orders":             (38.8811, -77.0239, "documented"),   # USPTO Alexandria VA
+    "Electrogravitics Research Program": (38.8977, -77.0365, "inference"),    # classified (DC area)
+    "Pons-Fleischmann Cold Fusion Announcement": (40.7608, -111.8910, "documented"), # U of Utah
+    "Stan Meyer Water Fuel Cell":        (39.9612, -82.9988, "documented"),   # Columbus OH
+    "Wardenclyffe Tower":                (40.9464, -72.8960, "documented"),   # Shoreham NY
 }
 
 
