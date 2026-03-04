@@ -14,6 +14,13 @@
     Dossier.init();
     Search.init();
 
+    // ---- Toolbar button refs (must be before updateBreadcrumb) ----
+    const btnReset = document.getElementById('btn-reset');
+    const btnZoomIn = document.getElementById('btn-zoom-in');
+    const btnZoomOut = document.getElementById('btn-zoom-out');
+    const btnConnections = document.getElementById('btn-connections');
+    const btnBackToMap = document.getElementById('btn-back-to-map');
+
     // ---- Node click handler (registered on map.js) ----
     window._onMapNodeClick = async (nodeId) => {
         if (hubMode) {
@@ -105,13 +112,7 @@
         }
     });
 
-    // ---- Toolbar buttons ----
-    const btnReset = document.getElementById('btn-reset');
-    const btnZoomIn = document.getElementById('btn-zoom-in');
-    const btnZoomOut = document.getElementById('btn-zoom-out');
-    const btnConnections = document.getElementById('btn-connections');
-    const btnBackToMap = document.getElementById('btn-back-to-map');
-
+    // ---- Toolbar button listeners ----
     if (btnReset) btnReset.addEventListener('click', resetView);
     if (btnZoomIn) btnZoomIn.addEventListener('click', zoomIn);
     if (btnZoomOut) btnZoomOut.addEventListener('click', zoomOut);
