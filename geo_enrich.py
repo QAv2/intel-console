@@ -808,6 +808,109 @@ GEO_COORDS = {
     "Pons-Fleischmann Cold Fusion Announcement": (40.7608, -111.8910, "documented"), # U of Utah
     "Stan Meyer Water Fuel Cell":        (39.9612, -82.9988, "documented"),   # Columbus OH
     "Wardenclyffe Tower":                (40.9464, -72.8960, "documented"),   # Shoreham NY
+
+    # ══════════════════════════════════════════════════════════════════════
+    # CONSCIOUSNESS DEEP — expansion_consciousness_deep.py
+    # ══════════════════════════════════════════════════════════════════════
+    "Dean Radin":                        (38.2324, -122.6367, "credible"),    # Petaluma CA (IONS)
+    "Jessica Utts":                      (33.6405, -117.8443, "credible"),    # UC Irvine CA
+    "Jim Marrs":                         (32.7555, -97.3308, "credible"),     # Fort Worth TX
+    "Paul Smith":                        (36.7783, -119.4179, "credible"),    # California (IRVA)
+    "Lyn Buchanan":                      (34.7465, -92.2896, "credible"),     # Arkansas
+    "David Morehouse":                   (38.8816, -77.0910, "credible"),     # Washington DC area
+    "Angela Dellafiora Ford":            (38.8425, -77.0147, "credible"),     # DIA Anacostia-Bolling DC
+    "Ed Dames":                          (38.8816, -77.0910, "credible"),     # Washington DC area
+    "Andrija Puharich":                  (39.3218, -74.5901, "credible"),     # New Jersey
+    "Edgar Mitchell":                    (28.5729, -80.6490, "documented"),   # Cape Canaveral FL
+    "IONS":                              (38.2324, -122.6367, "documented"),  # Petaluma CA
+    "SAIC":                              (32.8328, -117.1228, "credible"),    # San Diego CA
+    "PSI Tech":                          (38.8816, -77.0910, "credible"),     # Washington DC area
+    "Farsight Institute":               (33.7905, -84.3267, "credible"),     # Atlanta GA (Emory area)
+    "Project Scanate":                   (37.4560, -122.1728, "documented"),  # SRI Menlo Park CA
+    "Project Grill Flame":               (39.1086, -76.7714, "documented"),   # Fort Meade MD
+    "Project Center Lane":               (39.1086, -76.7714, "documented"),   # Fort Meade MD
+    "Project Sun Streak":                (39.1086, -76.7714, "documented"),   # Fort Meade MD
+
+    # ══════════════════════════════════════════════════════════════════════
+    # COSMOLOGY DEEP — expansion_cosmology_deep.py
+    # ══════════════════════════════════════════════════════════════════════
+    "Brien Foerster":                    (-13.5320, -71.9675, "credible"),    # Cusco Peru
+    "Christopher Dunn":                  (38.7577, -90.0882, "credible"),     # Illinois (engineer)
+    "Edgar Cayce":                       (36.8529, -75.9780, "documented"),   # Virginia Beach VA
+    "Zecharia Sitchin":                  (40.7128, -74.0060, "credible"),     # New York NY
+    "Michael Tellinger":                 (-25.7479, 30.4768, "credible"),     # Mpumalanga South Africa
+    "Walter Cruttenden":                 (33.6189, -117.9298, "credible"),    # Newport Beach CA
+    "Flinders Petrie":                   (29.9792, 31.1342, "documented"),    # Giza Egypt
+    "Yonaguni Monument":                 (24.4350, 122.9870, "documented"),   # Yonaguni Japan
+    "Derinkuyu":                         (38.3740, 34.7340, "documented"),    # Cappadocia Turkey
+    "Sacsayhuamán":                      (-13.5094, -71.9828, "documented"),  # Cusco Peru
+    "Nan Madol":                         (6.8433, 158.3339, "documented"),    # Pohnpei Micronesia
+    "Carnac Stones":                     (47.5838, -3.0729, "documented"),    # Carnac Brittany France
+    "Teotihuacan":                       (19.6925, -98.8438, "documented"),   # Mexico
+    "Association for Research and Enlightenment": (36.8529, -75.9780, "documented"),  # Virginia Beach VA
+    "Binary Research Institute":         (33.6189, -117.9298, "credible"),    # Newport Beach CA
+
+    # ══════════════════════════════════════════════════════════════════════
+    # BIOWEAPONS — expansion_bioweapons.py
+    # ══════════════════════════════════════════════════════════════════════
+    "Shirō Ishii":                       (45.7500, 126.6500, "documented"),   # Harbin Manchuria
+    "Frank Olson":                       (39.4362, -77.4108, "documented"),   # Fort Detrick MD
+    "Ken Alibek":                        (51.1605, 71.4704, "credible"),      # Nur-Sultan Kazakhstan (birth)
+    "William Patrick III":               (39.4362, -77.4108, "documented"),   # Fort Detrick MD
+    "Bruce Ivins":                       (39.4362, -77.4108, "documented"),   # Fort Detrick MD
+    "USAMRIID":                          (39.4362, -77.4108, "documented"),   # Fort Detrick Frederick MD
+    "DTRA":                              (39.0550, -77.4710, "documented"),   # Fort Belvoir VA
+    "Biopreparat":                       (55.7558, 37.6173, "credible"),      # Moscow Russia (HQ)
+    "Dugway Proving Ground":             (40.1750, -112.9910, "documented"),  # Tooele County UT
+    "Gruinard Island":                   (57.8458, -5.4650, "documented"),    # Scotland UK
+    "Unit 731":                          (45.7500, 126.6500, "documented"),   # Harbin Manchuria China
+    "Project MKNaomi":                   (39.4362, -77.4108, "documented"),   # Fort Detrick MD
+    "Amerithrax Investigation":          (38.8977, -77.0248, "documented"),   # FBI HQ Washington DC
+    "Sverdlovsk Anthrax Leak":           (56.8389, 60.6057, "documented"),    # Yekaterinburg Russia
+    "Unit 731 Immunity Deal":            (35.6764, 139.6500, "documented"),   # Tokyo (MacArthur HQ)
+    "Fort Detrick Lab Shutdown":         (39.4362, -77.4108, "documented"),   # Fort Detrick MD
+    "Biological Weapons Convention":     (46.2044, 6.1432, "documented"),     # Geneva Switzerland (UN)
+
+    # ══════════════════════════════════════════════════════════════════════
+    # WATER — expansion_water.py
+    # ══════════════════════════════════════════════════════════════════════
+    "Peter Brabeck-Letmathe":            (46.4650, 6.8413, "credible"),      # Vevey Switzerland (Nestlé HQ)
+    "Maude Barlow":                      (45.4215, -75.6972, "credible"),     # Ottawa Canada
+    "Vandana Shiva":                     (30.3165, 78.0322, "credible"),      # Dehradun India
+    "T. Boone Pickens":                  (35.2072, -101.8338, "credible"),    # Amarillo TX (Panhandle)
+    "Nestlé Waters":                     (46.4650, 6.8413, "credible"),      # Vevey Switzerland (Nestlé HQ)
+    "Suez Group":                        (48.8967, 2.2522, "credible"),      # Paris France (La Défense)
+    "Veolia":                            (48.8900, 2.2580, "credible"),      # Paris France (Aubervilliers)
+    "Thames Water":                      (51.5301, -0.1248, "credible"),     # Reading/London UK
+    "Cochabamba Water War":              (-17.3895, -66.1568, "documented"),  # Cochabamba Bolivia
+    "Flint Water Crisis":                (43.0125, -83.6875, "documented"),   # Flint Michigan
+    "Detroit Water Shutoffs":            (42.3314, -83.0458, "documented"),   # Detroit Michigan
+    "Standing Rock Protests":            (46.0868, -100.6312, "documented"), # Standing Rock ND
+    "Dublin Statement on Water":         (53.3498, -6.2603, "documented"),   # Dublin Ireland
+    "Ogallala Aquifer":                  (37.5000, -101.0000, "credible"),   # Great Plains (centroid)
+    "Great Lakes":                       (44.0000, -84.0000, "credible"),    # Great Lakes region (centroid)
+
+    # ══════════════════════════════════════════════════════════════════════
+    # FOOD SUPPLY — expansion_food_supply.py
+    # ══════════════════════════════════════════════════════════════════════
+    "Hugh Grant":                        (38.6270, -90.1994, "credible"),    # St. Louis MO (Monsanto HQ)
+    "Robert Fraley":                     (38.6270, -90.1994, "credible"),    # St. Louis MO (Monsanto HQ)
+    "Percy Schmeiser":                   (52.1579, -106.6702, "documented"), # Bruno Saskatchewan Canada
+    "Tyrone Hayes":                      (37.8716, -122.2727, "credible"),   # UC Berkeley CA
+    "Cargill":                           (44.9600, -93.3900, "credible"),    # Wayzata MN
+    "ADM":                               (39.7817, -89.6501, "credible"),    # Decatur IL (original HQ)
+    "Syngenta":                          (47.5596, 7.5886, "credible"),     # Basel Switzerland
+    "Bayer":                             (51.0504, 6.9823, "credible"),     # Leverkusen Germany
+    "USDA":                              (38.8863, -77.0311, "documented"),  # Washington DC
+    "Codex Alimentarius Commission":     (41.3851, 2.1734, "credible"),     # Rome Italy (FAO HQ)
+    "Indian Farmer Suicides":            (19.7515, 75.7139, "credible"),    # Maharashtra India
+    "Terminator Seeds":                  (38.8863, -77.0311, "credible"),   # Washington DC (USDA)
+    "ADM Price-Fixing Scandal":          (39.7817, -89.6501, "documented"), # Decatur IL (ADM HQ)
+    "Monsanto Papers":                   (38.6270, -90.1994, "documented"), # St. Louis MO
+    "Roundup Cancer Litigation":         (37.7749, -122.4194, "documented"),# San Francisco CA (first trial)
+    "Monsanto Protection Act":           (38.8977, -77.0365, "documented"), # Washington DC
+    "DARK Act":                          (38.8977, -77.0365, "documented"), # Washington DC
+    "Plant Variety Protection Act":      (38.8977, -77.0365, "documented"), # Washington DC
 }
 
 
