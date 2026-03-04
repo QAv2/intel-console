@@ -71,6 +71,10 @@
         buildRadialMap();
         updateBreadcrumb();
 
+        // ---- Hash routing: #entity/ID deep links ----
+        handleEntityHash();
+        window.addEventListener('hashchange', handleEntityHash);
+
     } catch (err) {
         console.error('Boot error:', err);
         if (!graphLoaded) {
@@ -207,6 +211,24 @@
         if (!graphData) return `#${id}`;
         const node = graphData.nodes.find(n => n.id === id);
         return node ? node.name : `#${id}`;
+    }
+
+    // ---- Hash routing ----
+    async function handleEntityHash() {
+        var hash = window.location.hash.slice(1);
+        if (!hash) return;
+        // Support #entity/ID format
+        var match = hash.match(/^entity\/(\d+)$/);
+        if (!match) return;
+        var entityId = parseInt(match[1]);
+        if (!graphData) return;
+        var node = graphData.nodes.find(n => n.id === entityId);
+        if (!node) return;
+        // Navigate to entity
+        navStack = [entityId];
+        await recenterOn(entityId);
+        updateBreadcrumb();
+        Dossier.show(entityId);
     }
 
     // Expose for other modules
