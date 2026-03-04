@@ -72,7 +72,11 @@
         updateBreadcrumb();
 
         // ---- Hash routing: #entity/ID deep links ----
-        handleEntityHash();
+        try {
+            await handleEntityHash();
+        } catch (e) {
+            console.error('Hash routing failed:', e);
+        }
         window.addEventListener('hashchange', handleEntityHash);
 
     } catch (err) {
@@ -221,10 +225,11 @@
         var match = hash.match(/^entity\/(\d+)$/);
         if (!match) return;
         var entityId = parseInt(match[1]);
-        if (!graphData) return;
+        if (!graphData) { console.warn('[hash] no graphData'); return; }
         var node = graphData.nodes.find(n => n.id === entityId);
-        if (!node) return;
+        if (!node) { console.warn('[hash] entity not found:', entityId); return; }
         // Navigate to entity
+        console.log('[hash] navigating to entity', entityId, node.name);
         navStack = [entityId];
         await recenterOn(entityId);
         updateBreadcrumb();
