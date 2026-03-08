@@ -12,7 +12,7 @@ Evidence tiers:
 
 # ============================================================
 # HOLLYWOOD, MEDIA & MODELING CLUSTER
-# Sources 96-115, Entities, Relationships, Entity-Sources
+# Sources 96-120, Entities, Relationships, Entity-Sources
 # ============================================================
 
 SOURCES = [
@@ -37,6 +37,13 @@ SOURCES = [
     {"id": 113, "title": "Hollywood Reporter — Jeffrey Epstein's Hollywood: Mapping His Industry Connections", "url": "https://www.hollywoodreporter.com/news/general-news/jeffrey-epstein-hollywood-orbit-1236508954/", "source_type": "journalism", "year": 2026},
     {"id": 114, "title": "19th News — Epstein Tracked #MeToo Fallout and Advised Accused Men", "url": "https://19thnews.org/2026/02/jeffrey-epstein-files-tracked-metoo-fallout/", "source_type": "journalism", "year": 2026},
     {"id": 115, "title": "Rolling Stone — Aspiring Victoria's Secret Model Accuses Jeffrey Epstein of Sexual Assault", "url": "https://www.rollingstone.com/culture/culture-news/jeffrey-epstein-alicia-arden-victorias-secret-leslie-wexner-864095/", "source_type": "journalism", "year": 2019},
+
+    # Peggy Siegal sources
+    {"id": 116, "title": "Hollywood Reporter — Hollywood Publicist Peggy Siegal Tells All on Epstein: 5 Biggest Revelations From Her Bombshell Interview", "url": "https://www.hollywoodreporter.com/news/general-news/hollywood-publicist-peggy-siegal-jeffrey-epstein-new-york-interview-1236522678/", "source_type": "journalism", "year": 2026},
+    {"id": 117, "title": "Variety — Jeffrey Epstein and Hollywood: How the Notorious Pedophile Used Oscar Guru Peggy Siegal to Help Get Back Into High Society", "url": "https://variety.com/2026/film/news/jeffrey-epstein-hollywood-peggy-siegal-1236658293/", "source_type": "journalism", "year": 2026},
+    {"id": 118, "title": "Wealth of Geeks — Peggy Siegal Says 'Why Me.' Then You Read the Kenya Email in the Epstein Files", "url": "https://wealthofgeeks.com/peggy-siegal-says-why-me-then-you-read-the-kenya-email/", "source_type": "journalism", "year": 2026},
+    {"id": 119, "title": "Air Mail — Peggy Siegal's Epstein Emails Reveal the Legendary P.R.'s Party-Reporting Aspirations", "url": "https://airmail.news/issues/2026-2-7/diary-of-a-flack-catcher", "source_type": "journalism", "year": 2026},
+    {"id": 120, "title": "DOJ Epstein Library — Peggy Siegal Email Correspondence (5,000+ emails)", "url": "https://www.justice.gov/epstein", "source_type": "government", "year": 2026},
 ]
 
 ENTITIES = [
@@ -275,6 +282,60 @@ ENTITIES = [
         "Epstein network."
     ), "aliases": "Leslie Moonves", "metadata": {"birth_year": 1949, "nationality": "American", "status": "alive"}},
 
+    {"name": "Peggy Siegal", "entity_type": "person", "description": (
+        "Peggy Siegal (b. ~1948). Hollywood publicist and event organizer whose four-decade career "
+        "connecting A-list celebrities, studio executives, and wealthy elites made her one of the "
+        "most powerful gatekeepers in the entertainment industry — and, after Epstein's 2008 "
+        "conviction, a key architect of his social rehabilitation."
+        "\n\n"
+        "CAREER: Founded the Peggy Siegal Company, one of Hollywood's top media marketing firms "
+        "with offices in New York, Los Angeles, and London. Specialized in organizing premieres "
+        "and private screenings attended by the rich and powerful. Maintained a legendary 'golden "
+        "Rolodex' of 30,000+ contacts divided by nationality — filmmakers, artists, writers, and "
+        "finance professionals. By 2007, hosted approximately 120 events per year, earning $25,000 "
+        "per event. Worked with Steven Spielberg (E.T.), Brian De Palma, Lawrence Kasdan, and "
+        "Barry Levinson early in her career. Clients included Netflix, FX Networks, Annapurna "
+        "Pictures, and major studios during Oscar campaigns."
+        "\n\n"
+        "EPSTEIN RELATIONSHIP: Maintained a 12-year quid pro quo relationship with Epstein. "
+        "Epstein sought inroads to entertainment industry A-listers; Siegal enjoyed access to his "
+        "wealth and social infrastructure. Over 5,000 emails between Siegal and Epstein were "
+        "released by the DOJ after the bipartisan House vote forced disclosure. The emails show "
+        "affectionate, familiar correspondence — signed 'xoxo Peg' — with references to his "
+        "'Caribbean island,' continuing from 2009 until three months before his 2019 arrest on "
+        "federal sex-trafficking charges."
+        "\n\n"
+        "SOCIAL REHABILITATION: Identified as a 'social guarantor' who helped Epstein re-enter "
+        "elite circles after his 2008 release from Florida prison on child prostitution charges. "
+        "In December 2010, Siegal organized a dinner at Epstein's Manhattan townhouse, curating "
+        "a guest list that included Prince Andrew, Charlie Rose, Woody Allen and Soon-Yi Previn, "
+        "George Stephanopoulos, Katie Couric, and Chelsea Handler. Siegal later claimed she "
+        "agreed to throw the party to help get a Harvey Weinstein film into Queen Elizabeth II's "
+        "hands. She functioned as Epstein's social intelligence network — attending film festivals, "
+        "galas, premieres, and private parties worldwide, then reporting back with assessments of "
+        "who she met, what they were worth, and whether they would be useful to him."
+        "\n\n"
+        "KENYA EMAIL (2009): In a DOJ-released email sent during a trip to Kenya, Siegal wrote "
+        "to Epstein: 'I can bring a little baby back for you....or two. Boys or girls? So "
+        "Madonna.' This email, sent to a convicted sex offender, has not been publicly explained "
+        "by Siegal. The 'So Madonna' reference alludes to Madonna's Malawi adoption, but the "
+        "phrasing — 'boys or girls?' to a man convicted of soliciting minors — has drawn intense "
+        "scrutiny."
+        "\n\n"
+        "FALLOUT: In 2019, Netflix, FX Networks, and Annapurna Pictures severed ties with Siegal "
+        "and her company after her Epstein association became public. Her four-decade career in "
+        "Hollywood Oscar campaigns was effectively destroyed. In a 2026 Hollywood Reporter "
+        "interview, Siegal admitted she 'had no problem' taking Epstein's money but maintained "
+        "she was unaware of his criminal activities."
+        "\n\n"
+        "NETWORK SIGNIFICANCE: Siegal represents the 'broker' archetype — her power derived not "
+        "from wealth or fame but from the ability to connect powerful people to each other. Her "
+        "30,000-contact Rolodex and 120 annual events made her a one-woman social switchboard. "
+        "For Epstein's network, she performed the same function Ghislaine Maxwell performed in "
+        "London society: providing the social legitimacy and access points that allowed a convicted "
+        "sex offender to continue operating among elites."
+    ), "aliases": "Peggy Siegal Company", "metadata": {"birth_year": 1948, "nationality": "American", "status": "alive"}},
+
     # ---- Organizations ----
     {"name": "MC2 Model Management", "entity_type": "organization", "description": (
         "MC2 Model Management. Modeling agency founded in 2005 by Jean-Luc Brunel with up to "
@@ -387,6 +448,14 @@ RELATIONSHIPS = [
     # ---- Brunel Death event ----
     {"source": "Jean-Luc Brunel Death (2022)", "target": "Epstein Death (2019)", "type": "connected_to", "tier": "inference", "desc": "Second key Epstein network witness found hanged in custody before trial. Same method (hanging), same context (pre-trial, facing trafficking charges), same outcome (network secrets die with witness).", "sources": [102]},
 
+    # ---- Peggy Siegal ----
+    {"source": "Peggy Siegal", "target": "Jeffrey Epstein", "type": "associate_of", "tier": "documented", "desc": "12-year relationship documented in 5,000+ DOJ-released emails (2009-2019). Siegal functioned as Epstein's social intelligence network and 'social guarantor' for post-conviction rehabilitation. Organized events at his mansion, reported on elite contacts, signed emails 'xoxo Peg.'", "sources": [116, 117, 118, 119, 120]},
+    {"source": "Peggy Siegal", "target": "Harvey Weinstein", "type": "connected_to", "tier": "credible", "desc": "Worked as publicist for Weinstein films. Claimed she organized Epstein's 2010 Prince Andrew dinner party specifically to get a Weinstein film to Queen Elizabeth II. Operated in overlapping Hollywood power circles.", "sources": [116, 117]},
+    {"source": "Peggy Siegal", "target": "Woody Allen", "type": "connected_to", "tier": "documented", "desc": "Both attended the December 2010 dinner at Epstein's Manhattan townhouse that Siegal organized. Allen and Soon-Yi Previn were on the guest list Siegal curated for Epstein.", "sources": [116, 117]},
+    {"source": "Peggy Siegal", "target": "Les Moonves", "type": "connected_to", "tier": "documented", "desc": "Discussed in Epstein's #MeToo tracking emails. Siegal and Epstein exchanged correspondence about Moonves during the 2017-2018 fallout.", "sources": [114, 119]},
+    {"source": "Peggy Siegal", "target": "Prince Andrew", "type": "connected_to", "tier": "documented", "desc": "Organized the December 2010 dinner at Epstein's Manhattan townhouse where Prince Andrew was guest of honor. Curated the guest list of media and entertainment figures.", "sources": [116, 117, 120]},
+    {"source": "Peggy Siegal", "target": "Ghislaine Maxwell", "type": "connected_to", "tier": "inference", "desc": "Performed a parallel social brokerage function for Epstein. Maxwell provided social legitimacy in London/European circles; Siegal provided access to Hollywood and New York entertainment elites. Both maintained contact with Epstein post-conviction.", "sources": [117, 119]},
+
     # ---- Cross-cluster connections ----
     {"source": "Harvey Weinstein", "target": "Bill Clinton", "type": "connected_to", "tier": "credible", "desc": "Both attended the same social and political events. Weinstein was a major Democratic donor. Moved in overlapping political-entertainment circles.", "sources": [99]},
     {"source": "Steve Bing", "target": "Ghislaine Maxwell", "type": "connected_to", "tier": "inference", "desc": "Moved in overlapping Clinton-Epstein social circles. Both part of the same New York political donor and entertainment network.", "sources": [104]},
@@ -405,4 +474,5 @@ ENTITY_SOURCES = {
     "Black Cube": [96, 97, 101],
     "Victoria's Secret": [39, 115],
     "Jean-Luc Brunel Death (2022)": [102],
+    "Peggy Siegal": [112, 114, 116, 117, 118, 119, 120],
 }

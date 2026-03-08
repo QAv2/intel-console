@@ -500,6 +500,43 @@ GEO_COORDS = {
     "Les Moonves":               (40.7614, -73.9776, "inference"),   # NYC (CBS)
     "Steve Bing":                (34.0549, -118.2578, "inference"),  # Los Angeles
     "Alan Dershowitz":           (42.3736, -71.1097, "inference"),   # Harvard Cambridge MA
+    "Peggy Siegal":              (40.7614, -73.9776, "inference"),   # NYC (publicist)
+    "Leonardo DiCaprio":         (34.0549, -118.2578, "inference"),  # Los Angeles
+    "Oprah Winfrey":             (34.0549, -118.2578, "inference"),  # Los Angeles (Harpo)
+    "Sean Combs":                (40.7128, -74.0060, "inference"),   # NYC (Bad Boy)
+    "Russell Simmons":           (40.7128, -74.0060, "inference"),   # NYC (Def Jam) — now Bali
+    "R. Kelly":                  (41.8781, -87.6298, "inference"),   # Chicago IL
+    "João Teixeira de Faria":    (-16.3290, -48.7153, "inference"),  # Abadiânia, Goiás, Brazil
+
+    # ── Surrealist Ball / Rothschild Dynasty ──
+    "Guy de Rothschild":         (48.8566, 2.3522, "inference"),     # Paris (Banque Rothschild)
+    "Marie-Hélène de Rothschild": (48.8566, 2.3522, "inference"),   # Paris
+    "Château de Ferrières":      (48.8222, 2.7083, "documented"),    # Ferrières-en-Brie, France
+    "Rothschild Surrealist Ball (1972)": (48.8222, 2.7083, "documented"), # Ferrières-en-Brie
+    "Salvador Dalí":             (42.2686, 2.9583, "inference"),      # Figueres, Spain
+    "Gianni Agnelli":            (45.0703, 7.6869, "inference"),      # Turin, Italy (FIAT)
+    "Georges Pompidou":          (48.8566, 2.3522, "inference"),      # Paris (Élysée)
+    "Audrey Hepburn":            (46.5197, 6.6323, "inference"),      # Tolochenaz, Switzerland
+    "Alexis de Redé":            (48.8566, 2.3522, "inference"),      # Paris (Hôtel Lambert)
+    "Charles de Beistegui":      (48.8566, 2.3522, "inference"),      # Paris
+    "Marquis de Cuevas":         (48.8566, 2.3522, "inference"),      # Paris
+    "Marie-Laure de Noailles":   (43.1242, 5.9280, "inference"),      # Hyères, France (Villa Noailles)
+    "Truman Capote":             (40.7128, -74.0060, "inference"),    # NYC
+    "Diana Vreeland":            (40.7614, -73.9776, "inference"),    # NYC (Vogue / Met)
+    "Anna Wintour":              (40.7614, -73.9776, "inference"),    # NYC (Vogue / Condé Nast)
+    "Banque Rothschild":         (48.8566, 2.3522, "documented"),     # Paris
+    "François Mitterrand":       (48.8566, 2.3522, "inference"),      # Paris (Élysée)
+    "Met Gala":                  (40.7794, -73.9632, "documented"),   # Metropolitan Museum NYC
+    "Marisa Berenson":           (48.8566, 2.3522, "inference"),      # Paris
+    "Hélène Rochas":             (48.8566, 2.3522, "inference"),      # Paris
+    "Count Étienne de Beaumont": (48.8566, 2.3522, "inference"),      # Paris
+    "Elsa Maxwell":              (40.7128, -74.0060, "inference"),    # NYC
+    "Eleanor Lambert":           (40.7614, -73.9776, "inference"),    # NYC (fashion industry)
+    "Battle of Versailles (1973)": (48.8049, 2.1204, "documented"),  # Palace of Versailles
+    # ── Kubrick / Eyes Wide Shut ──
+    "Stanley Kubrick":           (51.7520, -0.3390, "inference"),     # Childwickbury, Herts, UK
+    "Eyes Wide Shut":            (51.7520, -0.3390, "inference"),     # Pinewood Studios area
+    "Mentmore Towers":           (51.8574, -0.7223, "documented"),    # Buckinghamshire, UK
 
     # ── Media / Journalists ──
     "Rupert Murdoch":            (40.7580, -73.9717, "inference"),   # NYC (News Corp)

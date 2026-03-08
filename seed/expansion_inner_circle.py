@@ -21,40 +21,40 @@ Evidence tiers:
 """
 
 # ============================================================
-# SOURCES (IDs 116-140)
+# SOURCES (IDs 121-145)
 # ============================================================
 
 SOURCES = [
     # Court / Legal
-    {"id": 116, "title": "Giuffre v. Maxwell — Deposition Transcripts (SDNY, Unsealed 2019-2024)", "url": "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/", "source_type": "court", "year": 2019},
-    {"id": 117, "title": "United States v. Maxwell — Trial Record (S.D.N.Y. 20-cr-330)", "url": "https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell", "source_type": "court", "year": 2021},
-    {"id": 118, "title": "In Re: Courtney Wild — 11th Circuit CVRA Decision (No. 19-13843)", "url": "https://media.ca11.uscourts.gov/opinions/pub/files/201913843.enb.pdf", "source_type": "court", "year": 2020},
-    {"id": 119, "title": "Farmer v. Indyke et al. — S.D.N.Y. No. 1:19-cv-10474", "url": "https://www.justice.gov/multimedia/Court%20Records/Farmer%20v.%20Indyke/", "source_type": "court", "year": 2019},
-    {"id": 120, "title": "DOJ Inspector General Report — BOP Custody of Epstein at MCC", "url": "https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-custody-care-and-supervision-jeffrey", "source_type": "government", "year": 2023},
-    {"id": 121, "title": "Epstein NPA Full Text — DocumentCloud", "url": "https://reason.com/wp-content/uploads/2021/08/Non-Prosecution-Agreement-1433.pdf", "source_type": "court", "year": 2007},
-    {"id": 122, "title": "DOJ Office of Professional Responsibility — Acosta NPA Review", "url": "https://www.justice.gov/opr/page/file/1336471/dl", "source_type": "government", "year": 2020},
+    {"id": 121, "title": "Giuffre v. Maxwell — Deposition Transcripts (SDNY, Unsealed 2019-2024)", "url": "https://www.courtlistener.com/docket/4355835/giuffre-v-maxwell/", "source_type": "court", "year": 2019},
+    {"id": 122, "title": "United States v. Maxwell — Trial Record (S.D.N.Y. 20-cr-330)", "url": "https://www.justice.gov/usao-sdny/united-states-v-ghislaine-maxwell", "source_type": "court", "year": 2021},
+    {"id": 123, "title": "In Re: Courtney Wild — 11th Circuit CVRA Decision (No. 19-13843)", "url": "https://media.ca11.uscourts.gov/opinions/pub/files/201913843.enb.pdf", "source_type": "court", "year": 2020},
+    {"id": 124, "title": "Farmer v. Indyke et al. — S.D.N.Y. No. 1:19-cv-10474", "url": "https://www.justice.gov/multimedia/Court%20Records/Farmer%20v.%20Indyke/", "source_type": "court", "year": 2019},
+    {"id": 125, "title": "DOJ Inspector General Report — BOP Custody of Epstein at MCC", "url": "https://oig.justice.gov/reports/investigation-and-review-federal-bureau-prisons-custody-care-and-supervision-jeffrey", "source_type": "government", "year": 2023},
+    {"id": 126, "title": "Epstein NPA Full Text — DocumentCloud", "url": "https://reason.com/wp-content/uploads/2021/08/Non-Prosecution-Agreement-1433.pdf", "source_type": "court", "year": 2007},
+    {"id": 127, "title": "DOJ Office of Professional Responsibility — Acosta NPA Review", "url": "https://www.justice.gov/opr/page/file/1336471/dl", "source_type": "government", "year": 2020},
 
     # Journalism
-    {"id": 123, "title": "NBC News — Virginia Giuffre, Epstein Abuse Survivor, Dies by Suicide", "url": "https://www.nbcnews.com/news/us-news/virginia-giuffre-one-jeffrey-epsteins-prominent-abuse-survivors-dies-s-rcna203027", "source_type": "journalism", "year": 2025},
-    {"id": 124, "title": "Daily Beast — Epstein's Alleged Accomplices: Where Are Kellen, Marcinkova, Ross & Groff?", "url": "https://www.thedailybeast.com/jeffrey-epsteins-alleged-accomplices-where-are-sarah-kellen-nadia-marcinkova-adriana-ross-and-lesley-groff/", "source_type": "journalism", "year": 2019},
-    {"id": 125, "title": "NBC News — Palm Beach Police Chief Michael Reiter on 2005 Epstein Investigation", "url": "https://www.nbcnews.com/news/us-news/ex-florida-police-chief-epstein-case-worst-failure-criminal-justice-n1057226", "source_type": "journalism", "year": 2019},
-    {"id": 126, "title": "CNN — Maxwell Guilty: Jury Finds Her Guilty on Five of Six Counts", "url": "https://www.cnn.com/2021/12/29/us/ghislaine-maxwell-trial-wednesday", "source_type": "journalism", "year": 2021},
-    {"id": 127, "title": "Calcalist Tech — The Ties That Bind: Ehud Barak's Business Network (Carbyne/Junkermann)", "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3766639,00.html", "source_type": "journalism", "year": 2019},
-    {"id": 128, "title": "Bloomberg — How Jeffrey Epstein Got Into Hedge Funds: The Dubins Helped", "url": "https://www.bloomberg.com/news/features/2026-02-13/how-jeffrey-epstein-got-into-hedge-funds-billionaire-dubins-helped", "source_type": "journalism", "year": 2026},
-    {"id": 129, "title": "New Republic — Epstein Bragged He 'Gave' His Young Girlfriend to Trump", "url": "https://newrepublic.com/post/203132/epstein-bragged-email-gave-young-girlfriend-trump", "source_type": "journalism", "year": 2024},
-    {"id": 130, "title": "CBS News — Epstein Worked at Towers Financial with Hoffenberg (Ponzi Scheme)", "url": "https://www.cbsnews.com/news/jeffrey-epstein-worked-at-towers-financial-with-stephen-hoffenberg-who-committed-ponzi-scheme-crimes/", "source_type": "journalism", "year": 2019},
-    {"id": 131, "title": "NPR — Epstein's Former Mentor Hoffenberg Found Dead in Connecticut", "url": "https://www.npr.org/2022/08/26/1119746511/jeffrey-epstein-mentor-steven-hoffenberg-dead", "source_type": "journalism", "year": 2022},
-    {"id": 132, "title": "Law & Crime — Dalton School's 'Epstein-Barr' Problem", "url": "https://lawandcrime.com/high-profile/the-epstein-barr-problem-of-new-york-citys-dalton-school/", "source_type": "journalism", "year": 2019},
-    {"id": 133, "title": "CBS News — Zorro Ranch: Epstein's New Mexico Property", "url": "https://www.cbsnews.com/news/jeffrey-epstein-new-mexico-ranch-official-says-there-is-a-story-to-be-told-in-new-mexico/", "source_type": "journalism", "year": 2019},
-    {"id": 134, "title": "Sunday Guardian — Who Is Lesley Groff? Mentioned 150,000+ Times in DOJ Files", "url": "https://sundayguardianlive.com/world/who-is-lesley-groff-executive-assistant-to-jeffrey-epstein-mentioned-over-150000-times-in-newly-unredacted-doj-files-170552/", "source_type": "journalism", "year": 2026},
-    {"id": 135, "title": "Pravda EU — Nicole Junkermann Mentioned 3,000+ Times in Epstein Case", "url": "https://eu.news-pravda.com/world/2026/02/23/170698.html", "source_type": "journalism", "year": 2026},
-    {"id": 136, "title": "ABC News — Epstein Survivor Courtney Wild Presses CVRA Case", "url": "https://abcnews.com/US/jeffrey-epstein-survivor-presses-case-hold-us-govt/story?id=68313706", "source_type": "journalism", "year": 2019},
-    {"id": 137, "title": "Wikipedia — Herbert N. Straus House (9 East 71st Street)", "url": "https://en.wikipedia.org/wiki/Herbert_N._Straus_House", "source_type": "journalism", "year": 2024},
-    {"id": 138, "title": "Law & Crime — Eva Andersson-Dubin Testifies at Maxwell Trial", "url": "https://lawandcrime.com/live-trials/ghislaine-maxwell/wife-of-hedge-fund-billionaire-and-ex-girlfriend-of-jeffrey-epstein-testifies-in-ghislaine-maxwell-trial/", "source_type": "journalism", "year": 2021},
-    {"id": 139, "title": "Sunday Guardian — Who Are Maria and Annie Farmer, Sisters Who Warned FBI in 1996?", "url": "https://sundayguardianlive.com/news/epstein-files-who-are-maria-and-annie-farmer-the-sisters-who-survived-warned-the-fbi-in-1996-162412/", "source_type": "journalism", "year": 2026},
+    {"id": 128, "title": "NBC News — Virginia Giuffre, Epstein Abuse Survivor, Dies by Suicide", "url": "https://www.nbcnews.com/news/us-news/virginia-giuffre-one-jeffrey-epsteins-prominent-abuse-survivors-dies-s-rcna203027", "source_type": "journalism", "year": 2025},
+    {"id": 129, "title": "Daily Beast — Epstein's Alleged Accomplices: Where Are Kellen, Marcinkova, Ross & Groff?", "url": "https://www.thedailybeast.com/jeffrey-epsteins-alleged-accomplices-where-are-sarah-kellen-nadia-marcinkova-adriana-ross-and-lesley-groff/", "source_type": "journalism", "year": 2019},
+    {"id": 130, "title": "NBC News — Palm Beach Police Chief Michael Reiter on 2005 Epstein Investigation", "url": "https://www.nbcnews.com/news/us-news/ex-florida-police-chief-epstein-case-worst-failure-criminal-justice-n1057226", "source_type": "journalism", "year": 2019},
+    {"id": 131, "title": "CNN — Maxwell Guilty: Jury Finds Her Guilty on Five of Six Counts", "url": "https://www.cnn.com/2021/12/29/us/ghislaine-maxwell-trial-wednesday", "source_type": "journalism", "year": 2021},
+    {"id": 132, "title": "Calcalist Tech — The Ties That Bind: Ehud Barak's Business Network (Carbyne/Junkermann)", "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3766639,00.html", "source_type": "journalism", "year": 2019},
+    {"id": 133, "title": "Bloomberg — How Jeffrey Epstein Got Into Hedge Funds: The Dubins Helped", "url": "https://www.bloomberg.com/news/features/2026-02-13/how-jeffrey-epstein-got-into-hedge-funds-billionaire-dubins-helped", "source_type": "journalism", "year": 2026},
+    {"id": 134, "title": "New Republic — Epstein Bragged He 'Gave' His Young Girlfriend to Trump", "url": "https://newrepublic.com/post/203132/epstein-bragged-email-gave-young-girlfriend-trump", "source_type": "journalism", "year": 2024},
+    {"id": 135, "title": "CBS News — Epstein Worked at Towers Financial with Hoffenberg (Ponzi Scheme)", "url": "https://www.cbsnews.com/news/jeffrey-epstein-worked-at-towers-financial-with-stephen-hoffenberg-who-committed-ponzi-scheme-crimes/", "source_type": "journalism", "year": 2019},
+    {"id": 136, "title": "NPR — Epstein's Former Mentor Hoffenberg Found Dead in Connecticut", "url": "https://www.npr.org/2022/08/26/1119746511/jeffrey-epstein-mentor-steven-hoffenberg-dead", "source_type": "journalism", "year": 2022},
+    {"id": 137, "title": "Law & Crime — Dalton School's 'Epstein-Barr' Problem", "url": "https://lawandcrime.com/high-profile/the-epstein-barr-problem-of-new-york-citys-dalton-school/", "source_type": "journalism", "year": 2019},
+    {"id": 138, "title": "CBS News — Zorro Ranch: Epstein's New Mexico Property", "url": "https://www.cbsnews.com/news/jeffrey-epstein-new-mexico-ranch-official-says-there-is-a-story-to-be-told-in-new-mexico/", "source_type": "journalism", "year": 2019},
+    {"id": 139, "title": "Sunday Guardian — Who Is Lesley Groff? Mentioned 150,000+ Times in DOJ Files", "url": "https://sundayguardianlive.com/world/who-is-lesley-groff-executive-assistant-to-jeffrey-epstein-mentioned-over-150000-times-in-newly-unredacted-doj-files-170552/", "source_type": "journalism", "year": 2026},
+    {"id": 140, "title": "Pravda EU — Nicole Junkermann Mentioned 3,000+ Times in Epstein Case", "url": "https://eu.news-pravda.com/world/2026/02/23/170698.html", "source_type": "journalism", "year": 2026},
+    {"id": 141, "title": "ABC News — Epstein Survivor Courtney Wild Presses CVRA Case", "url": "https://abcnews.com/US/jeffrey-epstein-survivor-presses-case-hold-us-govt/story?id=68313706", "source_type": "journalism", "year": 2019},
+    {"id": 142, "title": "Wikipedia — Herbert N. Straus House (9 East 71st Street)", "url": "https://en.wikipedia.org/wiki/Herbert_N._Straus_House", "source_type": "journalism", "year": 2024},
+    {"id": 143, "title": "Law & Crime — Eva Andersson-Dubin Testifies at Maxwell Trial", "url": "https://lawandcrime.com/live-trials/ghislaine-maxwell/wife-of-hedge-fund-billionaire-and-ex-girlfriend-of-jeffrey-epstein-testifies-in-ghislaine-maxwell-trial/", "source_type": "journalism", "year": 2021},
+    {"id": 144, "title": "Sunday Guardian — Who Are Maria and Annie Farmer, Sisters Who Warned FBI in 1996?", "url": "https://sundayguardianlive.com/news/epstein-files-who-are-maria-and-annie-farmer-the-sisters-who-survived-warned-the-fbi-in-1996-162412/", "source_type": "journalism", "year": 2026},
 
     # Books
-    {"id": 140, "title": "Virginia Giuffre — Nobody's Girl (Memoir, Posthumous)", "url": "", "source_type": "book", "author": "Virginia Giuffre", "year": 2025},
+    {"id": 145, "title": "Virginia Giuffre — Nobody's Girl (Memoir, Posthumous)", "url": "", "source_type": "book", "author": "Virginia Giuffre", "year": 2025},
 ]
 
 
@@ -519,75 +519,75 @@ ENTITIES = [
 
 RELATIONSHIPS = [
     # ---- Virginia Giuffre connections ----
-    {"source": "Virginia Giuffre", "target": "Jeffrey Epstein", "type": "trafficked_by", "tier": "documented", "desc": "Recruited at age 16 at Mar-a-Lago by Ghislaine Maxwell in 2000. Trafficked to multiple properties and individuals. Filed civil suits. Settled with Epstein estate.", "sources": [116, 29, 140]},
-    {"source": "Virginia Giuffre", "target": "Ghislaine Maxwell", "type": "trafficked_by", "tier": "documented", "desc": "Maxwell personally recruited Giuffre at Mar-a-Lago spa. Giuffre's testimony was central to Maxwell's 2021 conviction.", "sources": [116, 117, 140]},
-    {"source": "Virginia Giuffre", "target": "Alan Dershowitz", "type": "connected_to", "tier": "credible", "desc": "Named Dershowitz as participant in trafficking. Both filed competing defamation claims. Giuffre's suit settled 2022.", "sources": [116, 29]},
-    {"source": "Virginia Giuffre", "target": "Mar-a-Lago", "type": "connected_to", "tier": "documented", "desc": "Working as spa attendant at Mar-a-Lago when recruited by Maxwell at age 16 in 2000.", "sources": [116, 140]},
-    {"source": "Virginia Giuffre", "target": "Little Saint James", "type": "connected_to", "tier": "documented", "desc": "Testified she was trafficked to Epstein's private island multiple times.", "sources": [116, 29]},
-    {"source": "Virginia Giuffre", "target": "Zorro Ranch", "type": "connected_to", "tier": "documented", "desc": "Testified she was trafficked at the ranch and instructed to provide sexual services to visitors there.", "sources": [116, 29, 133]},
-    {"source": "Virginia Giuffre", "target": "9 East 71st Street", "type": "connected_to", "tier": "documented", "desc": "Testified she was abused at Epstein's Manhattan mansion on multiple occasions.", "sources": [116, 29]},
-    {"source": "Virginia Giuffre", "target": "Maxwell Trial (2021)", "type": "connected_to", "tier": "documented", "desc": "Giuffre's prior testimony and depositions were central to the prosecution's case, though she did not testify at trial.", "sources": [117, 126]},
+    {"source": "Virginia Giuffre", "target": "Jeffrey Epstein", "type": "trafficked_by", "tier": "documented", "desc": "Recruited at age 16 at Mar-a-Lago by Ghislaine Maxwell in 2000. Trafficked to multiple properties and individuals. Filed civil suits. Settled with Epstein estate.", "sources": [ 121, 29, 145]},
+    {"source": "Virginia Giuffre", "target": "Ghislaine Maxwell", "type": "trafficked_by", "tier": "documented", "desc": "Maxwell personally recruited Giuffre at Mar-a-Lago spa. Giuffre's testimony was central to Maxwell's 2021 conviction.", "sources": [ 121, 122, 145]},
+    {"source": "Virginia Giuffre", "target": "Alan Dershowitz", "type": "connected_to", "tier": "credible", "desc": "Named Dershowitz as participant in trafficking. Both filed competing defamation claims. Giuffre's suit settled 2022.", "sources": [ 121, 29]},
+    {"source": "Virginia Giuffre", "target": "Mar-a-Lago", "type": "connected_to", "tier": "documented", "desc": "Working as spa attendant at Mar-a-Lago when recruited by Maxwell at age 16 in 2000.", "sources": [ 121, 145]},
+    {"source": "Virginia Giuffre", "target": "Little Saint James", "type": "connected_to", "tier": "documented", "desc": "Testified she was trafficked to Epstein's private island multiple times.", "sources": [ 121, 29]},
+    {"source": "Virginia Giuffre", "target": "Zorro Ranch", "type": "connected_to", "tier": "documented", "desc": "Testified she was trafficked at the ranch and instructed to provide sexual services to visitors there.", "sources": [ 121, 29, 138]},
+    {"source": "Virginia Giuffre", "target": "9 East 71st Street", "type": "connected_to", "tier": "documented", "desc": "Testified she was abused at Epstein's Manhattan mansion on multiple occasions.", "sources": [ 121, 29]},
+    {"source": "Virginia Giuffre", "target": "Maxwell Trial (2021)", "type": "connected_to", "tier": "documented", "desc": "Giuffre's prior testimony and depositions were central to the prosecution's case, though she did not testify at trial.", "sources": [ 122, 131]},
 
     # ---- Sarah Kellen connections ----
-    {"source": "Sarah Kellen", "target": "Jeffrey Epstein", "type": "employed_by", "tier": "documented", "desc": "Primary day-to-day scheduler across Palm Beach, Manhattan and other properties. Named co-conspirator in NPA.", "sources": [121, 124, 31]},
-    {"source": "Sarah Kellen", "target": "Ghislaine Maxwell", "type": "co_conspirator_of", "tier": "documented", "desc": "Both named co-conspirators in NPA. Judge Nathan described Kellen as 'a knowing participant in the criminal conspiracy.'", "sources": [121, 117]},
-    {"source": "Sarah Kellen", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "Named as co-conspirator in the Non-Prosecution Agreement. Received immunity from federal prosecution.", "sources": [121, 122]},
+    {"source": "Sarah Kellen", "target": "Jeffrey Epstein", "type": "employed_by", "tier": "documented", "desc": "Primary day-to-day scheduler across Palm Beach, Manhattan and other properties. Named co-conspirator in NPA.", "sources": [ 126, 129, 31]},
+    {"source": "Sarah Kellen", "target": "Ghislaine Maxwell", "type": "co_conspirator_of", "tier": "documented", "desc": "Both named co-conspirators in NPA. Judge Nathan described Kellen as 'a knowing participant in the criminal conspiracy.'", "sources": [ 126, 122]},
+    {"source": "Sarah Kellen", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "Named as co-conspirator in the Non-Prosecution Agreement. Received immunity from federal prosecution.", "sources": [ 126, 127]},
 
     # ---- Nadia Marcinkova connections ----
-    {"source": "Nadia Marcinkova", "target": "Jeffrey Epstein", "type": "trafficked_by", "tier": "documented", "desc": "Brought to US by Epstein as teenager from Slovakia. Epstein described her as his 'sex slave' he 'purchased' from her family. Also named NPA co-conspirator.", "sources": [121, 124, 31]},
-    {"source": "Nadia Marcinkova", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "Named as co-conspirator in the Non-Prosecution Agreement. Received immunity from federal prosecution.", "sources": [121, 122]},
+    {"source": "Nadia Marcinkova", "target": "Jeffrey Epstein", "type": "trafficked_by", "tier": "documented", "desc": "Brought to US by Epstein as teenager from Slovakia. Epstein described her as his 'sex slave' he 'purchased' from her family. Also named NPA co-conspirator.", "sources": [ 126, 129, 31]},
+    {"source": "Nadia Marcinkova", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "Named as co-conspirator in the Non-Prosecution Agreement. Received immunity from federal prosecution.", "sources": [ 126, 127]},
 
     # ---- Lesley Groff connections ----
-    {"source": "Lesley Groff", "target": "Jeffrey Epstein", "type": "employed_by", "tier": "documented", "desc": "Executive assistant for nearly 20 years (2001-2019). Described by Epstein as 'an extension of my brain.' Named co-conspirator in NPA and 2019 FBI document.", "sources": [121, 134, 124]},
-    {"source": "Lesley Groff", "target": "Ghislaine Maxwell", "type": "co_conspirator_of", "tier": "documented", "desc": "Both listed as co-conspirators on 2019 FBI investigation document alongside Brunel and Wexner.", "sources": [134, 121]},
-    {"source": "Lesley Groff", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "Named as co-conspirator in the Non-Prosecution Agreement. Received immunity from federal prosecution.", "sources": [121, 122]},
+    {"source": "Lesley Groff", "target": "Jeffrey Epstein", "type": "employed_by", "tier": "documented", "desc": "Executive assistant for nearly 20 years (2001-2019). Described by Epstein as 'an extension of my brain.' Named co-conspirator in NPA and 2019 FBI document.", "sources": [ 126, 139, 129]},
+    {"source": "Lesley Groff", "target": "Ghislaine Maxwell", "type": "co_conspirator_of", "tier": "documented", "desc": "Both listed as co-conspirators on 2019 FBI investigation document alongside Brunel and Wexner.", "sources": [ 139, 126]},
+    {"source": "Lesley Groff", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "Named as co-conspirator in the Non-Prosecution Agreement. Received immunity from federal prosecution.", "sources": [ 126, 127]},
 
     # ---- Nicole Junkermann connections ----
-    {"source": "Nicole Junkermann", "target": "Jeffrey Epstein", "type": "associate_of", "tier": "documented", "desc": "Flight logs show 13 flights on Epstein's aircraft from 2002. Thousands of emails 2009-2019. Mentioned 3,000+ times in Epstein files.", "sources": [127, 135, 30]},
-    {"source": "Nicole Junkermann", "target": "Carbyne", "type": "member_of", "tier": "documented", "desc": "Invested $500K via Montilla International in 2016. Joined Carbyne board in 2017 alongside Ehud Barak and ex-Unit 8200 director.", "sources": [127]},
-    {"source": "Nicole Junkermann", "target": "Ehud Barak", "type": "associate_of", "tier": "documented", "desc": "Co-invested in Carbyne with Epstein. Served on Carbyne board alongside Barak.", "sources": [127]},
+    {"source": "Nicole Junkermann", "target": "Jeffrey Epstein", "type": "associate_of", "tier": "documented", "desc": "Flight logs show 13 flights on Epstein's aircraft from 2002. Thousands of emails 2009-2019. Mentioned 3,000+ times in Epstein files.", "sources": [ 132, 140, 30]},
+    {"source": "Nicole Junkermann", "target": "Carbyne", "type": "member_of", "tier": "documented", "desc": "Invested $500K via Montilla International in 2016. Joined Carbyne board in 2017 alongside Ehud Barak and ex-Unit 8200 director.", "sources": [ 132]},
+    {"source": "Nicole Junkermann", "target": "Ehud Barak", "type": "associate_of", "tier": "documented", "desc": "Co-invested in Carbyne with Epstein. Served on Carbyne board alongside Barak.", "sources": [ 132]},
 
     # ---- Eva Andersson-Dubin connections ----
-    {"source": "Eva Andersson-Dubin", "target": "Jeffrey Epstein", "type": "romantic_partner_of", "tier": "documented", "desc": "Dated Epstein 1981-1990. Remained close for decades. Epstein was godfather to her children. Invited him around teenage daughter post-conviction.", "sources": [128, 138, 117]},
-    {"source": "Eva Andersson-Dubin", "target": "Ghislaine Maxwell", "type": "associate_of", "tier": "credible", "desc": "Part of overlapping social circle. Testified at Maxwell's 2021 trial about her relationship with Epstein.", "sources": [138, 117]},
-    {"source": "Eva Andersson-Dubin", "target": "Maxwell Trial (2021)", "type": "connected_to", "tier": "documented", "desc": "Testified at Ghislaine Maxwell's trial regarding her longstanding relationship with Epstein.", "sources": [138]},
+    {"source": "Eva Andersson-Dubin", "target": "Jeffrey Epstein", "type": "romantic_partner_of", "tier": "documented", "desc": "Dated Epstein 1981-1990. Remained close for decades. Epstein was godfather to her children. Invited him around teenage daughter post-conviction.", "sources": [ 133, 143, 122]},
+    {"source": "Eva Andersson-Dubin", "target": "Ghislaine Maxwell", "type": "associate_of", "tier": "credible", "desc": "Part of overlapping social circle. Testified at Maxwell's 2021 trial about her relationship with Epstein.", "sources": [ 143, 122]},
+    {"source": "Eva Andersson-Dubin", "target": "Maxwell Trial (2021)", "type": "connected_to", "tier": "documented", "desc": "Testified at Ghislaine Maxwell's trial regarding her longstanding relationship with Epstein.", "sources": [ 143]},
 
     # ---- Celina Midelfart connections ----
-    {"source": "Celina Midelfart", "target": "Jeffrey Epstein", "type": "associate_of", "tier": "credible", "desc": "Described by Epstein as his 'girlfriend in 93.' 13 flights on Epstein aircraft per flight logs. Midelfart disputes romantic relationship.", "sources": [129, 30]},
-    {"source": "Celina Midelfart", "target": "Donald Trump", "type": "associate_of", "tier": "credible", "desc": "Photographed together at social events late 1990s. Epstein claimed he 'gave' Midelfart to Trump. Midelfart says friendship only.", "sources": [129]},
-    {"source": "Jeffrey Epstein", "target": "Celina Midelfart", "type": "introduced_by", "tier": "credible", "desc": "Epstein claimed in email he introduced Midelfart to Trump: 'my 20-year-old girlfriend in 93 that after two years I gave to Donald.'", "sources": [129]},
+    {"source": "Celina Midelfart", "target": "Jeffrey Epstein", "type": "associate_of", "tier": "credible", "desc": "Described by Epstein as his 'girlfriend in 93.' 13 flights on Epstein aircraft per flight logs. Midelfart disputes romantic relationship.", "sources": [ 134, 30]},
+    {"source": "Celina Midelfart", "target": "Donald Trump", "type": "associate_of", "tier": "credible", "desc": "Photographed together at social events late 1990s. Epstein claimed he 'gave' Midelfart to Trump. Midelfart says friendship only.", "sources": [ 134]},
+    {"source": "Jeffrey Epstein", "target": "Celina Midelfart", "type": "introduced_by", "tier": "credible", "desc": "Epstein claimed in email he introduced Midelfart to Trump: 'my 20-year-old girlfriend in 93 that after two years I gave to Donald.'", "sources": [ 134]},
 
     # ---- Maria Farmer connections ----
-    {"source": "Maria Farmer", "target": "Jeffrey Epstein", "type": "trafficked_by", "tier": "documented", "desc": "Assaulted by Epstein and Maxwell at Wexner's Ohio estate in 1996. Filed first-ever criminal complaint against Epstein to NYPD and FBI in August 1996.", "sources": [119, 139, 116]},
-    {"source": "Maria Farmer", "target": "Ghislaine Maxwell", "type": "trafficked_by", "tier": "documented", "desc": "Assaulted by both Epstein and Maxwell at Wexner's Ohio estate. Filed FBI report naming both.", "sources": [119, 139]},
-    {"source": "Maria Farmer", "target": "Les Wexner", "type": "connected_to", "tier": "documented", "desc": "Assault occurred at Wexner's personal Ohio estate. Armed Wexner security controlled access. Farmer required permission from Wexner's wife to leave.", "sources": [119, 139]},
-    {"source": "Maria Farmer", "target": "FBI", "type": "connected_to", "tier": "documented", "desc": "Filed criminal complaint with FBI on August 26, 1996. Reported stolen photos of minor sisters on September 3, 1996. 2026 DOJ release confirmed original 1996 FBI report.", "sources": [119, 139]},
+    {"source": "Maria Farmer", "target": "Jeffrey Epstein", "type": "trafficked_by", "tier": "documented", "desc": "Assaulted by Epstein and Maxwell at Wexner's Ohio estate in 1996. Filed first-ever criminal complaint against Epstein to NYPD and FBI in August 1996.", "sources": [ 124, 144, 121]},
+    {"source": "Maria Farmer", "target": "Ghislaine Maxwell", "type": "trafficked_by", "tier": "documented", "desc": "Assaulted by both Epstein and Maxwell at Wexner's Ohio estate. Filed FBI report naming both.", "sources": [ 124, 144]},
+    {"source": "Maria Farmer", "target": "Les Wexner", "type": "connected_to", "tier": "documented", "desc": "Assault occurred at Wexner's personal Ohio estate. Armed Wexner security controlled access. Farmer required permission from Wexner's wife to leave.", "sources": [ 124, 144]},
+    {"source": "Maria Farmer", "target": "FBI", "type": "connected_to", "tier": "documented", "desc": "Filed criminal complaint with FBI on August 26, 1996. Reported stolen photos of minor sisters on September 3, 1996. 2026 DOJ release confirmed original 1996 FBI report.", "sources": [ 124, 144]},
 
     # ---- Courtney Wild connections ----
-    {"source": "Courtney Wild", "target": "Jeffrey Epstein", "type": "trafficked_by", "tier": "documented", "desc": "Recruited at age 14 in 2001 to Epstein's Palm Beach mansion. Groomed into recruitment pyramid. Lead plaintiff in CVRA challenge to the NPA.", "sources": [118, 136, 31]},
-    {"source": "Courtney Wild", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "As Jane Doe 1, filed 2014 federal suit challenging the NPA under Crime Victims' Rights Act. District court ruled victims' rights violated. 11th Circuit reversed. SCOTUS declined review.", "sources": [118, 136]},
-    {"source": "Courtney Wild", "target": "Alexander Acosta", "type": "connected_to", "tier": "documented", "desc": "Wild's CVRA case directly challenged Acosta's handling of the NPA. District court found Acosta's office violated victims' rights.", "sources": [118, 122]},
+    {"source": "Courtney Wild", "target": "Jeffrey Epstein", "type": "trafficked_by", "tier": "documented", "desc": "Recruited at age 14 in 2001 to Epstein's Palm Beach mansion. Groomed into recruitment pyramid. Lead plaintiff in CVRA challenge to the NPA.", "sources": [ 123, 141, 31]},
+    {"source": "Courtney Wild", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "As Jane Doe 1, filed 2014 federal suit challenging the NPA under Crime Victims' Rights Act. District court ruled victims' rights violated. 11th Circuit reversed. SCOTUS declined review.", "sources": [ 123, 141]},
+    {"source": "Courtney Wild", "target": "Alexander Acosta", "type": "connected_to", "tier": "documented", "desc": "Wild's CVRA case directly challenged Acosta's handling of the NPA. District court found Acosta's office violated victims' rights.", "sources": [ 123, 127]},
 
     # ---- Facility connections ----
-    {"source": "Donald Barr", "target": "Dalton School", "type": "director_of", "tier": "documented", "desc": "Headmaster 1964-1974. Hired 20-year-old Epstein to teach despite no degree. Resigned February 1974. OSS veteran.", "sources": [132, 11]},
-    {"source": "Jeffrey Epstein", "target": "Dalton School", "type": "employed_by", "tier": "documented", "desc": "Taught calculus and physics 1973-1975 despite lacking a college degree. Hired by headmaster Donald Barr.", "sources": [132, 11]},
-    {"source": "Jeffrey Epstein", "target": "Towers Financial", "type": "employed_by", "tier": "documented", "desc": "Worked with Steven Hoffenberg 1987-1993 in $475M Ponzi scheme. Hoffenberg called Epstein 'the architect of the scam.' Epstein never charged.", "sources": [130, 131]},
-    {"source": "Jeffrey Epstein", "target": "Zorro Ranch", "type": "affiliated_with", "tier": "documented", "desc": "Owned the 10,000-acre New Mexico ranch from early 1990s until death. Site of documented abuse of Annie Farmer and others.", "sources": [133, 116]},
-    {"source": "Jeffrey Epstein", "target": "9 East 71st Street", "type": "affiliated_with", "tier": "documented", "desc": "Primary residence and operational base. Transferred from Wexner for $0 or nominal consideration. Surveillance cameras throughout including bathrooms.", "sources": [137, 11]},
-    {"source": "Les Wexner", "target": "9 East 71st Street", "type": "connected_to", "tier": "documented", "desc": "Purchased for $13.2M in 1989. Transferred to Epstein for nominal or zero consideration. One of the most significant unexplained transactions in the network.", "sources": [137, 11]},
-    {"source": "Jeffrey Epstein", "target": "MCC New York", "type": "connected_to", "tier": "documented", "desc": "Held at MCC awaiting trial on sex trafficking charges. Found dead in cell August 10, 2019. Two cameras failed. Two guards sleeping.", "sources": [120]},
-    {"source": "Epstein Death (2019)", "target": "MCC New York", "type": "connected_to", "tier": "documented", "desc": "Epstein found dead at MCC. DOJ IG report documented catastrophic security failures: camera malfunctions, sleeping guards, falsified records.", "sources": [120]},
+    {"source": "Donald Barr", "target": "Dalton School", "type": "director_of", "tier": "documented", "desc": "Headmaster 1964-1974. Hired 20-year-old Epstein to teach despite no degree. Resigned February 1974. OSS veteran.", "sources": [ 137, 11]},
+    {"source": "Jeffrey Epstein", "target": "Dalton School", "type": "employed_by", "tier": "documented", "desc": "Taught calculus and physics 1973-1975 despite lacking a college degree. Hired by headmaster Donald Barr.", "sources": [ 137, 11]},
+    {"source": "Jeffrey Epstein", "target": "Towers Financial", "type": "employed_by", "tier": "documented", "desc": "Worked with Steven Hoffenberg 1987-1993 in $475M Ponzi scheme. Hoffenberg called Epstein 'the architect of the scam.' Epstein never charged.", "sources": [ 135, 136]},
+    {"source": "Jeffrey Epstein", "target": "Zorro Ranch", "type": "affiliated_with", "tier": "documented", "desc": "Owned the 10,000-acre New Mexico ranch from early 1990s until death. Site of documented abuse of Annie Farmer and others.", "sources": [ 138, 121]},
+    {"source": "Jeffrey Epstein", "target": "9 East 71st Street", "type": "affiliated_with", "tier": "documented", "desc": "Primary residence and operational base. Transferred from Wexner for $0 or nominal consideration. Surveillance cameras throughout including bathrooms.", "sources": [ 142, 11]},
+    {"source": "Les Wexner", "target": "9 East 71st Street", "type": "connected_to", "tier": "documented", "desc": "Purchased for $13.2M in 1989. Transferred to Epstein for nominal or zero consideration. One of the most significant unexplained transactions in the network.", "sources": [ 142, 11]},
+    {"source": "Jeffrey Epstein", "target": "MCC New York", "type": "connected_to", "tier": "documented", "desc": "Held at MCC awaiting trial on sex trafficking charges. Found dead in cell August 10, 2019. Two cameras failed. Two guards sleeping.", "sources": [ 125]},
+    {"source": "Epstein Death (2019)", "target": "MCC New York", "type": "connected_to", "tier": "documented", "desc": "Epstein found dead at MCC. DOJ IG report documented catastrophic security failures: camera malfunctions, sleeping guards, falsified records.", "sources": [ 125]},
 
     # ---- Event connections ----
-    {"source": "Epstein Palm Beach Investigation (2005)", "target": "Jeffrey Epstein", "type": "connected_to", "tier": "documented", "desc": "Investigation by Palm Beach PD Chief Michael Reiter. 20+ victims interviewed. 60-count draft indictment prepared. Led to NPA instead of prosecution.", "sources": [125, 31]},
-    {"source": "Epstein Palm Beach Investigation (2005)", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "Palm Beach investigation produced evidence for 60-count indictment. Instead, Acosta negotiated the NPA. Reiter called it 'worst failure of criminal justice system.'", "sources": [125, 122]},
-    {"source": "Maxwell Trial (2021)", "target": "Ghislaine Maxwell", "type": "connected_to", "tier": "documented", "desc": "Convicted on 5 of 6 counts including sex trafficking of a minor. Sentenced to 20 years. Conviction upheld on appeal 2024.", "sources": [117, 126]},
-    {"source": "Maxwell Trial (2021)", "target": "Jeffrey Epstein", "type": "connected_to", "tier": "documented", "desc": "Trial established the scope of Epstein's trafficking operation through witness testimony. Only criminal proceeding to produce conviction beyond Epstein's own plea.", "sources": [117, 126]},
+    {"source": "Epstein Palm Beach Investigation (2005)", "target": "Jeffrey Epstein", "type": "connected_to", "tier": "documented", "desc": "Investigation by Palm Beach PD Chief Michael Reiter. 20+ victims interviewed. 60-count draft indictment prepared. Led to NPA instead of prosecution.", "sources": [ 130, 31]},
+    {"source": "Epstein Palm Beach Investigation (2005)", "target": "Epstein NPA (2007)", "type": "connected_to", "tier": "documented", "desc": "Palm Beach investigation produced evidence for 60-count indictment. Instead, Acosta negotiated the NPA. Reiter called it 'worst failure of criminal justice system.'", "sources": [ 130, 127]},
+    {"source": "Maxwell Trial (2021)", "target": "Ghislaine Maxwell", "type": "connected_to", "tier": "documented", "desc": "Convicted on 5 of 6 counts including sex trafficking of a minor. Sentenced to 20 years. Conviction upheld on appeal 2024.", "sources": [ 122, 131]},
+    {"source": "Maxwell Trial (2021)", "target": "Jeffrey Epstein", "type": "connected_to", "tier": "documented", "desc": "Trial established the scope of Epstein's trafficking operation through witness testimony. Only criminal proceeding to produce conviction beyond Epstein's own plea.", "sources": [ 122, 131]},
 
     # ---- Cross-connections between enablers ----
-    {"source": "Sarah Kellen", "target": "Nadia Marcinkova", "type": "co_conspirator_of", "tier": "documented", "desc": "Both named as co-conspirators in 2007 NPA. Both received immunity. Both operated within Epstein's inner circle.", "sources": [121]},
-    {"source": "Sarah Kellen", "target": "Lesley Groff", "type": "co_conspirator_of", "tier": "documented", "desc": "Both named as co-conspirators in 2007 NPA. Both received immunity. Kellen handled scheduling; Groff managed executive operations.", "sources": [121]},
-    {"source": "Nadia Marcinkova", "target": "Lesley Groff", "type": "co_conspirator_of", "tier": "documented", "desc": "Both named as co-conspirators in 2007 NPA. Both received immunity from federal prosecution.", "sources": [121]},
+    {"source": "Sarah Kellen", "target": "Nadia Marcinkova", "type": "co_conspirator_of", "tier": "documented", "desc": "Both named as co-conspirators in 2007 NPA. Both received immunity. Both operated within Epstein's inner circle.", "sources": [ 126]},
+    {"source": "Sarah Kellen", "target": "Lesley Groff", "type": "co_conspirator_of", "tier": "documented", "desc": "Both named as co-conspirators in 2007 NPA. Both received immunity. Kellen handled scheduling; Groff managed executive operations.", "sources": [ 126]},
+    {"source": "Nadia Marcinkova", "target": "Lesley Groff", "type": "co_conspirator_of", "tier": "documented", "desc": "Both named as co-conspirators in 2007 NPA. Both received immunity from federal prosecution.", "sources": [ 126]},
 ]
 
 
@@ -596,19 +596,19 @@ RELATIONSHIPS = [
 # ============================================================
 
 ENTITY_SOURCES = {
-    '9 East 71st Street': [137, 11],
-    'Celina Midelfart': [129, 30],
-    'Courtney Wild': [118, 122, 136, 31],
-    'Dalton School': [132, 11],
-    'Epstein Palm Beach Investigation (2005)': [125, 31, 122],
-    'Eva Andersson-Dubin': [117, 128, 138],
-    'Lesley Groff': [121, 122, 124, 134],
-    'MCC New York': [120],
-    'Maria Farmer': [119, 139, 116],
-    'Maxwell Trial (2021)': [117, 126],
-    'Nadia Marcinkova': [121, 122, 124, 31],
-    'Nicole Junkermann': [127, 135, 30],
-    'Sarah Kellen': [121, 122, 124, 31],
-    'Virginia Giuffre': [116, 117, 123, 126, 129, 140, 29, 30, 31],
-    'Zorro Ranch': [133, 116, 29],
+    '9 East 71st Street': [ 142, 11],
+    'Celina Midelfart': [ 134, 30],
+    'Courtney Wild': [ 123, 127, 141, 31],
+    'Dalton School': [ 137, 11],
+    'Epstein Palm Beach Investigation (2005)': [ 130, 31, 127],
+    'Eva Andersson-Dubin': [ 122, 133, 143],
+    'Lesley Groff': [ 126, 127, 129, 139],
+    'MCC New York': [ 125],
+    'Maria Farmer': [ 124, 144, 121],
+    'Maxwell Trial (2021)': [ 122, 131],
+    'Nadia Marcinkova': [ 126, 127, 129, 31],
+    'Nicole Junkermann': [ 132, 140, 30],
+    'Sarah Kellen': [ 126, 127, 129, 31],
+    'Virginia Giuffre': [ 121, 122, 128, 131, 134, 145, 29, 30, 31],
+    'Zorro Ranch': [ 138, 121, 29],
 }
