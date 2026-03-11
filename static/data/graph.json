@@ -12,14 +12,14 @@
       "name": "2016 Russian Interference",
       "entity_type": "event",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/2016_russian_interference.jpg"
     },
     {
       "id": 440,
       "name": "22 Avenue Foch",
       "entity_type": "facility",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/22_avenue_foch.jpg"
     },
     {
       "id": 157,
@@ -47,7 +47,7 @@
       "name": "AAWSAP",
       "entity_type": "program",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/aawsap.jpg"
     },
     {
       "id": 724,
@@ -257,7 +257,7 @@
       "name": "Amerithrax Investigation",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/amerithrax_investigation.jpg"
     },
     {
       "id": 573,
@@ -439,7 +439,7 @@
       "name": "BAE Al-Yamamah Deal",
       "entity_type": "event",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/bae_alyamamah_deal.jpg"
     },
     {
       "id": 600,
@@ -488,7 +488,7 @@
       "name": "Banco Ambrosiano Collapse",
       "entity_type": "event",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/banco_ambrosiano_collapse.jpg"
     },
     {
       "id": 394,
@@ -502,7 +502,7 @@
       "name": "Banque Rothschild",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/banque_rothschild.jpg"
     },
     {
       "id": 24,
@@ -1174,7 +1174,7 @@
       "name": "Commission Trial (1986)",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/commission_trial_1986.jpg"
     },
     {
       "id": 168,
@@ -1629,7 +1629,7 @@
       "name": "ES&S",
       "entity_type": "organization",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/ess.jpg"
     },
     {
       "id": 484,
@@ -1753,7 +1753,7 @@
       "name": "Elite Model Management",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/elite_model_management.jpg"
     },
     {
       "id": 705,
@@ -2040,7 +2040,7 @@
       "name": "Franklin Cover-Up",
       "entity_type": "event",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/franklin_coverup.jpg"
     },
     {
       "id": 700,
@@ -2089,7 +2089,7 @@
       "name": "Gaia, Inc.",
       "entity_type": "organization",
       "connection_count": 10,
-      "photo_url": ""
+      "photo_url": "photos/gaia_inc.jpg"
     },
     {
       "id": 490,
@@ -2152,7 +2152,7 @@
       "name": "Geological Society of America",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/geological_society_of_america.jpg"
     },
     {
       "id": 201,
@@ -2396,7 +2396,7 @@
       "name": "Halderman Report (2021)",
       "entity_type": "event",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/halderman_report_2021.jpg"
     },
     {
       "id": 603,
@@ -2984,7 +2984,7 @@
       "name": "Kerry Committee Investigation",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/kerry_committee_investigation.jpg"
     },
     {
       "id": 136,
@@ -3026,7 +3026,7 @@
       "name": "Kissinger Associates",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/kissinger_associates.jpg"
     },
     {
       "id": 748,
@@ -3187,7 +3187,7 @@
       "name": "Lippo Group",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/lippo_group.jpg"
     },
     {
       "id": 76,
@@ -3264,7 +3264,7 @@
       "name": "MC2 Model Management",
       "entity_type": "organization",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/mc2_model_management.jpg"
     },
     {
       "id": 158,
@@ -3299,7 +3299,7 @@
       "name": "MLK Assassination",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/mlk_assassination.jpg"
     },
     {
       "id": 231,
@@ -3467,7 +3467,7 @@
       "name": "Mega Group",
       "entity_type": "organization",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/mega_group.jpg"
     },
     {
       "id": 527,
@@ -3759,7 +3759,8 @@
       "id": 779,
       "name": "Nestl\u00e9 Waters",
       "entity_type": "organization",
-      "connection_count": 3
+      "connection_count": 3,
+      "photo_url": "photos/nestl_waters.jpg"
     },
     {
       "id": 735,
@@ -3871,7 +3872,7 @@
       "name": "Operation Ajax",
       "entity_type": "program",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/operation_ajax.jpg"
     },
     {
       "id": 567,
@@ -3885,7 +3886,7 @@
       "name": "Operation Epic Fury",
       "entity_type": "event",
       "connection_count": 13,
-      "photo_url": ""
+      "photo_url": "photos/operation_epic_fury.jpg"
     },
     {
       "id": 314,
@@ -3920,7 +3921,7 @@
       "name": "Operation Midnight Hammer",
       "entity_type": "event",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/operation_midnight_hammer.jpg"
     },
     {
       "id": 588,
@@ -4038,7 +4039,8 @@
       "id": 91,
       "name": "PROMIS",
       "entity_type": "program",
-      "connection_count": 11
+      "connection_count": 11,
+      "photo_url": ""
     },
     {
       "id": 266,
@@ -4080,7 +4082,7 @@
       "name": "Patent Secrecy Orders",
       "entity_type": "program",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/patent_secrecy_orders.jpg"
     },
     {
       "id": 638,
@@ -4143,7 +4145,7 @@
       "name": "Pergamon Press",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/pergamon_press.jpg"
     },
     {
       "id": 620,
@@ -4465,7 +4467,7 @@
       "name": "Resorts International",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/resorts_international.jpg"
     },
     {
       "id": 167,
@@ -4612,7 +4614,7 @@
       "name": "Rose Law Firm",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/rose_law_firm.jpg"
     },
     {
       "id": 462,
@@ -4633,7 +4635,7 @@
       "name": "Rothschild Surrealist Ball (1972)",
       "entity_type": "event",
       "connection_count": 12,
-      "photo_url": ""
+      "photo_url": "photos/rothschild_surrealist_ball_1972.jpg"
     },
     {
       "id": 428,
@@ -4751,7 +4753,8 @@
       "id": 665,
       "name": "Safari Club",
       "entity_type": "organization",
-      "connection_count": 5
+      "connection_count": 5,
+      "photo_url": ""
     },
     {
       "id": 688,
@@ -4856,7 +4859,7 @@
       "name": "Seagram",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/seagram.jpg"
     },
     {
       "id": 494,
@@ -5233,7 +5236,7 @@
       "name": "The Commission",
       "entity_type": "organization",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/the_commission.jpg"
     },
     {
       "id": 645,
@@ -5289,7 +5292,7 @@
       "name": "Thomas Townsend Brown",
       "entity_type": "person",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/thomas_townsend_brown.jpg"
     },
     {
       "id": 362,
@@ -5443,7 +5446,7 @@
       "name": "Unit 731",
       "entity_type": "program",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/unit_731.jpg"
     },
     {
       "id": 197,
@@ -5716,7 +5719,7 @@
       "name": "XKeyscore",
       "entity_type": "program",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/xkeyscore.jpg"
     },
     {
       "id": 279,
