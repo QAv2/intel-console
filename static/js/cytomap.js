@@ -25,6 +25,26 @@ const TYPE_COLORS = {
     publication:  '#38bdf8',
 };
 
+// SVG fallback icons for entities without photos (white icon on transparent bg)
+function _mkIcon(path, vb = '0 0 24 24') {
+    return 'data:image/svg+xml,' + encodeURIComponent(
+        `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${vb}" fill="none" stroke="rgba(255,255,255,0.55)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">${path}</svg>`
+    );
+}
+const TYPE_ICONS = {
+    person:       _mkIcon('<circle cx="12" cy="8" r="4"/><path d="M4 21v-1a6 6 0 0 1 12 0v1"/>', '0 0 20 24'),
+    organization: _mkIcon('<rect x="3" y="7" width="18" height="14" rx="1"/><path d="M3 11h18M9 7V3h6v4M9 15h.01M15 15h.01"/>'),
+    agency:       _mkIcon('<path d="M12 3L2 9h20L12 3zM4 9v9h16V9"/><path d="M9 18v-5h6v5M4 18h16"/>'),
+    program:      _mkIcon('<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M8 10l3 3-3 3M13 16h3"/>'),
+    event:        _mkIcon('<path d="M13 2L3 14h9l-1 8 10-12h-9l1-8"/>'),
+    legislation:  _mkIcon('<path d="M12 2v4M4 8h16M7 12l5 8 5-8"/><circle cx="12" cy="6" r="1.5" fill="rgba(255,255,255,0.55)" stroke="none"/>'),
+    facility:     _mkIcon('<path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4M9 9h.01M15 9h.01M9 13h.01M15 13h.01"/>'),
+    foundation:   _mkIcon('<path d="M12 8a4 4 0 0 0-4 4v1h8v-1a4 4 0 0 0-4-4zM6 17h12M8 21h8M4 13h2M18 13h2"/><circle cx="12" cy="4" r="1.5" fill="rgba(255,255,255,0.55)" stroke="none"/>'),
+    publication:  _mkIcon('<path d="M4 4h16v16H4z"/><path d="M8 8h8M8 12h5"/>'),
+    contract:     _mkIcon('<path d="M14 2H6v20h12V6z"/><path d="M14 2v4h4M9 13h6M9 17h4"/>'),
+    shell_company:_mkIcon('<path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/>'),
+};
+
 const TIER_COLORS = {
     documented:  '#34d399',
     credible:    '#fbbf24',
@@ -153,13 +173,25 @@ function getCytoscapeStyle() {
                 'min-zoomed-font-size': 6,
             }
         },
-        // Photo nodes
+        // Photo nodes (real photos)
         {
-            selector: 'node[photo_url]',
+            selector: 'node[photo_url][!isIcon]',
             style: {
                 'background-image': 'data(photo_url)',
                 'background-fit': 'cover',
                 'background-clip': 'node',
+            }
+        },
+        // Fallback type icons
+        {
+            selector: 'node[isIcon]',
+            style: {
+                'background-image': 'data(photo_url)',
+                'background-fit': 'contain',
+                'background-clip': 'none',
+                'background-width': '55%',
+                'background-height': '55%',
+                'background-opacity': 0.7,
             }
         },
         // Title badge (center)
@@ -433,6 +465,9 @@ function buildElements(positions) {
 
         if (n.photo_url) {
             nodeData.photo_url = n.photo_url;
+        } else if (TYPE_ICONS[n.entity_type]) {
+            nodeData.photo_url = TYPE_ICONS[n.entity_type];
+            nodeData.isIcon = 1;
         }
 
         elements.push({
@@ -733,6 +768,9 @@ function buildEgoElements(centerId, neighborhood, positions) {
 
         if (n.photo_url) {
             nodeData.photo_url = n.photo_url;
+        } else if (TYPE_ICONS[n.entity_type]) {
+            nodeData.photo_url = TYPE_ICONS[n.entity_type];
+            nodeData.isIcon = 1;
         }
 
         elements.push({

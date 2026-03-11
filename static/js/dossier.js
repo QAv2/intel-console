@@ -65,10 +65,15 @@ const Dossier = {
             }
             html += `</div></div>`;
         } else {
-            // No photo — show initial placeholder
+            // No photo — show type icon or initial placeholder
+            const iconSvg = typeof TYPE_ICONS !== 'undefined' && TYPE_ICONS[entity.entity_type];
             const initial = entity.name.charAt(0).toUpperCase();
             html += `<div class="panel-photo-header">`;
-            html += `<div class="panel-photo-placeholder" style="border-color:${color};color:${color}">${initial}</div>`;
+            if (iconSvg) {
+                html += `<div class="panel-photo-placeholder panel-icon-placeholder" style="border-color:${color}"><img src="${iconSvg}" alt="${entity.entity_type}" style="width:32px;height:32px;opacity:0.6;filter:drop-shadow(0 0 2px ${color})"></div>`;
+            } else {
+                html += `<div class="panel-photo-placeholder" style="border-color:${color};color:${color}">${initial}</div>`;
+            }
             html += `<div>`;
             html += `<div class="panel-type-tag" style="background:${color}22;color:${color}">${entity.entity_type.replace('_', ' ')}</div>`;
             html += `<h2 class="panel-title">${esc(entity.name)}</h2>`;
