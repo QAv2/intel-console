@@ -559,24 +559,16 @@ html, body {
     color: var(--accent);
 }
 
-/* ---- SVG Map ---- */
-#map-svg {
+/* ---- Cytoscape Container ---- */
+#cy-container {
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     background: var(--bg);
-    cursor: grab;
+    z-index: 0;
 }
-#map-svg.grabbing { cursor: grabbing; }
-#map-svg text { pointer-events: none; user-select: none; }
-
-.entity-node { transition: opacity 0.3s; }
-.entity-node:hover { filter: brightness(1.2); }
-.center-node:hover { filter: brightness(1.1) url(#glow); }
-.branch-anchor { transition: opacity 0.3s; }
-.edge-path { transition: stroke-opacity 0.3s; }
 
 /* ---- Evidence Legend ---- */
 .legend {

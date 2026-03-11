@@ -60,8 +60,8 @@
         <div class="filter-group" id="type-filters"></div>
     </div>
 
-    <!-- SVG Map -->
-    <svg id="map-svg" xmlns="http://www.w3.org/2000/svg"></svg>
+    <!-- Cytoscape Container -->
+    <div id="cy-container"></div>
 
     <!-- Bottom Toolbar -->
     <div class="toolbar">
@@ -71,6 +71,8 @@
         <button id="btn-zoom-out" title="Zoom Out"><span class="btn-label">-</span></button>
         <div class="toolbar-sep"></div>
         <button id="btn-connections" title="Toggle Connections" class="active"><span class="btn-label">Edges</span></button>
+        <div class="toolbar-sep"></div>
+        <button id="btn-view-toggle" title="Toggle Radial/Force"><span class="btn-label">Radial</span></button>
         <div class="toolbar-sep"></div>
         <button id="btn-back-to-map" title="Back to Map" style="display:none"><span class="btn-label">Map</span></button>
     </div>
@@ -82,12 +84,16 @@
     </div>
 
     <!-- Scripts -->
-    <script src="js/api.js?v=3"></script>
-    <script src="js/branches.js?v=3"></script>
-    <script src="js/map.js?v=3"></script>
-    <script src="js/dossier.js?v=3"></script>
-    <script src="js/search.js?v=3"></script>
-    <script src="js/timeline.js?v=3"></script>
-    <script src="js/app.js?v=3"></script>
+    <script src="https://unpkg.com/cytoscape@3.33.0/dist/cytoscape.min.js"></script>
+    <script src="https://unpkg.com/layout-base@2.0.1/layout-base.js"></script>
+    <script src="https://unpkg.com/cose-base@2.2.0/cose-base.js"></script>
+    <script src="https://unpkg.com/cytoscape-fcose@2.2.0/cytoscape-fcose.js"></script>
+    <script src="js/api.js?v=4"></script>
+    <script src="js/branches.js?v=4"></script>
+    <script src="js/cytomap.js?v=4"></script>
+    <script src="js/dossier.js?v=4"></script>
+    <script src="js/search.js?v=4"></script>
+    <script src="js/timeline.js?v=4"></script>
+    <script src="js/app.js?v=4"></script>
 </body>
 </html>

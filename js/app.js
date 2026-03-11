@@ -2,14 +2,14 @@
  * Intel Console — Main controller
  *
  * Boot sequence:
- *   1. Load full graph data (for reference)
- *   2. Build radial SVG map — Epstein at center, 7 branches
- *   3. Click any node → show dossier; click again or double-click → ego mode
+ *   1. Load full graph data + branch assignments
+ *   2. Build Cytoscape radial map — 11 branches, no center entity
+ *   3. Click any node → show dossier; click again → ego mode
  *   4. Breadcrumb navigation for ego mode traversal
  */
 
 (async function () {
-    // Ensure SVG map is initialized before anything else
+    // Ensure Cytoscape map is initialized before anything else
     initMap();
     Dossier.init();
     Search.init();
@@ -20,8 +20,9 @@
     const btnZoomOut = document.getElementById('btn-zoom-out');
     const btnConnections = document.getElementById('btn-connections');
     const btnBackToMap = document.getElementById('btn-back-to-map');
+    const btnViewToggle = document.getElementById('btn-view-toggle');
 
-    // ---- Node click handler (registered on map.js) ----
+    // ---- Node click handler (registered on cytomap.js) ----
     window._onMapNodeClick = async (nodeId) => {
         if (hubMode) {
             // First click on radial map: show dossier + enter ego mode
@@ -49,8 +50,14 @@
     // ---- Load data and boot ----
     let graphLoaded = false;
     try {
-        const data = await API.getGraphFull('speculative');
+        // Load graph data and branch assignments in parallel
+        const [data, assignments] = await Promise.all([
+            API.getGraphFull('speculative'),
+            API.getBranchAssignments(),
+        ]);
+
         storeGraphData(data);
+        setBranchAssignments(assignments);
         graphLoaded = true;
 
         // Init type filters from data
@@ -130,6 +137,12 @@
             Dossier.close();
             buildRadialMap();
             updateBreadcrumb();
+        });
+    }
+
+    if (btnViewToggle) {
+        btnViewToggle.addEventListener('click', () => {
+            toggleView();
         });
     }
 

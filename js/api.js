@@ -10,12 +10,13 @@ const API = {
     _stats: null,
     _centrality: null,
     _signals: null,
+    _assignments: null,
     _loaded: false,
 
     async _load() {
         if (this._loaded) return;
         const base = 'data/';
-        const [graph, entities, relationships, sources, stats, centrality, signals] = await Promise.all([
+        const [graph, entities, relationships, sources, stats, centrality, signals, assignments] = await Promise.all([
             fetch(base + 'graph.json').then(r => r.json()),
             fetch(base + 'entities.json').then(r => r.json()),
             fetch(base + 'relationships.json').then(r => r.json()),
@@ -23,6 +24,7 @@ const API = {
             fetch(base + 'stats.json').then(r => r.json()),
             fetch(base + 'centrality.json').then(r => r.json()),
             fetch(base + 'signals.json').then(r => r.json()).catch(() => ({})),
+            fetch(base + 'branch_assignments.json').then(r => r.json()),
         ]);
         this._graph = graph;
         this._entities = entities;
@@ -31,6 +33,7 @@ const API = {
         this._stats = stats;
         this._centrality = centrality;
         this._signals = signals;
+        this._assignments = assignments;
         this._loaded = true;
     },
 
@@ -128,5 +131,10 @@ const API = {
     async getSignals(entityId) {
         await this._load();
         return this._signals[entityId] || [];
+    },
+
+    async getBranchAssignments() {
+        await this._load();
+        return this._assignments;
     },
 };
