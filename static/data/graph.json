@@ -5,7 +5,7 @@
       "name": "2008 Financial Crisis",
       "entity_type": "event",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/financial_crisis_2008.jpg"
     },
     {
       "id": 352,
@@ -26,7 +26,7 @@
       "name": "9 East 71st Street",
       "entity_type": "facility",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/9_east_71st_street.jpg"
     },
     {
       "id": 170,
@@ -61,7 +61,7 @@
       "name": "ADM",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/adm.jpg"
     },
     {
       "id": 426,
@@ -82,7 +82,7 @@
       "name": "ATF",
       "entity_type": "agency",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/atf.jpg"
     },
     {
       "id": 503,
@@ -117,14 +117,14 @@
       "name": "Air America",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/air_america.jpg"
     },
     {
       "id": 174,
       "name": "Al-Qaeda",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/al_qaeda.jpg"
     },
     {
       "id": 660,
@@ -313,7 +313,7 @@
       "name": "Ansar Allah (Houthis)",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/ansar_allah.jpg"
     },
     {
       "id": 470,
@@ -341,7 +341,7 @@
       "name": "Area 51",
       "entity_type": "facility",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/area_51.jpg"
     },
     {
       "id": 521,
@@ -383,7 +383,7 @@
       "name": "Atomic Energy Organization of Iran",
       "entity_type": "agency",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/aeoi.jpg"
     },
     {
       "id": 691,
@@ -446,14 +446,14 @@
       "name": "BAE Systems",
       "entity_type": "organization",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/bae_systems.jpg"
     },
     {
       "id": 54,
       "name": "BCCI",
       "entity_type": "organization",
       "connection_count": 18,
-      "photo_url": ""
+      "photo_url": "photos/bcci.jpg"
     },
     {
       "id": 99,
@@ -467,14 +467,14 @@
       "name": "BND",
       "entity_type": "agency",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/bnd.jpg"
     },
     {
       "id": 292,
       "name": "Baalbek",
       "entity_type": "facility",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/baalbek.jpg"
     },
     {
       "id": 649,
@@ -530,7 +530,7 @@
       "name": "Bayer",
       "entity_type": "organization",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/bayer.jpg"
     },
     {
       "id": 73,
@@ -551,7 +551,7 @@
       "name": "Bechtel Corporation",
       "entity_type": "organization",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/bechtel.jpg"
     },
     {
       "id": 409,
@@ -600,14 +600,14 @@
       "name": "Bilderberg Group",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/bilderberg.jpg"
     },
     {
       "id": 482,
       "name": "Bill & Melinda Gates Foundation",
       "entity_type": "foundation",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/gates_foundation.jpg"
     },
     {
       "id": 32,
@@ -698,14 +698,14 @@
       "name": "BlackRock",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/blackrock.jpg"
     },
     {
       "id": 604,
       "name": "Blackwater",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/blackwater.jpg"
     },
     {
       "id": 49,
@@ -733,21 +733,21 @@
       "name": "Boeing Defense",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/boeing.jpg"
     },
     {
       "id": 219,
       "name": "Bohemian Club",
       "entity_type": "organization",
       "connection_count": 26,
-      "photo_url": ""
+      "photo_url": "photos/bohemian_club.jpg"
     },
     {
       "id": 602,
       "name": "Booz Allen Hamilton",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/booz_allen_hamilton.jpg"
     },
     {
       "id": 623,
@@ -775,7 +775,7 @@
       "name": "Brookings Institution",
       "entity_type": "organization",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/brookings.jpg"
     },
     {
       "id": 349,
@@ -810,7 +810,7 @@
       "name": "Bush v. Gore (2000)",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/bush_v_gore.jpg"
     },
     {
       "id": 335,
@@ -838,21 +838,21 @@
       "name": "CDC",
       "entity_type": "agency",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/cdc.jpg"
     },
     {
       "id": 505,
       "name": "CENTCOM",
       "entity_type": "agency",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/centcom.jpg"
     },
     {
       "id": 85,
       "name": "CIA",
       "entity_type": "agency",
       "connection_count": 98,
-      "photo_url": ""
+      "photo_url": "photos/cia.jpg"
     },
     {
       "id": 232,
@@ -866,7 +866,7 @@
       "name": "COINTELPRO",
       "entity_type": "program",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/cointelpro.jpg"
     },
     {
       "id": 310,
@@ -887,7 +887,7 @@
       "name": "Cambridge Analytica",
       "entity_type": "organization",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/cambridge_analytica.jpg"
     },
     {
       "id": 67,
@@ -908,7 +908,7 @@
       "name": "Cargill",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/cargill.jpg"
     },
     {
       "id": 572,
@@ -929,21 +929,21 @@
       "name": "Carlyle Group",
       "entity_type": "organization",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/carlyle_group.jpg"
     },
     {
       "id": 283,
       "name": "Carnac Stones",
       "entity_type": "facility",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/carnac_stones.jpg"
     },
     {
       "id": 681,
       "name": "Carnegie Endowment for International Peace",
       "entity_type": "foundation",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/carnegie_endowment.jpg"
     },
     {
       "id": 714,
@@ -1055,35 +1055,35 @@
       "name": "Church Committee",
       "entity_type": "event",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/church_committee.jpg"
     },
     {
       "id": 642,
       "name": "Church of Scientology",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/scientology.jpg"
     },
     {
       "id": 686,
       "name": "Ch\u00e2teau de Ferri\u00e8res",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/chateau_de_ferrieres.jpg"
     },
     {
       "id": 402,
       "name": "Citigroup",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/citigroup.jpg"
     },
     {
       "id": 351,
       "name": "Citizens United v. FEC (2010)",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/citizens_united.jpg"
     },
     {
       "id": 214,
@@ -1125,14 +1125,14 @@
       "name": "Club of Rome",
       "entity_type": "organization",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/club_of_rome.jpg"
     },
     {
       "id": 783,
       "name": "Cochabamba Water War",
       "entity_type": "event",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/cochabamba.jpg"
     },
     {
       "id": 423,
@@ -1167,7 +1167,7 @@
       "name": "Comcast Corporation",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/comcast.jpg"
     },
     {
       "id": 106,
@@ -1195,7 +1195,7 @@
       "name": "Council on Foreign Relations",
       "entity_type": "organization",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/cfr.jpg"
     },
     {
       "id": 704,
@@ -1230,7 +1230,7 @@
       "name": "Crown Prosecution Service",
       "entity_type": "agency",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/crown_prosecution_service.jpg"
     },
     {
       "id": 796,
@@ -1258,14 +1258,14 @@
       "name": "DARPA",
       "entity_type": "agency",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/darpa.jpg"
     },
     {
       "id": 312,
       "name": "DEA",
       "entity_type": "agency",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/dea.jpg"
     },
     {
       "id": 468,
@@ -1279,35 +1279,35 @@
       "name": "DGSE",
       "entity_type": "agency",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/dgse.jpg"
     },
     {
       "id": 247,
       "name": "DIA",
       "entity_type": "agency",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/dia.jpg"
     },
     {
       "id": 368,
       "name": "DOE",
       "entity_type": "agency",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/doe.jpg"
     },
     {
       "id": 89,
       "name": "DOJ",
       "entity_type": "agency",
       "connection_count": 16,
-      "photo_url": ""
+      "photo_url": "photos/doj.jpg"
     },
     {
       "id": 189,
       "name": "DTRA",
       "entity_type": "agency",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/dtra.jpg"
     },
     {
       "id": 241,
@@ -1440,7 +1440,7 @@
       "name": "Dealey Plaza",
       "entity_type": "facility",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/dealey_plaza.jpg"
     },
     {
       "id": 253,
@@ -1454,7 +1454,7 @@
       "name": "Derinkuyu",
       "entity_type": "facility",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/derinkuyu.jpg"
     },
     {
       "id": 230,
@@ -1475,7 +1475,7 @@
       "name": "Deutsche Bank",
       "entity_type": "organization",
       "connection_count": 16,
-      "photo_url": ""
+      "photo_url": "photos/deutsche_bank.jpg"
     },
     {
       "id": 469,
@@ -1503,7 +1503,7 @@
       "name": "Disclosure Project",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/disclosure_project.jpg"
     },
     {
       "id": 654,
@@ -1517,7 +1517,7 @@
       "name": "Dominion Voting Systems",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/dominion_voting.jpg"
     },
     {
       "id": 9,
@@ -1573,7 +1573,7 @@
       "name": "Dugway Proving Ground",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/dugway.jpg"
     },
     {
       "id": 624,
@@ -1622,7 +1622,7 @@
       "name": "ECHELON",
       "entity_type": "program",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/echelon.jpg"
     },
     {
       "id": 346,
@@ -1636,7 +1636,7 @@
       "name": "EcoHealth Alliance",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/ecohealth.jpg"
     },
     {
       "id": 260,
@@ -1802,7 +1802,7 @@
       "name": "Epstein NPA (2007)",
       "entity_type": "event",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/epstein_npa.jpg"
     },
     {
       "id": 159,
@@ -1872,21 +1872,21 @@
       "name": "F-35 Joint Strike Fighter",
       "entity_type": "program",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/f35.jpg"
     },
     {
       "id": 87,
       "name": "FBI",
       "entity_type": "agency",
       "connection_count": 26,
-      "photo_url": ""
+      "photo_url": "photos/fbi.jpg"
     },
     {
       "id": 478,
       "name": "FDA",
       "entity_type": "agency",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/fda.jpg"
     },
     {
       "id": 722,
@@ -1900,7 +1900,7 @@
       "name": "FSB",
       "entity_type": "agency",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/fsb.jpg"
     },
     {
       "id": 267,
@@ -1921,7 +1921,7 @@
       "name": "Federal Reserve System",
       "entity_type": "organization",
       "connection_count": 10,
-      "photo_url": ""
+      "photo_url": "photos/federal_reserve.jpg"
     },
     {
       "id": 367,
@@ -1963,7 +1963,7 @@
       "name": "Five Eyes",
       "entity_type": "organization",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/five_eyes.jpg"
     },
     {
       "id": 278,
@@ -1977,14 +1977,14 @@
       "name": "Flint Water Crisis",
       "entity_type": "event",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/flint_water_crisis.jpg"
     },
     {
       "id": 682,
       "name": "Ford Foundation",
       "entity_type": "foundation",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/ford_foundation.jpg"
     },
     {
       "id": 512,
@@ -2005,7 +2005,7 @@
       "name": "Fox Corporation",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/fox_corp.jpg"
     },
     {
       "id": 184,
@@ -2082,7 +2082,7 @@
       "name": "GCHQ",
       "entity_type": "agency",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/gchq.jpg"
     },
     {
       "id": 795,
@@ -2103,7 +2103,7 @@
       "name": "Gambino Crime Family",
       "entity_type": "organization",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/gambino.jpg"
     },
     {
       "id": 562,
@@ -2117,7 +2117,7 @@
       "name": "Gateway Process",
       "entity_type": "program",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/gateway_process.jpg"
     },
     {
       "id": 251,
@@ -2131,21 +2131,21 @@
       "name": "General Dynamics",
       "entity_type": "organization",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/general_dynamics.jpg"
     },
     {
       "id": 364,
       "name": "General Electric",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/general_electric.jpg"
     },
     {
       "id": 79,
       "name": "Genovese Crime Family",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/genovese.jpg"
     },
     {
       "id": 302,
@@ -2249,7 +2249,7 @@
       "name": "Glencore",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/glencore.jpg"
     },
     {
       "id": 123,
@@ -2263,21 +2263,21 @@
       "name": "Gobekli Tepe",
       "entity_type": "facility",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/gobekli_tepe.jpg"
     },
     {
       "id": 315,
       "name": "Golden Triangle Drug Trade",
       "entity_type": "program",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/golden_triangle.jpg"
     },
     {
       "id": 401,
       "name": "Goldman Sachs",
       "entity_type": "organization",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/goldman_sachs.jpg"
     },
     {
       "id": 293,
@@ -2305,7 +2305,7 @@
       "name": "Great Sphinx",
       "entity_type": "facility",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/great_sphinx.jpg"
     },
     {
       "id": 806,
@@ -2326,7 +2326,7 @@
       "name": "Grusch Congressional Hearing",
       "entity_type": "event",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/grusch_hearing.jpg"
     },
     {
       "id": 489,
@@ -2340,7 +2340,7 @@
       "name": "Gulf of Tonkin Incident",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/gulf_of_tonkin.jpg"
     },
     {
       "id": 377,
@@ -2354,7 +2354,7 @@
       "name": "Gunung Padang",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/gunung_padang.jpg"
     },
     {
       "id": 537,
@@ -2403,7 +2403,7 @@
       "name": "Halliburton",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/halliburton.jpg"
     },
     {
       "id": 407,
@@ -2445,14 +2445,14 @@
       "name": "Heritage Foundation",
       "entity_type": "organization",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/heritage_foundation.jpg"
     },
     {
       "id": 517,
       "name": "Hezbollah",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/hezbollah.jpg"
     },
     {
       "id": 61,
@@ -2480,7 +2480,7 @@
       "name": "House of the Temple",
       "entity_type": "facility",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/house_of_the_temple.jpg"
     },
     {
       "id": 414,
@@ -2501,14 +2501,14 @@
       "name": "IONS",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/ions.jpg"
     },
     {
       "id": 60,
       "name": "In-Q-Tel",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/in_q_tel.jpg"
     },
     {
       "id": 629,
@@ -2536,7 +2536,7 @@
       "name": "International Monetary Fund",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/imf.jpg"
     },
     {
       "id": 347,
@@ -2557,7 +2557,7 @@
       "name": "Iran-Contra",
       "entity_type": "program",
       "connection_count": 19,
-      "photo_url": ""
+      "photo_url": "photos/iran_contra.jpg"
     },
     {
       "id": 520,
@@ -2578,7 +2578,7 @@
       "name": "Islamic Revolutionary Guard Corps",
       "entity_type": "agency",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/irgc.jpg"
     },
     {
       "id": 16,
@@ -2599,14 +2599,14 @@
       "name": "JFK Assassination",
       "entity_type": "event",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/jfk_assassination.jpg"
     },
     {
       "id": 56,
       "name": "JPMorgan Chase",
       "entity_type": "organization",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/jpmorgan_chase.jpg"
     },
     {
       "id": 436,
@@ -3054,7 +3054,7 @@
       "name": "Knights Templar",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/knights_templar.jpg"
     },
     {
       "id": 514,
@@ -3082,7 +3082,7 @@
       "name": "LAKAM",
       "entity_type": "agency",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/lakam.jpg"
     },
     {
       "id": 412,
@@ -3208,14 +3208,14 @@
       "name": "Lockheed Martin",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/lockheed_martin.jpg"
     },
     {
       "id": 311,
       "name": "Los Zetas",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/los_zetas.jpg"
     },
     {
       "id": 80,
@@ -3271,28 +3271,28 @@
       "name": "MCC New York",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/mcc_new_york.jpg"
     },
     {
       "id": 762,
       "name": "MI5",
       "entity_type": "agency",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/mi5.jpg"
     },
     {
       "id": 763,
       "name": "MI6",
       "entity_type": "agency",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/mi6.jpg"
     },
     {
       "id": 94,
       "name": "MKULTRA",
       "entity_type": "program",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/mkultra.jpg"
     },
     {
       "id": 556,
@@ -3306,7 +3306,7 @@
       "name": "MSS",
       "entity_type": "agency",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/mss.jpg"
     },
     {
       "id": 712,
@@ -3460,7 +3460,7 @@
       "name": "Medell\u00edn Cartel",
       "entity_type": "organization",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/medellin_cartel.jpg"
     },
     {
       "id": 66,
@@ -3480,8 +3480,7 @@
       "id": 317,
       "name": "Mena Airport",
       "entity_type": "facility",
-      "connection_count": 2,
-      "photo_url": ""
+      "connection_count": 2
     },
     {
       "id": 316,
@@ -3495,21 +3494,21 @@
       "name": "Mentmore Towers",
       "entity_type": "facility",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/mentmore_towers.jpg"
     },
     {
       "id": 701,
       "name": "Met Gala",
       "entity_type": "event",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/met_gala.jpg"
     },
     {
       "id": 766,
       "name": "Metropolitan Police",
       "entity_type": "agency",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/metropolitan_police.jpg"
     },
     {
       "id": 18,
@@ -3649,7 +3648,7 @@
       "name": "Mossad",
       "entity_type": "agency",
       "connection_count": 25,
-      "photo_url": ""
+      "photo_url": "photos/mossad.jpg"
     },
     {
       "id": 82,
@@ -3663,7 +3662,7 @@
       "name": "NATO",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/nato.jpg"
     },
     {
       "id": 751,
@@ -3677,28 +3676,28 @@
       "name": "NIH",
       "entity_type": "agency",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/nih.jpg"
     },
     {
       "id": 86,
       "name": "NSA",
       "entity_type": "agency",
       "connection_count": 28,
-      "photo_url": ""
+      "photo_url": "photos/nsa.jpg"
     },
     {
       "id": 525,
       "name": "NSO Group",
       "entity_type": "organization",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/nso_group.jpg"
     },
     {
       "id": 621,
       "name": "NXIVM",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/nxivm.jpg"
     },
     {
       "id": 626,
@@ -3719,7 +3718,7 @@
       "name": "Nan Madol",
       "entity_type": "facility",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/nan_madol.jpg"
     },
     {
       "id": 138,
@@ -3740,7 +3739,7 @@
       "name": "Natanz Nuclear Facility",
       "entity_type": "facility",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/natanz.jpg"
     },
     {
       "id": 164,
@@ -3760,8 +3759,7 @@
       "id": 779,
       "name": "Nestl\u00e9 Waters",
       "entity_type": "organization",
-      "connection_count": 3,
-      "photo_url": ""
+      "connection_count": 3
     },
     {
       "id": 735,
@@ -3775,7 +3773,7 @@
       "name": "News Corp",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/news_corp.jpg"
     },
     {
       "id": 774,
@@ -3817,7 +3815,7 @@
       "name": "Northrop Grumman",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/northrop_grumman.jpg"
     },
     {
       "id": 319,
@@ -3838,7 +3836,7 @@
       "name": "Ogallala Aquifer",
       "entity_type": "facility",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/ogallala.jpg"
     },
     {
       "id": 558,
@@ -3852,7 +3850,7 @@
       "name": "Open Society Foundations",
       "entity_type": "foundation",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/osf.jpg"
     },
     {
       "id": 549,
@@ -3880,7 +3878,7 @@
       "name": "Operation Condor",
       "entity_type": "program",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/operation_condor.jpg"
     },
     {
       "id": 506,
@@ -3894,14 +3892,14 @@
       "name": "Operation Fast and Furious",
       "entity_type": "program",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/fast_furious.jpg"
     },
     {
       "id": 378,
       "name": "Operation Gladio",
       "entity_type": "program",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/operation_gladio.jpg"
     },
     {
       "id": 631,
@@ -3943,21 +3941,21 @@
       "name": "Operation Northwoods",
       "entity_type": "program",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/operation_northwoods.jpg"
     },
     {
       "id": 381,
       "name": "Operation PBSuccess",
       "entity_type": "program",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/operation_pbsuccess.jpg"
     },
     {
       "id": 382,
       "name": "Operation Paperclip",
       "entity_type": "program",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/operation_paperclip.jpg"
     },
     {
       "id": 507,
@@ -3971,7 +3969,7 @@
       "name": "Operation Snow White",
       "entity_type": "event",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/operation_snow_white.jpg"
     },
     {
       "id": 630,
@@ -4034,14 +4032,13 @@
       "name": "PRISM",
       "entity_type": "program",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/prism.jpg"
     },
     {
       "id": 91,
       "name": "PROMIS",
       "entity_type": "program",
-      "connection_count": 11,
-      "photo_url": ""
+      "connection_count": 11
     },
     {
       "id": 266,
@@ -4055,14 +4052,14 @@
       "name": "Palantir Technologies",
       "entity_type": "organization",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/palantir.jpg"
     },
     {
       "id": 584,
       "name": "Paramount Global",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/paramount.jpg"
     },
     {
       "id": 513,
@@ -4209,14 +4206,14 @@
       "name": "Pfizer",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/pfizer.jpg"
     },
     {
       "id": 81,
       "name": "Philadelphia Crime Family",
       "entity_type": "organization",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/philly_mob.jpg"
     },
     {
       "id": 169,
@@ -4384,7 +4381,7 @@
       "name": "Propaganda Due",
       "entity_type": "organization",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/p2_lodge.jpg"
     },
     {
       "id": 336,
@@ -4398,21 +4395,21 @@
       "name": "Puma Punku",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/puma_punku.jpg"
     },
     {
       "id": 485,
       "name": "Purdue Pharma",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/purdue_pharma.jpg"
     },
     {
       "id": 498,
       "name": "Quds Force",
       "entity_type": "agency",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/quds_force.jpg"
     },
     {
       "id": 496,
@@ -4426,7 +4423,7 @@
       "name": "RAND Corporation",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/rand.jpg"
     },
     {
       "id": 553,
@@ -4461,7 +4458,7 @@
       "name": "Raytheon",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/raytheon.jpg"
     },
     {
       "id": 74,
@@ -4608,7 +4605,7 @@
       "name": "Room 641A",
       "entity_type": "facility",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/room_641a.jpg"
     },
     {
       "id": 62,
@@ -4629,7 +4626,7 @@
       "name": "Roswell Incident",
       "entity_type": "event",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/roswell.jpg"
     },
     {
       "id": 687,
@@ -4706,14 +4703,14 @@
       "name": "SAIC",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/saic.jpg"
     },
     {
       "id": 344,
       "name": "SCL Group",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/scl_group.jpg"
     },
     {
       "id": 565,
@@ -4727,21 +4724,21 @@
       "name": "SRI International",
       "entity_type": "organization",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/sri_international.jpg"
     },
     {
       "id": 400,
       "name": "SWIFT",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/swift.jpg"
     },
     {
       "id": 281,
       "name": "Sacsayhuam\u00e1n",
       "entity_type": "facility",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/sacsayhuaman.jpg"
     },
     {
       "id": 821,
@@ -4754,8 +4751,7 @@
       "id": 665,
       "name": "Safari Club",
       "entity_type": "organization",
-      "connection_count": 5,
-      "photo_url": ""
+      "connection_count": 5
     },
     {
       "id": 688,
@@ -4832,7 +4828,7 @@
       "name": "Saudi GID",
       "entity_type": "agency",
       "connection_count": 11,
-      "photo_url": ""
+      "photo_url": "photos/saudi_gid.jpg"
     },
     {
       "id": 83,
@@ -4846,14 +4842,14 @@
       "name": "School of the Americas",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/school_of_americas.jpg"
     },
     {
       "id": 449,
       "name": "Scottish Rite Southern Jurisdiction",
       "entity_type": "organization",
       "connection_count": 11,
-      "photo_url": ""
+      "photo_url": "photos/scottish_rite.jpg"
     },
     {
       "id": 131,
@@ -4881,7 +4877,7 @@
       "name": "September 11 Attacks",
       "entity_type": "event",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/september_11.jpg"
     },
     {
       "id": 526,
@@ -4902,7 +4898,7 @@
       "name": "Shriners",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/shriners.jpg"
     },
     {
       "id": 171,
@@ -4937,14 +4933,14 @@
       "name": "Skinwalker Ranch",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/skinwalker_ranch.jpg"
     },
     {
       "id": 332,
       "name": "Skull and Bones",
       "entity_type": "organization",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/skull_and_bones.jpg"
     },
     {
       "id": 328,
@@ -4965,7 +4961,7 @@
       "name": "Smithsonian Institution",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/smithsonian.jpg"
     },
     {
       "id": 223,
@@ -5000,7 +4996,7 @@
       "name": "Sovereign Military Order of Malta",
       "entity_type": "organization",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/smom.jpg"
     },
     {
       "id": 609,
@@ -5027,15 +5023,14 @@
       "id": 329,
       "name": "Standard Oil",
       "entity_type": "organization",
-      "connection_count": 3,
-      "photo_url": ""
+      "connection_count": 3
     },
     {
       "id": 786,
       "name": "Standing Rock Protests",
       "entity_type": "event",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/standing_rock.jpg"
     },
     {
       "id": 823,
@@ -5147,7 +5142,7 @@
       "name": "Syngenta",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/syngenta.jpg"
     },
     {
       "id": 63,
@@ -5210,7 +5205,7 @@
       "name": "Teotihuacan",
       "entity_type": "facility",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/teotihuacan.jpg"
     },
     {
       "id": 425,
@@ -5259,14 +5254,14 @@
       "name": "The Pentagon",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/the_pentagon.jpg"
     },
     {
       "id": 581,
       "name": "The Walt Disney Company",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/disney.jpg"
     },
     {
       "id": 715,
@@ -5308,7 +5303,7 @@
       "name": "Thule Society",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/thule_society.jpg"
     },
     {
       "id": 734,
@@ -5336,7 +5331,7 @@
       "name": "Total Information Awareness",
       "entity_type": "program",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/tia.jpg"
     },
     {
       "id": 130,
@@ -5350,7 +5345,7 @@
       "name": "Trilateral Commission",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/trilateral.jpg"
     },
     {
       "id": 696,
@@ -5364,7 +5359,7 @@
       "name": "Tuskegee Syphilis Study",
       "entity_type": "program",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/tuskegee.jpg"
     },
     {
       "id": 594,
@@ -5413,28 +5408,28 @@
       "name": "USAMRIID",
       "entity_type": "agency",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/usamriid.jpg"
     },
     {
       "id": 422,
       "name": "USDA",
       "entity_type": "agency",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/usda.jpg"
     },
     {
       "id": 515,
       "name": "USS Abraham Lincoln",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/uss_abraham_lincoln.jpg"
     },
     {
       "id": 516,
       "name": "USS Gerald R. Ford",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/uss_gerald_r_ford.jpg"
     },
     {
       "id": 379,
@@ -5462,14 +5457,14 @@
       "name": "Unit 8200",
       "entity_type": "agency",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/unit_8200.jpg"
     },
     {
       "id": 391,
       "name": "United Fruit Company",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/united_fruit.jpg"
     },
     {
       "id": 452,
@@ -5511,7 +5506,7 @@
       "name": "Veolia",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/veolia.jpg"
     },
     {
       "id": 144,
@@ -5539,7 +5534,7 @@
       "name": "WHO",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/who.jpg"
     },
     {
       "id": 182,
@@ -5574,21 +5569,21 @@
       "name": "Wardenclyffe Tower",
       "entity_type": "facility",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/wardenclyffe_tower.jpg"
     },
     {
       "id": 583,
       "name": "Warner Bros. Discovery",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/wbd.jpg"
     },
     {
       "id": 544,
       "name": "Warren Commission",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/warren_commission.jpg"
     },
     {
       "id": 392,
@@ -5630,7 +5625,7 @@
       "name": "WikiLeaks",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/wikileaks.jpg"
     },
     {
       "id": 8,
@@ -5693,28 +5688,28 @@
       "name": "World Bank",
       "entity_type": "organization",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/world_bank.jpg"
     },
     {
       "id": 790,
       "name": "World Economic Forum",
       "entity_type": "organization",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/wef.jpg"
     },
     {
       "id": 179,
       "name": "World Trade Center",
       "entity_type": "facility",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/world_trade_center.jpg"
     },
     {
       "id": 758,
       "name": "Wright-Patterson AFB",
       "entity_type": "facility",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/wright_patterson_afb.jpg"
     },
     {
       "id": 708,
@@ -5728,7 +5723,7 @@
       "name": "Yonaguni Monument",
       "entity_type": "facility",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/yonaguni_monument.jpg"
     },
     {
       "id": 450,
@@ -5742,7 +5737,7 @@
       "name": "Younger Dryas Impact Hypothesis",
       "entity_type": "event",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/younger_dryas.jpg"
     },
     {
       "id": 548,
@@ -5770,7 +5765,7 @@
       "name": "Zorro Ranch",
       "entity_type": "facility",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/zorro_ranch.jpg"
     }
   ],
   "edges": [
