@@ -208,7 +208,7 @@
       "name": "Alexis de Red\u00e9",
       "entity_type": "person",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/alexis_de_rede.jpg"
     },
     {
       "id": 499,
@@ -306,7 +306,7 @@
       "name": "Anna Wintour",
       "entity_type": "person",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/anna_wintour.jpg"
     },
     {
       "id": 518,
@@ -390,7 +390,7 @@
       "name": "Audrey Hepburn",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/audrey_hepburn.jpg"
     },
     {
       "id": 561,
@@ -1489,7 +1489,7 @@
       "name": "Diana Vreeland",
       "entity_type": "person",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/diana_vreeland.jpg"
     },
     {
       "id": 203,
@@ -1642,8 +1642,7 @@
       "id": 260,
       "name": "Ed Dames",
       "entity_type": "person",
-      "connection_count": 2,
-      "photo_url": ""
+      "connection_count": 2
     },
     {
       "id": 120,
@@ -1740,8 +1739,7 @@
       "id": 706,
       "name": "Eleanor Lambert",
       "entity_type": "person",
-      "connection_count": 1,
-      "photo_url": ""
+      "connection_count": 1
     },
     {
       "id": 371,
@@ -1762,7 +1760,7 @@
       "name": "Elsa Maxwell",
       "entity_type": "person",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/elsa_maxwell.jpg"
     },
     {
       "id": 808,
@@ -2049,7 +2047,7 @@
       "name": "Fran\u00e7ois Mitterrand",
       "entity_type": "person",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/francois_mitterrand.jpg"
     },
     {
       "id": 387,
@@ -2216,15 +2214,14 @@
       "id": 539,
       "name": "George de Mohrenschildt",
       "entity_type": "person",
-      "connection_count": 2,
-      "photo_url": ""
+      "connection_count": 2
     },
     {
       "id": 690,
       "name": "Georges Pompidou",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/georges_pompidou.jpg"
     },
     {
       "id": 2,
@@ -2238,7 +2235,7 @@
       "name": "Gianni Agnelli",
       "entity_type": "person",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/gianni_agnelli.jpg"
     },
     {
       "id": 410,
@@ -2371,7 +2368,7 @@
       "name": "Guy de Rothschild",
       "entity_type": "person",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/guy_de_rothschild.jpg"
     },
     {
       "id": 432,
@@ -2924,7 +2921,7 @@
       "name": "Jo\u00e3o Teixeira de Faria",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/joao_teixeira_de_faria.jpg"
     },
     {
       "id": 575,
@@ -3148,7 +3145,7 @@
       "name": "Leonardo DiCaprio",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/leonardo_dicaprio.jpg"
     },
     {
       "id": 140,
@@ -3372,7 +3369,7 @@
       "name": "Marie-H\u00e9l\u00e8ne de Rothschild",
       "entity_type": "person",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/marie_helene_de_rothschild.jpg"
     },
     {
       "id": 695,
@@ -3386,7 +3383,7 @@
       "name": "Marisa Berenson",
       "entity_type": "person",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/marisa_berenson.jpg"
     },
     {
       "id": 719,
@@ -3456,7 +3453,7 @@
       "name": "Mayer Amschel Rothschild",
       "entity_type": "person",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/mayer_amschel_rothschild.jpg"
     },
     {
       "id": 564,
@@ -3988,7 +3985,7 @@
       "name": "Oprah Winfrey",
       "entity_type": "person",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/oprah_winfrey.jpg"
     },
     {
       "id": 640,
@@ -4422,7 +4419,7 @@
       "name": "R. Kelly",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/r_kelly.jpg"
     },
     {
       "id": 678,
@@ -4681,7 +4678,7 @@
       "name": "Russell Simmons",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/russell_simmons.jpg"
     },
     {
       "id": 237,
@@ -4765,7 +4762,7 @@
       "name": "Salvador Dal\u00ed",
       "entity_type": "person",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/salvador_dali.jpg"
     },
     {
       "id": 51,
@@ -4870,7 +4867,7 @@
       "name": "Sean Combs",
       "entity_type": "person",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/sean_combs.jpg"
     },
     {
       "id": 652,
@@ -4898,7 +4895,7 @@
       "name": "Shir\u014d Ishii",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/shiro_ishii.jpg"
     },
     {
       "id": 454,
@@ -5045,7 +5042,7 @@
       "name": "Stanley Kubrick",
       "entity_type": "person",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/stanley_kubrick.jpg"
     },
     {
       "id": 358,
@@ -5360,7 +5357,7 @@
       "name": "Truman Capote",
       "entity_type": "person",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/truman_capote.jpg"
     },
     {
       "id": 488,
