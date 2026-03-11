@@ -948,6 +948,35 @@ GEO_COORDS = {
     "Monsanto Protection Act":           (38.8977, -77.0365, "documented"), # Washington DC
     "DARK Act":                          (38.8977, -77.0365, "documented"), # Washington DC
     "Plant Variety Protection Act":      (38.8977, -77.0365, "documented"), # Washington DC
+
+    # ── New Age Psyop Ecosystem ──
+    "Gaia, Inc.":                        (40.0274, -105.2260, "documented"), # Louisville CO
+    "Crown Sterling":                    (33.6846, -117.8265, "documented"), # Newport Beach CA
+    "Exopolitics Institute":             (21.2780, -157.8228, "credible"),   # Honolulu HI
+    "ECETI Ranch":                       (46.0046, -121.5250, "credible"),   # Trout Lake WA
+    "Isha Foundation":                   (11.0168, 76.6950, "documented"),   # Coimbatore India
+    "Robert Edward Grant":               (33.6846, -117.8265, "documented"), # Orange County CA
+    "David Wilcock":                     (34.4208, -119.6982, "credible"),   # Santa Barbara area
+    "Corey Goode":                       (30.2672, -97.7431, "credible"),    # Austin TX
+    "Billy Carson":                      (25.7617, -80.1918, "credible"),    # Miami FL
+    "Nassim Haramein":                   (21.2780, -157.8228, "credible"),   # Hawaii
+    "Gregg Braden":                      (35.5951, -82.5515, "credible"),    # Asheville NC area
+    "Matias De Stefano":                 (-31.4201, -64.1888, "credible"),   # Cordoba Argentina
+    "Emery Smith":                       (34.0522, -118.2437, "credible"),   # Los Angeles CA
+    "Teal Swan":                         (37.0965, -113.5684, "credible"),   # St. George UT area
+    "Bentinho Massaro":                  (34.8697, -111.7610, "credible"),   # Sedona AZ
+    "Jordan Duchnycz":                   (43.6532, -79.3832, "credible"),    # Toronto area
+    "Santos Bonacci":                    (-37.8136, 144.9631, "documented"), # Melbourne Australia
+    "David Icke":                        (50.6938, -1.3047, "documented"),   # Isle of Wight UK
+    "Jordan Maxwell":                    (34.0522, -118.2437, "documented"), # Los Angeles CA
+    "Alex Collier":                      (34.0522, -118.2437, "credible"),   # Los Angeles area
+    "Simon Parkes":                      (54.4862, -0.6133, "documented"),   # Whitby UK
+    "Michael Salla":                     (21.2780, -157.8228, "documented"), # Honolulu HI
+    "Kerry Cassidy":                     (34.0522, -118.2437, "credible"),   # Los Angeles CA
+    "Laura Eisenhower":                  (34.0522, -118.2437, "credible"),   # Los Angeles area
+    "James Gilliland":                   (46.0046, -121.5250, "documented"), # Trout Lake WA
+    "Sadhguru":                          (11.0168, 76.6950, "documented"),   # Coimbatore India
+    "Black Hat 2019 Crown Sterling Incident": (36.1699, -115.1398, "documented"), # Las Vegas NV
 }
 
 
