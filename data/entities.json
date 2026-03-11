@@ -6,7 +6,8 @@
     "description": "Global financial crisis triggered by the collapse of the US subprime mortgage market. Lehman Brothers filed for bankruptcy (Sept 15, 2008) \u2014 the largest in US history ($639B in assets). AIG required $182B in government bailout. \n\nTARP BAILOUT: Emergency Economic Stabilization Act (Oct 2008) authorized $700B in taxpayer funds to purchase toxic assets from banks. Major recipients: Citigroup ($45B), Bank of America ($45B), AIG ($40B), JPMorgan ($25B), Goldman Sachs ($10B). Simultaneously, the Fed secretly lent $16+ trillion in emergency funds to banks worldwide (GAO-11-696). \n\nACCOUNTABILITY: Zero senior bank executives were criminally prosecuted. The FCIC concluded the crisis was 'avoidable' and caused by 'widespread failures in financial regulation,' 'dramatic breakdowns in corporate governance,' and 'systemic breakdown in accountability and ethics.' 8.7 million jobs lost, 10 million foreclosures, $19.2 trillion in household wealth destroyed.",
     "aliases": "Great Recession, Global Financial Crisis, TARP Bailout, 2008 Crash",
     "metadata": {
-      "date": "2007-2009"
+      "date": "2007-2009",
+      "photo_url": "photos/financial_crisis_2008.jpg"
     }
   },
   "352": {
@@ -33,7 +34,9 @@
     "entity_type": "facility",
     "description": "9 East 71st Street. The Herbert N. Straus House, a seven-story neo-French Renaissance mansion on Manhattan's Upper East Side. One of the largest private residences in New York City, valued at approximately $77 million.\n\nOWNERSHIP HISTORY: Originally built in 1932. Occupied by the Birch Wathen School from 1962 to 1989. Purchased by Les Wexner for $13.2 million in 1989. Wexner renovated the property extensively. Jeffrey Epstein moved in by 1996. The property was ultimately transferred to Epstein through a series of transactions with nominal or zero consideration \u2014 deeds show $0 or '$10 and other valuable consideration.' The transfer of one of Manhattan's most valuable private homes for effectively nothing remains one of the most significant unexplained financial transactions in the Epstein-Wexner relationship.\n\nAS EPSTEIN'S HEADQUARTERS: The mansion served as Epstein's primary residence and operational base. Visitors described surveillance cameras throughout, including in bathrooms and bedrooms. Multiple victims described being abused in the mansion. The property was listed for sale by Epstein's estate after his death.",
     "aliases": "Epstein Manhattan Mansion, Straus House",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/9_east_71st_street.jpg"
+    }
   },
   "170": {
     "id": 170,
@@ -84,7 +87,8 @@
     "aliases": "Archer Daniels Midland, Archer-Daniels-Midland",
     "metadata": {
       "type": "agribusiness / commodity processing",
-      "founded": 1902
+      "founded": 1902,
+      "photo_url": "photos/adm.jpg"
     }
   },
   "426": {
@@ -114,7 +118,9 @@
     "entity_type": "agency",
     "description": "Bureau of Alcohol, Tobacco, Firearms and Explosives. Federal law enforcement agency within the Department of Justice (transferred from Treasury in 2003).\n\nCentral to the Operation Fast and Furious scandal: ATF's Phoenix Field Division deliberately allowed 2,000+ firearms to be purchased by straw buyers and walked to Mexican cartels between 2009-2011. The operation resulted in the death of Border Patrol Agent Brian Terry and at least 150 Mexican civilians.\n\nATF agents who objected internally \u2014 particularly John Dodson \u2014 were retaliated against. Dodson ultimately became a whistleblower, testifying before Congress and triggering the DOJ Inspector General investigation.\n\nThe DOJ IG report (2012) found systemic failures and identified 14 ATF/DOJ employees who bore responsibility. No senior officials were criminally charged.",
     "aliases": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/atf.jpg"
+    }
   },
   "503": {
     "id": 503,
@@ -170,7 +176,9 @@
     "entity_type": "organization",
     "description": "CIA proprietary airline that operated in Southeast Asia from 1950 to 1976. Successor to Civil Air Transport (CAT), which was founded in 1946 by General Claire Chennault and purchased by the CIA in 1950.\n\nPrimary mission: logistics support for CIA covert operations in Laos, Vietnam, Thailand, and across the region. The airline flew combat support, supplied irregular forces, conducted search and rescue, and moved personnel and materiel in support of the 'Secret War' in Laos (1955-1975).\n\nDrug facilitation: Alfred McCoy's seminal academic work 'The Politics of Heroin' (1972, revised 2003) documented that Air America aircraft transported opium for CIA-allied Hmong and Lao warlords, particularly General Vang Pao's forces. CIA's own declassified records confirm Air America was a CIA proprietary. The 1971 Senate staff report 'Opium and Politics in Laos' raised the issue in Congress.\n\nCIA's position: denied direct heroin trafficking while acknowledging the airline operated in opium-producing regions alongside drug-trafficking allies. McCoy's research showed CIA chose to accommodate the drug trade of its anti-communist allies rather than disrupt it.\n\nDissolved 1976. Its operational model \u2014 CIA proprietary airline facilitating both covert ops and drug trafficking \u2014 was replicated by Southern Air Transport in the Iran-Contra era.",
     "aliases": "CAT, Civil Air Transport",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/air_america.jpg"
+    }
   },
   "174": {
     "id": 174,
@@ -180,7 +188,8 @@
     "aliases": "al-Qa'ida",
     "metadata": {
       "type": "militant organization",
-      "years_active": "1988-present"
+      "years_active": "1988-present",
+      "photo_url": "photos/al_qaeda.jpg"
     }
   },
   "660": {
@@ -498,7 +507,9 @@
     "entity_type": "organization",
     "description": "Yemeni Shia rebel movement, part of Iran's 'Axis of Resistance.' Armed and supported by the IRGC Quds Force. Escalated attacks on commercial shipping in the Red Sea and Bab el-Mandeb strait in solidarity with Iran following Operation Epic Fury, disrupting global maritime trade.",
     "aliases": "Houthis, Ansar Allah, Ansarallah",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/ansar_allah.jpg"
+    }
   },
   "470": {
     "id": 470,
@@ -541,7 +552,8 @@
     "description": "Classified USAF facility within Nevada Test and Training Range. CIA acknowledged its existence in 2013 (U-2 development history). Bob Lazar claimed S-4 facility nearby housed recovered craft (1989). Central to UAP lore. Grusch testimony references legacy programs at contractor facilities.",
     "aliases": "Groom Lake, S-4, Dreamland, Paradise Ranch",
     "metadata": {
-      "location": "Lincoln County, Nevada"
+      "location": "Lincoln County, Nevada",
+      "photo_url": "photos/area_51.jpg"
     }
   },
   "521": {
@@ -609,7 +621,9 @@
     "entity_type": "agency",
     "description": "Iran's civilian nuclear energy agency (AEOI), headquartered in Tehran. Oversees Iran's nuclear program including enrichment facilities at Natanz and Fordow. AEOI headquarters in Tehran was struck during Operation Epic Fury on February 28, 2026.",
     "aliases": "AEOI",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/aeoi.jpg"
+    }
   },
   "691": {
     "id": 691,
@@ -701,7 +715,8 @@
     "aliases": "British Aerospace, BAE",
     "metadata": {
       "type": "defense contractor",
-      "founded": 1999
+      "founded": 1999,
+      "photo_url": "photos/bae_systems.jpg"
     }
   },
   "54": {
@@ -710,7 +725,9 @@
     "entity_type": "organization",
     "description": "Bank of Credit and Commerce International. CIA's criminal banking arm. Secretly owned First American Bank. Shut down 1991.",
     "aliases": "Bank of Credit and Commerce International",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/bcci.jpg"
+    }
   },
   "99": {
     "id": 99,
@@ -726,7 +743,9 @@
     "entity_type": "agency",
     "description": "Bundesnachrichtendienst \u2014 Germany's foreign intelligence service. Literally created by the CIA.\n\nHistory: The Gehlen Organization was established June 1946 by U.S. occupation authorities, headed by Reinhard Gehlen \u2014 former Wehrmacht Major General and head of Nazi military intelligence on the Eastern Front (Fremde Heere Ost). CIA assumed formal responsibility in July 1949, supplying funding, cars, and airplanes. On April 1, 1956, the Gehlen Organization was formally transferred to the Federal Republic of Germany under Chancellor Adenauer, becoming the BND.\n\n1998: U.S. Congress passed the Nazi War Crimes Disclosure Act, declassifying thousands of CIA documents about the Gehlen/BND relationship. The CIA's own two-volume history 'Forging an Intelligence Partnership: CIA and the Origins of the BND, 1945-49' was released.\n\nBND-Mossad cooperation documented from 1957, beginning after the Suez War. Mossad used BND cooperation during Operation Wrath of God (post-Munich 1972). Germany has been a key mediator in Israel-Hezbollah prisoner exchanges since the 1990s. Recent 'Cyber Dome' initiative expands BND-Mossad cooperation.",
     "aliases": "Bundesnachrichtendienst, Gehlen Organization",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/bnd.jpg"
+    }
   },
   "292": {
     "id": 292,
@@ -736,7 +755,8 @@
     "aliases": "Heliopolis, Baalbek temple complex",
     "metadata": {
       "location": "Beqaa Valley, Lebanon",
-      "date_range": "Roman temple 1st-3rd c. CE; platform debated"
+      "date_range": "Roman temple 1st-3rd c. CE; platform debated",
+      "photo_url": "photos/baalbek.jpg"
     }
   },
   "649": {
@@ -822,7 +842,8 @@
     "aliases": "Bayer AG, Bayer CropScience",
     "metadata": {
       "type": "pharmaceutical / agrochemical",
-      "founded": 1863
+      "founded": 1863,
+      "photo_url": "photos/bayer.jpg"
     }
   },
   "73": {
@@ -847,7 +868,9 @@
     "entity_type": "organization",
     "description": "One of the largest private corporations in the world \u2014 massive government construction contracts. Bechtel family has been involved in Bohemian Club for generations. Textbook revolving door: executives Caspar Weinberger (VP/GC \u2192 SecDef) and George Shultz (President \u2192 SecState) moved directly into Reagan cabinet. Won hundreds of millions in Iraq reconstruction contracts from Bush admin. Currently positioned for billions in Trump-era deals.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/bechtel.jpg"
+    }
   },
   "409": {
     "id": 409,
@@ -925,7 +948,8 @@
     "aliases": "Bilderberg Meetings, Bilderberg Conference",
     "metadata": {
       "type": "elite coordinating body",
-      "founded": 1954
+      "founded": 1954,
+      "photo_url": "photos/bilderberg.jpg"
     }
   },
   "482": {
@@ -934,7 +958,9 @@
     "entity_type": "foundation",
     "description": "Largest private foundation in the world with an endowment exceeding $67 billion. The dominant private funder of global health programs. Second-largest contributor to the WHO. Co-founded and funds GAVI. Funds research at universities, health ministries, and NGOs across 130+ countries. Its grant-making concentrates power over global health priorities in a single unelected institution. The Foundation holds investments in pharmaceutical companies (Pfizer, BioNTech, Merck) that benefit from the vaccine and health programs it funds \u2014 a structural conflict documented by investigative journalists at Columbia Journalism Review and The Nation.",
     "aliases": "Gates Foundation, BMGF",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/gates_foundation.jpg"
+    }
   },
   "32": {
     "id": 32,
@@ -1080,7 +1106,8 @@
     "metadata": {
       "type": "asset management",
       "founded": 1988,
-      "aum": "$10+ trillion"
+      "aum": "$10+ trillion",
+      "photo_url": "photos/blackrock.jpg"
     }
   },
   "604": {
@@ -1091,7 +1118,8 @@
     "aliases": "Xe Services, Academi",
     "metadata": {
       "type": "private military",
-      "founded": 1997
+      "founded": 1997,
+      "photo_url": "photos/blackwater.jpg"
     }
   },
   "49": {
@@ -1135,7 +1163,8 @@
     "description": "Defense arm of Boeing Company. F/A-18, AH-64 Apache, KC-46, Space Launch System. Multiple scandals including tanker contract corruption (Darleen Druyun), 737 MAX design failures. Revenue ~$23B defense (2022).",
     "aliases": "Boeing Defense, Space & Security",
     "metadata": {
-      "type": "defense contractor"
+      "type": "defense contractor",
+      "photo_url": "photos/boeing.jpg"
     }
   },
   "219": {
@@ -1144,7 +1173,9 @@
     "entity_type": "organization",
     "description": "Invite-only, men-only social club in San Francisco, founded 1872. Hosts annual summer encampments at Bohemian Grove \u2014 2,700-acre campground in Monte Rio, CA. Members include presidents, CEOs, bankers, Supreme Court justices, CIA directors. Leaked 2023 membership/attendance lists obtained by Daniel Boguslaw reveal ongoing elite policy coordination despite motto 'Weaving spiders come not here.' Social Security cuts, capital gains cuts, Project 2025 all traced to Grove discussions.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/bohemian_club.jpg"
+    }
   },
   "602": {
     "id": 602,
@@ -1154,7 +1185,8 @@
     "aliases": "Booz Allen, BAH",
     "metadata": {
       "type": "defense/intelligence contractor",
-      "founded": 1914
+      "founded": 1914,
+      "photo_url": "photos/booz_allen_hamilton.jpg"
     }
   },
   "623": {
@@ -1197,7 +1229,8 @@
     "aliases": "Brookings",
     "metadata": {
       "type": "think tank",
-      "founded": 1916
+      "founded": 1916,
+      "photo_url": "photos/brookings.jpg"
     }
   },
   "349": {
@@ -1254,7 +1287,8 @@
     "description": "Supreme Court case (531 U.S. 98) decided on December 12, 2000, which effectively determined the outcome of the 2000 presidential election. In a 5-4 per curiam decision, the Court ruled that Florida's recount procedures violated the Equal Protection Clause because different counties used different standards for evaluating ballots. The Court then ruled 5-4 that no constitutionally valid recount could be completed before the December 12 'safe harbor' deadline \u2014 effectively ending the recount and awarding Florida's 25 electoral votes (and the presidency) to George W. Bush.\n\nSIGNIFICANCE: The ruling was unprecedented \u2014 the Court explicitly stated that its Equal Protection analysis was 'limited to the present circumstances' and should not be cited as precedent. Justice Stevens's dissent warned that 'the identity of the loser is perfectly clear. It is the Nation's confidence in the judge as an impartial guardian of the rule of law.' The case remains one of the most controversial Supreme Court decisions in American history.\n\nCONTEXT: Bush's final certified margin in Florida was 537 votes out of approximately 6 million cast. Issues included the Palm Beach County 'butterfly ballot' (which likely cost Gore thousands of votes), 'hanging chads' on punch-card ballots, the disqualification of approximately 12,000 ballots in heavily Democratic precincts, and the role of Florida Secretary of State Katherine Harris (who co-chaired Bush's Florida campaign committee) in certifying the results.",
     "aliases": "Bush v. Gore, 531 U.S. 98",
     "metadata": {
-      "date": "2000-12-12"
+      "date": "2000-12-12",
+      "photo_url": "photos/bush_v_gore.jpg"
     }
   },
   "335": {
@@ -1295,7 +1329,9 @@
     "entity_type": "agency",
     "description": "U.S. Centers for Disease Control and Prevention, the national public health agency headquartered in Atlanta, Georgia. Issues vaccination schedules, disease surveillance, and public health guidance. The CDC Foundation (est. 1995) accepts donations from pharmaceutical companies, creating structural conflicts. In 2016, a group of senior CDC scientists (the 'Spider' group \u2014 Scientists Preserving Integrity, Diligence, and Ethics in Research) filed an internal complaint alleging the agency's integrity was being undermined by outside influence. During COVID-19, CDC guidance on masking, testing, and vaccines faced criticism for inconsistency and perceived political influence.",
     "aliases": "Centers for Disease Control and Prevention, Centers for Disease Control",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/cdc.jpg"
+    }
   },
   "505": {
     "id": 505,
@@ -1303,7 +1339,9 @@
     "entity_type": "agency",
     "description": "United States Central Command. Unified combatant command responsible for US military operations in the Middle East, Central Asia, and parts of South Asia. Headquartered at MacDill AFB, Tampa, FL with forward HQ at Al Udeid Air Base, Qatar. CENTCOM directed Operation Epic Fury against Iran on February 28, 2026, coordinating air, naval, and ground-based strike operations across the theater.",
     "aliases": "US Central Command, USCENTCOM",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/centcom.jpg"
+    }
   },
   "85": {
     "id": 85,
@@ -1311,7 +1349,9 @@
     "entity_type": "agency",
     "description": "Central Intelligence Agency. Created by National Security Act 1947. MKULTRA, BCCI banking, Iran-Contra, sexual blackmail operations documented.",
     "aliases": "Central Intelligence Agency",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/cia.jpg"
+    }
   },
   "232": {
     "id": 232,
@@ -1327,7 +1367,9 @@
     "entity_type": "program",
     "description": "FBI domestic counterintelligence program. 2,370 approved actions (1956-71). Sexual disruption as explicit technique.",
     "aliases": "Counter Intelligence Program",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/cointelpro.jpg"
+    }
   },
   "310": {
     "id": 310,
@@ -1357,7 +1399,8 @@
     "metadata": {
       "founded": 2013,
       "dissolved": 2018,
-      "status": "defunct"
+      "status": "defunct",
+      "photo_url": "photos/cambridge_analytica.jpg"
     }
   },
   "67": {
@@ -1389,7 +1432,8 @@
     "aliases": "Cargill, Incorporated",
     "metadata": {
       "type": "agribusiness / commodity trading",
-      "founded": 1865
+      "founded": 1865,
+      "photo_url": "photos/cargill.jpg"
     }
   },
   "572": {
@@ -1423,7 +1467,9 @@
     "entity_type": "organization",
     "description": "The Carlyle Group. Washington, D.C.-based global private equity firm founded in 1987 by David Rubenstein, William Conway Jr., and Daniel D'Aniello. One of the world's largest alternative asset managers, with over $300 billion in assets under management.\n\nSAUDI-BUSH NEXUS: The Carlyle Group became the most visible institutional bridge between Saudi money and American political power. George H.W. Bush served as senior advisor to Carlyle's Asia fund (1998-2003). James Baker III (Bush's Secretary of State) was senior counselor. Frank Carlucci (Reagan's Secretary of Defense, former CIA deputy director) was chairman (1989-2005).\n\nSAUDI INVESTORS: The Saudi Binladin Group invested in Carlyle. Prince Al-Waleed bin Talal invested through Kingdom Holding. Multiple other Saudi and Gulf investors used Carlyle as a vehicle. The bin Laden family was meeting with Carlyle Group representatives in Washington on the morning of September 11, 2001 (documented by Washington Post, Unger).\n\nDEFENSE CONTRACTS: Carlyle's portfolio included major defense contractors (United Defense Industries, which IPO'd in December 2001 after the invasion of Afghanistan). The firm profited directly from the post-9/11 military buildup \u2014 while its Saudi investors included the family of the man blamed for the attacks.",
     "aliases": "The Carlyle Group",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/carlyle_group.jpg"
+    }
   },
   "283": {
     "id": 283,
@@ -1433,7 +1479,8 @@
     "aliases": "Carnac Alignments, Alignements de Carnac",
     "metadata": {
       "location": "Carnac, Brittany, France",
-      "date_range": "~4500-3300 BCE"
+      "date_range": "~4500-3300 BCE",
+      "photo_url": "photos/carnac_stones.jpg"
     }
   },
   "681": {
@@ -1444,7 +1491,8 @@
     "aliases": "Carnegie Endowment, CEIP",
     "metadata": {
       "type": "foundation/think tank",
-      "founded": 1910
+      "founded": 1910,
+      "photo_url": "photos/carnegie_endowment.jpg"
     }
   },
   "714": {
@@ -1610,7 +1658,9 @@
     "entity_type": "event",
     "description": "U.S. Senate Select Committee to Study Governmental Operations with Respect to Intelligence Activities (1975-1976), chaired by Senator Frank Church (D-Idaho). Investigated abuses by the CIA, NSA, FBI, and IRS. Published 14 reports exposing Operation Mockingbird (CIA media infiltration), COINTELPRO (FBI domestic surveillance), NSA warrantless wiretapping (Operation SHAMROCK and MINARET), CIA assassination plots against foreign leaders, and MKULTRA mind control experiments. Led directly to the creation of the Senate Select Committee on Intelligence and the Foreign Intelligence Surveillance Act (FISA). The most comprehensive Congressional investigation of intelligence abuses in U.S. history.",
     "aliases": "Church Committee Investigation, Senate Intelligence Committee Investigation",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/church_committee.jpg"
+    }
   },
   "642": {
     "id": 642,
@@ -1620,7 +1670,8 @@
     "aliases": "Scientology, CoS",
     "metadata": {
       "type": "religious organization",
-      "founded": 1954
+      "founded": 1954,
+      "photo_url": "photos/scientology.jpg"
     }
   },
   "686": {
@@ -1629,7 +1680,9 @@
     "entity_type": "facility",
     "description": "Largest private residence in France. Purchased 1829 by Baron James de Rothschild from heirs of Joseph Fouch\u00e9 (Napoleon's Minister of Police). Designed by Joseph Paxton (Crystal Palace architect), completed 1859. 80+ guest suites, library of 8,000 volumes, 100 servant quarters, stables for 80 horses, underground railway for food transport. 4,000-hectare estate.\n\nPOWER VENUE: Inaugurated December 16, 1862 with gala attended by Napoleon III. Bismarck commandeered it as Prussian HQ during siege of Paris (1870) because he already knew how comfortable it was. Seized by Germans in WWII, art looted. Reopened 1959 by Guy and Marie-H\u00e9l\u00e8ne.\n\nSURREALIST BALL VENUE: December 12, 1972. Facade bathed in fire-simulating floodlights. Hunting hounds released to deter photographers.\n\nDONATED 1975 to Chancellery of Universities of Paris. Now houses Ferri\u00e8res School of Gastronomy. The donation ended the era of Rothschild ch\u00e2teau-scale entertaining.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/chateau_de_ferrieres.jpg"
+    }
   },
   "402": {
     "id": 402,
@@ -1640,7 +1693,8 @@
     "metadata": {
       "type": "commercial bank",
       "founded": 1998,
-      "predecessor": "Citicorp (1812)"
+      "predecessor": "Citicorp (1812)",
+      "photo_url": "photos/citigroup.jpg"
     }
   },
   "351": {
@@ -1650,7 +1704,8 @@
     "description": "Supreme Court case (558 U.S. 310) decided on January 21, 2010, which struck down key provisions of the Bipartisan Campaign Reform Act (McCain-Feingold) and ruled that the First Amendment prohibits the government from restricting independent political expenditures by corporations, associations, and labor unions. The 5-4 decision, authored by Justice Kennedy, held that political speech does not lose constitutional protection 'simply because its source is a corporation.'\n\nIMPACT: The ruling enabled the creation of Super PACs \u2014 independent expenditure committees that can raise and spend unlimited amounts of money on political campaigns, so long as they do not 'coordinate' directly with candidates. Combined with the D.C. Circuit's SpeechNow.org v. FEC decision (March 2010), Citizens United opened the floodgates to unlimited dark money in American politics.\n\nSCALE: Outside spending in federal elections exploded from $338 million in 2008 to $1.04 billion in 2012 to over $4.5 billion in 2020 (OpenSecrets data). Much of this spending is routed through 501(c)(4) 'social welfare' organizations that are not required to disclose their donors, creating untraceable 'dark money' pipelines.\n\nSTRUCTURAL EFFECT: Citizens United transformed the relationship between wealth and political power. Billionaire donors like Robert Mercer, Sheldon Adelson, the Koch brothers, George Soros, and Michael Bloomberg can now spend unlimited sums through Super PACs and nonprofits, effectively building parallel campaign infrastructures outside party control. This is the legal framework that enabled Cambridge Analytica's funding model.",
     "aliases": "Citizens United ruling, Citizens United v. Federal Election Commission",
     "metadata": {
-      "date": "2010-01-21"
+      "date": "2010-01-21",
+      "photo_url": "photos/citizens_united.jpg"
     }
   },
   "214": {
@@ -1718,7 +1773,8 @@
     "aliases": "",
     "metadata": {
       "type": "think tank",
-      "founded": 1968
+      "founded": 1968,
+      "photo_url": "photos/club_of_rome.jpg"
     }
   },
   "783": {
@@ -1729,7 +1785,8 @@
     "aliases": "Guerra del Agua",
     "metadata": {
       "date": "2000-01 to 2000-04",
-      "location": "Cochabamba, Bolivia"
+      "location": "Cochabamba, Bolivia",
+      "photo_url": "photos/cochabamba.jpg"
     }
   },
   "423": {
@@ -1778,7 +1835,9 @@
     "entity_type": "organization",
     "description": "American telecommunications and media conglomerate. Largest cable operator and internet service provider in the U.S. Acquired NBCUniversal in 2011 for $30 billion. Controls NBC News, MSNBC, CNBC, Universal Pictures, DreamWorks, Sky (UK/Europe), and Peacock streaming. The merger of America's largest cable company with a major broadcast network exemplifies the vertical integration enabled by the Telecommunications Act of 1996.",
     "aliases": "Comcast, NBCUniversal, NBCU",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/comcast.jpg"
+    }
   },
   "106": {
     "id": 106,
@@ -1821,7 +1880,8 @@
     "aliases": "CFR",
     "metadata": {
       "type": "think tank",
-      "founded": 1921
+      "founded": 1921,
+      "photo_url": "photos/cfr.jpg"
     }
   },
   "704": {
@@ -1868,7 +1928,9 @@
     "entity_type": "agency",
     "description": "Crown Prosecution Service (CPS). The principal prosecuting authority for criminal cases investigated by the police in England and Wales. Established 1986.\n\nEPSTEIN-RELATED DECISIONS: The CPS reviewed evidence related to Virginia Giuffre's allegations of being trafficked to London for sexual encounters with Prince Andrew. The CPS declined to prosecute, citing jurisdictional issues and insufficient evidence meeting the threshold for prosecution under English law. This decision was made despite the existence of Giuffre's detailed sworn testimony in US proceedings.\n\nSAVILE-RELATED FAILURES: The CPS reviewed evidence against Savile on at least three occasions during his lifetime (2007, 2008, 2009) but declined to prosecute each time. Post-mortem investigations revealed these decisions were based on flawed processes and insufficient investigation by police.\n\nRepresents the UK legal system's institutional failure to prosecute elite abusers \u2014 the British counterpart to the DOJ's handling of the Epstein case (the 2007 NPA, the Acosta deal, the delayed 2019 arrest).",
     "aliases": "CPS",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/crown_prosecution_service.jpg"
+    }
   },
   "796": {
     "id": 796,
@@ -1911,7 +1973,9 @@
     "entity_type": "agency",
     "description": "Defense Advanced Research Projects Agency. Ran Total Information Awareness program. LifeLog program.",
     "aliases": "Defense Advanced Research Projects Agency",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/darpa.jpg"
+    }
   },
   "312": {
     "id": 312,
@@ -1919,7 +1983,9 @@
     "entity_type": "agency",
     "description": "Drug Enforcement Administration. Established July 1, 1973 by President Nixon under Reorganization Plan No. 2 of 1973. Consolidated Bureau of Narcotics and Dangerous Drugs, Office for Drug Abuse Law Enforcement, and other agencies.\n\nCentral tension: DEA agents in the field repeatedly ran into CIA protection of drug traffickers who served intelligence objectives. This institutional conflict is documented by multiple DEA whistleblowers:\n- Michael Levine: 25-year agent, documented CIA sabotage of Operation Hun and   other investigations targeting CIA-protected traffickers\n- Cele Castillo: documented drug flights from Ilopango, reports to superiors   ignored\n- Enrique 'Kiki' Camarena: DEA agent murdered in Mexico (1985) while   investigating cartel-government links; CIA accused of knowledge of his   abduction\n\nDEA also facilitated the Dark Alliance cover-up: Blandon \u2014 who admitted under oath to selling cocaine to fund the Contras \u2014 was given immunity, became a paid DEA informant ($45,000/year), and testified as government witness against Freeway Rick Ross.\n\nKhun Sa offered to name CIA officials to DEA in 1987; DEA took no action. The pattern: individual DEA agents investigated honestly, but the institution deferred to CIA at the policy level.",
     "aliases": "Drug Enforcement Administration",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/dea.jpg"
+    }
   },
   "468": {
     "id": 468,
@@ -1935,7 +2001,9 @@
     "entity_type": "agency",
     "description": "Direction G\u00e9n\u00e9rale de la S\u00e9curit\u00e9 Ext\u00e9rieure \u2014 France's foreign intelligence service, responsible for military intelligence and counterintelligence outside French borders. Established April 2, 1982, when President Mitterrand reformed and renamed the SDECE.\n\nDGSE's predecessor, the SDECE (Service de Documentation Ext\u00e9rieure et de Contre-Espionnage), was a founding member of the Safari Club. SDECE Director Alexandre de Marenches initiated the Safari Club on September 1, 1976 \u2014 making France not merely a member but the originator of the covert intelligence alliance. The Safari Club's five charter signatories: de Marenches (SDECE/France), Kamal Adham (Saudi intelligence), Kamal Hassan Ali (Egypt), Ahmed Dlimi (Morocco), and Nematollah Nassiri (Iran, pre-revolution). Saudi Arabia provided money, France provided technology, Egypt and Morocco supplied weapons and troops \u2014 all to bypass post-Church Committee Congressional restrictions on the CIA.",
     "aliases": "Direction G\u00e9n\u00e9rale de la S\u00e9curit\u00e9 Ext\u00e9rieure, SDECE",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/dgse.jpg"
+    }
   },
   "247": {
     "id": 247,
@@ -1945,7 +2013,8 @@
     "aliases": "Defense Intelligence Agency",
     "metadata": {
       "type": "intelligence agency",
-      "founded": 1961
+      "founded": 1961,
+      "photo_url": "photos/dia.jpg"
     }
   },
   "368": {
@@ -1956,7 +2025,8 @@
     "aliases": "Department of Energy, U.S. Department of Energy",
     "metadata": {
       "founded": 1977,
-      "headquarters": "Washington, D.C."
+      "headquarters": "Washington, D.C.",
+      "photo_url": "photos/doe.jpg"
     }
   },
   "89": {
@@ -1965,7 +2035,9 @@
     "entity_type": "agency",
     "description": "Department of Justice. Stole PROMIS from INSLAW. Epstein NPA. BCCI non-notification from CIA.",
     "aliases": "Department of Justice",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/doj.jpg"
+    }
   },
   "189": {
     "id": 189,
@@ -1975,7 +2047,8 @@
     "aliases": "Defense Threat Reduction Agency",
     "metadata": {
       "type": "defense agency",
-      "founded": 1998
+      "founded": 1998,
+      "photo_url": "photos/dtra.jpg"
     }
   },
   "241": {
@@ -2181,7 +2254,8 @@
     "description": "Site of the JFK assassination in Dallas, Texas (Nov 22, 1963). Warren Commission concluded shots came from Texas School Book Depository. HSCA acoustics evidence suggested additional shooter from the grassy knoll. Now a National Historic Landmark.",
     "aliases": "",
     "metadata": {
-      "location": "Dallas, Texas"
+      "location": "Dallas, Texas",
+      "photo_url": "photos/dealey_plaza.jpg"
     }
   },
   "253": {
@@ -2203,7 +2277,8 @@
     "aliases": "Derinkuyu Underground City",
     "metadata": {
       "location": "Derinkuyu, Cappadocia, Turkey",
-      "depth": "85m, 18 levels"
+      "depth": "85m, 18 levels",
+      "photo_url": "photos/derinkuyu.jpg"
     }
   },
   "230": {
@@ -2233,7 +2308,9 @@
     "entity_type": "organization",
     "description": "Maintained Epstein accounts via Butterfly Trust structure. Settled $75M with NYDFS in 2020. Provided $340M+ in loans to Trump after all other US banks refused. Fined for Russian mirror trading/money laundering scheme.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/deutsche_bank.jpg"
+    }
   },
   "469": {
     "id": 469,
@@ -2269,7 +2346,9 @@
     "entity_type": "organization",
     "description": "Founded by Steven Greer. Organized the landmark May 9, 2001 National Press Club event in Washington, D.C., where 20+ military, government, intelligence, and corporate witnesses testified about UFO/UAP encounters. Daniel Sheehan served as general counsel. Called for open congressional hearings and release of suppressed energy technologies.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/disclosure_project.jpg"
+    }
   },
   "654": {
     "id": 654,
@@ -2289,7 +2368,8 @@
     "aliases": "Dominion, DVS",
     "metadata": {
       "founded": 2002,
-      "status": "active"
+      "status": "active",
+      "photo_url": "photos/dominion_voting.jpg"
     }
   },
   "9": {
@@ -2384,7 +2464,8 @@
     "aliases": "Dugway, DPG",
     "metadata": {
       "location": "Tooele County, Utah",
-      "founded": 1942
+      "founded": 1942,
+      "photo_url": "photos/dugway.jpg"
     }
   },
   "624": {
@@ -2465,7 +2546,8 @@
     "aliases": "ECHELON System, Five Eyes SIGINT Network",
     "metadata": {
       "type": "intelligence network",
-      "years_active": "1966-present"
+      "years_active": "1966-present",
+      "photo_url": "photos/echelon.jpg"
     }
   },
   "346": {
@@ -2485,7 +2567,9 @@
     "entity_type": "organization",
     "description": "U.S.-based nonprofit research organization focused on emerging infectious diseases. Under President Peter Daszak, served as the intermediary for NIH/NIAID funding (Grant R01 AI110964) to the Wuhan Institute of Virology for bat coronavirus research. The grant funded collection of bat coronaviruses from caves in Yunnan Province and research on their potential to infect humans. Congress determined that EcoHealth failed to comply with NIH grant conditions and failed to file required progress reports. Debarred from federal funding in May 2024 following House Select Subcommittee investigation.",
     "aliases": "EHA",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/ecohealth.jpg"
+    }
   },
   "260": {
     "id": 260,
@@ -2740,7 +2824,9 @@
     "entity_type": "event",
     "description": "Non-Prosecution Agreement. Acosta reportedly told Epstein 'belonged to intelligence.' Victims not notified.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/epstein_npa.jpg"
+    }
   },
   "159": {
     "id": 159,
@@ -2851,7 +2937,8 @@
     "aliases": "F-35, Lightning II, JSF",
     "metadata": {
       "type": "weapons program",
-      "years_active": "2001-present"
+      "years_active": "2001-present",
+      "photo_url": "photos/f35.jpg"
     }
   },
   "87": {
@@ -2860,7 +2947,9 @@
     "entity_type": "agency",
     "description": "Federal Bureau of Investigation. COINTELPRO. Hoover compromised by Lansky. CHS memo on Epstein.",
     "aliases": "Federal Bureau of Investigation",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/fbi.jpg"
+    }
   },
   "478": {
     "id": 478,
@@ -2868,7 +2957,9 @@
     "entity_type": "agency",
     "description": "U.S. Food and Drug Administration, federal agency within HHS responsible for regulating food, drugs, biologics, medical devices, and tobacco. Approves all pharmaceuticals for the U.S. market. Since the Prescription Drug User Fee Act (PDUFA, 1992), the FDA's drug review division has been predominantly funded by fees paid by pharmaceutical companies \u2014 the entities it regulates. As of 2022, industry user fees account for ~65% of the FDA's human drug review budget. A 2016 study by POGO found that 27 out of 55 FDA medical reviewers moved to industry positions at companies they had previously regulated. This revolving door is the structural mechanism of regulatory capture.",
     "aliases": "Food and Drug Administration",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/fda.jpg"
+    }
   },
   "722": {
     "id": 722,
@@ -2887,7 +2978,9 @@
     "entity_type": "agency",
     "description": "Federal Security Service of the Russian Federation (Federalnaya Sluzhba Bezopasnosti). Domestic intelligence and security agency, primary successor to the KGB's Second Chief Directorate (counterintelligence) and Fifth Directorate (dissidents). Established 1995.\n\nPutin served as FSB Director from July 1998 to August 1999, using the position as launchpad to the presidency. The Litvinenko Inquiry (2016, UK) documented FSB involvement in the 2006 polonium poisoning of Alexander Litvinenko, 'probably approved by Putin.' The 1999 Russian apartment bombings that precipitated the Second Chechen War and Putin's rise were attributed to Chechen terrorists by the government; Litvinenko and others alleged FSB involvement before being killed.\n\nInstitutional successor to the KGB in domestic operations. Maintains documented relationships with organized crime networks, particularly through the 'krysha' (protection) system documented by Dawisha and Belton.",
     "aliases": "Federal Security Service, Federalnaya Sluzhba Bezopasnosti",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/fsb.jpg"
+    }
   },
   "267": {
     "id": 267,
@@ -2922,7 +3015,8 @@
     "aliases": "The Fed, Federal Reserve",
     "metadata": {
       "type": "central bank",
-      "founded": 1913
+      "founded": 1913,
+      "photo_url": "photos/federal_reserve.jpg"
     }
   },
   "367": {
@@ -2986,7 +3080,8 @@
     "aliases": "FVEY, Five Eyes Alliance, UKUSA, Anglosphere Intelligence Alliance",
     "metadata": {
       "type": "intelligence alliance",
-      "years_active": "1946-present"
+      "years_active": "1946-present",
+      "photo_url": "photos/five_eyes.jpg"
     }
   },
   "278": {
@@ -3009,7 +3104,8 @@
     "aliases": "Flint Michigan Water Crisis",
     "metadata": {
       "date": "2014-04 to 2019",
-      "location": "Flint, Michigan"
+      "location": "Flint, Michigan",
+      "photo_url": "photos/flint_water_crisis.jpg"
     }
   },
   "682": {
@@ -3020,7 +3116,8 @@
     "aliases": "",
     "metadata": {
       "type": "foundation",
-      "founded": 1936
+      "founded": 1936,
+      "photo_url": "photos/ford_foundation.jpg"
     }
   },
   "512": {
@@ -3047,7 +3144,9 @@
     "entity_type": "organization",
     "description": "American mass media company spun off from 21st Century Fox in 2019 after Disney acquired Fox's entertainment assets. Owns Fox News Channel, Fox Business Network, Fox Sports, and 29 Fox Television Stations. Fox News, launched in 1996 with Roger Ailes, pioneered the partisan 24-hour cable news model and became the most-watched cable news network in the U.S. Settled the Dominion Voting Systems defamation lawsuit for $787.5 million in April 2023 \u2014 one of the largest media settlements in U.S. history.",
     "aliases": "Fox News, Fox Media",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/fox_corp.jpg"
+    }
   },
   "184": {
     "id": 184,
@@ -3166,7 +3265,8 @@
     "aliases": "Government Communications Headquarters",
     "metadata": {
       "location": "Cheltenham, UK",
-      "founded": 1919
+      "founded": 1919,
+      "photo_url": "photos/gchq.jpg"
     }
   },
   "795": {
@@ -3197,7 +3297,9 @@
     "entity_type": "organization",
     "description": "One of the Five Families of New York. Led by Paul Castellano (until 1985 assassination), then John Gotti (1985-1992). Co-controlled S&A Concrete with the Genovese family, providing concrete for major Manhattan construction including Trump Tower. Roy Cohn represented both Castellano and Gotti. Extended influence into Philadelphia through John Stanfa.",
     "aliases": "Gambino Family",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/gambino.jpg"
+    }
   },
   "562": {
     "id": 562,
@@ -3217,7 +3319,8 @@
     "aliases": "Gateway Experience",
     "metadata": {
       "type": "consciousness program",
-      "years_active": "1983-present"
+      "years_active": "1983-present",
+      "photo_url": "photos/gateway_process.jpg"
     }
   },
   "251": {
@@ -3238,7 +3341,8 @@
     "aliases": "GD",
     "metadata": {
       "type": "defense contractor",
-      "founded": 1899
+      "founded": 1899,
+      "photo_url": "photos/general_dynamics.jpg"
     }
   },
   "364": {
@@ -3249,7 +3353,8 @@
     "aliases": "GE",
     "metadata": {
       "founded": 1892,
-      "headquarters": "Boston, MA"
+      "headquarters": "Boston, MA",
+      "photo_url": "photos/general_electric.jpg"
     }
   },
   "79": {
@@ -3258,7 +3363,9 @@
     "entity_type": "organization",
     "description": "One of the Five Families of New York. Led by Fat Tony Salerno (front boss, convicted 1986). Co-controlled S&A Concrete with the Gambino family. The most powerful family in the Mafia \u2014 managed to keep its true leadership structure hidden for decades. Roy Cohn represented boss Salerno.",
     "aliases": "Genovese Family",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/genovese.jpg"
+    }
   },
   "302": {
     "id": 302,
@@ -3418,7 +3525,9 @@
     "entity_type": "organization",
     "description": "Commodities giant founded by Marc Rich. Partially owned by Nathaniel Rothschild.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/glencore.jpg"
+    }
   },
   "123": {
     "id": 123,
@@ -3441,7 +3550,8 @@
     "aliases": "Gobekli Tepe, Potbelly Hill",
     "metadata": {
       "location": "Sanliurfa Province, Turkey",
-      "date_range": "~9600-8000 BCE"
+      "date_range": "~9600-8000 BCE",
+      "photo_url": "photos/gobekli_tepe.jpg"
     }
   },
   "315": {
@@ -3450,7 +3560,9 @@
     "entity_type": "program",
     "description": "The opium and heroin production zone spanning the mountainous borderlands of Burma (Myanmar), Thailand, and Laos. Produced the majority of the world's illicit opium from the 1950s through the 1990s.\n\nCIA involvement documented by Alfred McCoy (Yale University Press): during the Cold War, CIA allied with opium-producing warlords to fight communist insurgencies. Air America transported opium for CIA-allied commanders, particularly Hmong General Vang Pao in Laos. CIA facilitated the infrastructure \u2014 airstrips, transportation, protection \u2014 that enabled the trade to industrialize.\n\nKey figures:\n- Vang Pao: CIA's principal Hmong asset, whose troops grew opium and used Air   America to transport it\n- Khun Sa: dominated the trade from the 1970s-90s, offered to name CIA   officials to DEA\n- Li Mi: KMT general, CIA-supported, ran opium operations in Burma in the 1950s\n\nThe 1971 Senate staff report 'Opium and Politics in Laos' raised the issue in Congress but produced no policy change. McCoy's book was subjected to CIA suppression attempts before publication.\n\nThe Golden Triangle model \u2014 CIA allies with drug-producing forces, provides logistical support, looks the other way on trafficking \u2014 was replicated in Latin America (Contras, Noriega) and Afghanistan (mujahideen).",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/golden_triangle.jpg"
+    }
   },
   "401": {
     "id": 401,
@@ -3460,7 +3572,8 @@
     "aliases": "GS, Government Sachs",
     "metadata": {
       "type": "investment bank",
-      "founded": 1869
+      "founded": 1869,
+      "photo_url": "photos/goldman_sachs.jpg"
     }
   },
   "293": {
@@ -3506,7 +3619,8 @@
     "aliases": "Sphinx of Giza",
     "metadata": {
       "location": "Giza, Egypt",
-      "date_mainstream": "~2500 BCE"
+      "date_mainstream": "~2500 BCE",
+      "photo_url": "photos/great_sphinx.jpg"
     }
   },
   "806": {
@@ -3539,7 +3653,9 @@
     "entity_type": "event",
     "description": "July 26, 2023: House Oversight Subcommittee on National Security hearing titled 'Unidentified Anomalous Phenomena: Implications on National Security, Public Safety, and Government Transparency.' Witnesses: David Grusch (former NRO/UAPTF), Ryan Graves (Americans for Safe Aerospace), Ret. Cmdr. David Fravor (USS Nimitz). Grusch testified to multi-decade crash retrieval program and recovery of 'non-human biologics.' Based on interviews with 40+ witnesses.",
     "aliases": "July 2023 UAP Hearing",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/grusch_hearing.jpg"
+    }
   },
   "489": {
     "id": 489,
@@ -3557,7 +3673,8 @@
     "aliases": "Tonkin Gulf, Gulf of Tonkin",
     "metadata": {
       "type": "fabricated provocation",
-      "date": "1964-08-04"
+      "date": "1964-08-04",
+      "photo_url": "photos/gulf_of_tonkin.jpg"
     }
   },
   "377": {
@@ -3579,7 +3696,8 @@
     "aliases": "Gunung Padang Megalithic Site",
     "metadata": {
       "location": "Cianjur, West Java, Indonesia",
-      "date_range": "~3000 BCE surface; deep dating disputed"
+      "date_range": "~3000 BCE surface; deep dating disputed",
+      "photo_url": "photos/gunung_padang.jpg"
     }
   },
   "537": {
@@ -3653,7 +3771,8 @@
     "aliases": "Halliburton, KBR",
     "metadata": {
       "type": "military contractor",
-      "founded": 1919
+      "founded": 1919,
+      "photo_url": "photos/halliburton.jpg"
     }
   },
   "407": {
@@ -3720,7 +3839,9 @@
     "entity_type": "organization",
     "description": "Conservative think tank co-founded in 1973 by Joseph Coors Sr and Edwin Fuelner. Produced 'Mandate for Leadership' policy books for Reagan (1981) and Trump (Project 2025, 2023). Immensely powerful during Reagan administration \u2014 policies still affecting Americans today. Funded by Koch network. Heritage board was ~25% Bohemian Club members when Project 2025 was written.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/heritage_foundation.jpg"
+    }
   },
   "517": {
     "id": 517,
@@ -3728,7 +3849,9 @@
     "entity_type": "organization",
     "description": "Lebanese Shia political party and paramilitary organization. Iran's most capable proxy force, armed and funded by the IRGC Quds Force since the 1980s. Designated a terrorist organization by the US, EU, and others. Launched retaliatory rocket and drone barrages against northern Israel in solidarity with Iran following Operation Epic Fury on March 1, 2026.",
     "aliases": "Hizballah, Party of God",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/hezbollah.jpg"
+    }
   },
   "61": {
     "id": 61,
@@ -3770,7 +3893,8 @@
     "metadata": {
       "address": "1733 16th Street NW, Washington, D.C.",
       "completed": 1915,
-      "architect": "John Russell Pope"
+      "architect": "John Russell Pope",
+      "photo_url": "photos/house_of_the_temple.jpg"
     }
   },
   "414": {
@@ -3801,7 +3925,8 @@
     "aliases": "Institute of Noetic Sciences",
     "metadata": {
       "type": "research institute",
-      "founded": 1973
+      "founded": 1973,
+      "photo_url": "photos/ions.jpg"
     }
   },
   "60": {
@@ -3810,7 +3935,9 @@
     "entity_type": "organization",
     "description": "CIA venture capital arm. Founded 1999. Funded companies that became core surveillance infrastructure.",
     "aliases": "IQT",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/in_q_tel.jpg"
+    }
   },
   "629": {
     "id": 629,
@@ -3854,7 +3981,8 @@
     "metadata": {
       "type": "international financial institution",
       "founded": 1944,
-      "hq": "Washington, D.C."
+      "hq": "Washington, D.C.",
+      "photo_url": "photos/imf.jpg"
     }
   },
   "347": {
@@ -3885,7 +4013,9 @@
     "entity_type": "program",
     "description": "Covert arms-for-hostages and drug trafficking operation. Casey architect. BCCI banking. Mena Airport. SAT flights.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/iran_contra.jpg"
+    }
   },
   "520": {
     "id": 520,
@@ -3914,7 +4044,9 @@
     "entity_type": "agency",
     "description": "Iran's primary paramilitary force, established 1979 after the Islamic Revolution. Reports directly to the Supreme Leader. Controls Iran's ballistic missile program (IRGC Aerospace Force), naval forces in the Persian Gulf (IRGC Navy), ground forces, and the Quds Force for external operations. Designated a Foreign Terrorist Organization by the US in 2019. IRGC leadership was systematically targeted in the opening strikes of Operation Epic Fury on February 28, 2026, with Commander-in-Chief Mohammad Pakpour killed at Parchin and multiple senior commanders eliminated.",
     "aliases": "IRGC, Sepah, Pasdaran, Iranian Revolutionary Guards",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/irgc.jpg"
+    }
   },
   "16": {
     "id": 16,
@@ -3950,7 +4082,8 @@
     "aliases": "",
     "metadata": {
       "date": "1963-11-22",
-      "location": "Dallas, Texas"
+      "location": "Dallas, Texas",
+      "photo_url": "photos/jfk_assassination.jpg"
     }
   },
   "56": {
@@ -3959,7 +4092,9 @@
     "entity_type": "organization",
     "description": "Processed 4,725 suspicious Epstein-related wires totaling $1.1B. Settled $290M in 2023.",
     "aliases": "JPMorgan",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/jpmorgan_chase.jpg"
+    }
   },
   "436": {
     "id": 436,
@@ -4708,7 +4843,8 @@
     "metadata": {
       "type": "medieval military order",
       "founded": 1119,
-      "suppressed": 1312
+      "suppressed": 1312,
+      "photo_url": "photos/knights_templar.jpg"
     }
   },
   "514": {
@@ -4752,7 +4888,8 @@
     "metadata": {
       "founded": 1957,
       "disbanded": 1986,
-      "country": "Israel"
+      "country": "Israel",
+      "photo_url": "photos/lakam.jpg"
     }
   },
   "412": {
@@ -4961,7 +5098,8 @@
     "aliases": "LMT, Lockheed",
     "metadata": {
       "type": "defense contractor",
-      "founded": 1995
+      "founded": 1995,
+      "photo_url": "photos/lockheed_martin.jpg"
     }
   },
   "311": {
@@ -4970,7 +5108,9 @@
     "entity_type": "organization",
     "description": "Mexican criminal organization, originally the paramilitary enforcement arm of the Gulf Cartel, later became an independent cartel (2010). Founded in 1999 by approximately 30 deserters from the Mexican Army's GAFE (Grupo Aeromovil de Fuerzas Especiales) \u2014 elite commandos.\n\nThe U.S. training pipeline: GAFE soldiers who became Los Zetas founders had been trained by U.S. military at Fort Bragg, North Carolina, and at the School of the Americas at Fort Benning, Georgia. They received training in counter-insurgency, rapid deployment, intelligence gathering, and marksmanship \u2014 skills they applied directly to cartel operations.\n\nFounding members: Arturo Guzman Decena ('Z-1,' killed 2002), Heriberto Lazcano ('Z-3,' killed 2012), and Miguel Angel Trevino Morales ('Z-40,' captured 2013). At peak strength, Los Zetas were considered the most powerful and violent cartel in Mexico.\n\nPattern: identical to School of the Americas graduates in Latin America \u2014 U.S. trains foreign military forces in counterinsurgency, those forces apply the training to drug trafficking, political repression, or both. The training-to-cartel pipeline is documented by Grayson (2014) and multiple journalists.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/los_zetas.jpg"
+    }
   },
   "80": {
     "id": 80,
@@ -5054,7 +5194,9 @@
     "entity_type": "facility",
     "description": "Metropolitan Correctional Center, New York. Federal detention facility in Lower Manhattan operated by the Bureau of Prisons. The facility where Jeffrey Epstein was found dead on August 10, 2019, while awaiting trial on sex trafficking charges.\n\nEPSTEIN'S DEATH: Epstein was found unresponsive in his cell at approximately 6:30 AM, hanging from a bedsheet tied to the upper bunk. The New York City medical examiner ruled the death a suicide by hanging. The DOJ Inspector General's report documented catastrophic security failures.\n\nSECURITY FAILURES: Two correctional officers \u2014 Michael Thomas and Tova Noel \u2014 assigned to guard Epstein overnight failed to complete more than 75 mandatory checks. Both officers were found to have been sleeping and later falsified records to cover the lapse. Nearly all cameras in and around the Special Housing Unit where Epstein was held stopped recording in late July 2019, continuing through the date of his death. Five hours of footage from a camera outside Epstein's cell on the night of a previous incident (July 22-23) were 'mistakenly not preserved.'\n\n2026 DEVELOPMENTS: Newly released DOJ documents and surveillance logs raised additional questions, with investigators noting an unidentified orange-colored figure moving toward Epstein's locked housing tier at approximately 10:39 PM on August 9, 2019. The facility was permanently closed in 2021 due to deplorable conditions.",
     "aliases": "Metropolitan Correctional Center",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/mcc_new_york.jpg"
+    }
   },
   "762": {
     "id": 762,
@@ -5062,7 +5204,9 @@
     "entity_type": "agency",
     "description": "Security Service (MI5). The United Kingdom's domestic counter-intelligence and security agency. Established 1909. Responsible for protecting the UK against threats to national security including espionage, terrorism, and subversion.\n\nMAXWELL CONNECTION: MI5 held files on Robert Maxwell from at least the 1950s. Former MI5 officer Peter Wright (Spycatcher, 1987) described Maxwell as a known intelligence figure. Despite documented concerns about Maxwell's Mossad and KGB connections, MI5 did not act to restrict his activities in the UK. The pattern of institutional awareness combined with inaction is consistent with Maxwell's protected status as a useful asset.\n\nSAVILE CONNECTION: Sunday Times (2015) reported MI5 files showed Savile had been monitored for decades due to abuse allegations, yet no action was taken. The IICSA Westminster investigation documented systematic failures across UK institutions \u2014 including intelligence agencies \u2014 to act on known abuse by establishment figures.\n\nInstitutional counterpart to the FBI in the U.S. context. Works alongside MI6 (foreign intelligence) and GCHQ (signals intelligence) as part of the UK intelligence community.",
     "aliases": "Security Service, MI-5, Box 500",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/mi5.jpg"
+    }
   },
   "763": {
     "id": 763,
@@ -5070,7 +5214,9 @@
     "entity_type": "agency",
     "description": "Secret Intelligence Service (SIS/MI6). The United Kingdom's foreign intelligence agency. Established 1909. Responsible for collecting foreign intelligence in support of UK national security and economic well-being.\n\nMAXWELL CONNECTION: Multiple investigative accounts (Gordon Thomas, Seymour Hersh, John Preston) document Robert Maxwell's relationship with MI6. Maxwell was recruited during or shortly after WWII, when he served in British Army intelligence. His Pergamon Press publishing empire provided cover for intelligence-gathering across the Eastern Bloc during the Cold War. MI6 was aware of Maxwell's simultaneous relationship with Mossad and, according to Thomas & Dillon, used the Maxwell-Mossad channel as a back-channel to Israeli intelligence.\n\nINSTITUTIONAL ROLE: MI6 works closely with CIA (documented liaison since WWII), Mossad (documented cooperation), and other Five Eyes partners (NSA, GCHQ, Australian and Canadian services). The intelligence-sharing relationships mean that compromised figures in one network (Epstein through Mossad/CIA) had indirect institutional connections to MI6 through the broader intelligence architecture.",
     "aliases": "Secret Intelligence Service, SIS, MI-6, Box 850",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/mi6.jpg"
+    }
   },
   "94": {
     "id": 94,
@@ -5078,7 +5224,9 @@
     "entity_type": "program",
     "description": "CIA mind control program. Operation Midnight Climax used sexual blackmail. DCI Helms ordered files destroyed 1973.",
     "aliases": "MK-ULTRA",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/mkultra.jpg"
+    }
   },
   "556": {
     "id": 556,
@@ -5097,7 +5245,9 @@
     "entity_type": "agency",
     "description": "Ministry of State Security (Guojia Anquan Bu, MSS). The People's Republic of China's intelligence, security, and secret police agency. Established in 1983 by merging the Central Investigation Department with counterintelligence elements of the Ministry of Public Security.\n\nFUNCTION: A DOJ document described the MSS as combining the functions of the CIA and FBI. Responsible for foreign intelligence, counterintelligence, and domestic political security. The 18th Bureau is dedicated specifically to espionage operations against the United States.\n\nDOCUMENTED OPERATIONS: CSIS documented hundreds of Chinese espionage cases in the U.S. since 2000. Notable penetrations include Katrina Leung (codename 'Parlor Maid'), an FBI informant who was simultaneously a double agent for the MSS from 1982 to 2003, compromising 20 years of FBI counterintelligence on China.\n\nNETWORK RELEVANCE: The MSS operates alongside PLA military intelligence (Second Department of the General Staff) \u2014 the entity that, through General Ji Shengde, funneled money to Clinton's DNC via Johnny Chung. The Thompson Committee (1998) documented a PRC 'Central Leading Group for U.S. Congressional Affairs' coordinating China's influence operations. The MSS relationship with Western intelligence agencies (CIA, MI6, Mossad) is primarily adversarial, with limited cooperation on counter-terrorism.",
     "aliases": "Ministry of State Security, Guojia Anquan Bu, Chinese Intelligence",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/mss.jpg"
+    }
   },
   "712": {
     "id": 712,
@@ -5335,7 +5485,9 @@
     "entity_type": "organization",
     "description": "Colombian drug cartel based in Medell\u00edn, active 1976-1993. Responsible for the majority of cocaine entering the United States in the 1980s.\n\nIntelligence connections: CIA supported paramilitary groups fighting Pablo Escobar in 1992-93. CIA provided materiel support and helped form Los Pepes (Perseguidos por Pablo Escobar), combining Cali Cartel members, Escobar's former associates, and Colombian military. U.S. Embassy Joint Task Force worked with the Colombian Search Bloc that killed Escobar on December 2, 1993.\n\nBCCI connection: Operation C-Chase (U.S. Customs/IRS undercover operation, 1986-1988) convicted six BCCI officers and a Colombian businessman of laundering $14 million in Medell\u00edn cocaine profits through BCCI Panama, Luxembourg, and LOANS Switzerland.\n\nBarry Seal worked as cocaine courier for the cartel while simultaneously working for CIA and DEA. Seal imported an estimated $3-5 billion worth of drugs / ~56 tons of cocaine into the U.S. The cartel assassinated Seal on February 19, 1986 in Baton Rouge.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/medellin_cartel.jpg"
+    }
   },
   "66": {
     "id": 66,
@@ -5382,7 +5534,8 @@
     "description": "Mentmore Towers. Victorian-era country house in Buckinghamshire, England, built 1852-1854 for Baron Mayer de Rothschild. Used as the primary filming location for Stanley Kubrick's Eyes Wide Shut (1999) \u2014 the mansion scenes depicting elite ritual gatherings. The choice of a Rothschild estate as the setting for filmed elite rituals adds a layer of symbolic resonance.",
     "aliases": "",
     "metadata": {
-      "location": "Buckinghamshire, England"
+      "location": "Buckinghamshire, England",
+      "photo_url": "photos/mentmore_towers.jpg"
     }
   },
   "701": {
@@ -5391,7 +5544,9 @@
     "entity_type": "event",
     "description": "Annual fundraising benefit for the Metropolitan Museum of Art's Costume Institute, New York. Founded 1948 by Eleanor Lambert as a $50/ticket society dinner. Transformed by Diana Vreeland (1972-1989) and corporatized by Anna Wintour (1995-present).\n\nSUCCESSOR INSTITUTION: Directly descended from the European private ball tradition via Vreeland, who imported the Parisian model into a museum setting. Has the costumes, themes, and guest list drama \u2014 but structurally cannot have the privacy, intimacy, or creative coherence of Ferri\u00e8res.\n\nECONOMICS: $75,000/ticket (2024). $350,000/table. $31M raised in 2025. $1.3B media impact value. Louis Vuitton alone captured $154M in earned media. 'One event was an artwork. The other is an industry.'\n\nSOCIAL MEDIA BAN: Strict ban on posting from inside the event \u2014 a 'nostalgic gesture toward a world that no longer exists.' Routinely violated. Kylie Jenner's bathroom selfie is the most famous Met Gala image of the 2010s.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/met_gala.jpg"
+    }
   },
   "766": {
     "id": 766,
@@ -5399,7 +5554,9 @@
     "entity_type": "agency",
     "description": "Metropolitan Police Service (the Met). The territorial police force responsible for law enforcement in Greater London (excluding the City of London). The UK's largest police force, with approximately 34,000 officers.\n\nEPSTEIN INVESTIGATION FAILURE: The Met opened an investigation into Epstein-related allegations in 2015, following Virginia Giuffre's public claims of being trafficked to London. The investigation was dropped the same year, with the Met stating there was 'insufficient evidence' to pursue charges. This decision was made despite the existence of Giuffre's sworn testimony and corroborating evidence in the US proceedings.\n\nSAVILE INVESTIGATION FAILURE: The Met received reports about Jimmy Savile's abuse as early as the 1960s. Multiple referrals were made over decades. The Met admitted in 2013 to 'fundamental failings' in its handling of Savile complaints. Operation Yewtree, launched in 2012 after Savile's death, identified over 450 victims \u2014 all of whom could have been protected had earlier reports been acted upon.\n\nPATTERN: The Met's failure to investigate elite abuse is documented across multiple cases: Savile, Epstein/Andrew, and the broader Westminster abuse network documented by IICSA. The pattern is consistent with institutional protection of establishment figures, whether through direct instruction or institutional culture.",
     "aliases": "The Met, Met Police, Scotland Yard, Metropolitan Police Service",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/metropolitan_police.jpg"
+    }
   },
   "18": {
     "id": 18,
@@ -5622,7 +5779,9 @@
     "entity_type": "agency",
     "description": "Israeli intelligence service. Robert Maxwell asset. Epstein identified as co-opted agent. PROMIS distribution.",
     "aliases": "Institute for Intelligence and Special Operations",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/mossad.jpg"
+    }
   },
   "82": {
     "id": 82,
@@ -5640,7 +5799,8 @@
     "aliases": "North Atlantic Treaty Organization",
     "metadata": {
       "type": "military alliance",
-      "years_active": "1949-present"
+      "years_active": "1949-present",
+      "photo_url": "photos/nato.jpg"
     }
   },
   "751": {
@@ -5660,7 +5820,9 @@
     "entity_type": "agency",
     "description": "U.S. National Institutes of Health, the primary federal agency for biomedical research. Comprises 27 institutes and centers, including NIAID (directed by Anthony Fauci, 1984-2022). Distributes approximately $45 billion annually in research grants \u2014 making it the single largest funder of biomedical research in the world. This funding power gives NIH enormous influence over which research questions are pursued and which researchers advance. NIH-funded gain-of-function research through EcoHealth Alliance grants to the Wuhan Institute of Virology became a central controversy in the COVID-19 origins debate.",
     "aliases": "National Institutes of Health, NIAID",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/nih.jpg"
+    }
   },
   "86": {
     "id": 86,
@@ -5668,7 +5830,9 @@
     "entity_type": "agency",
     "description": "National Security Agency. PROMIS/Systematics connection. Watch list included Church Committee members.",
     "aliases": "National Security Agency",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/nsa.jpg"
+    }
   },
   "525": {
     "id": 525,
@@ -5678,7 +5842,8 @@
     "aliases": "NSO Group Technologies, NSO, Q Cyber Technologies",
     "metadata": {
       "founded": 2010,
-      "country": "Israel"
+      "country": "Israel",
+      "photo_url": "photos/nso_group.jpg"
     }
   },
   "621": {
@@ -5689,7 +5854,8 @@
     "aliases": "Executive Success Programs, ESP",
     "metadata": {
       "type": "cult / sex trafficking organization",
-      "founded": 1998
+      "founded": 1998,
+      "photo_url": "photos/nxivm.jpg"
     }
   },
   "626": {
@@ -5724,7 +5890,8 @@
     "aliases": "Nan Madol Ruins",
     "metadata": {
       "location": "Pohnpei, Federated States of Micronesia",
-      "date_mainstream": "~1200-1500 CE"
+      "date_mainstream": "~1200-1500 CE",
+      "photo_url": "photos/nan_madol.jpg"
     }
   },
   "138": {
@@ -5759,7 +5926,9 @@
     "entity_type": "facility",
     "description": "Iran's primary uranium enrichment facility, located in Isfahan province. Houses thousands of centrifuges for uranium enrichment, with facilities both above ground and in hardened underground halls. Previously targeted by the Stuxnet cyber weapon (2010) and by Israeli sabotage (2021). Struck in June 2025 during Operation Midnight Hammer and again during Operation Epic Fury in February 2026.",
     "aliases": "Natanz, Natanz Enrichment Facility",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/natanz.jpg"
+    }
   },
   "164": {
     "id": 164,
@@ -5810,7 +5979,9 @@
     "entity_type": "organization",
     "description": "American mass media conglomerate controlled by the Murdoch family. Split from 21st Century Fox in 2013. Owns The Wall Street Journal, New York Post, The Times (London), The Sun, The Australian, HarperCollins Publishers, Dow Jones, and REA Group. Together with Fox Corporation (Fox News, Fox Sports, Fox Business), the Murdoch media empire reaches billions globally. The 2011 phone hacking scandal at News of the World led to the UK Leveson Inquiry and exposed systematic illegal surveillance of public figures by Murdoch journalists.",
     "aliases": "News Corporation, NewsCorp",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/news_corp.jpg"
+    }
   },
   "774": {
     "id": 774,
@@ -5881,7 +6052,8 @@
     "aliases": "NOC",
     "metadata": {
       "type": "defense contractor",
-      "founded": 1994
+      "founded": 1994,
+      "photo_url": "photos/northrop_grumman.jpg"
     }
   },
   "319": {
@@ -5908,7 +6080,8 @@
     "aliases": "Ogallala, High Plains Aquifer",
     "metadata": {
       "location": "Great Plains, USA (8 states)",
-      "area": "174,000 sq mi"
+      "area": "174,000 sq mi",
+      "photo_url": "photos/ogallala.jpg"
     }
   },
   "558": {
@@ -5929,7 +6102,8 @@
     "aliases": "OSF, Open Society Institute",
     "metadata": {
       "type": "foundation",
-      "founded": 1993
+      "founded": 1993,
+      "photo_url": "photos/osf.jpg"
     }
   },
   "549": {
@@ -5971,7 +6145,9 @@
     "entity_type": "program",
     "description": "Formal system to coordinate repression among Southern Cone countries: Argentina, Uruguay, Chile, Paraguay, Bolivia, Brazil. Active mid-1970s to early 1980s.\n\nU.S. support documented: Washington provided military intelligence, training, financial assistance, advanced computers, tracking technology, and access to a continental telecommunications system ('Condortel') housed in the Panama Canal Zone. CIA provided computers for storing databanks of thousands of politically suspect individuals.\n\nAt least 654 documented victims of transnational kidnapping, torture, and disappearance between 1976-1980. Declassified 2001 State Department document confirmed U.S. facilitated communications for Condor. Kissinger was Secretary of State during its establishment; declassified documents show Nixon/Kissinger awareness and support.\n\nPlans were developed at the U.S. Army School of the Americas. Chile under Pinochet was a founding member and key coordinator.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/operation_condor.jpg"
+    }
   },
   "506": {
     "id": 506,
@@ -5987,7 +6163,9 @@
     "entity_type": "program",
     "description": "ATF (Bureau of Alcohol, Tobacco, Firearms and Explosives) operation run from the Phoenix Field Division, 2009-2011. Part of the broader 'Project Gunrunner' initiative. ATF deliberately allowed 2,000+ firearms to be purchased by straw buyers and 'walked' across the border to Mexican cartels, supposedly to track them to cartel leadership.\n\nResults: weapons were lost track of almost immediately. At least 150 Mexican civilians and 1 U.S. Border Patrol agent (Brian Terry, killed December 14, 2010) were killed with Fast and Furious weapons. Weapons from the program were found at crime scenes in Mexico for years afterward.\n\nCover-up: DOJ initially denied the program existed. Attorney General Eric Holder refused to produce documents; held in contempt of Congress on June 28, 2012 \u2014 the first sitting Attorney General to receive a contempt citation. President Obama asserted executive privilege over the documents.\n\nDOJ Inspector General report (September 2012, 471 pages) documented systemic failures and found 14 DOJ/ATF employees bore responsibility. No senior officials were criminally charged.\n\nPattern: government agencies facilitating weapons flows to cartels, then obstructing investigation \u2014 echoing the Iran-Contra weapons pipeline.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/fast_furious.jpg"
+    }
   },
   "378": {
     "id": 378,
@@ -5997,7 +6175,8 @@
     "aliases": "Gladio, Stay-Behind Armies",
     "metadata": {
       "type": "covert paramilitary network",
-      "years_active": "1956-1990"
+      "years_active": "1956-1990",
+      "photo_url": "photos/operation_gladio.jpg"
     }
   },
   "631": {
@@ -6054,7 +6233,8 @@
     "aliases": "Northwoods",
     "metadata": {
       "type": "false flag proposal",
-      "date": "1962-03-13"
+      "date": "1962-03-13",
+      "photo_url": "photos/operation_northwoods.jpg"
     }
   },
   "381": {
@@ -6065,7 +6245,8 @@
     "aliases": "PBSUCCESS",
     "metadata": {
       "type": "coup / regime change",
-      "date": "1954-06-18"
+      "date": "1954-06-18",
+      "photo_url": "photos/operation_pbsuccess.jpg"
     }
   },
   "382": {
@@ -6076,7 +6257,8 @@
     "aliases": "Paperclip, Project Paperclip",
     "metadata": {
       "type": "recruitment program",
-      "years_active": "1945-1959"
+      "years_active": "1945-1959",
+      "photo_url": "photos/operation_paperclip.jpg"
     }
   },
   "507": {
@@ -6094,7 +6276,8 @@
     "description": "Church of Scientology covert operation (1973-77) to infiltrate the U.S. government and purge unfavorable records about Scientology and L. Ron Hubbard. The largest known infiltration of the U.S. government in history \u2014 5,000 covert agents placed in 136 government agencies including the IRS, FBI, DOJ, and DEA. Agents stole government documents and planted bugging devices. Eleven senior Scientologists convicted (1979) including Mary Sue Hubbard (L. Ron Hubbard's wife). L. Ron Hubbard was named as an unindicted co-conspirator.",
     "aliases": "",
     "metadata": {
-      "date_range": "1973-1977"
+      "date_range": "1973-1977",
+      "photo_url": "photos/operation_snow_white.jpg"
     }
   },
   "630": {
@@ -6190,7 +6373,9 @@
     "entity_type": "program",
     "description": "NSA surveillance program revealed by Edward Snowden in June 2013. Provided the NSA with direct access to the servers of nine major tech companies: Microsoft (2007), Yahoo (2008), Google (2009), Facebook (2009), PalTalk (2009), YouTube (2010), Skype (2011), AOL (2011), and Apple (2012). Authorized under Section 702 of the FISA Amendments Act. Collected emails, chat logs, stored data, voice traffic, file transfers, video conferencing, and social media profiles. One of several NSA programs exposed by Snowden; others included XKeyscore (real-time internet monitoring), Boundless Informant (metadata analytics), and Upstream (fiber-optic cable tapping).",
     "aliases": "Planning Tool for Resource Integration, Synchronization, and Management",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/prism.jpg"
+    }
   },
   "91": {
     "id": 91,
@@ -6217,7 +6402,9 @@
     "entity_type": "organization",
     "description": "Data analytics firm co-founded by Peter Thiel. Major CIA/NSA/military contractor. Successor to TIA capabilities.",
     "aliases": "Palantir",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/palantir.jpg"
+    }
   },
   "584": {
     "id": 584,
@@ -6225,7 +6412,9 @@
     "entity_type": "organization",
     "description": "American multinational media conglomerate. Formed from the 2019 recombination of Viacom and CBS Corporation (previously split in 2006). Controlled by the Redstone family through National Amusements. Owns CBS News, Paramount Pictures, MTV, Nickelodeon, Comedy Central, BET, Showtime, and Paramount+. CBS News has been a primary broadcast news source since the Edward R. Murrow era.",
     "aliases": "Viacom, ViacomCBS, CBS Corporation, National Amusements",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/paramount.jpg"
+    }
   },
   "513": {
     "id": 513,
@@ -6453,7 +6642,9 @@
     "entity_type": "organization",
     "description": "American multinational pharmaceutical company, one of the world's largest by revenue. In 2009, paid $2.3 billion in the largest health care fraud settlement in DOJ history for illegal promotion of Bextra and other drugs. Produced the first authorized mRNA COVID-19 vaccine (with BioNTech) under Emergency Use Authorization in December 2020. COVID vaccine revenue exceeded $37 billion in 2022 alone. The company's history of regulatory violations \u2014 including the 2009 settlement, a 1996 controversial meningitis drug trial in Nigeria (Trovan), and multiple off-label marketing fines \u2014 exists in tension with its role as a trusted public health partner during the pandemic.",
     "aliases": "Pfizer Inc.",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/pfizer.jpg"
+    }
   },
   "81": {
     "id": 81,
@@ -6461,7 +6652,9 @@
     "entity_type": "organization",
     "description": "Also known as the Bruno-Scarfo family. Controlled organized crime in the greater Philadelphia area and South Jersey. Successive bosses: Angelo Bruno (1959-1980), Phil Testa (1980-1981), Nicky Scarfo (1981-1991), John Stanfa (1991-1994), Ralph Natale (1994-1999), Joey Merlino (1999-present). The bloodiest succession in Mafia history \u2014 Bruno's assassination triggered a war claiming 20+ lives. Critical to Atlantic City casino development and Trump's entry into the casino business.",
     "aliases": "Bruno-Scarfo Family, Philly Mob",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/philly_mob.jpg"
+    }
   },
   "169": {
     "id": 169,
@@ -6723,7 +6916,8 @@
     "metadata": {
       "type": "clandestine Masonic lodge",
       "founded": 1877,
-      "dissolved": 1982
+      "dissolved": 1982,
+      "photo_url": "photos/p2_lodge.jpg"
     }
   },
   "336": {
@@ -6744,7 +6938,8 @@
     "aliases": "Pumapunku, Puma Puncu",
     "metadata": {
       "location": "Tiwanaku, Bolivia",
-      "date_range": "~536-600 CE (mainstream)"
+      "date_range": "~536-600 CE (mainstream)",
+      "photo_url": "photos/puma_punku.jpg"
     }
   },
   "485": {
@@ -6753,7 +6948,9 @@
     "entity_type": "organization",
     "description": "American pharmaceutical company owned by the Sackler family. Developed and marketed OxyContin (extended-release oxycodone) beginning in 1996. The company's aggressive marketing strategy \u2014 including claims that OxyContin had low addiction risk ('less than one percent') \u2014 is credited with igniting the U.S. opioid epidemic, which has killed over 500,000 Americans since 1999. Pleaded guilty to federal criminal charges in 2007 and again in 2020 (misbranding, conspiracy to defraud the U.S.). Filed for bankruptcy in 2019. The Supreme Court ruled in 2024 that the Sackler family's $6 billion settlement could not include blanket immunity from future lawsuits (Harrington v. Purdue Pharma).",
     "aliases": "Purdue Pharmaceuticals",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/purdue_pharma.jpg"
+    }
   },
   "498": {
     "id": 498,
@@ -6761,7 +6958,9 @@
     "entity_type": "agency",
     "description": "The extraterritorial operations arm of the IRGC, responsible for intelligence and unconventional warfare outside Iran's borders. Manages Iran's relationships with proxy forces including Hezbollah, Hamas, Palestinian Islamic Jihad, Iraqi Shia militias, and Ansar Allah (Houthis). Previously commanded by Qasem Soleimani (killed by US drone strike January 2020) and then Esmail Qaani. The Quds Force is the operational backbone of Iran's 'Axis of Resistance' strategy.",
     "aliases": "IRGC-QF, Jerusalem Force, Niru-ye Qods",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/quds_force.jpg"
+    }
   },
   "496": {
     "id": 496,
@@ -6784,7 +6983,8 @@
     "aliases": "RAND",
     "metadata": {
       "type": "think tank / defense research",
-      "founded": 1948
+      "founded": 1948,
+      "photo_url": "photos/rand.jpg"
     }
   },
   "553": {
@@ -6843,7 +7043,8 @@
     "aliases": "RTX, Raytheon Technologies",
     "metadata": {
       "type": "defense contractor",
-      "founded": 1922
+      "founded": 1922,
+      "photo_url": "photos/raytheon.jpg"
     }
   },
   "74": {
@@ -7086,7 +7287,8 @@
     "aliases": "AT&T Room 641A, SG3 Secure Room",
     "metadata": {
       "location": "611 Folsom Street, San Francisco",
-      "years_active": "2003-present"
+      "years_active": "2003-present",
+      "photo_url": "photos/room_641a.jpg"
     }
   },
   "62": {
@@ -7113,7 +7315,8 @@
     "aliases": "Roswell Crash, Roswell UFO Incident",
     "metadata": {
       "date": "1947-07-08",
-      "location": "Roswell, New Mexico"
+      "location": "Roswell, New Mexico",
+      "photo_url": "photos/roswell.jpg"
     }
   },
   "687": {
@@ -7239,7 +7442,8 @@
     "aliases": "Science Applications International Corporation",
     "metadata": {
       "type": "defense contractor",
-      "founded": 1969
+      "founded": 1969,
+      "photo_url": "photos/saic.jpg"
     }
   },
   "344": {
@@ -7251,7 +7455,8 @@
     "metadata": {
       "founded": 1993,
       "dissolved": 2018,
-      "status": "defunct"
+      "status": "defunct",
+      "photo_url": "photos/scl_group.jpg"
     }
   },
   "565": {
@@ -7270,7 +7475,8 @@
     "aliases": "Stanford Research Institute, SRI",
     "metadata": {
       "type": "research institute",
-      "founded": 1946
+      "founded": 1946,
+      "photo_url": "photos/sri_international.jpg"
     }
   },
   "400": {
@@ -7282,7 +7488,8 @@
     "metadata": {
       "type": "financial messaging network",
       "founded": 1973,
-      "hq": "La Hulpe, Belgium"
+      "hq": "La Hulpe, Belgium",
+      "photo_url": "photos/swift.jpg"
     }
   },
   "281": {
@@ -7293,7 +7500,8 @@
     "aliases": "Saqsaywaman, Saksaq Waman",
     "metadata": {
       "location": "Cusco, Peru",
-      "date_mainstream": "~15th century CE"
+      "date_mainstream": "~15th century CE",
+      "photo_url": "photos/sacsayhuaman.jpg"
     }
   },
   "821": {
@@ -7443,7 +7651,9 @@
     "entity_type": "agency",
     "description": "Al Mukhabarat Al A'amah \u2014 the General Intelligence Directorate (GID) of Saudi Arabia. Also known as the General Intelligence Presidency (GIP). Saudi Arabia's primary foreign intelligence agency, analogous to the CIA.\n\nSAFARI CLUB (1976-1980s): The GID was a founding member of the Safari Club, an informal alliance of intelligence agencies created after the Church Committee hearings curtailed CIA covert operations. Led by Alexandre de Marenches (SDECE/France), the club included GID (Kamal Adham), SAVAK (Iran, pre-revolution), Egyptian intelligence, and Moroccan intelligence. BCCI provided the financial backbone \u2014 Adham was simultaneously CIA's principal Middle East liaison AND BCCI's secret front-man for the First American Bank takeover. Joseph Trento's Prelude to Terror documents this dual role.\n\nAFGHANISTAN: Under Turki al-Faisal (GID chief 1979-2001), the directorate co-funded the Afghan mujahideen with the CIA, matching American funding dollar-for-dollar. This covert pipeline ran through Pakistan's ISI and channeled billions to Afghan fighters, including Arab volunteers organized by bin Laden.\n\nKEY DIRECTORS: Kamal Adham (1963-1979, already in database), Turki al-Faisal (1979-2001), Nawaf bin Abdul Aziz (2001-2005), Bandar bin Sultan (briefly, as NSC chief oversaw intelligence coordination 2012-2014), Khalid bin Ali al-Humaidan (2015-present).",
     "aliases": "General Intelligence Directorate, General Intelligence Presidency, GIP, Al Mukhabarat Al A'amah",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/saudi_gid.jpg"
+    }
   },
   "83": {
     "id": 83,
@@ -7459,7 +7669,9 @@
     "entity_type": "organization",
     "description": "U.S. military training institution at Fort Benning (now Fort Moore), Columbus, Georgia. Founded 1946. Trained over 60,000 Latin American military, law enforcement, and security personnel by 2000. Renamed WHINSEC (Western Hemisphere Institute for Security Cooperation) in 2001 after sustained criticism.\n\nNotable graduates include: Manuel Noriega (Panama dictator), Hugo Banzer Suarez (Bolivia dictator), Efrain Rios Montt (Guatemala dictator, convicted of genocide), plus officers involved in: the 1981 El Mozote massacre (900 civilians killed, El Salvador), 1980 assassination of Archbishop Oscar Romero (El Salvador), and 1989 Jesuit massacre (6 priests + housekeeper + daughter at UCA, El Salvador \u2014 UN panel found 19 of 27 killers were SOA graduates).\n\nDeclassified CIA documents from 1976 show plans for Operation Condor were developed at the School of the Americas.",
     "aliases": "SOA, WHINSEC, Western Hemisphere Institute for Security Cooperation",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/school_of_americas.jpg"
+    }
   },
   "449": {
     "id": 449,
@@ -7470,7 +7682,8 @@
     "metadata": {
       "type": "Masonic body",
       "founded": 1801,
-      "headquarters": "Washington, D.C."
+      "headquarters": "Washington, D.C.",
+      "photo_url": "photos/scottish_rite.jpg"
     }
   },
   "131": {
@@ -7511,7 +7724,8 @@
     "description": "Coordinated terrorist attacks on Sept 11, 2001. Four hijacked aircraft. WTC Towers destroyed, Pentagon damaged, Flight 93 crashed in Pennsylvania. 2,977 killed. Led to PATRIOT Act, AUMF, wars in Afghanistan and Iraq. Saudi connections suppressed for 15 years (28 Pages).",
     "aliases": "9/11",
     "metadata": {
-      "date": "2001-09-11"
+      "date": "2001-09-11",
+      "photo_url": "photos/september_11.jpg"
     }
   },
   "526": {
@@ -7547,7 +7761,8 @@
     "aliases": "Ancient Arabic Order of the Nobles of the Mystic Shrine, Shriners International, AAONMS",
     "metadata": {
       "type": "Masonic appendant body",
-      "founded": 1870
+      "founded": 1870,
+      "photo_url": "photos/shriners.jpg"
     }
   },
   "171": {
@@ -7608,7 +7823,8 @@
     "description": "512-acre ranch in Uintah Basin, Utah. Site of documented anomalous phenomena including UAP, poltergeist activity, cattle mutilation, and interdimensional entities. Owned by Terry Sherman, then Robert Bigelow (1996-2016), now Brandon Fugal. Studied by NIDS, then BAASS/AAWSAP.",
     "aliases": "Sherman Ranch",
     "metadata": {
-      "location": "Uintah County, Utah"
+      "location": "Uintah County, Utah",
+      "photo_url": "photos/skinwalker_ranch.jpg"
     }
   },
   "332": {
@@ -7619,7 +7835,8 @@
     "aliases": "The Order, Order of Skull and Bones, 322",
     "metadata": {
       "type": "secret society",
-      "founded": 1832
+      "founded": 1832,
+      "photo_url": "photos/skull_and_bones.jpg"
     }
   },
   "328": {
@@ -7650,7 +7867,8 @@
     "aliases": "Smithsonian, SI",
     "metadata": {
       "type": "museum / research complex",
-      "founded": 1846
+      "founded": 1846,
+      "photo_url": "photos/smithsonian.jpg"
     }
   },
   "223": {
@@ -7697,7 +7915,8 @@
     "metadata": {
       "type": "Catholic sovereign order",
       "founded": 1099,
-      "headquarters": "Rome"
+      "headquarters": "Rome",
+      "photo_url": "photos/smom.jpg"
     }
   },
   "609": {
@@ -7751,7 +7970,8 @@
     "aliases": "Standing Rock, NoDAPL, Water Protectors",
     "metadata": {
       "date": "2016-04 to 2017-02",
-      "location": "Standing Rock Sioux Reservation, ND"
+      "location": "Standing Rock Sioux Reservation, ND",
+      "photo_url": "photos/standing_rock.jpg"
     }
   },
   "823": {
@@ -7930,7 +8150,8 @@
     "aliases": "",
     "metadata": {
       "type": "agrochemical / seed company",
-      "founded": 2000
+      "founded": 2000,
+      "photo_url": "photos/syngenta.jpg"
     }
   },
   "63": {
@@ -8020,7 +8241,8 @@
     "aliases": "City of the Gods",
     "metadata": {
       "location": "San Juan Teotihuacan, Mexico",
-      "date_range": "~100 BCE - 550 CE"
+      "date_range": "~100 BCE - 550 CE",
+      "photo_url": "photos/teotihuacan.jpg"
     }
   },
   "425": {
@@ -8086,7 +8308,8 @@
     "description": "U.S. Department of Defense headquarters. Struck by Flight 77 on 9/11, killing 189 people. Impact area housed accounting offices investigating the $2.3 trillion in untracked transactions announced by Rumsfeld the day before. Surveillance footage of impact largely withheld.",
     "aliases": "",
     "metadata": {
-      "location": "Arlington, Virginia"
+      "location": "Arlington, Virginia",
+      "photo_url": "photos/the_pentagon.jpg"
     }
   },
   "581": {
@@ -8095,7 +8318,9 @@
     "entity_type": "organization",
     "description": "American multinational media and entertainment conglomerate. Controls ABC News, ESPN, FX Networks, National Geographic, Hulu, Disney+, Pixar, Marvel, Lucasfilm, and 20th Century Studios. Acquired 21st Century Fox entertainment assets for $71.3 billion in 2019. One of the 'Big Six' media conglomerates that control the vast majority of American media output. ABC News has been a primary broadcast news source since the network era.",
     "aliases": "Disney, Walt Disney",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/disney.jpg"
+    }
   },
   "715": {
     "id": 715,
@@ -8161,7 +8386,8 @@
     "aliases": "Thule-Gesellschaft",
     "metadata": {
       "type": "occult/political society",
-      "founded": 1918
+      "founded": 1918,
+      "photo_url": "photos/thule_society.jpg"
     }
   },
   "734": {
@@ -8205,7 +8431,9 @@
     "entity_type": "program",
     "description": "DARPA mass surveillance program directed by John Poindexter (2002). Congress defunded 2003. Capabilities migrated to NSA.",
     "aliases": "TIA",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/tia.jpg"
+    }
   },
   "130": {
     "id": 130,
@@ -8223,7 +8451,8 @@
     "aliases": "",
     "metadata": {
       "type": "elite coordinating body",
-      "founded": 1973
+      "founded": 1973,
+      "photo_url": "photos/trilateral.jpg"
     }
   },
   "696": {
@@ -8242,7 +8471,9 @@
     "entity_type": "program",
     "description": "U.S. Public Health Service study conducted from 1932 to 1972 in Tuskegee, Alabama. 399 Black men with syphilis were told they were receiving free treatment for 'bad blood' but were deliberately left untreated to study the disease's progression \u2014 even after penicillin became the standard cure in 1947. 128 men died of syphilis or its complications; 40 wives were infected; 19 children were born with congenital syphilis. Exposed by AP reporter Jean Heller in 1972. Led to the National Research Act (1974) and the Belmont Report establishing ethical principles for human subjects research. President Clinton issued a formal apology in 1997. Remains a foundational reason for medical distrust in Black communities.",
     "aliases": "Tuskegee Study of Untreated Syphilis in the Negro Male, USPHS Syphilis Study",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/tuskegee.jpg"
+    }
   },
   "594": {
     "id": 594,
@@ -8310,7 +8541,8 @@
     "aliases": "Fort Detrick, U.S. Army Medical Research Institute of Infectious Diseases",
     "metadata": {
       "type": "military research institute",
-      "founded": 1969
+      "founded": 1969,
+      "photo_url": "photos/usamriid.jpg"
     }
   },
   "422": {
@@ -8321,7 +8553,8 @@
     "aliases": "U.S. Department of Agriculture",
     "metadata": {
       "type": "federal agency",
-      "founded": 1862
+      "founded": 1862,
+      "photo_url": "photos/usda.jpg"
     }
   },
   "515": {
@@ -8330,7 +8563,9 @@
     "entity_type": "facility",
     "description": "Nimitz-class aircraft carrier (CVN-72). Flagship of Carrier Strike Group 3, operating in the North Arabian Sea during Operation Epic Fury. Provided air support and fleet defense during the February 2026 strikes on Iran.",
     "aliases": "CVN-72, Abraham Lincoln CSG",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/uss_abraham_lincoln.jpg"
+    }
   },
   "516": {
     "id": 516,
@@ -8338,7 +8573,9 @@
     "entity_type": "facility",
     "description": "Gerald R. Ford-class aircraft carrier (CVN-78), the most advanced warship in the US Navy. Flagship of Carrier Strike Group 12, positioned in the Gulf of Oman during Operation Epic Fury. Together with CVN-72, represented the largest concentration of American carrier aviation in the region in a generation.",
     "aliases": "CVN-78, Ford CSG",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/uss_gerald_r_ford.jpg"
+    }
   },
   "379": {
     "id": 379,
@@ -8379,7 +8616,8 @@
     "description": "Unit 8200 (Yehida Shmoneh-Matayim). Israeli Intelligence Corps signals intelligence (SIGINT) unit, equivalent to the U.S. NSA or UK GCHQ. Based at Urim SIGINT Base in the Negev Desert and facilities near Herzliya.\n\nMISSION: Responsible for collecting signals intelligence, conducting cyber operations, and codebreaking. The largest single unit in the Israeli Defense Forces, with thousands of personnel. Conscripts are selected for high technical aptitude, typically serving from age 18-21.\n\nNSA PARTNERSHIP: Snowden documents (published by The Guardian, 2013) revealed a Memorandum of Understanding in which the NSA routinely shares raw, unfiltered intelligence data \u2014 including data on American citizens \u2014 with Unit 8200. The Intercept (2017) reported that this sharing includes metadata, content of communications, and other surveillance products, with minimal restrictions on how Israel uses data about U.S. persons.\n\nTECH PIPELINE \u2014 SURVEILLANCE INDUSTRY: Unit 8200 alumni have founded a disproportionate share of Israel's $10B+ cybersecurity and surveillance industry. Notable alumni-founded companies include: NSO Group (Pegasus spyware), Verint Systems (formerly Comverse Infosys \u2014 wiretapping tech), Check Point Software, CyberArk, Palo Alto Networks. Forbes (2016) documented the 'Unit 8200 to tech startup' pipeline as a defining feature of Israel's tech economy. Haaretz (2018) documented how these companies sell surveillance tools to authoritarian governments worldwide.\n\nCARBYNE CONNECTION: Carbyne (co-founded by Ehud Barak, Epstein investor) had former Unit 8200 director Pinhas Buchris on its board. This connects the Unit 8200 \u2192 surveillance tech pipeline directly to the Epstein network.",
     "aliases": "Yehida Shmoneh-Matayim, 8200, Israeli SIGINT",
     "metadata": {
-      "country": "Israel"
+      "country": "Israel",
+      "photo_url": "photos/unit_8200.jpg"
     }
   },
   "391": {
@@ -8390,7 +8628,8 @@
     "aliases": "UFCO, Chiquita Brands (successor)",
     "metadata": {
       "type": "corporation",
-      "years_active": "1899-1970"
+      "years_active": "1899-1970",
+      "photo_url": "photos/united_fruit.jpg"
     }
   },
   "452": {
@@ -8456,7 +8695,8 @@
     "aliases": "Veolia Environnement, Compagnie G\u00e9n\u00e9rale des Eaux, Vivendi Water",
     "metadata": {
       "type": "water utility / multinational",
-      "founded": 1853
+      "founded": 1853,
+      "photo_url": "photos/veolia.jpg"
     }
   },
   "144": {
@@ -8497,7 +8737,9 @@
     "entity_type": "organization",
     "description": "World Health Organization, the United Nations' specialized health agency headquartered in Geneva. 194 member states. Sets global health standards, coordinates pandemic response, and issues treatment guidelines adopted by nations worldwide. Funding has shifted from assessed contributions (guaranteed, unrestricted) to voluntary contributions (often earmarked by donors for specific programs). The Gates Foundation is the second-largest contributor after Germany, giving a private foundation outsized influence over global health priorities. Criticized for slow response to the 2014 Ebola outbreak, initially dismissing SARS-CoV-2 human-to-human transmission, and relying on Chinese government data in the early COVID-19 investigation.",
     "aliases": "World Health Organization",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/who.jpg"
+    }
   },
   "182": {
     "id": 182,
@@ -8552,7 +8794,8 @@
     "metadata": {
       "location": "Shoreham, Long Island, NY",
       "built": 1901,
-      "demolished": 1917
+      "demolished": 1917,
+      "photo_url": "photos/wardenclyffe_tower.jpg"
     }
   },
   "583": {
@@ -8561,7 +8804,9 @@
     "entity_type": "organization",
     "description": "American multinational media conglomerate formed in 2022 by the merger of WarnerMedia and Discovery, Inc. Controls CNN, HBO, Warner Bros. Pictures, DC Studios, TNT, TBS, Discovery Channel, and Max streaming. CNN, founded by Ted Turner in 1980, pioneered the 24-hour news cycle. The successive mergers (Time Warner \u2192 AOL Time Warner \u2192 WarnerMedia \u2192 Warner Bros. Discovery) illustrate the accelerating consolidation of media ownership since the 1990s.",
     "aliases": "WBD, WarnerMedia, Time Warner, AOL Time Warner",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/wbd.jpg"
+    }
   },
   "544": {
     "id": 544,
@@ -8571,7 +8816,8 @@
     "aliases": "President's Commission on the Assassination of President Kennedy",
     "metadata": {
       "type": "investigation",
-      "years_active": "1963-1964"
+      "years_active": "1963-1964",
+      "photo_url": "photos/warren_commission.jpg"
     }
   },
   "392": {
@@ -8630,7 +8876,9 @@
     "entity_type": "organization",
     "description": "International non-profit organization founded by Julian Assange in 2006 to publish classified, censored, or restricted materials from anonymous sources. Major publications include: Afghan War Diary (2010), Iraq War Logs (2010), U.S. diplomatic cables / Cablegate (2010), Guantanamo files (2011), Vault 7 CIA hacking tools (2017), and DNC emails (2016). Partnered with major newspapers (The Guardian, NYT, Der Spiegel, Le Monde, El Pa\u00eds) for initial publications. Described by Assange as a 'giant library of the world's most persecuted documents.' Changed the calculus of government secrecy by demonstrating that large-scale leaks were technically possible.",
     "aliases": "",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/wikileaks.jpg"
+    }
   },
   "8": {
     "id": 8,
@@ -8736,7 +8984,8 @@
     "metadata": {
       "type": "international financial institution",
       "founded": 1944,
-      "hq": "Washington, D.C."
+      "hq": "Washington, D.C.",
+      "photo_url": "photos/world_bank.jpg"
     }
   },
   "790": {
@@ -8745,7 +8994,9 @@
     "entity_type": "organization",
     "description": "International non-governmental organization founded in 1971 by Klaus Schwab, headquartered in Cologny, Geneva, Switzerland. Hosts the annual Davos meeting \u2014 the world's premier gathering of political leaders, CEOs, central bankers, and billionaires. Known for shaping global policy through public-private partnerships. Henry Kissinger was instrumental in the Forum's early years, helping transform it from a European management symposium into a global geopolitical institution. On February 26, 2026, WEF President/CEO B\u00f8rge Brende stepped down after Epstein files revealed he had three business dinners and exchanged emails/texts with Jeffrey Epstein. WEF co-chairs Andr\u00e9 Hoffmann and Larry Fink announced the completion of an independent investigation by outside counsel. Alois Zwinggi appointed interim president/CEO.",
     "aliases": "WEF, Davos Forum, World Economic Forum",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/wef.jpg"
+    }
   },
   "179": {
     "id": 179,
@@ -8754,7 +9005,8 @@
     "description": "Seven-building complex in Manhattan. Twin Towers (WTC 1 & 2) struck by hijacked aircraft, collapsed. WTC 7 collapsed later that day despite not being hit by a plane \u2014 NIST attributed to fire, UAF study found fire alone could not have caused the collapse. 2,977 people killed.",
     "aliases": "WTC, Twin Towers",
     "metadata": {
-      "location": "New York City"
+      "location": "New York City",
+      "photo_url": "photos/world_trade_center.jpg"
     }
   },
   "758": {
@@ -8764,7 +9016,8 @@
     "description": "Home of Air Force Materiel Command and Foreign Technology Division. Hosted Project Blue Book. Historical reports place recovered UAP materials at the base (Hangar 18 legend). Sen. Barry Goldwater confirmed he was denied access to a classified area related to UFO materials.",
     "aliases": "Wright-Pat, Hangar 18",
     "metadata": {
-      "location": "Dayton, Ohio"
+      "location": "Dayton, Ohio",
+      "photo_url": "photos/wright_patterson_afb.jpg"
     }
   },
   "708": {
@@ -8786,7 +9039,8 @@
     "aliases": "Yonaguni Underwater Monument, Yonaguni Submarine Ruins",
     "metadata": {
       "location": "Yonaguni Island, Okinawa, Japan",
-      "depth": "5-25m below sea level"
+      "depth": "5-25m below sea level",
+      "photo_url": "photos/yonaguni_monument.jpg"
     }
   },
   "450": {
@@ -8808,7 +9062,8 @@
     "aliases": "YDIH, Younger Dryas Boundary event, YDB hypothesis",
     "metadata": {
       "date": "~12,800 years ago",
-      "status": "active scientific debate"
+      "status": "active scientific debate",
+      "photo_url": "photos/younger_dryas.jpg"
     }
   },
   "548": {
@@ -8851,6 +9106,8 @@
     "entity_type": "facility",
     "description": "Zorro Ranch. A 10,000-acre private property located near Stanley, New Mexico, approximately 30 miles southeast of Santa Fe. Owned by Jeffrey Epstein from the early 1990s until his death in 2019. Approximately 1,200 acres were leased from the New Mexico State Land Commission.\n\nVirginia Giuffre testified in her 2016 deposition that she was trafficked to powerful men at the ranch, specifically alleging that Ghislaine Maxwell instructed her to provide sexual services to former New Mexico Governor Bill Richardson there. Annie Farmer, then 15, was sexually assaulted by Epstein at the ranch in April 1996.\n\nEpstein donated $50,000 to Governor Richardson's 2006 reelection campaign and $15,000 to the state Attorney General race. In 2019, the New Mexico State Land Office cancelled Epstein's grazing lease. As of 2026, New Mexico has approved a comprehensive probe of the ranch through an Epstein Truth Commission, and the DOJ is investigating claims of burials near the property.",
     "aliases": "Epstein Ranch, Stanley Ranch",
-    "metadata": {}
+    "metadata": {
+      "photo_url": "photos/zorro_ranch.jpg"
+    }
   }
 }
