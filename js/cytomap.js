@@ -88,6 +88,7 @@ function initMap() {
     cy.on('tap', 'node', (evt) => {
         const node = evt.target;
         if (node.hasClass('title-badge')) return;
+
         const nodeId = parseInt(node.id());
         if (window._onMapNodeClick) {
             window._onMapNodeClick(nodeId);
@@ -270,38 +271,16 @@ function computeRadialPositions() {
 
     const branchKeys = Object.keys(BRANCHES);
 
-    // Count entities per branch
-    const branchCounts = {};
-    branchKeys.forEach(k => { branchCounts[k] = 0; });
-    for (const [id, info] of Object.entries(branchAssignments)) {
-        if (branchCounts[info.branch] !== undefined) {
-            branchCounts[info.branch]++;
-        }
-    }
-
-    // Compute proportional angles (min 18 degrees)
-    const total = Object.values(branchCounts).reduce((a, b) => a + b, 0);
-    const MIN_ANGLE = 18;
-    let rawAngles = {};
-    branchKeys.forEach(k => {
-        rawAngles[k] = Math.max(MIN_ANGLE, (branchCounts[k] / total) * 360);
-    });
-
-    // Normalize to 360
-    const rawSum = Object.values(rawAngles).reduce((a, b) => a + b, 0);
-    const scale = 360 / rawSum;
-    branchKeys.forEach(k => { rawAngles[k] *= scale; });
-
-    // Compute start angles
+    // Equal angles: each branch gets 360/N degrees
+    const sliceWidth = 360 / branchKeys.length;
     const branchAngles = {};
-    let cumAngle = -90; // Start from top
-    branchKeys.forEach(k => {
+    branchKeys.forEach((k, i) => {
+        const start = -90 + i * sliceWidth;
         branchAngles[k] = {
-            start: cumAngle,
-            width: rawAngles[k],
-            center: cumAngle + rawAngles[k] / 2,
+            start: start,
+            width: sliceWidth,
+            center: start + sliceWidth / 2,
         };
-        cumAngle += rawAngles[k];
     });
 
     // Group entities by branch and ring

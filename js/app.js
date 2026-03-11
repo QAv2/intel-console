@@ -147,6 +147,7 @@
     }
 
 
+
     /* ---- Breadcrumb management ---- */
 
     function updateBreadcrumb() {

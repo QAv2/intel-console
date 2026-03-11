@@ -1,1 +1,4 @@
 data/intel.db
+*.pyc
+__pycache__/
+branch_audit.csv

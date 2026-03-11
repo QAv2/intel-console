@@ -85,7 +85,8 @@ const Filters = {
     activeTypes: new Set(),
 
     init(entityTypes) {
-        this.activeTypes = new Set(entityTypes);
+        // Default: only 'person' type visible on load
+        this.activeTypes = new Set(['person']);
 
         // Tier toggles
         document.querySelectorAll('.tier-toggle').forEach(label => {
@@ -112,7 +113,8 @@ const Filters = {
         entityTypes.forEach(type => {
             const color = TYPE_COLORS[type] || '#888';
             const pill = document.createElement('span');
-            pill.className = 'type-pill active';
+            const isActive = this.activeTypes.has(type);
+            pill.className = 'type-pill' + (isActive ? ' active' : '');
             pill.innerHTML = `<span class="pill-dot" style="background:${color}"></span>${type.replace('_', ' ')}`;
             pill.addEventListener('click', () => {
                 if (this.activeTypes.has(type)) {
@@ -126,5 +128,8 @@ const Filters = {
             });
             container.appendChild(pill);
         });
+
+        // Apply initial type filter
+        filterByType(this.activeTypes);
     },
 };
