@@ -66,6 +66,7 @@
     initMap();
     Dossier.init();
     Search.init();
+    Navigator.init();
 
     // ---- Toolbar button refs (must be before updateBreadcrumb) ----
     const btnReset = document.getElementById('btn-reset');
@@ -113,6 +114,7 @@
 
         storeGraphData(data);
         setBranchAssignments(assignments);
+        Navigator.build(data.nodes, assignments);
         graphLoaded = true;
 
         setProgress('BUILDING MAP...', 40);
@@ -165,6 +167,11 @@
         // Dismiss loading screen
         dismissLoading();
 
+        // Show branch directory unless deep-linked to an entity
+        if (!window.location.hash) {
+            Navigator.open();
+        }
+
     } catch (err) {
         console.error('Boot error:', err);
         if (!graphLoaded) {
@@ -175,6 +182,7 @@
     // ---- Keyboard shortcuts ----
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
+            if (Navigator.isOpen) { Navigator.close(); return; }
             Dossier.close();
         }
         if (e.key === '/' && document.activeElement !== Search.input) {
@@ -184,6 +192,9 @@
         if (e.key === 'Backspace' && document.activeElement !== Search.input) {
             e.preventDefault();
             navigateBack();
+        }
+        if (e.key === 'i' && document.activeElement !== Search.input) {
+            Navigator.toggle();
         }
     });
 
@@ -212,6 +223,11 @@
         btnViewToggle.addEventListener('click', () => {
             toggleView();
         });
+    }
+
+    const btnIndex = document.getElementById('btn-index');
+    if (btnIndex) {
+        btnIndex.addEventListener('click', () => Navigator.toggle());
     }
 
 
