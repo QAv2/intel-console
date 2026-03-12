@@ -85,8 +85,8 @@ const Filters = {
     activeTypes: new Set(),
 
     init(entityTypes) {
-        // Default: only 'person' type visible on load
-        this.activeTypes = new Set(['person']);
+        // Default: all types visible on load
+        this.activeTypes = new Set(entityTypes);
 
         // Tier toggles
         document.querySelectorAll('.tier-toggle').forEach(label => {

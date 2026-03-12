@@ -2,13 +2,66 @@
  * Intel Console — Main controller
  *
  * Boot sequence:
- *   1. Load full graph data + branch assignments
- *   2. Build Cytoscape radial map — 11 branches, no center entity
- *   3. Click any node → show dossier; click again → ego mode
- *   4. Breadcrumb navigation for ego mode traversal
+ *   1. Show loading screen
+ *   2. Load full graph data + branch assignments
+ *   3. Preload entity photos
+ *   4. Build Cytoscape radial map — 11 branches, no center entity
+ *   5. Dismiss loading screen
+ *   6. Click any node → show dossier; click again → ego mode
+ *   7. Breadcrumb navigation for ego mode traversal
  */
 
 (async function () {
+    // ---- Loading screen helpers ----
+    const loadingScreen = document.getElementById('loading-screen');
+    const loadingStatus = document.getElementById('loading-status');
+    const loadingBarFill = document.getElementById('loading-bar-fill');
+
+    function setProgress(msg, pct) {
+        if (loadingStatus) loadingStatus.textContent = msg;
+        if (loadingBarFill) loadingBarFill.style.width = pct + '%';
+    }
+
+    function dismissLoading() {
+        if (!loadingScreen) return;
+        setProgress('SYSTEMS ONLINE', 100);
+        setTimeout(() => {
+            loadingScreen.classList.add('done');
+            setTimeout(() => { loadingScreen.style.display = 'none'; }, 500);
+        }, 600);
+    }
+
+    function showLoadingError(msg) {
+        if (loadingStatus) {
+            loadingStatus.textContent = msg;
+            loadingStatus.style.color = '#f87171';
+        }
+    }
+
+    // ---- Preload images ----
+    function preloadImages(urls, onProgress) {
+        let loaded = 0;
+        const total = urls.length;
+        if (total === 0) return Promise.resolve();
+
+        return new Promise((resolve) => {
+            urls.forEach(url => {
+                const img = new Image();
+                img.onload = img.onerror = () => {
+                    loaded++;
+                    if (onProgress) onProgress(loaded, total);
+                    if (loaded >= total) resolve();
+                };
+                img.src = url;
+            });
+            // Safety timeout — don't block forever on slow images
+            setTimeout(resolve, 8000);
+        });
+    }
+
+    // ---- Boot ----
+    setProgress('INITIALIZING...', 5);
+
     // Ensure Cytoscape map is initialized before anything else
     initMap();
     Dossier.init();
@@ -50,6 +103,8 @@
     // ---- Load data and boot ----
     let graphLoaded = false;
     try {
+        setProgress('LOADING DATA...', 15);
+
         // Load graph data and branch assignments in parallel
         const [data, assignments] = await Promise.all([
             API.getGraphFull('speculative'),
@@ -60,7 +115,9 @@
         setBranchAssignments(assignments);
         graphLoaded = true;
 
-        // Init type filters from data
+        setProgress('BUILDING MAP...', 40);
+
+        // Init type filters from data — all types visible by default
         const types = [...new Set(data.nodes.map(n => n.entity_type))].sort();
         Filters.init(types);
 
@@ -85,6 +142,18 @@
         buildRadialMap();
         updateBreadcrumb();
 
+        setProgress('LOADING IMAGES...', 55);
+
+        // Preload entity photos (real photos only, skip SVG icons)
+        const photoUrls = data.nodes
+            .filter(n => n.photo_url && !n.photo_url.startsWith('data:'))
+            .map(n => n.photo_url);
+
+        await preloadImages(photoUrls, (loaded, total) => {
+            const imgPct = 55 + Math.round((loaded / total) * 40);
+            setProgress(`LOADING IMAGES... ${loaded}/${total}`, imgPct);
+        });
+
         // ---- Hash routing: #entity/ID deep links ----
         try {
             await handleEntityHash();
@@ -93,14 +162,13 @@
         }
         window.addEventListener('hashchange', handleEntityHash);
 
+        // Dismiss loading screen
+        dismissLoading();
+
     } catch (err) {
         console.error('Boot error:', err);
         if (!graphLoaded) {
-            const errDiv = document.createElement('div');
-            errDiv.id = 'load-error';
-            errDiv.style.cssText = 'color:#f87171;padding:40px;text-align:center;font-family:monospace;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:500;pointer-events:none';
-            errDiv.textContent = 'Failed to load graph data. Is the server running?';
-            document.body.appendChild(errDiv);
+            showLoadingError('FAILED TO LOAD DATA');
         }
     }
 
