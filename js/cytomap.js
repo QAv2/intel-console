@@ -70,6 +70,7 @@ let navStack = [];
 let egoMode = false;
 let hubMode = true;
 let isRecentering = false;
+let activeBranchFilter = null; // currently focused branch key, or null
 
 let cy = null;
 let currentView = 'radial'; // 'radial' | 'force' | 'ego'
@@ -109,6 +110,13 @@ function initMap() {
         const node = evt.target;
         if (node.hasClass('title-badge')) return;
 
+        // Branch anchor click — toggle branch focus
+        if (node.hasClass('branch-anchor')) {
+            const branchKey = node.id().replace('anchor_', '');
+            toggleBranchFocus(branchKey);
+            return;
+        }
+
         const nodeId = parseInt(node.id());
         if (window._onMapNodeClick) {
             window._onMapNodeClick(nodeId);
@@ -118,6 +126,9 @@ function initMap() {
     // Background click
     cy.on('tap', (evt) => {
         if (evt.target === cy) {
+            if (activeBranchFilter) {
+                clearBranchFocus();
+            }
             if (window._onMapBgClick) {
                 window._onMapBgClick();
             }
@@ -239,11 +250,13 @@ function getCytoscapeStyle() {
                 'z-index': 5,
             }
         },
-        // Edge base
+        // Edge base — unbundled bezier with center-pull (spiderweb aesthetic)
         {
             selector: 'edge',
             style: {
-                'curve-style': 'bezier',
+                'curve-style': 'unbundled-bezier',
+                'control-point-distances': 'data(cpDist)',
+                'control-point-weights': 0.5,
                 'width': 0.8,
                 'line-color': 'data(tierColor)',
                 'line-opacity': LINE_DEFAULT_OPACITY,
@@ -383,6 +396,7 @@ function buildRadialMap() {
     hubMode = true;
     currentCenterId = null;
     currentView = 'radial';
+    activeBranchFilter = null;
 
     const positions = computeRadialPositions();
     const elements = buildElements(positions);
@@ -478,11 +492,13 @@ function buildElements(positions) {
         nodeIds.add(String(n.id));
     });
 
-    // Edges
+    // Edges — compute center-pull bezier distance for each
     graphData.edges.forEach(e => {
         const srcId = String(e.source);
         const tgtId = String(e.target);
         if (!nodeIds.has(srcId) || !nodeIds.has(tgtId)) return;
+
+        const cpDist = computeCenterPull(positions, srcId, tgtId);
 
         elements.push({
             group: 'edges',
@@ -497,11 +513,55 @@ function buildElements(positions) {
                 yearStart: e.year_start,
                 yearEnd: e.year_end,
                 description: e.description || '',
+                cpDist: cpDist,
             },
         });
     });
 
     return elements;
+}
+
+
+/**
+ * Compute signed perpendicular distance to pull an edge's bezier
+ * control point toward center (0,0) — spiderweb aesthetic.
+ *
+ * pullFactor controls how aggressively curves bow inward:
+ *   0.0 = straight line, 0.5 = halfway to center, 1.0 = through center
+ */
+const CENTER_PULL_FACTOR = 0.45;
+
+function computeCenterPull(positions, srcId, tgtId) {
+    const p1 = positions[srcId];
+    const p2 = positions[tgtId];
+    if (!p1 || !p2) return 0;
+
+    // Midpoint of the edge
+    const mx = (p1.x + p2.x) / 2;
+    const my = (p1.y + p2.y) / 2;
+
+    // Vector from midpoint toward center (0,0)
+    const toCenterX = -mx;
+    const toCenterY = -my;
+
+    // Edge direction vector (source → target)
+    const dx = p2.x - p1.x;
+    const dy = p2.y - p1.y;
+    const edgeLen = Math.sqrt(dx * dx + dy * dy);
+    if (edgeLen < 1) return 0;
+
+    // Unit perpendicular to edge (rotate 90° left: (-dy, dx))
+    const perpX = -dy / edgeLen;
+    const perpY = dx / edgeLen;
+
+    // Project the center-pull vector onto the perpendicular
+    // This gives the signed distance: positive = left of src→tgt
+    const pullMag = Math.sqrt(toCenterX * toCenterX + toCenterY * toCenterY);
+    const projection = (toCenterX * perpX + toCenterY * perpY) * CENTER_PULL_FACTOR;
+
+    // Clamp to avoid extreme curves on very short edges
+    const maxPull = edgeLen * 0.6;
+    return Math.max(-maxPull, Math.min(maxPull, projection));
 }
 
 
@@ -786,6 +846,8 @@ function buildEgoElements(centerId, neighborhood, positions) {
         const tgtId = String(e.target);
         if (!nodeIds.has(srcId) || !nodeIds.has(tgtId)) return;
 
+        const cpDist = computeCenterPull(positions, srcId, tgtId);
+
         elements.push({
             group: 'edges',
             data: {
@@ -799,6 +861,7 @@ function buildEgoElements(centerId, neighborhood, positions) {
                 yearStart: e.year_start,
                 yearEnd: e.year_end,
                 description: e.description || '',
+                cpDist: cpDist,
             },
         });
     });
@@ -938,10 +1001,87 @@ function focusNode(nodeId) {
 }
 
 
+// ---- Branch Focus ----
+
+function toggleBranchFocus(branchKey) {
+    if (!cy || !hubMode) return;
+
+    if (activeBranchFilter === branchKey) {
+        clearBranchFocus();
+        return;
+    }
+
+    activeBranchFilter = branchKey;
+
+    cy.batch(() => {
+        cy.elements().removeClass('dimmed highlighted');
+
+        // Dim all entity nodes and edges
+        cy.nodes().forEach(node => {
+            if (node.hasClass('title-badge')) return;
+
+            if (node.hasClass('branch-anchor')) {
+                // Dim other branch anchors
+                const key = node.id().replace('anchor_', '');
+                if (key !== branchKey) {
+                    node.addClass('dimmed');
+                }
+                return;
+            }
+
+            const nodeBranch = node.data('branchKey');
+            if (nodeBranch !== branchKey) {
+                node.addClass('dimmed');
+            }
+        });
+
+        // Dim edges not connecting two nodes in this branch
+        cy.edges().forEach(edge => {
+            const srcBranch = edge.source().data('branchKey');
+            const tgtBranch = edge.target().data('branchKey');
+            if (srcBranch !== branchKey && tgtBranch !== branchKey) {
+                edge.addClass('dimmed');
+            } else {
+                edge.style('line-opacity', LINE_HIGHLIGHT_OPACITY);
+                edge.style('width', 1.2);
+            }
+        });
+    });
+
+    // Zoom to the branch
+    const branchNodes = cy.nodes().filter(n =>
+        n.data('branchKey') === branchKey || n.id() === 'anchor_' + branchKey
+    );
+    if (branchNodes.length > 0) {
+        cy.animate({
+            fit: { eles: branchNodes, padding: 80 },
+            duration: 400,
+            easing: 'ease-in-out',
+        });
+    }
+}
+
+function clearBranchFocus() {
+    if (!cy) return;
+    activeBranchFilter = null;
+
+    cy.batch(() => {
+        cy.elements().removeClass('dimmed highlighted');
+        cy.edges().removeStyle('line-opacity width');
+    });
+
+    cy.animate({
+        fit: { eles: cy.elements(), padding: 60 },
+        duration: 300,
+    });
+}
+
+
 // ---- Hover (lightweight) ----
 
 function hoverHighlight(node) {
     if (!cy) return;
+    if (activeBranchFilter) return; // Branch focus takes precedence
     if (cy.elements('.highlighted').length > 0) return; // Active highlight takes precedence
 
     const connectedEdges = node.connectedEdges();
@@ -953,6 +1093,7 @@ function hoverHighlight(node) {
 
 function hoverClear() {
     if (!cy) return;
+    if (activeBranchFilter) return;
     if (cy.elements('.highlighted').length > 0) return;
 
     cy.edges().removeStyle('line-opacity width');
