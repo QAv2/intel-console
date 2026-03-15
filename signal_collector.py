@@ -189,7 +189,8 @@ def collect_sec_edgar(matcher: EntityMatcher) -> list[dict]:
             })
             with urllib.request.urlopen(req, timeout=10) as resp:
                 data = json.loads(resp.read())
-        except Exception:
+        except Exception as e:
+            print(f"  [!] SEC EDGAR error for {name}: {e}")
             time.sleep(0.5)
             continue
 

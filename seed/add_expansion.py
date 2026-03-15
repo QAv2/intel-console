@@ -125,14 +125,17 @@ async def add_expansion(module_name: str):
     print(f"    Relationships: +{rel_added} (of {len(RELATIONSHIPS)}, {rel_skipped} skipped)")
     print(f"    Entity-source: +{es_added} links")
 
-    # Print new entity IDs for branches.js update
+    # Re-read entity IDs after insertions (db is closed, use sync sqlite3)
+    import sqlite3
+    conn = sqlite3.connect("data/intel.db")
     print(f"\n[*] Entity IDs for branches.js:")
     for e in ENTITIES:
         eid = name_to_id.get(e["name"])
         if eid is None:
-            # Re-fetch in case we just inserted it
-            rows2 = await get_db() if False else None  # db closed, use sync
+            row = conn.execute("SELECT id FROM entities WHERE name = ?", (e["name"],)).fetchone()
+            eid = row[0] if row else "NOT FOUND"
         print(f"    {eid}: '{e['name']}'")
+    conn.close()
 
 
 async def main():

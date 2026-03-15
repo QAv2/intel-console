@@ -556,7 +556,6 @@ function computeCenterPull(positions, srcId, tgtId) {
 
     // Project the center-pull vector onto the perpendicular
     // This gives the signed distance: positive = left of src→tgt
-    const pullMag = Math.sqrt(toCenterX * toCenterX + toCenterY * toCenterY);
     const projection = (toCenterX * perpX + toCenterY * perpY) * CENTER_PULL_FACTOR;
 
     // Clamp to avoid extreme curves on very short edges
