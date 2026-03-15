@@ -722,14 +722,9 @@ async function recenterOn(nodeId) {
 }
 
 
-function computeEgoPositions(centerId, neighborhood) {
-    const positions = {};
-    positions[String(centerId)] = { x: 0, y: 0 };
-
-    // BFS to find ring assignment
-    const edgeList = neighborhood.edges;
+function computeBfsRingMap(centerId, neighborhood) {
     const adj = {};
-    edgeList.forEach(e => {
+    neighborhood.edges.forEach(e => {
         if (!adj[e.source]) adj[e.source] = [];
         if (!adj[e.target]) adj[e.target] = [];
         adj[e.source].push(e.target);
@@ -750,6 +745,15 @@ function computeEgoPositions(centerId, neighborhood) {
         }
         frontier = next;
     }
+    return ringMap;
+}
+
+
+function computeEgoPositions(centerId, neighborhood) {
+    const positions = {};
+    positions[String(centerId)] = { x: 0, y: 0 };
+
+    const ringMap = computeBfsRingMap(centerId, neighborhood);
 
     // Position ring 1 and ring 2 nodes
     [1, 2].forEach(ring => {
@@ -780,29 +784,7 @@ function buildEgoElements(centerId, neighborhood, positions) {
     const nodeIds = new Set();
     const centerIdStr = String(centerId);
 
-    // BFS ring map
-    const adj = {};
-    neighborhood.edges.forEach(e => {
-        if (!adj[e.source]) adj[e.source] = [];
-        if (!adj[e.target]) adj[e.target] = [];
-        adj[e.source].push(e.target);
-        adj[e.target].push(e.source);
-    });
-
-    const ringMap = { [centerId]: 0 };
-    let frontier = [centerId];
-    for (let depth = 1; depth <= 2; depth++) {
-        const next = [];
-        for (const nid of frontier) {
-            for (const neighbor of (adj[nid] || [])) {
-                if (ringMap[neighbor] === undefined) {
-                    ringMap[neighbor] = depth;
-                    next.push(neighbor);
-                }
-            }
-        }
-        frontier = next;
-    }
+    const ringMap = computeBfsRingMap(centerId, neighborhood);
 
     neighborhood.nodes.forEach(n => {
         const info = branchAssignments[String(n.id)];
