@@ -12,7 +12,6 @@ import re
 import sqlite3
 import time
 import urllib.request
-import urllib.error
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
