@@ -19,7 +19,10 @@
 
     function setProgress(msg, pct) {
         if (loadingStatus) loadingStatus.textContent = msg;
-        if (loadingBarFill) loadingBarFill.style.width = pct + '%';
+        if (loadingBarFill) {
+            loadingBarFill.style.width = pct + '%';
+            loadingBarFill.setAttribute('aria-valuenow', Math.round(pct));
+        }
     }
 
     function dismissLoading() {

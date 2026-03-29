@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <a href="#cy-container" class="skip-link">Skip to graph</a>
+
     <!-- Loading Screen -->
-    <div id="loading-screen">
+    <div id="loading-screen" role="status" aria-live="polite">
         <div class="loading-title">INTEL CONSOLE</div>
         <div class="loading-status" id="loading-status">INITIALIZING...</div>
-        <div class="loading-bar"><div class="loading-bar-fill" id="loading-bar-fill"></div></div>
+        <div class="loading-bar"><div class="loading-bar-fill" id="loading-bar-fill" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></div>
     </div>
 
     <!-- Branch Directory Navigator -->
-    <div id="navigator-overlay" class="nav-overlay"></div>
+    <div id="navigator-overlay" class="nav-overlay" role="dialog" aria-modal="true" aria-label="Branch navigator"></div>
 
     <!-- Header -->
     <header class="header">
@@ -24,7 +26,7 @@
     </header>
 
     <!-- Breadcrumb navigation -->
-    <div class="breadcrumb-bar" id="breadcrumb-bar"></div>
+    <nav class="breadcrumb-bar" id="breadcrumb-bar" aria-label="Breadcrumb navigation"></nav>
 
     <!-- Stats bar -->
     <div class="stats-bar" id="stats-bar"></div>
@@ -42,7 +44,7 @@
     <div class="search-container">
         <div class="search-wrap">
             <span class="search-icon">&#x1F50D;</span>
-            <input type="text" id="search-input" placeholder="Search entities..." autocomplete="off">
+            <input type="text" id="search-input" placeholder="Search entities..." autocomplete="off" aria-label="Search entities">
         </div>
         <div class="search-results" id="search-results"></div>
     </div>
@@ -52,7 +54,7 @@
 
     <!-- Filter bar -->
     <div class="filter-bar" id="filter-bar">
-        <div class="filter-group">
+        <div class="filter-group" role="group" aria-label="Evidence tier filters">
             <span class="filter-label">Evidence</span>
             <label class="tier-toggle" data-tier="documented">
                 <input type="checkbox" checked> <span class="tier-dot tier-documented"></span> Doc
@@ -71,10 +73,16 @@
     </div>
 
     <!-- Cytoscape Container -->
-    <div id="cy-container"></div>
+    <main id="cy-container" role="application" aria-label="Interactive entity relationship graph — click nodes to view details" tabindex="-1">
+        <div class="sr-only" id="graph-description">
+            Interactive entity relationship graph with 825 entities and 1411 relationships across 11 intelligence branches.
+            Use the search bar to find entities by name. Click nodes to view detailed dossiers with sources, relationships, and evidence tiers.
+            Branch navigator available via keyboard shortcut.
+        </div>
+    </main>
 
     <!-- Bottom Toolbar -->
-    <div class="toolbar">
+    <div class="toolbar" role="toolbar" aria-label="Map controls">
         <button id="btn-reset" title="Reset View"><span class="btn-label">Reset</span></button>
         <div class="toolbar-sep"></div>
         <button id="btn-zoom-in" title="Zoom In"><span class="btn-label">+</span></button>
@@ -90,7 +98,7 @@
     </div>
 
     <!-- Dossier panel -->
-    <div class="panel" id="dossier-panel">
+    <div class="panel" id="dossier-panel" role="complementary" aria-label="Entity details" aria-hidden="true">
         <button class="panel-close" id="panel-close">&times;</button>
         <div class="panel-inner" id="panel-inner"></div>
     </div>

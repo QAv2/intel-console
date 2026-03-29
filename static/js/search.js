@@ -11,6 +11,11 @@ const Search = {
         this.input = document.getElementById('search-input');
         this.results = document.getElementById('search-results');
 
+        this.results.setAttribute('aria-live', 'polite');
+        this.results.setAttribute('role', 'listbox');
+        this.input.setAttribute('aria-controls', 'search-results');
+        this.input.setAttribute('aria-expanded', 'false');
+
         this.input.addEventListener('input', () => {
             clearTimeout(this.debounceTimer);
             this.debounceTimer = setTimeout(() => this.doSearch(), 200);
@@ -20,6 +25,7 @@ const Search = {
             if (e.key === 'Escape') {
                 this.input.value = '';
                 this.results.classList.remove('visible');
+                this.input.setAttribute('aria-expanded', 'false');
                 this.input.blur();
             }
         });
@@ -28,6 +34,7 @@ const Search = {
         document.addEventListener('click', (e) => {
             if (!this.input.contains(e.target) && !this.results.contains(e.target)) {
                 this.results.classList.remove('visible');
+                this.input.setAttribute('aria-expanded', 'false');
             }
         });
     },
@@ -36,6 +43,7 @@ const Search = {
         const q = this.input.value.trim();
         if (q.length < 1) {
             this.results.classList.remove('visible');
+            this.input.setAttribute('aria-expanded', 'false');
             return;
         }
 
@@ -44,12 +52,13 @@ const Search = {
             if (entities.length === 0) {
                 this.results.innerHTML = '<div class="search-result-item" style="color:rgba(255,255,255,0.35)">No results</div>';
                 this.results.classList.add('visible');
+                this.input.setAttribute('aria-expanded', 'true');
                 return;
             }
 
             this.results.innerHTML = entities.map(e => {
                 const color = TYPE_COLORS[e.entity_type] || '#888';
-                return `<div class="search-result-item" data-id="${e.id}">
+                return `<div class="search-result-item" data-id="${e.id}" tabindex="0" role="option">
                     <span class="search-result-dot" style="background:${color}"></span>
                     <span>${esc(e.name)}</span>
                     <span class="search-result-type">${e.entity_type.replace('_', ' ')}</span>
@@ -57,6 +66,7 @@ const Search = {
             }).join('');
 
             this.results.classList.add('visible');
+            this.input.setAttribute('aria-expanded', 'true');
 
             this.results.querySelectorAll('.search-result-item[data-id]').forEach(el => {
                 el.addEventListener('click', () => {
@@ -70,7 +80,14 @@ const Search = {
                     }
                     Dossier.show(id);
                     this.results.classList.remove('visible');
+                    this.input.setAttribute('aria-expanded', 'false');
                     this.input.value = '';
+                });
+                el.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        el.click();
+                    }
                 });
             });
         } catch (err) {

@@ -61,7 +61,7 @@ const Navigator = (() => {
             const visible = s.ring1.slice(0, maxFigs);
             const overflow = Math.max(0, s.ring1.length - maxFigs);
 
-            html += `<div class="nav-card" data-branch="${key}" style="--bc:${branch.color}">
+            html += `<div class="nav-card" data-branch="${key}" style="--bc:${branch.color}" tabindex="0" role="button">
                 <div class="nav-card-accent" style="background:${branch.color}"></div>
                 <div class="nav-card-body">
                     <div class="nav-card-top">
@@ -116,6 +116,12 @@ const Navigator = (() => {
                 close();
                 setTimeout(() => toggleBranchFocus(bk), 350);
             });
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    card.click();
+                }
+            });
         });
 
         // Wire figure clicks → entity ego mode
@@ -142,6 +148,10 @@ const Navigator = (() => {
         _isOpen = true;
         const btn = document.getElementById('btn-index');
         if (btn) btn.classList.add('active');
+        setTimeout(() => {
+            const firstCard = overlay.querySelector('.nav-card');
+            if (firstCard) firstCard.focus();
+        }, 100);
     }
 
     function close() {
@@ -150,6 +160,7 @@ const Navigator = (() => {
         _isOpen = false;
         const btn = document.getElementById('btn-index');
         if (btn) btn.classList.remove('active');
+        document.getElementById('cy-container').focus();
     }
 
     function toggle() {

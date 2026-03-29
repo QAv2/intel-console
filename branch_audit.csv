@@ -1,0 +1,826 @@
+entity_id,name,type,branch,ring,degree,source
+1,Jeffrey Epstein,person,exploitation,1,90,base_override
+2,Ghislaine Maxwell,person,exploitation,1,28,old_branch:inner_circle
+3,Robert Maxwell,person,intelligence,1,17,old_branch:intelligence
+4,Les Wexner,person,financial,1,14,old_branch:financial
+5,Ehud Barak,person,power,1,8,old_branch:political
+6,Peter Thiel,person,financial,2,3,old_branch:financial
+7,Alex Karp,person,financial,3,1,old_branch:financial
+8,William Barr,person,power,2,6,old_branch:political
+9,Donald Barr,person,intelligence,3,2,old_branch:intelligence
+10,William Casey,person,intelligence,1,6,old_branch:intelligence
+11,Roy Cohn,person,hidden_history,1,7,old_branch:organized_crime
+12,Robert Keith Gray,person,intelligence,2,3,old_branch:intelligence
+13,Craig Spence,person,exploitation,3,1,base_override
+14,Edwin Wilson,person,intelligence,3,2,old_branch:intelligence
+15,Frank Terpil,person,intelligence,3,1,old_branch:intelligence
+16,J. Edgar Hoover,person,intelligence,1,6,old_branch:intelligence
+17,James Angleton,person,intelligence,2,3,old_branch:intelligence
+18,Meyer Lansky,person,hidden_history,1,10,old_branch:organized_crime
+19,Kamal Adham,person,intelligence,2,4,old_branch:intelligence
+20,Agha Hasan Abedi,person,intelligence,3,2,old_branch:intelligence
+21,Clark Clifford,person,power,3,1,old_branch:legal
+22,Marc Rich,person,power,2,3,old_branch:legal
+23,Jackson Stephens,person,power,3,2,old_branch:legal
+24,Barry Seal,person,intelligence,2,4,old_branch:intelligence
+25,Bill Hamilton,person,intelligence,3,1,old_branch:intelligence
+26,Danny Casolaro,person,intelligence,3,2,old_branch:intelligence
+27,Adnan Khashoggi,person,intelligence,1,6,old_branch:intelligence
+28,Richard Helms,person,intelligence,2,4,old_branch:intelligence
+29,John Poindexter,person,power,3,1,old_branch:political
+30,Leon Black,person,financial,2,3,old_branch:financial
+31,Hillary Clinton,person,power,3,1,old_branch:political
+32,Bill Clinton,person,power,1,24,old_branch:political
+33,Donald Trump,person,power,1,40,old_branch:political
+34,Fat Tony Salerno,person,hidden_history,1,5,old_branch:organized_crime
+35,Paul Castellano,person,hidden_history,1,5,old_branch:organized_crime
+36,Felix Sater,person,hidden_history,2,4,old_branch:organized_crime
+37,Alexander Acosta,person,power,2,4,base_override
+38,Alan Dershowitz,person,exploitation,1,5,base_override
+39,John Gotti,person,hidden_history,1,6,old_branch:organized_crime
+40,Angelo Bruno,person,hidden_history,1,5,old_branch:organized_crime
+41,Nicky Scarfo,person,hidden_history,1,5,old_branch:organized_crime
+42,John Stanfa,person,hidden_history,1,6,old_branch:organized_crime
+43,Joey Merlino,person,hidden_history,3,2,old_branch:organized_crime
+44,John-John Veasey,person,hidden_history,2,3,old_branch:organized_crime
+45,Lucky Luciano,person,hidden_history,2,3,old_branch:organized_crime
+46,Bugsy Siegel,person,hidden_history,2,3,old_branch:organized_crime
+47,Sammy Gravano,person,hidden_history,2,3,old_branch:organized_crime
+48,Frankie Carbo,person,hidden_history,2,4,old_branch:organized_crime
+49,Blinky Palermo,person,hidden_history,3,2,old_branch:organized_crime
+50,Kenneth Shapiro,person,hidden_history,3,2,old_branch:organized_crime
+51,Salvatore Testa,person,hidden_history,2,3,old_branch:organized_crime
+52,Robert LiButti,person,hidden_history,3,2,old_branch:organized_crime
+53,Rafi Eitan,person,intelligence,1,8,old_branch:intelligence
+54,BCCI,organization,financial,1,18,base_override
+55,First American Bank,organization,financial,3,2,base_override
+56,JPMorgan Chase,organization,financial,1,8,old_branch:financial
+57,Deutsche Bank,organization,financial,1,16,old_branch:financial
+58,Bear Stearns,organization,financial,3,2,old_branch:financial
+59,Palantir Technologies,organization,intelligence,2,6,old_branch:intelligence
+60,In-Q-Tel,organization,intelligence,2,3,old_branch:intelligence
+61,Hill & Knowlton,organization,narrative,3,1,base_override
+62,Rose Law Firm,organization,power,2,3,old_branch:legal
+63,Systematics,organization,intelligence,2,4,old_branch:intelligence
+64,Southern Air Transport,organization,intelligence,2,6,old_branch:intelligence
+65,The Limited,organization,financial,3,2,old_branch:financial
+66,Mega Group,organization,financial,1,9,old_branch:financial
+67,Carbyne,organization,exploitation,2,4,old_branch:inner_circle
+68,Wexner Foundation,foundation,financial,3,2,old_branch:financial
+69,Apollo Global Management,organization,financial,3,1,old_branch:financial
+70,CAPCOM,organization,financial,3,1,base_override
+71,Glencore,organization,resource,3,1,base_override
+72,George Town Club,facility,elite_social,3,1,base_override
+73,Bayrock Group,organization,financial,2,3,base_override
+74,Resorts International,organization,hidden_history,2,3,base_override
+75,Mar-a-Lago,facility,elite_social,2,3,base_override
+76,Little Saint James,facility,exploitation,1,8,old_branch:inner_circle
+77,The Commission,organization,hidden_history,1,8,old_branch:organized_crime
+78,Gambino Crime Family,organization,hidden_history,2,5,old_branch:organized_crime
+79,Genovese Crime Family,organization,hidden_history,2,3,old_branch:organized_crime
+80,Lucchese Crime Family,organization,hidden_history,3,2,old_branch:organized_crime
+81,Philadelphia Crime Family,organization,hidden_history,1,7,old_branch:organized_crime
+82,Murder Incorporated,organization,hidden_history,2,4,old_branch:organized_crime
+83,Scarf Inc,organization,hidden_history,3,2,old_branch:organized_crime
+84,S&A Concrete,organization,hidden_history,2,3,old_branch:organized_crime
+85,CIA,agency,intelligence,1,98,old_branch:intelligence
+86,NSA,agency,intelligence,1,28,old_branch:intelligence
+87,FBI,agency,intelligence,1,26,old_branch:intelligence
+88,Mossad,agency,intelligence,1,25,old_branch:intelligence
+89,DOJ,agency,power,1,16,old_branch:legal
+90,DARPA,agency,intelligence,1,7,old_branch:intelligence
+91,PROMIS,program,intelligence,1,11,old_branch:intelligence
+92,Main Core,program,intelligence,3,2,old_branch:intelligence
+93,Total Information Awareness,program,intelligence,2,4,old_branch:intelligence
+94,MKULTRA,program,intelligence,1,8,old_branch:intelligence
+95,COINTELPRO,program,intelligence,3,2,old_branch:intelligence
+96,Iran-Contra,program,intelligence,1,19,old_branch:intelligence
+97,Operation Midnight Climax,program,intelligence,3,2,old_branch:intelligence
+98,LifeLog,program,intelligence,3,2,old_branch:intelligence
+99,BCCI Shutdown (1991),event,financial,3,2,base_override
+100,Epstein NPA (2007),event,exploitation,1,8,base_override
+101,Epstein Arrest (2019),event,exploitation,3,1,base_override
+102,Epstein Death (2019),event,exploitation,2,4,base_override
+103,Danny Casolaro Death (1991),event,intelligence,3,2,old_branch:intelligence
+104,Robert Maxwell Death (1991),event,intelligence,3,1,old_branch:intelligence
+105,Wexner House Oversight Deposition (2026),event,exploitation,3,1,base_override
+106,Commission Trial (1986),event,hidden_history,2,3,old_branch:organized_crime
+107,Castellano Assassination (1985),event,hidden_history,3,2,old_branch:organized_crime
+108,Prince Andrew,person,power,1,16,old_branch:political
+109,Bill Richardson,person,power,2,5,old_branch:political
+110,George Mitchell,person,power,3,2,old_branch:political
+111,Henry Kissinger,person,power,1,16,old_branch:political
+112,Larry Summers,person,power,2,5,old_branch:political
+113,Rudy Giuliani,person,power,2,5,old_branch:political
+114,Sandy Berger,person,power,2,4,old_branch:political
+115,Kissinger Associates,organization,power,2,3,old_branch:political
+116,Hollinger International,organization,elite_social,2,2,old_branch:hollywood
+117,Prince Andrew Civil Settlement (2022),event,power,3,2,old_branch:political
+118,Berger Archives Theft (2003),event,power,3,1,old_branch:political
+119,Charles Bronfman,person,financial,1,7,old_branch:financial
+120,Edgar Bronfman Sr.,person,financial,2,4,old_branch:financial
+121,Ronald Lauder,person,financial,2,5,old_branch:financial
+122,Michael Steinhardt,person,financial,2,5,old_branch:financial
+123,Glenn Dubin,person,financial,2,4,old_branch:financial
+124,Jes Staley,person,financial,2,6,old_branch:financial
+125,Steven Hoffenberg,person,financial,3,2,old_branch:financial
+126,Lynn Forester de Rothschild,person,financial,2,6,old_branch:financial
+127,Mort Zuckerman,person,financial,2,4,old_branch:financial
+128,Steve Bing,person,financial,2,5,old_branch:financial
+129,Tom Barrack,person,financial,2,6,old_branch:financial
+130,Towers Financial,organization,financial,2,3,old_branch:financial
+131,Seagram,organization,financial,2,3,old_branch:financial
+132,Birthright Israel,organization,financial,3,2,old_branch:financial
+133,Colony Capital,organization,financial,3,2,old_branch:financial
+134,Harvey Weinstein,person,elite_social,1,10,old_branch:hollywood
+135,Jean-Luc Brunel,person,elite_social,1,12,old_branch:hollywood
+136,Kevin Spacey,person,elite_social,2,2,old_branch:hollywood
+137,Woody Allen,person,elite_social,2,3,old_branch:hollywood
+138,Naomi Campbell,person,elite_social,3,2,old_branch:hollywood
+139,Ari Emanuel,person,elite_social,3,1,old_branch:hollywood
+140,Les Moonves,person,elite_social,2,3,old_branch:hollywood
+141,Peggy Siegal,person,elite_social,2,6,old_branch:hollywood
+142,MC2 Model Management,organization,elite_social,1,7,old_branch:hollywood
+143,Black Cube,organization,elite_social,2,5,old_branch:hollywood
+144,Victoria's Secret,organization,elite_social,3,2,old_branch:hollywood
+145,Jean-Luc Brunel Death (2022),event,exploitation,2,3,old_branch:inner_circle
+146,Virginia Giuffre,person,exploitation,1,12,old_branch:inner_circle
+147,Maria Farmer,person,exploitation,2,4,old_branch:inner_circle
+148,Courtney Wild,person,exploitation,2,3,old_branch:inner_circle
+149,Sarah Kellen,person,exploitation,1,5,old_branch:inner_circle
+150,Nadia Marcinkova,person,exploitation,2,4,old_branch:inner_circle
+151,Lesley Groff,person,exploitation,2,5,old_branch:inner_circle
+152,Nicole Junkermann,person,exploitation,2,4,old_branch:inner_circle
+153,Eva Andersson-Dubin,person,exploitation,2,3,old_branch:inner_circle
+154,Celina Midelfart,person,exploitation,2,3,old_branch:inner_circle
+155,Dalton School,organization,exploitation,3,2,old_branch:inner_circle
+156,Zorro Ranch,facility,exploitation,2,5,old_branch:inner_circle
+157,9 East 71st Street,facility,exploitation,2,4,old_branch:inner_circle
+158,MCC New York,facility,exploitation,3,2,old_branch:inner_circle
+159,Epstein Palm Beach Investigation (2005),event,exploitation,3,2,old_branch:inner_circle
+160,Maxwell Trial (2021),event,exploitation,2,4,expansion:expansion_inner_circle
+161,Osama bin Laden,person,intelligence,3,1,expansion:expansion_911
+162,Khalid Sheikh Mohammed,person,intelligence,3,1,expansion:expansion_911
+163,Mohamed Atta,person,intelligence,3,2,expansion:expansion_911
+164,Nawaf al-Hazmi,person,intelligence,3,1,expansion:expansion_911
+165,Khalid al-Mihdhar,person,intelligence,3,1,expansion:expansion_911
+166,George Tenet,person,intelligence,3,1,expansion:expansion_911
+167,Richard Clarke,person,intelligence,3,1,expansion:expansion_911
+168,Condoleezza Rice,person,intelligence,3,2,expansion:expansion_911
+169,Philip Zelikow,person,intelligence,3,2,expansion:expansion_911
+170,9/11 Commission,organization,intelligence,3,2,expansion:expansion_911
+171,Sibel Edmonds,person,intelligence,3,2,expansion:expansion_911
+172,Bob Graham,person,intelligence,3,1,expansion:expansion_911
+173,PNAC,organization,intelligence,3,0,expansion:expansion_911
+174,Al-Qaeda,organization,intelligence,3,2,expansion:expansion_911
+175,Operation Able Danger,program,intelligence,3,1,expansion:expansion_911
+176,Stellar Wind,program,intelligence,3,2,expansion:expansion_911
+177,USA PATRIOT Act,legislation,intelligence,3,1,expansion:expansion_911
+178,Authorization for Use of Military Force (2001),legislation,intelligence,3,0,expansion:expansion_911
+179,World Trade Center,facility,intelligence,3,0,expansion:expansion_911
+180,The Pentagon,facility,intelligence,3,2,expansion:expansion_911
+181,September 11 Attacks,event,intelligence,1,9,expansion:expansion_911
+182,WTC Building 7 Collapse,event,intelligence,3,1,expansion:expansion_911
+183,Shirō Ishii,person,health,2,2,expansion:expansion_bioweapons
+184,Frank Olson,person,health,1,3,expansion:expansion_bioweapons
+185,Ken Alibek,person,health,3,1,expansion:expansion_bioweapons
+186,William Patrick III,person,health,1,3,expansion:expansion_bioweapons
+187,Bruce Ivins,person,health,2,2,expansion:expansion_bioweapons
+188,USAMRIID,agency,health,1,9,expansion:expansion_bioweapons
+189,DTRA,agency,health,3,1,expansion:expansion_bioweapons
+190,Biopreparat,organization,health,1,3,expansion:expansion_bioweapons
+191,Dugway Proving Ground,facility,health,2,2,expansion:expansion_bioweapons
+192,Gruinard Island,facility,health,3,1,expansion:expansion_bioweapons
+193,Unit 731,program,health,2,2,expansion:expansion_bioweapons
+194,Project MKNaomi,program,health,2,3,expansion:expansion_bioweapons
+195,Amerithrax Investigation,event,health,2,3,expansion:expansion_bioweapons
+196,Sverdlovsk Anthrax Leak,event,health,3,1,expansion:expansion_bioweapons
+197,Unit 731 Immunity Deal,event,health,2,2,expansion:expansion_bioweapons
+198,Fort Detrick Lab Shutdown,event,health,3,1,expansion:expansion_bioweapons
+199,Biological Weapons Convention,legislation,health,2,2,expansion:expansion_bioweapons
+200,Ronald Reagan,person,power,1,7,expansion:expansion_bohemian_grove
+201,George H.W. Bush,person,power,1,7,expansion:expansion_bohemian_grove
+202,George W. Bush,person,power,1,9,expansion:expansion_bohemian_grove
+203,Dick Cheney,person,power,2,3,expansion:expansion_bohemian_grove
+204,Donald Rumsfeld,person,power,2,3,expansion:expansion_bohemian_grove
+205,Colin Powell,person,power,3,2,expansion:expansion_bohemian_grove
+206,Caspar Weinberger,person,power,2,4,expansion:expansion_bohemian_grove
+207,George Shultz,person,power,2,3,expansion:expansion_bohemian_grove
+208,Edwin Meese,person,power,2,3,expansion:expansion_bohemian_grove
+209,Alan Greenspan,person,power,2,5,expansion:expansion_bohemian_grove
+210,Edwin Fuelner,person,power,3,2,expansion:expansion_bohemian_grove
+211,Joseph Coors Sr,person,power,3,2,expansion:expansion_bohemian_grove
+212,Charles Koch,person,power,3,2,expansion:expansion_bohemian_grove
+213,Harlan Crow,person,power,3,2,expansion:expansion_bohemian_grove
+214,Clarence Thomas,person,power,3,2,expansion:expansion_bohemian_grove
+215,David McCormick,person,power,2,5,expansion:expansion_bohemian_grove
+216,Steven Bechtel Sr,person,power,2,3,expansion:expansion_bohemian_grove
+217,Brendan Bechtel,person,power,2,4,expansion:expansion_bohemian_grove
+218,Michael Bloomberg,person,power,3,2,expansion:expansion_bohemian_grove
+219,Bohemian Club,organization,power,1,26,expansion:expansion_bohemian_grove
+220,Heritage Foundation,organization,power,2,6,expansion:expansion_bohemian_grove
+221,Bechtel Corporation,organization,power,2,6,expansion:expansion_bohemian_grove
+222,Project 2025,event,power,3,2,expansion:expansion_bohemian_grove
+223,Social Security Reform 1983,event,power,3,3,expansion:expansion_bohemian_grove
+224,Johnny Chung,person,power,2,4,expansion:expansion_china
+225,John Huang,person,power,2,4,expansion:expansion_china
+226,Charlie Trie,person,power,3,3,expansion:expansion_china
+227,Bernard Schwartz,person,power,3,3,expansion:expansion_china
+228,Liu Chaoying,person,power,3,3,expansion:expansion_china
+229,Wang Jun,person,power,2,4,expansion:expansion_china
+230,Desmond Shum,person,power,2,5,expansion:expansion_china
+231,MSS,agency,power,1,8,expansion:expansion_china
+232,CITIC Group,organization,power,2,5,expansion:expansion_china
+233,Lippo Group,organization,power,2,4,expansion:expansion_china
+234,Cox Report (1999),event,power,2,4,expansion:expansion_china
+235,Ingo Swann,person,consciousness,1,4,expansion:expansion_consciousness
+236,Hal Puthoff,person,consciousness,1,4,expansion:expansion_consciousness
+237,Russell Targ,person,consciousness,3,1,expansion:expansion_consciousness
+238,Pat Price,person,consciousness,3,1,expansion:expansion_consciousness
+239,Joseph McMoneagle,person,consciousness,2,2,expansion:expansion_consciousness
+240,Edwin May,person,consciousness,2,2,expansion:expansion_consciousness
+241,Dale Graff,person,consciousness,3,1,expansion:expansion_consciousness
+242,Albert Stubblebine,person,consciousness,2,3,expansion:expansion_consciousness
+243,Jim Channon,person,consciousness,3,1,expansion:expansion_consciousness
+244,Robert Monroe,person,consciousness,3,1,expansion:expansion_consciousness
+245,SRI International,organization,consciousness,1,9,expansion:expansion_consciousness
+246,Monroe Institute,organization,consciousness,2,2,expansion:expansion_consciousness
+247,DIA,agency,consciousness,1,7,expansion:expansion_consciousness
+248,Project Stargate,program,consciousness,1,17,expansion:expansion_consciousness
+249,Gateway Process,program,consciousness,2,2,expansion:expansion_consciousness
+250,First Earth Battalion,program,consciousness,2,2,expansion:expansion_consciousness
+251,Gateway Process Report,event,consciousness,3,1,expansion:expansion_consciousness
+252,Stargate Declassification,event,consciousness,2,3,expansion:expansion_consciousness
+253,Dean Radin,person,consciousness,2,3,expansion:expansion_consciousness_deep
+254,Jessica Utts,person,consciousness,2,2,expansion:expansion_consciousness_deep
+255,Jim Marrs,person,consciousness,3,1,expansion:expansion_consciousness_deep
+256,Paul Smith,person,consciousness,2,3,expansion:expansion_consciousness_deep
+257,Lyn Buchanan,person,consciousness,3,1,expansion:expansion_consciousness_deep
+258,David Morehouse,person,consciousness,3,1,expansion:expansion_consciousness_deep
+259,Angela Dellafiora Ford,person,consciousness,2,2,expansion:expansion_consciousness_deep
+260,Ed Dames,person,consciousness,2,2,expansion:expansion_consciousness_deep
+261,Andrija Puharich,person,consciousness,2,2,expansion:expansion_consciousness_deep
+262,Jacques Vallée,person,consciousness,1,5,expansion:expansion_consciousness_deep
+263,Edgar Mitchell,person,consciousness,3,1,expansion:expansion_consciousness_deep
+264,IONS,organization,consciousness,2,2,expansion:expansion_consciousness_deep
+265,SAIC,organization,consciousness,2,3,expansion:expansion_consciousness_deep
+266,PSI Tech,organization,consciousness,2,3,expansion:expansion_consciousness_deep
+267,Farsight Institute,organization,consciousness,3,1,expansion:expansion_consciousness_deep
+268,Project Scanate,program,consciousness,3,2,expansion:expansion_consciousness_deep
+269,Project Grill Flame,program,consciousness,2,4,expansion:expansion_consciousness_deep
+270,Project Center Lane,program,consciousness,2,4,expansion:expansion_consciousness_deep
+271,Project Sun Streak,program,consciousness,3,2,expansion:expansion_consciousness_deep
+272,Brien Foerster,person,cosmology,2,1,expansion:expansion_cosmology_deep
+273,Christopher Dunn,person,cosmology,2,1,expansion:expansion_cosmology_deep
+274,Edgar Cayce,person,cosmology,3,1,expansion:expansion_cosmology_deep
+275,Zecharia Sitchin,person,cosmology,3,1,expansion:expansion_cosmology_deep
+276,Michael Tellinger,person,cosmology,3,1,expansion:expansion_cosmology_deep
+277,Walter Cruttenden,person,cosmology,3,1,expansion:expansion_cosmology_deep
+278,Flinders Petrie,person,cosmology,3,1,expansion:expansion_cosmology_deep
+279,Yonaguni Monument,facility,cosmology,3,0,expansion:expansion_cosmology_deep
+280,Derinkuyu,facility,cosmology,3,0,expansion:expansion_cosmology_deep
+281,Sacsayhuamán,facility,cosmology,3,1,expansion:expansion_cosmology_deep
+282,Nan Madol,facility,cosmology,3,0,expansion:expansion_cosmology_deep
+283,Carnac Stones,facility,cosmology,3,0,expansion:expansion_cosmology_deep
+284,Teotihuacan,facility,cosmology,3,0,expansion:expansion_cosmology_deep
+285,Association for Research and Enlightenment,organization,cosmology,3,1,expansion:expansion_cosmology_deep
+286,Binary Research Institute,organization,cosmology,3,1,expansion:expansion_cosmology_deep
+287,Gobekli Tepe,facility,cosmology,1,4,expansion:expansion_cosmology_origins
+288,Puma Punku,facility,cosmology,2,2,expansion:expansion_cosmology_origins
+289,Great Sphinx,facility,cosmology,1,4,expansion:expansion_cosmology_origins
+290,Younger Dryas Impact Hypothesis,event,cosmology,1,4,expansion:expansion_cosmology_origins
+291,Gunung Padang,facility,cosmology,2,2,expansion:expansion_cosmology_origins
+292,Baalbek,facility,cosmology,3,1,expansion:expansion_cosmology_origins
+293,Graham Hancock,person,cosmology,1,7,expansion:expansion_cosmology_origins
+294,Randall Carlson,person,cosmology,2,2,expansion:expansion_cosmology_origins
+295,Robert Schoch,person,cosmology,2,3,expansion:expansion_cosmology_origins
+296,John Anthony West,person,cosmology,2,2,expansion:expansion_cosmology_origins
+297,Klaus Schmidt,person,cosmology,3,1,expansion:expansion_cosmology_origins
+298,Danny Hilman Natawidjaja,person,cosmology,3,1,expansion:expansion_cosmology_origins
+299,Robert Bauval,person,cosmology,2,2,expansion:expansion_cosmology_origins
+300,Michael Cremo,person,cosmology,2,2,expansion:expansion_cosmology_origins
+301,Smithsonian Institution,organization,cosmology,2,3,expansion:expansion_cosmology_origins
+302,Geological Society of America,organization,cosmology,2,2,expansion:expansion_cosmology_origins
+303,Freeway Rick Ross,person,resource,2,2,expansion:expansion_drug_trafficking
+304,Michael Levine,person,resource,2,2,expansion:expansion_drug_trafficking
+305,Cele Castillo,person,resource,2,3,expansion:expansion_drug_trafficking
+306,Bo Gritz,person,resource,3,1,expansion:expansion_drug_trafficking
+307,Khun Sa,person,resource,2,3,expansion:expansion_drug_trafficking
+308,Air America,organization,intelligence,2,4,entity_override
+309,Nugan Hand Bank,organization,intelligence,2,5,entity_override
+310,Cali Cartel,organization,resource,3,1,expansion:expansion_drug_trafficking
+311,Los Zetas,organization,resource,2,2,expansion:expansion_drug_trafficking
+312,DEA,agency,power,2,6,entity_override
+313,Dark Alliance,publication,resource,3,1,expansion:expansion_drug_trafficking
+314,Operation Fast and Furious,program,resource,2,3,expansion:expansion_drug_trafficking
+315,Golden Triangle Drug Trade,program,resource,1,5,expansion:expansion_drug_trafficking
+316,Mena Airport Operations,event,resource,2,3,expansion:expansion_drug_trafficking
+317,Mena Airport,facility,resource,2,2,expansion:expansion_drug_trafficking
+318,Oscar Danilo Blandon,person,resource,1,4,expansion:expansion_drug_trafficking
+319,Norwin Meneses,person,resource,2,2,expansion:expansion_drug_trafficking
+320,ATF,agency,power,3,1,entity_override
+321,Enrique Camarena,person,resource,2,2,expansion:expansion_drug_trafficking
+322,John D. Rockefeller,person,power,3,2,expansion:expansion_dynasties
+323,J.P. Morgan,person,power,2,6,expansion:expansion_dynasties
+324,Andrew Carnegie,person,power,3,0,expansion:expansion_dynasties
+325,Averell Harriman,person,power,3,2,expansion:expansion_dynasties
+326,Prescott Bush,person,power,3,3,expansion:expansion_dynasties
+327,Paul Warburg,person,power,3,2,expansion:expansion_dynasties
+328,Smedley Butler,person,power,3,1,expansion:expansion_dynasties
+329,Standard Oil,organization,financial,2,3,entity_override
+330,Brown Brothers Harriman,organization,financial,3,2,entity_override
+331,Federal Reserve System,organization,financial,1,10,entity_override
+332,Skull and Bones,organization,hidden_history,2,5,entity_override
+333,DuPont Family,organization,financial,3,1,entity_override
+334,Jekyll Island Meeting,event,power,3,2,expansion:expansion_dynasties
+335,Business Plot,event,power,3,2,expansion:expansion_dynasties
+336,Pujo Committee,event,power,3,1,expansion:expansion_dynasties
+337,Alexander Nix,person,narrative,2,3,expansion:expansion_election_interference
+338,Christopher Wylie,person,narrative,2,2,expansion:expansion_election_interference
+339,Clint Curtis,person,narrative,2,2,expansion:expansion_election_interference
+340,Bev Harris,person,narrative,2,2,expansion:expansion_election_interference
+341,Robert Mercer,person,narrative,1,5,expansion:expansion_election_interference
+342,John Bolton,person,narrative,2,3,expansion:expansion_election_interference
+343,Cambridge Analytica,organization,narrative,1,8,expansion:expansion_election_interference
+344,SCL Group,organization,narrative,1,4,expansion:expansion_election_interference
+345,Dominion Voting Systems,organization,narrative,2,4,expansion:expansion_election_interference
+346,ES&S,organization,narrative,1,7,expansion:expansion_election_interference
+347,Internet Research Agency,organization,intelligence,3,1,entity_override
+348,Black Box Voting,organization,narrative,2,4,expansion:expansion_election_interference
+349,Brooks Brothers Riot (2000),event,narrative,2,2,expansion:expansion_election_interference
+350,Bush v. Gore (2000),event,narrative,2,3,expansion:expansion_election_interference
+351,Citizens United v. FEC (2010),event,narrative,2,3,expansion:expansion_election_interference
+352,2016 Russian Interference,event,narrative,1,7,expansion:expansion_election_interference
+353,Halderman Report (2021),event,narrative,2,2,expansion:expansion_election_interference
+354,Help America Vote Act,legislation,narrative,1,5,expansion:expansion_election_interference
+355,Project Alamo,program,narrative,2,4,expansion:expansion_election_interference
+356,Nikola Tesla,person,resource,1,8,expansion:expansion_energy_suppression
+357,Thomas Townsend Brown,person,resource,1,4,expansion:expansion_energy_suppression
+358,Stanley Meyer,person,resource,2,2,expansion:expansion_energy_suppression
+359,Martin Fleischmann,person,resource,2,2,expansion:expansion_energy_suppression
+360,Stanley Pons,person,resource,2,2,expansion:expansion_energy_suppression
+361,Eugene Mallove,person,resource,2,2,expansion:expansion_energy_suppression
+362,Thomas Valone,person,resource,2,3,expansion:expansion_energy_suppression
+363,John Hutchison,person,resource,3,2,expansion:expansion_energy_suppression
+364,General Electric,organization,resource,2,4,expansion:expansion_energy_suppression
+365,Westinghouse,organization,resource,3,2,expansion:expansion_energy_suppression
+366,American Medical Association,organization,resource,3,0,expansion:expansion_energy_suppression
+367,Federation of American Scientists,organization,resource,3,2,expansion:expansion_energy_suppression
+368,DOE,agency,resource,1,5,expansion:expansion_energy_suppression
+369,Invention Secrecy Act of 1951,legislation,resource,2,4,expansion:expansion_energy_suppression
+370,Patent Secrecy Orders,program,resource,1,5,expansion:expansion_energy_suppression
+371,Electrogravitics Research Program,program,resource,3,2,expansion:expansion_energy_suppression
+372,Pons-Fleischmann Cold Fusion Announcement,event,resource,1,5,expansion:expansion_energy_suppression
+373,Stan Meyer Water Fuel Cell,event,resource,3,2,expansion:expansion_energy_suppression
+374,Wardenclyffe Tower,facility,resource,2,3,expansion:expansion_energy_suppression
+375,Operation Northwoods,program,intelligence,2,3,expansion:expansion_false_flags
+376,Gulf of Tonkin Incident,event,intelligence,2,3,expansion:expansion_false_flags
+377,Gulf of Tonkin Resolution,legislation,intelligence,3,1,expansion:expansion_false_flags
+378,Operation Gladio,program,intelligence,2,5,expansion:expansion_false_flags
+379,USS Liberty Attack,event,intelligence,3,2,expansion:expansion_false_flags
+380,Operation Ajax,program,intelligence,2,4,expansion:expansion_false_flags
+381,Operation PBSuccess,program,intelligence,2,4,expansion:expansion_false_flags
+382,Operation Paperclip,program,hidden_history,3,2,entity_override
+383,Lyman Lemnitzer,person,intelligence,2,3,expansion:expansion_false_flags
+384,Mohammad Mossadegh,person,intelligence,3,1,expansion:expansion_false_flags
+385,Jacobo Árbenz,person,intelligence,3,1,expansion:expansion_false_flags
+386,Daniele Ganser,person,intelligence,3,1,expansion:expansion_false_flags
+387,Fred Hampton,person,intelligence,3,2,expansion:expansion_false_flags
+388,NATO,organization,power,3,2,entity_override
+389,Joint Chiefs of Staff,organization,power,3,1,entity_override
+390,Strategy of Tension,program,intelligence,3,1,expansion:expansion_false_flags
+391,United Fruit Company,organization,financial,3,1,entity_override
+392,Wernher von Braun,person,hidden_history,3,1,entity_override
+393,Admiral Thomas Moorer,person,intelligence,3,1,expansion:expansion_false_flags
+394,Bank for International Settlements,organization,financial,3,2,expansion:expansion_financial_deep
+395,BlackRock,organization,financial,2,4,expansion:expansion_financial_deep
+396,Vanguard,organization,financial,3,2,expansion:expansion_financial_deep
+397,State Street Corporation,organization,financial,3,2,expansion:expansion_financial_deep
+398,International Monetary Fund,organization,financial,2,4,expansion:expansion_financial_deep
+399,World Bank,organization,financial,1,9,expansion:expansion_financial_deep
+400,SWIFT,organization,financial,3,2,expansion:expansion_financial_deep
+401,Goldman Sachs,organization,financial,1,7,expansion:expansion_financial_deep
+402,Citigroup,organization,financial,3,2,expansion:expansion_financial_deep
+403,Plunge Protection Team,organization,financial,3,2,expansion:expansion_financial_deep
+404,Exchange Stabilization Fund,organization,financial,3,1,expansion:expansion_financial_deep
+405,Larry Fink,person,financial,3,1,expansion:expansion_financial_deep
+406,Timothy Geithner,person,financial,2,3,expansion:expansion_financial_deep
+407,Hank Paulson,person,financial,3,2,expansion:expansion_financial_deep
+408,Robert Rubin,person,financial,2,4,expansion:expansion_financial_deep
+409,Ben Bernanke,person,financial,3,2,expansion:expansion_financial_deep
+410,Glass-Steagall Repeal,event,financial,2,4,expansion:expansion_financial_deep
+411,2008 Financial Crisis,event,financial,1,9,expansion:expansion_financial_deep
+412,LIBOR Scandal,event,financial,2,3,expansion:expansion_financial_deep
+413,Petrodollar System,event,financial,3,2,expansion:expansion_financial_deep
+414,Hugh Grant,person,health,3,0,expansion:expansion_food_supply
+415,Robert Fraley,person,health,3,0,expansion:expansion_food_supply
+416,Percy Schmeiser,person,health,3,0,expansion:expansion_food_supply
+417,Tyrone Hayes,person,health,2,2,expansion:expansion_food_supply
+418,Cargill,organization,health,2,2,expansion:expansion_food_supply
+419,ADM,organization,health,2,2,expansion:expansion_food_supply
+420,Syngenta,organization,health,2,3,expansion:expansion_food_supply
+421,Bayer,organization,health,3,0,expansion:expansion_food_supply
+422,USDA,agency,health,2,3,expansion:expansion_food_supply
+423,Codex Alimentarius Commission,organization,health,3,1,expansion:expansion_food_supply
+424,Indian Farmer Suicides,event,health,3,0,expansion:expansion_food_supply
+425,Terminator Seeds,event,health,3,1,expansion:expansion_food_supply
+426,ADM Price-Fixing Scandal,event,health,3,1,expansion:expansion_food_supply
+427,Monsanto Papers,event,health,3,1,expansion:expansion_food_supply
+428,Roundup Cancer Litigation,event,health,3,1,expansion:expansion_food_supply
+429,Monsanto Protection Act,legislation,health,3,0,expansion:expansion_food_supply
+430,DARK Act,legislation,health,3,0,expansion:expansion_food_supply
+431,Plant Variety Protection Act,legislation,health,3,1,expansion:expansion_food_supply
+432,Gérald Marie,person,exploitation,2,4,expansion:expansion_france
+433,John Casablancas,person,exploitation,2,3,expansion:expansion_france
+434,Eileen Ford,person,exploitation,2,4,expansion:expansion_france
+435,Claude Haddad,person,exploitation,3,3,expansion:expansion_france
+436,Jack Lang,person,exploitation,3,2,expansion:expansion_france
+437,Elite Model Management,organization,exploitation,2,4,expansion:expansion_france
+438,Karin Models,organization,exploitation,2,5,expansion:expansion_france
+439,DGSE,agency,exploitation,3,1,expansion:expansion_france
+440,22 Avenue Foch,facility,exploitation,1,8,expansion:expansion_france
+441,French Epstein Investigation,event,exploitation,1,8,expansion:expansion_france
+442,Albert Pike,person,hidden_history,2,3,expansion:expansion_freemasonry
+443,Manly P. Hall,person,hidden_history,3,1,expansion:expansion_freemasonry
+444,Licio Gelli,person,hidden_history,2,3,expansion:expansion_freemasonry
+445,Roberto Calvi,person,hidden_history,2,4,expansion:expansion_freemasonry
+446,P.D. Houston,person,hidden_history,3,1,expansion:expansion_freemasonry
+447,Albert Mackey,person,hidden_history,3,2,expansion:expansion_freemasonry
+448,William Donovan,person,hidden_history,3,1,expansion:expansion_freemasonry
+449,Scottish Rite Southern Jurisdiction,organization,hidden_history,1,11,expansion:expansion_freemasonry
+450,York Rite,organization,hidden_history,3,2,expansion:expansion_freemasonry
+451,Propaganda Due,organization,hidden_history,2,5,expansion:expansion_freemasonry
+452,United Grand Lodge of England,organization,hidden_history,3,1,expansion:expansion_freemasonry
+453,Grand Orient de France,organization,hidden_history,3,1,expansion:expansion_freemasonry
+454,Shriners,organization,hidden_history,3,1,expansion:expansion_freemasonry
+455,Sovereign Military Order of Malta,organization,hidden_history,2,4,expansion:expansion_freemasonry
+456,Knights Templar,organization,hidden_history,2,3,expansion:expansion_freemasonry
+457,P2 Lodge Scandal,event,hidden_history,3,2,expansion:expansion_freemasonry
+458,Calvi Murder,event,hidden_history,3,2,expansion:expansion_freemasonry
+459,Banco Ambrosiano Collapse,event,hidden_history,2,4,expansion:expansion_freemasonry
+460,House of the Temple,facility,hidden_history,2,3,expansion:expansion_freemasonry
+461,Thomas Bowers,person,financial,2,3,expansion:expansion_germany
+462,Rosemary Vrablic,person,financial,3,2,expansion:expansion_germany
+463,Tammy McFadden,person,financial,3,2,expansion:expansion_germany
+464,William Broeksmit,person,financial,3,2,expansion:expansion_germany
+465,Val Broeksmit,person,financial,2,3,expansion:expansion_germany
+466,Philippa Sigl-Glöckner,person,power,3,2,entity_override
+467,BND,agency,financial,2,3,expansion:expansion_germany
+468,DFS Deutsche Bank Consent Order (2020),event,financial,3,2,expansion:expansion_germany
+469,Deutsche Bank Russian Mirror Trading,event,financial,3,1,expansion:expansion_germany
+470,Anthony Fauci,person,health,2,2,expansion:expansion_health
+471,Bill Gates,person,health,2,3,expansion:expansion_health
+472,Peter Daszak,person,health,3,1,expansion:expansion_health
+473,Ralph Baric,person,health,3,1,expansion:expansion_health
+474,Arthur Sackler,person,health,3,1,expansion:expansion_health
+475,Sidney Gottlieb,person,intelligence,2,3,entity_override
+476,Donald Ewen Cameron,person,intelligence,3,1,entity_override
+477,Royal Raymond Rife,person,health,3,1,expansion:expansion_health
+478,FDA,agency,health,1,6,expansion:expansion_health
+479,CDC,agency,health,3,1,expansion:expansion_health
+480,NIH,agency,health,1,4,expansion:expansion_health
+481,WHO,organization,health,3,2,expansion:expansion_health
+482,Bill & Melinda Gates Foundation,foundation,health,1,4,expansion:expansion_health
+483,GAVI,organization,health,3,2,expansion:expansion_health
+484,EcoHealth Alliance,organization,health,2,3,expansion:expansion_health
+485,Purdue Pharma,organization,health,2,3,expansion:expansion_health
+486,Pfizer,organization,health,2,3,expansion:expansion_health
+487,Monsanto,organization,health,3,1,entity_override
+488,Tuskegee Syphilis Study,program,intelligence,3,2,entity_override
+489,Guatemala Syphilis Experiments,program,intelligence,3,2,entity_override
+490,Gain-of-Function Research,program,health,2,3,expansion:expansion_health
+491,Leonardo DiCaprio,person,exploitation,3,2,expansion:expansion_hollywood_predators
+492,Oprah Winfrey,person,exploitation,3,1,expansion:expansion_hollywood_predators
+493,João Teixeira de Faria,person,exploitation,3,2,expansion:expansion_hollywood_predators
+494,Sean Combs,person,exploitation,2,4,expansion:expansion_hollywood_predators
+495,Russell Simmons,person,exploitation,3,2,expansion:expansion_hollywood_predators
+496,R. Kelly,person,exploitation,3,2,expansion:expansion_hollywood_predators
+497,Islamic Revolutionary Guard Corps,agency,intelligence,1,7,expansion:expansion_iran_conflict
+498,Quds Force,agency,intelligence,2,3,expansion:expansion_iran_conflict
+499,Ali Khamenei,person,intelligence,2,5,expansion:expansion_iran_conflict
+500,Ali Shamkhani,person,intelligence,3,1,expansion:expansion_iran_conflict
+501,Mohammad Pakpour,person,intelligence,3,1,expansion:expansion_iran_conflict
+502,Aziz Nasirzadeh,person,intelligence,3,1,expansion:expansion_iran_conflict
+503,Abdul Rahim Mousavi,person,intelligence,3,1,expansion:expansion_iran_conflict
+504,Masoud Pezeshkian,person,intelligence,3,1,expansion:expansion_iran_conflict
+505,CENTCOM,agency,intelligence,2,5,expansion:expansion_iran_conflict
+506,Operation Epic Fury,event,intelligence,1,13,expansion:expansion_iran_conflict
+507,Operation Roaring Lion,event,intelligence,3,2,expansion:expansion_iran_conflict
+508,Operation Midnight Hammer,event,intelligence,2,4,expansion:expansion_iran_conflict
+509,Strait of Hormuz Blockade,event,intelligence,3,1,expansion:expansion_iran_conflict
+510,B-2 Spirit Strike Package,event,intelligence,3,1,expansion:expansion_iran_conflict
+511,Natanz Nuclear Facility,facility,intelligence,2,3,expansion:expansion_iran_conflict
+512,Fordow Enrichment Plant,facility,intelligence,2,3,expansion:expansion_iran_conflict
+513,Parchin Military Complex,facility,intelligence,3,1,expansion:expansion_iran_conflict
+514,Konarak Naval Base,facility,intelligence,3,1,expansion:expansion_iran_conflict
+515,USS Abraham Lincoln,facility,intelligence,3,2,expansion:expansion_iran_conflict
+516,USS Gerald R. Ford,facility,intelligence,3,2,expansion:expansion_iran_conflict
+517,Hezbollah,organization,intelligence,3,2,expansion:expansion_iran_conflict
+518,Ansar Allah (Houthis),organization,intelligence,3,2,expansion:expansion_iran_conflict
+519,Atomic Energy Organization of Iran,agency,intelligence,3,2,expansion:expansion_iran_conflict
+520,Iranian Ministry of Intelligence,agency,intelligence,3,2,expansion:expansion_iran_conflict
+521,Ari Ben-Menashe,person,intelligence,2,6,expansion:expansion_israel
+522,Jonathan Pollard,person,intelligence,1,7,expansion:expansion_israel
+523,LAKAM,agency,intelligence,1,8,expansion:expansion_israel
+524,Unit 8200,agency,intelligence,1,7,expansion:expansion_israel
+525,NSO Group,organization,intelligence,2,6,expansion:expansion_israel
+526,Shabtai Shavit,person,intelligence,3,2,expansion:expansion_israel
+527,Meir Dagan,person,intelligence,2,3,expansion:expansion_israel
+528,Efraim Halevy,person,intelligence,2,3,expansion:expansion_israel
+529,Allen Dulles,person,hidden_history,2,4,expansion:expansion_jfk
+530,John McCone,person,hidden_history,3,1,expansion:expansion_jfk
+531,David Atlee Phillips,person,hidden_history,3,2,expansion:expansion_jfk
+532,E. Howard Hunt,person,hidden_history,3,2,expansion:expansion_jfk
+533,Lee Harvey Oswald,person,hidden_history,1,8,expansion:expansion_jfk
+534,Jack Ruby,person,hidden_history,2,3,expansion:expansion_jfk
+535,Clay Shaw,person,hidden_history,2,3,expansion:expansion_jfk
+536,David Ferrie,person,hidden_history,2,3,expansion:expansion_jfk
+537,Guy Banister,person,hidden_history,3,2,expansion:expansion_jfk
+538,Jim Garrison,person,hidden_history,3,1,expansion:expansion_jfk
+539,George de Mohrenschildt,person,hidden_history,3,2,expansion:expansion_jfk
+540,Carlos Marcello,person,hidden_history,2,3,expansion:expansion_jfk
+541,Santos Trafficante,person,hidden_history,2,3,expansion:expansion_jfk
+542,Sam Giancana,person,hidden_history,3,2,expansion:expansion_jfk
+543,Dorothy Kilgallen,person,hidden_history,3,1,expansion:expansion_jfk
+544,Warren Commission,organization,hidden_history,2,3,expansion:expansion_jfk
+545,HSCA,organization,hidden_history,3,2,expansion:expansion_jfk
+546,ARRB,organization,hidden_history,3,1,expansion:expansion_jfk
+547,Operation Mongoose,program,hidden_history,3,0,expansion:expansion_jfk
+548,ZR/RIFLE,program,hidden_history,3,1,expansion:expansion_jfk
+549,Operation 40,program,hidden_history,3,0,expansion:expansion_jfk
+550,Dealey Plaza,facility,hidden_history,3,0,expansion:expansion_jfk
+551,JFK Assassination,event,hidden_history,1,9,expansion:expansion_jfk
+552,Robert F. Kennedy,person,hidden_history,3,1,expansion:expansion_jfk
+553,RFK Assassination,event,hidden_history,3,2,expansion:expansion_jfk
+554,Sirhan Sirhan,person,hidden_history,3,1,expansion:expansion_jfk
+555,Martin Luther King Jr.,person,hidden_history,3,2,expansion:expansion_jfk
+556,MLK Assassination,event,hidden_history,2,3,expansion:expansion_jfk
+557,James Earl Ray,person,hidden_history,3,1,expansion:expansion_jfk
+558,Oliver North,person,intelligence,2,3,expansion:expansion_latin_america
+559,Manuel Noriega,person,intelligence,2,5,expansion:expansion_latin_america
+560,Felix Rodriguez,person,intelligence,2,3,expansion:expansion_latin_america
+561,Augusto Pinochet,person,intelligence,3,2,expansion:expansion_latin_america
+562,Gary Webb,person,narrative,2,2,entity_override
+563,Andres Pastrana,person,intelligence,2,3,expansion:expansion_latin_america
+564,Medellín Cartel,organization,resource,1,5,entity_override
+565,SETCO Aviation,organization,intelligence,2,3,entity_override
+566,School of the Americas,organization,intelligence,2,3,entity_override
+567,Operation Condor,program,intelligence,2,4,expansion:expansion_latin_america
+568,Kerry Committee Investigation,event,intelligence,2,3,expansion:expansion_latin_america
+569,Rupert Murdoch,person,narrative,2,3,expansion:expansion_media
+570,Edward Bernays,person,narrative,2,2,expansion:expansion_media
+571,Frank Wisner,person,narrative,3,2,expansion:expansion_media
+572,Carl Bernstein,person,narrative,3,1,expansion:expansion_media
+573,Anderson Cooper,person,narrative,3,1,expansion:expansion_media
+574,Jeff Bezos,person,narrative,3,1,expansion:expansion_media
+575,Julian Assange,person,intelligence,3,1,entity_override
+576,Edward Snowden,person,intelligence,1,10,entity_override
+577,Chelsea Manning,person,intelligence,3,1,entity_override
+578,William Binney,person,intelligence,2,4,entity_override
+579,News Corp,organization,narrative,2,4,expansion:expansion_media
+580,Fox Corporation,organization,narrative,3,2,expansion:expansion_media
+581,The Walt Disney Company,organization,narrative,3,1,expansion:expansion_media
+582,Comcast Corporation,organization,narrative,3,2,expansion:expansion_media
+583,Warner Bros. Discovery,organization,narrative,3,2,expansion:expansion_media
+584,Paramount Global,organization,narrative,3,1,expansion:expansion_media
+585,WikiLeaks,organization,intelligence,2,3,entity_override
+586,Tavistock Institute,organization,narrative,3,2,expansion:expansion_media
+587,Atlantic Council,organization,narrative,3,2,expansion:expansion_media
+588,Operation Mockingbird,program,intelligence,2,6,entity_override
+589,PRISM,program,intelligence,2,3,entity_override
+590,Telecommunications Act of 1996,legislation,narrative,1,5,expansion:expansion_media
+591,Smith-Mundt Modernization Act,legislation,narrative,3,1,expansion:expansion_media
+592,Pentagon Military Analyst Program,program,narrative,2,3,expansion:expansion_media
+593,Church Committee,event,narrative,2,4,expansion:expansion_media
+594,Twitter Files,event,narrative,3,2,expansion:expansion_media
+595,Lockheed Martin,organization,resource,2,3,expansion:expansion_mic
+596,Raytheon,organization,resource,3,1,expansion:expansion_mic
+597,Northrop Grumman,organization,resource,3,1,expansion:expansion_mic
+598,Boeing Defense,organization,resource,3,1,expansion:expansion_mic
+599,General Dynamics,organization,resource,3,0,expansion:expansion_mic
+600,BAE Systems,organization,resource,3,0,expansion:expansion_mic
+601,L3Harris Technologies,organization,resource,3,0,expansion:expansion_mic
+602,Booz Allen Hamilton,organization,resource,2,4,expansion:expansion_mic
+603,Halliburton,organization,resource,3,2,expansion:expansion_mic
+604,Blackwater,organization,intelligence,3,2,entity_override
+605,DynCorp,organization,exploitation,3,1,entity_override
+606,Erik Prince,person,intelligence,3,2,entity_override
+607,Dwight D. Eisenhower,person,resource,3,1,expansion:expansion_mic
+608,Norman Augustine,person,resource,3,1,expansion:expansion_mic
+609,Special Access Programs,program,resource,3,1,expansion:expansion_mic
+610,F-35 Joint Strike Fighter,program,resource,3,1,expansion:expansion_mic
+611,Eisenhower Farewell Address,event,resource,3,1,expansion:expansion_mic
+612,Pentagon Audit Failures,event,resource,3,1,expansion:expansion_mic
+613,Marc Dutroux,person,exploitation,3,2,expansion:expansion_pedophile_networks
+614,Keith Raniere,person,exploitation,3,2,expansion:expansion_pedophile_networks
+615,Peter Scully,person,exploitation,3,1,expansion:expansion_pedophile_networks
+616,Cardinal Bernard Law,person,exploitation,3,2,expansion:expansion_pedophile_networks
+617,Leon Brittan,person,exploitation,3,2,expansion:expansion_pedophile_networks
+618,Cyril Smith,person,exploitation,3,1,expansion:expansion_pedophile_networks
+619,Peter Hayman,person,exploitation,3,1,expansion:expansion_pedophile_networks
+620,Peter Ball,person,exploitation,3,2,expansion:expansion_pedophile_networks
+621,NXIVM,organization,exploitation,2,4,expansion:expansion_pedophile_networks
+622,Dutroux Network,organization,exploitation,3,2,expansion:expansion_pedophile_networks
+623,Boston Globe Spotlight Team,organization,exploitation,3,1,expansion:expansion_pedophile_networks
+624,Dutroux Affair,event,exploitation,3,2,expansion:expansion_pedophile_networks
+625,Westminster Dossier Disappearance,event,exploitation,2,5,expansion:expansion_pedophile_networks
+626,NXIVM Trial,event,exploitation,3,2,expansion:expansion_pedophile_networks
+627,Spotlight Investigation,event,exploitation,3,3,expansion:expansion_pedophile_networks
+628,Australian Royal Commission,event,exploitation,3,2,expansion:expansion_pedophile_networks
+629,Independent Inquiry into Child Sexual Abuse,event,exploitation,2,4,expansion:expansion_pedophile_networks
+630,Operation Yewtree,program,exploitation,3,1,expansion:expansion_pedophile_networks
+631,Operation Midland,program,exploitation,3,1,expansion:expansion_pedophile_networks
+632,Jack Parsons,person,hidden_history,2,5,expansion:expansion_ritual_occult
+633,Aleister Crowley,person,hidden_history,2,4,expansion:expansion_ritual_occult
+634,Michael Aquino,person,hidden_history,1,6,expansion:expansion_ritual_occult
+635,L. Ron Hubbard,person,hidden_history,2,5,expansion:expansion_ritual_occult
+636,Anton LaVey,person,hidden_history,3,2,expansion:expansion_ritual_occult
+637,Larry King,person,hidden_history,3,2,expansion:expansion_ritual_occult
+638,Paul Bonacci,person,hidden_history,3,3,expansion:expansion_ritual_occult
+639,John DeCamp,person,hidden_history,3,2,expansion:expansion_ritual_occult
+640,Ordo Templi Orientis,organization,hidden_history,3,3,expansion:expansion_ritual_occult
+641,Temple of Set,organization,hidden_history,3,1,expansion:expansion_ritual_occult
+642,Church of Scientology,organization,hidden_history,3,3,expansion:expansion_ritual_occult
+643,Thule Society,organization,hidden_history,3,1,expansion:expansion_ritual_occult
+644,Process Church of the Final Judgment,organization,hidden_history,3,1,expansion:expansion_ritual_occult
+645,The Finders,organization,hidden_history,3,2,expansion:expansion_ritual_occult
+646,Presidio Abuse Case,event,hidden_history,3,2,expansion:expansion_ritual_occult
+647,Franklin Cover-Up,event,hidden_history,1,6,expansion:expansion_ritual_occult
+648,Operation Snow White,event,hidden_history,2,4,expansion:expansion_ritual_occult
+649,Babalon Working,event,hidden_history,3,2,expansion:expansion_ritual_occult
+650,Vladimir Putin,person,power,1,7,entity_override
+651,FSB,agency,intelligence,2,6,entity_override
+652,Semion Mogilevich,person,hidden_history,2,5,entity_override
+653,Solntsevskaya Bratva,organization,hidden_history,3,2,entity_override
+654,Dmitry Rybolovlev,person,financial,2,3,entity_override
+655,Prince Bandar bin Sultan,person,elite_social,1,9,expansion:expansion_saudi
+656,Prince Turki al-Faisal,person,intelligence,2,4,entity_override
+657,Saudi GID,agency,intelligence,1,11,entity_override
+658,Mohammed bin Salman,person,elite_social,2,5,expansion:expansion_saudi
+659,Jamal Khashoggi,person,narrative,2,4,entity_override
+660,Al-Waleed bin Talal,person,elite_social,2,4,expansion:expansion_saudi
+661,Kingdom Holding,organization,financial,3,2,entity_override
+662,Saudi Binladin Group,organization,financial,3,2,entity_override
+663,Carlyle Group,organization,financial,2,6,entity_override
+664,BAE Al-Yamamah Deal,event,intelligence,2,5,entity_override
+665,Safari Club,organization,intelligence,2,5,entity_override
+666,Wafic Said,person,intelligence,2,3,entity_override
+667,Prince Mohammed bin Fahd,person,elite_social,2,3,expansion:expansion_saudi
+668,David Rockefeller,person,power,2,5,expansion:expansion_supranational
+669,Zbigniew Brzezinski,person,power,3,2,expansion:expansion_supranational
+670,George Soros,person,power,3,2,expansion:expansion_supranational
+671,Nelson Rockefeller,person,power,3,2,expansion:expansion_supranational
+672,Bilderberg Group,organization,power,3,3,expansion:expansion_supranational
+673,Trilateral Commission,organization,power,3,3,expansion:expansion_supranational
+674,Council on Foreign Relations,organization,power,1,7,expansion:expansion_supranational
+675,Club of Rome,organization,power,3,0,expansion:expansion_supranational
+676,Chatham House,organization,power,3,1,expansion:expansion_supranational
+677,Brookings Institution,organization,power,3,0,expansion:expansion_supranational
+678,RAND Corporation,organization,power,3,1,expansion:expansion_supranational
+679,Open Society Foundations,foundation,financial,3,1,entity_override
+680,Rockefeller Foundation,foundation,financial,3,2,entity_override
+681,Carnegie Endowment for International Peace,foundation,financial,3,0,entity_override
+682,Ford Foundation,foundation,financial,3,1,entity_override
+683,Guy de Rothschild,person,elite_social,1,7,expansion:expansion_surrealist_ball
+684,Marie-Hélène de Rothschild,person,elite_social,1,7,expansion:expansion_surrealist_ball
+685,Mayer Amschel Rothschild,person,elite_social,3,1,expansion:expansion_surrealist_ball
+686,Château de Ferrières,facility,elite_social,3,2,expansion:expansion_surrealist_ball
+687,Rothschild Surrealist Ball (1972),event,elite_social,1,12,expansion:expansion_surrealist_ball
+688,Salvador Dalí,person,elite_social,2,3,expansion:expansion_surrealist_ball
+689,Gianni Agnelli,person,elite_social,2,3,expansion:expansion_surrealist_ball
+690,Georges Pompidou,person,elite_social,3,2,expansion:expansion_surrealist_ball
+691,Audrey Hepburn,person,elite_social,3,2,expansion:expansion_surrealist_ball
+692,Alexis de Redé,person,elite_social,2,3,expansion:expansion_surrealist_ball
+693,Charles de Beistegui,person,elite_social,3,1,expansion:expansion_surrealist_ball
+694,Marquis de Cuevas,person,elite_social,3,2,expansion:expansion_surrealist_ball
+695,Marie-Laure de Noailles,person,elite_social,3,2,expansion:expansion_surrealist_ball
+696,Truman Capote,person,elite_social,3,1,expansion:expansion_surrealist_ball
+697,Diana Vreeland,person,elite_social,3,1,expansion:expansion_surrealist_ball
+698,Anna Wintour,person,elite_social,3,1,expansion:expansion_surrealist_ball
+699,Banque Rothschild,organization,elite_social,2,3,expansion:expansion_surrealist_ball
+700,François Mitterrand,person,elite_social,3,1,expansion:expansion_surrealist_ball
+701,Met Gala,event,elite_social,2,4,expansion:expansion_surrealist_ball
+702,Marisa Berenson,person,elite_social,3,1,expansion:expansion_surrealist_ball
+703,Hélène Rochas,person,elite_social,3,1,expansion:expansion_surrealist_ball
+704,Count Étienne de Beaumont,person,elite_social,3,1,expansion:expansion_surrealist_ball
+705,Elsa Maxwell,person,elite_social,3,0,expansion:expansion_surrealist_ball
+706,Eleanor Lambert,person,elite_social,3,1,expansion:expansion_surrealist_ball
+707,Battle of Versailles (1973),event,elite_social,3,1,expansion:expansion_surrealist_ball
+708,XKeyscore,program,intelligence,2,3,expansion:expansion_tech_surveillance
+709,ECHELON,program,intelligence,2,3,expansion:expansion_tech_surveillance
+710,Room 641A,facility,intelligence,2,4,expansion:expansion_tech_surveillance
+711,Vault 7,program,intelligence,3,2,expansion:expansion_tech_surveillance
+712,MYSTIC,program,intelligence,3,2,expansion:expansion_tech_surveillance
+713,Tempora,program,intelligence,3,2,expansion:expansion_tech_surveillance
+714,Carnivore,program,intelligence,3,1,expansion:expansion_tech_surveillance
+715,ThinThread,program,intelligence,2,3,expansion:expansion_tech_surveillance
+716,Five Eyes,organization,intelligence,2,5,expansion:expansion_tech_surveillance
+717,GCHQ,agency,intelligence,2,4,expansion:expansion_tech_surveillance
+718,Thomas Drake,person,intelligence,2,3,expansion:expansion_tech_surveillance
+719,Mark Klein,person,intelligence,3,2,expansion:expansion_tech_surveillance
+720,Keith Alexander,person,intelligence,3,2,expansion:expansion_tech_surveillance
+721,USA FREEDOM Act,legislation,intelligence,3,3,expansion:expansion_tech_surveillance
+722,FISA Amendments Act,legislation,intelligence,3,3,expansion:expansion_tech_surveillance
+723,Jewel v. NSA,event,intelligence,3,3,expansion:expansion_tech_surveillance
+724,ACLU v. Clapper,event,intelligence,3,2,expansion:expansion_tech_surveillance
+725,Daniel Sheehan,person,consciousness,1,8,expansion:expansion_uap_disclosure
+726,John Mack,person,consciousness,3,1,expansion:expansion_uap_disclosure
+727,Steven Greer,person,consciousness,2,3,expansion:expansion_uap_disclosure
+728,Luis Elizondo,person,consciousness,2,3,expansion:expansion_uap_disclosure
+729,David Grusch,person,consciousness,1,5,expansion:expansion_uap_disclosure
+730,David Fravor,person,consciousness,3,1,expansion:expansion_uap_disclosure
+731,Ryan Graves,person,consciousness,3,2,expansion:expansion_uap_disclosure
+732,Chuck Schumer,person,consciousness,3,1,expansion:expansion_uap_disclosure
+733,Mike Rounds,person,consciousness,3,1,expansion:expansion_uap_disclosure
+734,Tim Burchett,person,consciousness,3,2,expansion:expansion_uap_disclosure
+735,New Paradigm Institute,organization,consciousness,3,2,expansion:expansion_uap_disclosure
+736,Christic Institute,organization,consciousness,3,2,expansion:expansion_uap_disclosure
+737,Disclosure Project,organization,consciousness,2,3,expansion:expansion_uap_disclosure
+738,Americans for Safe Aerospace,organization,consciousness,3,1,expansion:expansion_uap_disclosure
+739,AATIP,program,consciousness,2,3,expansion:expansion_uap_disclosure
+740,Project Blue Book,program,consciousness,2,3,expansion:expansion_uap_disclosure
+741,UAP Task Force,program,consciousness,3,2,expansion:expansion_uap_disclosure
+742,UAP Disclosure Act,legislation,consciousness,2,4,expansion:expansion_uap_disclosure
+743,Enhanced UAP Whistleblower Protection Act,legislation,consciousness,3,1,expansion:expansion_uap_disclosure
+744,Grusch Congressional Hearing,event,consciousness,1,5,expansion:expansion_uap_disclosure
+745,Robert Bigelow,person,consciousness,2,3,expansion:expansion_uap_programs
+746,Eric Davis,person,consciousness,3,2,expansion:expansion_uap_programs
+747,Colm Kelleher,person,consciousness,3,2,expansion:expansion_uap_programs
+748,Kit Green,person,consciousness,3,2,expansion:expansion_uap_programs
+749,James Lacatski,person,consciousness,3,1,expansion:expansion_uap_programs
+750,George Knapp,person,consciousness,3,0,expansion:expansion_uap_programs
+751,NIDS,organization,consciousness,2,3,expansion:expansion_uap_programs
+752,Bigelow Aerospace,organization,consciousness,3,2,expansion:expansion_uap_programs
+753,Battelle Memorial Institute,organization,consciousness,3,1,expansion:expansion_uap_programs
+754,Sol Foundation,organization,consciousness,3,2,expansion:expansion_uap_programs
+755,AAWSAP,program,consciousness,1,9,expansion:expansion_uap_programs
+756,Skinwalker Ranch,facility,consciousness,3,2,expansion:expansion_uap_programs
+757,Area 51,facility,consciousness,3,0,expansion:expansion_uap_programs
+758,Wright-Patterson AFB,facility,consciousness,3,1,expansion:expansion_uap_programs
+759,Wilson-Davis Memo,event,consciousness,3,2,expansion:expansion_uap_programs
+760,Roswell Incident,event,consciousness,3,1,expansion:expansion_uap_programs
+761,Peter Mandelson,person,power,2,5,entity_override
+762,MI5,agency,intelligence,2,5,entity_override
+763,MI6,agency,intelligence,1,7,entity_override
+764,Jimmy Savile,person,exploitation,2,5,entity_override
+765,Sarah Ferguson,person,elite_social,2,3,expansion:expansion_uk
+766,Metropolitan Police,agency,power,2,5,entity_override
+767,Pergamon Press,organization,narrative,2,3,entity_override
+768,Mirror Group Newspapers,organization,narrative,3,2,entity_override
+769,Crown Prosecution Service,agency,power,3,3,entity_override
+770,Mark Thompson,person,narrative,3,2,entity_override
+771,Stuart Roffey,person,exploitation,3,2,entity_override
+772,Evgeny Lebedev,person,narrative,2,4,entity_override
+773,TerraMar Project,organization,exploitation,3,2,entity_override
+774,Newsnight Interview,event,narrative,2,3,entity_override
+775,Peter Brabeck-Letmathe,person,resource,3,1,expansion:expansion_water
+776,Maude Barlow,person,resource,2,3,expansion:expansion_water
+777,Vandana Shiva,person,resource,3,2,expansion:expansion_water
+778,T. Boone Pickens,person,resource,3,1,expansion:expansion_water
+779,Nestlé Waters,organization,resource,2,3,expansion:expansion_water
+780,Suez Group,organization,resource,2,3,expansion:expansion_water
+781,Veolia,organization,resource,3,2,expansion:expansion_water
+782,Thames Water,organization,resource,3,1,expansion:expansion_water
+783,Cochabamba Water War,event,resource,1,5,expansion:expansion_water
+784,Flint Water Crisis,event,resource,3,1,expansion:expansion_water
+785,Detroit Water Shutoffs,event,resource,3,1,expansion:expansion_water
+786,Standing Rock Protests,event,resource,3,1,expansion:expansion_water
+787,Dublin Statement on Water,legislation,resource,3,2,expansion:expansion_water
+788,Ogallala Aquifer,facility,resource,2,3,expansion:expansion_water
+789,Great Lakes,facility,resource,3,1,expansion:expansion_water
+790,World Economic Forum,organization,power,2,6,expansion:expansion_wef
+791,Børge Brende,person,power,3,2,expansion:expansion_wef
+792,Klaus Schwab,person,power,3,1,expansion:expansion_wef
+793,Alois Zwinggi,person,power,3,1,expansion:expansion_wef
+794,Davos Annual Meeting,event,power,3,1,expansion:expansion_wef
+795,"Gaia, Inc.",organization,narrative,1,10,expansion:expansion_new_age_psyops
+796,Crown Sterling,organization,narrative,2,3,expansion:expansion_new_age_psyops
+797,Project Camelot,organization,narrative,3,1,expansion:expansion_new_age_psyops
+798,Exopolitics Institute,organization,narrative,3,1,expansion:expansion_new_age_psyops
+799,ECETI Ranch,facility,narrative,3,1,expansion:expansion_new_age_psyops
+800,Isha Foundation,foundation,narrative,3,1,expansion:expansion_new_age_psyops
+801,Robert Edward Grant,person,narrative,2,3,expansion:expansion_new_age_psyops
+802,David Wilcock,person,narrative,2,3,expansion:expansion_new_age_psyops
+803,Corey Goode,person,narrative,1,5,expansion:expansion_new_age_psyops
+804,Billy Carson,person,narrative,3,1,expansion:expansion_new_age_psyops
+805,Nassim Haramein,person,narrative,3,1,expansion:expansion_new_age_psyops
+806,Gregg Braden,person,narrative,3,1,expansion:expansion_new_age_psyops
+807,Matias De Stefano,person,narrative,3,2,expansion:expansion_new_age_psyops
+808,Emery Smith,person,narrative,3,1,expansion:expansion_new_age_psyops
+809,Teal Swan,person,narrative,3,1,expansion:expansion_new_age_psyops
+810,Bentinho Massaro,person,narrative,3,0,expansion:expansion_new_age_psyops
+811,Jordan Duchnycz,person,narrative,3,1,expansion:expansion_new_age_psyops
+812,Santos Bonacci,person,narrative,3,2,expansion:expansion_new_age_psyops
+813,David Icke,person,narrative,3,2,expansion:expansion_new_age_psyops
+814,Jordan Maxwell,person,narrative,3,2,expansion:expansion_new_age_psyops
+815,Alex Collier,person,narrative,3,0,expansion:expansion_new_age_psyops
+816,Simon Parkes,person,narrative,3,1,expansion:expansion_new_age_psyops
+817,Michael Salla,person,narrative,1,5,expansion:expansion_new_age_psyops
+818,Kerry Cassidy,person,narrative,2,4,expansion:expansion_new_age_psyops
+819,Laura Eisenhower,person,narrative,3,2,expansion:expansion_new_age_psyops
+820,James Gilliland,person,narrative,3,1,expansion:expansion_new_age_psyops
+821,Sadhguru,person,narrative,3,1,expansion:expansion_new_age_psyops
+822,Black Hat 2019 Crown Sterling Incident,event,narrative,3,1,expansion:expansion_new_age_psyops
+823,Stanley Kubrick,person,elite_social,3,0,base_override
+824,Eyes Wide Shut,event,elite_social,3,0,base_override
+825,Mentmore Towers,facility,elite_social,3,0,base_override
