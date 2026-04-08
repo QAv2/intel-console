@@ -5,7 +5,7 @@
       "name": "2008 Financial Crisis",
       "entity_type": "event",
       "connection_count": 10,
-      "photo_url": ""
+      "photo_url": "photos/financial_crisis_2008.jpg"
     },
     {
       "id": 352,
@@ -33,7 +33,7 @@
       "name": "9/11 Commission",
       "entity_type": "organization",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/september_11.jpg"
     },
     {
       "id": 767,
@@ -124,7 +124,7 @@
       "name": "Adnan Khashoggi",
       "entity_type": "person",
       "connection_count": 11,
-      "photo_url": ""
+      "photo_url": "photos/khashoggi.jpg"
     },
     {
       "id": 20,
@@ -145,7 +145,7 @@
       "name": "Al-Qaeda",
       "entity_type": "organization",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/al_qaeda.jpg"
     },
     {
       "id": 688,
@@ -159,7 +159,7 @@
       "name": "Alan Dershowitz",
       "entity_type": "person",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/dershowitz.jpg"
     },
     {
       "id": 209,
@@ -222,14 +222,14 @@
       "name": "Alex Karp",
       "entity_type": "person",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/karp.jpg"
     },
     {
       "id": 37,
       "name": "Alexander Acosta",
       "entity_type": "person",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/acosta.jpg"
     },
     {
       "id": 337,
@@ -243,7 +243,7 @@
       "name": "Alexis de Red\u00e9",
       "entity_type": "person",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/alexis_de_rede.jpg"
     },
     {
       "id": 499,
@@ -362,7 +362,7 @@
       "name": "Ansar Allah (Houthis)",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/ansar_allah.jpg"
     },
     {
       "id": 470,
@@ -439,7 +439,7 @@
       "name": "Atomic Energy Organization of Iran",
       "entity_type": "agency",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/aeoi.jpg"
     },
     {
       "id": 719,
@@ -663,21 +663,21 @@
       "name": "Bilderberg Group",
       "entity_type": "organization",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/bilderberg.jpg"
     },
     {
       "id": 482,
       "name": "Bill & Melinda Gates Foundation",
       "entity_type": "foundation",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/bill__melinda_gates_foundation.jpg"
     },
     {
       "id": 32,
       "name": "Bill Clinton",
       "entity_type": "person",
       "connection_count": 37,
-      "photo_url": ""
+      "photo_url": "photos/clinton.jpg"
     },
     {
       "id": 471,
@@ -803,7 +803,7 @@
       "name": "Boeing Defense",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/boeing.jpg"
     },
     {
       "id": 219,
@@ -845,7 +845,7 @@
       "name": "Brookings Institution",
       "entity_type": "organization",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/brookings.jpg"
     },
     {
       "id": 349,
@@ -873,14 +873,14 @@
       "name": "Bugsy Siegel",
       "entity_type": "person",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/siegel.jpg"
     },
     {
       "id": 350,
       "name": "Bush v. Gore (2000)",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/bush_v_gore.jpg"
     },
     {
       "id": 335,
@@ -929,7 +929,7 @@
       "name": "CIA",
       "entity_type": "agency",
       "connection_count": 130,
-      "photo_url": ""
+      "photo_url": "photos/cia.jpg"
     },
     {
       "id": 232,
@@ -1020,7 +1020,7 @@
       "name": "Carnegie Endowment for International Peace",
       "entity_type": "foundation",
       "connection_count": 0,
-      "photo_url": ""
+      "photo_url": "photos/carnegie_endowment.jpg"
     },
     {
       "id": 742,
@@ -1160,14 +1160,14 @@
       "name": "Church of Scientology",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/scientology.jpg"
     },
     {
       "id": 714,
       "name": "Ch\u00e2teau de Ferri\u00e8res",
       "entity_type": "facility",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/chateau_de_ferrieres.jpg"
     },
     {
       "id": 402,
@@ -1181,7 +1181,7 @@
       "name": "Citizens United v. FEC (2010)",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/citizens_united.jpg"
     },
     {
       "id": 214,
@@ -1195,7 +1195,7 @@
       "name": "Clark Clifford",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/clifford.jpg"
     },
     {
       "id": 435,
@@ -1230,7 +1230,7 @@
       "name": "Cochabamba Water War",
       "entity_type": "event",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/cochabamba.jpg"
     },
     {
       "id": 423,
@@ -1265,7 +1265,7 @@
       "name": "Comcast Corporation",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/comcast.jpg"
     },
     {
       "id": 106,
@@ -1293,7 +1293,7 @@
       "name": "Council on Foreign Relations",
       "entity_type": "organization",
       "connection_count": 10,
-      "photo_url": ""
+      "photo_url": "photos/cfr.jpg"
     },
     {
       "id": 732,
@@ -1391,7 +1391,7 @@
       "name": "DIA",
       "entity_type": "agency",
       "connection_count": 14,
-      "photo_url": ""
+      "photo_url": "photos/dia.jpg"
     },
     {
       "id": 368,
@@ -1447,7 +1447,7 @@
       "name": "Danny Casolaro",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/casolaro.jpg"
     },
     {
       "id": 103,
@@ -1678,7 +1678,7 @@
       "name": "Donald Trump",
       "entity_type": "person",
       "connection_count": 53,
-      "photo_url": ""
+      "photo_url": "photos/trump.jpg"
     },
     {
       "id": 543,
@@ -1706,7 +1706,7 @@
       "name": "Dugway Proving Ground",
       "entity_type": "facility",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/dugway.jpg"
     },
     {
       "id": 652,
@@ -1769,7 +1769,7 @@
       "name": "EcoHealth Alliance",
       "entity_type": "organization",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/ecohealth.jpg"
     },
     {
       "id": 242,
@@ -1853,7 +1853,7 @@
       "name": "Ehud Barak",
       "entity_type": "person",
       "connection_count": 10,
-      "photo_url": ""
+      "photo_url": "photos/barak.jpg"
     },
     {
       "id": 434,
@@ -1944,7 +1944,7 @@
       "name": "Epstein NPA (2007)",
       "entity_type": "event",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/epstein_npa.jpg"
     },
     {
       "id": 159,
@@ -2014,14 +2014,14 @@
       "name": "F-35 Joint Strike Fighter",
       "entity_type": "program",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/f35.jpg"
     },
     {
       "id": 87,
       "name": "FBI",
       "entity_type": "agency",
       "connection_count": 30,
-      "photo_url": ""
+      "photo_url": "photos/fbi.jpg"
     },
     {
       "id": 478,
@@ -2056,7 +2056,7 @@
       "name": "Fat Tony Salerno",
       "entity_type": "person",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/salerno.jpg"
     },
     {
       "id": 331,
@@ -2147,7 +2147,7 @@
       "name": "Fox Corporation",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/fox_corp.jpg"
     },
     {
       "id": 880,
@@ -2203,7 +2203,7 @@
       "name": "Fran\u00e7ois Mitterrand",
       "entity_type": "person",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/francois_mitterrand.jpg"
     },
     {
       "id": 387,
@@ -2392,7 +2392,7 @@
       "name": "Ghislaine Maxwell",
       "entity_type": "person",
       "connection_count": 40,
-      "photo_url": ""
+      "photo_url": "photos/maxwell.jpg"
     },
     {
       "id": 717,
@@ -2434,7 +2434,7 @@
       "name": "Golden Triangle Drug Trade",
       "entity_type": "program",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/golden_triangle.jpg"
     },
     {
       "id": 401,
@@ -2497,7 +2497,7 @@
       "name": "Grusch Congressional Hearing",
       "entity_type": "event",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/grusch_hearing.jpg"
     },
     {
       "id": 489,
@@ -2518,7 +2518,7 @@
       "name": "Gulf of Tonkin Resolution",
       "entity_type": "legislation",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/gulf_of_tonkin.jpg"
     },
     {
       "id": 291,
@@ -2728,7 +2728,7 @@
       "name": "In-Q-Tel",
       "entity_type": "organization",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/in_q_tel.jpg"
     },
     {
       "id": 657,
@@ -2756,7 +2756,7 @@
       "name": "International Monetary Fund",
       "entity_type": "organization",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/imf.jpg"
     },
     {
       "id": 347,
@@ -2777,7 +2777,7 @@
       "name": "Iran-Contra",
       "entity_type": "program",
       "connection_count": 29,
-      "photo_url": ""
+      "photo_url": "photos/iran_contra.jpg"
     },
     {
       "id": 520,
@@ -2798,14 +2798,14 @@
       "name": "Islamic Revolutionary Guard Corps",
       "entity_type": "agency",
       "connection_count": 12,
-      "photo_url": ""
+      "photo_url": "photos/irgc.jpg"
     },
     {
       "id": 16,
       "name": "J. Edgar Hoover",
       "entity_type": "person",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/hoover.jpg"
     },
     {
       "id": 323,
@@ -2882,7 +2882,7 @@
       "name": "James Angleton",
       "entity_type": "person",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/angleton.jpg"
     },
     {
       "id": 847,
@@ -2945,7 +2945,7 @@
       "name": "Jeffrey Epstein",
       "entity_type": "person",
       "connection_count": 99,
-      "photo_url": ""
+      "photo_url": "photos/epstein.jpg"
     },
     {
       "id": 334,
@@ -3022,7 +3022,7 @@
       "name": "Joey Merlino",
       "entity_type": "person",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/merlino.jpg"
     },
     {
       "id": 296,
@@ -3078,7 +3078,7 @@
       "name": "John Gotti",
       "entity_type": "person",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/gotti.jpg"
     },
     {
       "id": 225,
@@ -3127,7 +3127,7 @@
       "name": "John Poindexter",
       "entity_type": "person",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/poindexter.jpg"
     },
     {
       "id": 42,
@@ -3204,7 +3204,7 @@
       "name": "Jo\u00e3o Teixeira de Faria",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/joao_teixeira_de_faria.jpg"
     },
     {
       "id": 575,
@@ -3218,7 +3218,7 @@
       "name": "Kamal Adham",
       "entity_type": "person",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/adham.jpg"
     },
     {
       "id": 884,
@@ -3491,7 +3491,7 @@
       "name": "Les Wexner",
       "entity_type": "person",
       "connection_count": 19,
-      "photo_url": ""
+      "photo_url": "photos/wexner.jpg"
     },
     {
       "id": 151,
@@ -3568,7 +3568,7 @@
       "name": "Lucky Luciano",
       "entity_type": "person",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/luciano.jpg"
     },
     {
       "id": 756,
@@ -3624,14 +3624,14 @@
       "name": "MI5",
       "entity_type": "agency",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/mi5.jpg"
     },
     {
       "id": 791,
       "name": "MI6",
       "entity_type": "agency",
       "connection_count": 10,
-      "photo_url": ""
+      "photo_url": "photos/mi6.jpg"
     },
     {
       "id": 94,
@@ -3694,7 +3694,7 @@
       "name": "Mar-a-Lago",
       "entity_type": "facility",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/mar_a_lago.jpg"
     },
     {
       "id": 641,
@@ -3722,7 +3722,7 @@
       "name": "Marie-H\u00e9l\u00e8ne de Rothschild",
       "entity_type": "person",
       "connection_count": 10,
-      "photo_url": ""
+      "photo_url": "photos/marie_helene_de_rothschild.jpg"
     },
     {
       "id": 723,
@@ -3841,7 +3841,7 @@
       "name": "Medell\u00edn Cartel",
       "entity_type": "organization",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/medellin_cartel.jpg"
     },
     {
       "id": 66,
@@ -3897,7 +3897,7 @@
       "name": "Meyer Lansky",
       "entity_type": "person",
       "connection_count": 14,
-      "photo_url": ""
+      "photo_url": "photos/lansky.jpg"
     },
     {
       "id": 662,
@@ -4044,7 +4044,7 @@
       "name": "Mossad",
       "entity_type": "agency",
       "connection_count": 27,
-      "photo_url": ""
+      "photo_url": "photos/mossad.jpg"
     },
     {
       "id": 874,
@@ -4100,7 +4100,7 @@
       "name": "NSA",
       "entity_type": "agency",
       "connection_count": 30,
-      "photo_url": ""
+      "photo_url": "photos/nsa.jpg"
     },
     {
       "id": 525,
@@ -4163,7 +4163,7 @@
       "name": "Natanz Nuclear Facility",
       "entity_type": "facility",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/natanz.jpg"
     },
     {
       "id": 164,
@@ -4219,7 +4219,7 @@
       "name": "Nicky Scarfo",
       "entity_type": "person",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/scarfo.jpg"
     },
     {
       "id": 876,
@@ -4275,7 +4275,7 @@
       "name": "Ogallala Aquifer",
       "entity_type": "facility",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/ogallala.jpg"
     },
     {
       "id": 558,
@@ -4289,7 +4289,7 @@
       "name": "Open Society Foundations",
       "entity_type": "foundation",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/osf.jpg"
     },
     {
       "id": 889,
@@ -4338,7 +4338,7 @@
       "name": "Operation Fast and Furious",
       "entity_type": "program",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/fast_furious.jpg"
     },
     {
       "id": 378,
@@ -4464,7 +4464,7 @@
       "name": "P2 Lodge Scandal",
       "entity_type": "event",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/p2_lodge.jpg"
     },
     {
       "id": 173,
@@ -4499,14 +4499,14 @@
       "name": "Palantir Technologies",
       "entity_type": "organization",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/palantir.jpg"
     },
     {
       "id": 584,
       "name": "Paramount Global",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/paramount.jpg"
     },
     {
       "id": 513,
@@ -4548,7 +4548,7 @@
       "name": "Paul Castellano",
       "entity_type": "person",
       "connection_count": 9,
-      "photo_url": ""
+      "photo_url": "photos/castellano.jpg"
     },
     {
       "id": 851,
@@ -4618,7 +4618,7 @@
       "name": "Peter Brabeck-Letmathe",
       "entity_type": "person",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/peter_brabeck.jpg"
     },
     {
       "id": 472,
@@ -4653,7 +4653,7 @@
       "name": "Peter Thiel",
       "entity_type": "person",
       "connection_count": 12,
-      "photo_url": ""
+      "photo_url": "photos/thiel.jpg"
     },
     {
       "id": 413,
@@ -4674,7 +4674,7 @@
       "name": "Philadelphia Crime Family",
       "entity_type": "organization",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/philly_mob.jpg"
     },
     {
       "id": 852,
@@ -4905,7 +4905,7 @@
       "name": "RAND Corporation",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/rand.jpg"
     },
     {
       "id": 553,
@@ -4968,7 +4968,7 @@
       "name": "Richard Helms",
       "entity_type": "person",
       "connection_count": 8,
-      "photo_url": ""
+      "photo_url": "photos/helms.jpg"
     },
     {
       "id": 834,
@@ -5129,7 +5129,7 @@
       "name": "Roswell Incident",
       "entity_type": "event",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/roswell.jpg"
     },
     {
       "id": 715,
@@ -5150,7 +5150,7 @@
       "name": "Roy Cohn",
       "entity_type": "person",
       "connection_count": 7,
-      "photo_url": ""
+      "photo_url": "photos/cohn.jpg"
     },
     {
       "id": 477,
@@ -5248,7 +5248,7 @@
       "name": "Sacsayhuam\u00e1n",
       "entity_type": "facility",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/sacsayhuaman.jpg"
     },
     {
       "id": 639,
@@ -5269,7 +5269,7 @@
       "name": "Salvador Dal\u00ed",
       "entity_type": "person",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/salvador_dali.jpg"
     },
     {
       "id": 51,
@@ -5297,7 +5297,7 @@
       "name": "Sammy Gravano",
       "entity_type": "person",
       "connection_count": 4,
-      "photo_url": ""
+      "photo_url": "photos/gravano.jpg"
     },
     {
       "id": 895,
@@ -5367,14 +5367,14 @@
       "name": "School of the Americas",
       "entity_type": "organization",
       "connection_count": 3,
-      "photo_url": ""
+      "photo_url": "photos/school_of_americas.jpg"
     },
     {
       "id": 449,
       "name": "Scottish Rite Southern Jurisdiction",
       "entity_type": "organization",
       "connection_count": 12,
-      "photo_url": ""
+      "photo_url": "photos/scottish_rite.jpg"
     },
     {
       "id": 131,
@@ -5423,7 +5423,7 @@
       "name": "Shir\u014d Ishii",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/shiro_ishii.jpg"
     },
     {
       "id": 454,
@@ -5563,7 +5563,7 @@
       "name": "Standing Rock Protests",
       "entity_type": "event",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/standing_rock.jpg"
     },
     {
       "id": 358,
@@ -5794,7 +5794,7 @@
       "name": "The Walt Disney Company",
       "entity_type": "organization",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/disney.jpg"
     },
     {
       "id": 743,
@@ -5885,7 +5885,7 @@
       "name": "Trilateral Commission",
       "entity_type": "organization",
       "connection_count": 5,
-      "photo_url": ""
+      "photo_url": "photos/trilateral.jpg"
     },
     {
       "id": 724,
@@ -5899,7 +5899,7 @@
       "name": "Tuskegee Syphilis Study",
       "entity_type": "program",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/tuskegee.jpg"
     },
     {
       "id": 594,
@@ -6018,7 +6018,7 @@
       "name": "United Fruit Company",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/united_fruit.jpg"
     },
     {
       "id": 452,
@@ -6137,7 +6137,7 @@
       "name": "Warner Bros. Discovery",
       "entity_type": "organization",
       "connection_count": 2,
-      "photo_url": ""
+      "photo_url": "photos/wbd.jpg"
     },
     {
       "id": 544,
@@ -6200,7 +6200,7 @@
       "name": "William Barr",
       "entity_type": "person",
       "connection_count": 10,
-      "photo_url": ""
+      "photo_url": "photos/barr.jpg"
     },
     {
       "id": 578,
@@ -6221,7 +6221,7 @@
       "name": "William Casey",
       "entity_type": "person",
       "connection_count": 10,
-      "photo_url": ""
+      "photo_url": "photos/casey.jpg"
     },
     {
       "id": 841,
@@ -6291,7 +6291,7 @@
       "name": "Wright-Patterson AFB",
       "entity_type": "facility",
       "connection_count": 1,
-      "photo_url": ""
+      "photo_url": "photos/wright_patterson_afb.jpg"
     },
     {
       "id": 736,
@@ -6319,7 +6319,7 @@
       "name": "Younger Dryas Impact Hypothesis",
       "entity_type": "event",
       "connection_count": 6,
-      "photo_url": ""
+      "photo_url": "photos/younger_dryas.jpg"
     },
     {
       "id": 548,
