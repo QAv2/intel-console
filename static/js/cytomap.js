@@ -122,6 +122,18 @@ const ringState = {
 };
 
 
+// ---- Mobile detection ----
+const IS_MOBILE = window.innerWidth < 600;
+if (IS_MOBILE) {
+    // Scale up node sizes for touch targets
+    for (const k of Object.keys(BRANCH_NODE_SIZES)) {
+        BRANCH_NODE_SIZES[k] = Math.round(BRANCH_NODE_SIZES[k] * 1.3);
+    }
+    for (let i = 0; i < EGO_NODE_SIZES.length; i++) {
+        EGO_NODE_SIZES[i] = Math.round(EGO_NODE_SIZES[i] * 1.3);
+    }
+}
+
 // ---- Initialize ----
 
 function initMap() {
@@ -133,7 +145,7 @@ function initMap() {
         style: getCytoscapeStyle(),
         elements: [],
         layout: { name: 'preset' },
-        minZoom: 0.08,
+        minZoom: IS_MOBILE ? 0.15 : 0.08,
         maxZoom: 6,
         wheelSensitivity: 0.8,
         boxSelectionEnabled: false,
@@ -219,15 +231,17 @@ function initMap() {
         snapToNearestBranch();
     });
 
-    // Safety: release if mouse leaves window
-    document.addEventListener('mouseup', () => {
+    // Safety: release if pointer leaves window (mouse + touch)
+    const ringDragEnd = () => {
         if (ringDragging) {
             ringDragging = false;
             cy.panningEnabled(true);
             cy.container().style.cursor = '';
             snapToNearestBranch();
         }
-    });
+    };
+    document.addEventListener('mouseup', ringDragEnd);
+    document.addEventListener('touchend', ringDragEnd);
 
     // Cursor hint on branch-center hover
     cy.on('mouseover', 'node.branch-center', () => {
