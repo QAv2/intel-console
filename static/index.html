@@ -39,7 +39,8 @@
 
     <!-- Guide Popup -->
     <div id="guide-overlay" role="dialog" aria-label="How to use Intel Console">
-        <div class="guide-card">
+        <!-- Desktop guide -->
+        <div class="guide-card guide-desktop">
             <div class="guide-header">
                 <div class="guide-title">INTEL CONSOLE</div>
                 <div class="guide-subtitle">Civilian OSINT Intelligence Graph</div>
@@ -51,6 +52,7 @@
                     <div class="guide-item"><span class="guide-icon">&#8596;</span> Drag the <strong>center node</strong> left/right to rotate branches</div>
                     <div class="guide-item"><span class="guide-icon">&#9673;</span> Click any <strong>entity</strong> to view dossier + connections</div>
                     <div class="guide-item"><span class="guide-icon">&#10147;</span> Click a <strong>peripheral branch</strong> to switch focus</div>
+                    <div class="guide-item"><span class="guide-icon">&#9995;</span> Grab and <strong>drag any entity</strong> to rearrange the map</div>
                 </div>
                 <div class="guide-col">
                     <div class="guide-section-title">Controls</div>
@@ -59,7 +61,7 @@
                     <div class="guide-row"><span class="guide-desc">Go back</span><span class="guide-key">Backspace</span></div>
                     <div class="guide-row"><span class="guide-desc">Search entities</span><span class="guide-key">/</span></div>
                     <div class="guide-row"><span class="guide-desc">Branch index</span><span class="guide-key">i</span></div>
-                    <div class="guide-row"><span class="guide-desc">Toggle layout</span><span class="guide-key">Radial / Force</span></div>
+                    <div class="guide-row"><span class="guide-desc">Show this guide</span><span class="guide-key">?</span></div>
                 </div>
             </div>
             <div class="guide-tiers">
@@ -69,6 +71,31 @@
                 <span class="guide-tier"><span class="guide-dot" style="background:#f87171"></span>Speculative</span>
             </div>
             <div class="guide-footer">CLICK ANYWHERE OR PRESS ANY KEY</div>
+        </div>
+        <!-- Mobile guide -->
+        <div class="guide-card guide-mobile">
+            <div class="guide-header">
+                <div class="guide-title">INTEL CONSOLE</div>
+                <div class="guide-subtitle">Civilian OSINT Intelligence Graph</div>
+            </div>
+            <div class="guide-section-title">Touch Controls</div>
+            <div class="guide-item"><span class="guide-icon">&#128296;</span> <strong>Pinch</strong> to zoom in and out</div>
+            <div class="guide-item"><span class="guide-icon">&#9758;</span> <strong>Swipe</strong> the background to pan the map</div>
+            <div class="guide-item"><span class="guide-icon">&#9995;</span> <strong>Tap + hold + drag</strong> any entity to move it freely</div>
+            <div class="guide-section-title" style="margin-top:14px">Navigation</div>
+            <div class="guide-item"><span class="guide-icon">&#9679;</span> Tap a <strong>branch circle</strong> to explore its entities</div>
+            <div class="guide-item"><span class="guide-icon">&#8596;</span> Drag the <strong>center label</strong> left/right to rotate branches</div>
+            <div class="guide-item"><span class="guide-icon">&#9673;</span> Tap any <strong>entity</strong> to view its dossier and connections</div>
+            <div class="guide-item"><span class="guide-icon">&#10147;</span> Tap a <strong>distant branch</strong> to switch focus to it</div>
+            <div class="guide-item"><span class="guide-icon">&#8617;</span> Use the <strong>Map</strong> button to go back</div>
+            <div class="guide-section-title" style="margin-top:14px">Evidence Tiers</div>
+            <div class="guide-tiers">
+                <span class="guide-tier"><span class="guide-dot" style="background:#34d399"></span>Documented</span>
+                <span class="guide-tier"><span class="guide-dot" style="background:#fbbf24"></span>Credible</span>
+                <span class="guide-tier"><span class="guide-dot" style="background:#fb923c"></span>Inference</span>
+                <span class="guide-tier"><span class="guide-dot" style="background:#f87171"></span>Speculative</span>
+            </div>
+            <div class="guide-footer">TAP ANYWHERE TO START</div>
         </div>
     </div>
 

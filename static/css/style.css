@@ -1548,10 +1548,17 @@ a.entity-source-item .entity-source-title {
     letter-spacing: 2px;
 }
 
+/* Show desktop guide, hide mobile guide by default */
+.guide-mobile { display: none; }
+.guide-desktop { display: block; }
+
 @media (max-width: 600px) {
     .guide-columns { flex-direction: column; gap: 16px; }
     .guide-card { padding: 20px 18px; }
     .guide-tiers { flex-wrap: wrap; gap: 8px; }
+    /* Swap: show mobile guide, hide desktop */
+    .guide-mobile { display: block; }
+    .guide-desktop { display: none; }
 }
 
 /* ---- Mobile (phones, 480px and below) ---- */
