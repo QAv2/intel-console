@@ -140,9 +140,6 @@
             document.getElementById('stats-bar').innerHTML = statsHtml;
         } catch (e) { console.warn('Stats load failed:', e); }
 
-        // Init timeline slider
-        Timeline.init();
-
         // Boot into radial map
         buildRadialMap();
         updateBreadcrumb();
@@ -170,9 +167,9 @@
         // Dismiss loading screen
         dismissLoading();
 
-        // Show branch directory unless deep-linked to an entity
+        // Show guide popup, then navigator after dismissal
         if (!window.location.hash) {
-            Navigator.open();
+            showGuide(() => Navigator.open());
         }
 
     } catch (err) {
@@ -180,6 +177,27 @@
         if (!graphLoaded) {
             showLoadingError('FAILED TO LOAD DATA');
         }
+    }
+
+    // ---- Guide popup ----
+    function showGuide(onDismiss) {
+        const overlay = document.getElementById('guide-overlay');
+        if (!overlay) { if (onDismiss) onDismiss(); return; }
+
+        overlay.classList.add('visible');
+
+        const dismiss = (e) => {
+            if (e.type === 'wheel') return;
+            overlay.classList.add('dismissing');
+            overlay.classList.remove('visible');
+            setTimeout(() => { overlay.style.display = 'none'; }, 400);
+            document.removeEventListener('keydown', dismiss);
+            overlay.removeEventListener('click', dismiss);
+            if (onDismiss) setTimeout(onDismiss, 450);
+        };
+
+        document.addEventListener('keydown', dismiss);
+        overlay.addEventListener('click', dismiss);
     }
 
     // ---- Keyboard shortcuts ----
@@ -199,6 +217,11 @@
         if (e.key === 'i' && document.activeElement !== Search.input) {
             Navigator.toggle();
         }
+        if (e.key === '?' && document.activeElement !== Search.input) {
+            const overlay = document.getElementById('guide-overlay');
+            if (overlay) { overlay.style.display = ''; overlay.classList.add('visible'); overlay.classList.remove('dismissing'); }
+            showGuide();
+        }
     });
 
     // ---- Toolbar button listeners ----
@@ -215,10 +238,19 @@
 
     if (btnBackToMap) {
         btnBackToMap.addEventListener('click', () => {
-            navStack = [];
-            Dossier.close();
-            buildRadialMap();
-            updateBreadcrumb();
+            if (egoMode && activeBranchView) {
+                // Ego → Branch view
+                navStack = [];
+                Dossier.close();
+                buildBranchMap(activeBranchView);
+                updateBreadcrumb();
+            } else {
+                // Branch → Hub, or Ego → Hub
+                navStack = [];
+                Dossier.close();
+                buildRadialMap();
+                updateBreadcrumb();
+            }
         });
     }
 
@@ -240,18 +272,14 @@
     function updateBreadcrumb() {
         const bar = document.getElementById('breadcrumb-bar');
 
-        // Show/hide back-to-map button
+        // Show/hide back-to-map button (visible in ego mode and branch view)
         if (btnBackToMap) {
-            btnBackToMap.style.display = egoMode ? '' : 'none';
+            btnBackToMap.style.display = (egoMode || activeBranchView) ? '' : 'none';
         }
 
-        if (hubMode) {
+        // Hub overview — no branch selected
+        if (hubMode && !activeBranchView) {
             bar.innerHTML = `<span class="breadcrumb-current">Network Overview</span>`;
-            return;
-        }
-
-        if (navStack.length === 0) {
-            bar.innerHTML = '';
             return;
         }
 
@@ -259,18 +287,35 @@
         html += `<span class="breadcrumb-item" data-hub="true">Hub</span>`;
         html += `<span class="breadcrumb-sep">&rsaquo;</span>`;
 
-        navStack.forEach((id, i) => {
-            const name = getEntityName(id);
-            if (i < navStack.length - 1) {
-                html += `<span class="breadcrumb-item" data-id="${id}">${esc(name)}</span>`;
-                html += `<span class="breadcrumb-sep">&rsaquo;</span>`;
+        // Branch level
+        if (activeBranchView) {
+            const branchLabel = BRANCHES[activeBranchView] ? BRANCHES[activeBranchView].label : activeBranchView;
+            if (hubMode && !egoMode) {
+                // Currently viewing branch (not ego)
+                html += `<span class="breadcrumb-current">${esc(branchLabel)}</span>`;
             } else {
-                html += `<span class="breadcrumb-current">${esc(name)}</span>`;
+                // In ego from branch view — branch is clickable
+                html += `<span class="breadcrumb-item" data-branch="${activeBranchView}">${esc(branchLabel)}</span>`;
+                html += `<span class="breadcrumb-sep">&rsaquo;</span>`;
             }
-        });
+        }
+
+        // Entity breadcrumbs (ego mode)
+        if (navStack.length > 0) {
+            navStack.forEach((id, i) => {
+                const name = getEntityName(id);
+                if (i < navStack.length - 1) {
+                    html += `<span class="breadcrumb-item" data-id="${id}">${esc(name)}</span>`;
+                    html += `<span class="breadcrumb-sep">&rsaquo;</span>`;
+                } else {
+                    html += `<span class="breadcrumb-current">${esc(name)}</span>`;
+                }
+            });
+        }
+
         bar.innerHTML = html;
 
-        // Click handlers on breadcrumb items
+        // Click handlers on entity breadcrumb items
         bar.querySelectorAll('.breadcrumb-item[data-id]').forEach(el => {
             el.addEventListener('click', async () => {
                 const id = parseInt(el.getAttribute('data-id'));
@@ -283,6 +328,18 @@
                 Dossier.show(id);
             });
         });
+
+        // Branch link handler
+        const branchLink = bar.querySelector('[data-branch]');
+        if (branchLink) {
+            branchLink.addEventListener('click', () => {
+                const bk = branchLink.getAttribute('data-branch');
+                navStack = [];
+                Dossier.close();
+                buildBranchMap(bk);
+                updateBreadcrumb();
+            });
+        }
 
         // Hub link handler
         const hubLink = bar.querySelector('[data-hub]');
@@ -297,12 +354,23 @@
     }
 
     async function navigateBack() {
-        if (hubMode) return;
+        // In branch view (not ego) — go back to hub
+        if (hubMode && activeBranchView) {
+            buildRadialMap();
+            updateBreadcrumb();
+            return;
+        }
+
+        if (hubMode && !activeBranchView) return; // Already at top level
 
         if (navStack.length <= 1) {
             navStack = [];
             Dossier.close();
-            buildRadialMap();
+            if (activeBranchView) {
+                buildBranchMap(activeBranchView);
+            } else {
+                buildRadialMap();
+            }
             updateBreadcrumb();
             return;
         }
