@@ -25,8 +25,10 @@ const Dossier = {
 
     close() {
         this.panel.classList.remove('open');
+        this.panel.setAttribute('aria-hidden', 'true');
         this.currentEntityId = null;
         clearHighlight();
+        document.getElementById('cy-container').focus();
     },
 
     async show(entityId) {
@@ -59,7 +61,7 @@ const Dossier = {
             html += `<img class="panel-photo" src="${esc(meta.photo_url)}" alt="${esc(entity.name)}" style="border-color:${color}">`;
             html += `<div>`;
             html += `<div class="panel-type-tag" style="background:${color}22;color:${color}">${entity.entity_type.replace('_', ' ')}</div>`;
-            html += `<h2 class="panel-title">${esc(entity.name)}</h2>`;
+            html += `<h2 class="panel-title" id="dossier-title">${esc(entity.name)}</h2>`;
             if (entity.aliases) {
                 html += `<p class="panel-aliases">aka ${esc(entity.aliases)}</p>`;
             }
@@ -76,7 +78,7 @@ const Dossier = {
             }
             html += `<div>`;
             html += `<div class="panel-type-tag" style="background:${color}22;color:${color}">${entity.entity_type.replace('_', ' ')}</div>`;
-            html += `<h2 class="panel-title">${esc(entity.name)}</h2>`;
+            html += `<h2 class="panel-title" id="dossier-title">${esc(entity.name)}</h2>`;
             if (entity.aliases) {
                 html += `<p class="panel-aliases">aka ${esc(entity.aliases)}</p>`;
             }
@@ -131,6 +133,7 @@ const Dossier = {
                 if (details.length) {
                     html += `<span class="entity-source-detail">${esc(details.join(', '))}</span>`;
                 }
+                if (s.url) html += `<span class="sr-only">(opens in new tab)</span>`;
                 html += s.url ? `</a>` : `</span>`;
             });
             html += `</div>`;
@@ -148,7 +151,7 @@ const Dossier = {
             signals.forEach(s => {
                 const feedColor = FEED_COLORS[s.source_feed] || '#888';
                 html += `<a class="signal-item" href="${esc(s.url)}" target="_blank" style="border-left-color:${feedColor}">`;
-                html += `<span class="signal-headline">${esc(s.headline)}</span>`;
+                html += `<span class="signal-headline">${esc(s.headline)}<span class="sr-only">(opens in new tab)</span></span>`;
                 html += `<div class="signal-meta">`;
                 html += `<span class="signal-feed" style="color:${feedColor}">${esc(s.source_feed.replace('_', ' '))}</span>`;
                 const timeStr = s.published_at || s.collected_at || '';
@@ -185,13 +188,13 @@ const Dossier = {
                         sourcesHtml = '<div class="rel-sources">';
                         sourcesHtml += r.sources.map(s =>
                             s.url
-                                ? `<a class="rel-source-link" href="${esc(s.url)}" target="_blank">${esc(s.title)}</a>`
+                                ? `<a class="rel-source-link" href="${esc(s.url)}" target="_blank">${esc(s.title)}<span class="sr-only">(opens in new tab)</span></a>`
                                 : esc(s.title)
                         ).join(' | ');
                         sourcesHtml += '</div>';
                     }
 
-                    html += `<div class="rel-item" data-tier="${r.evidence_tier}" data-entity-id="${otherId}">
+                    html += `<div class="rel-item" data-tier="${r.evidence_tier}" data-entity-id="${otherId}" tabindex="0" role="link">
                         <div>
                             <div class="rel-entity-name">${direction} ${esc(otherName)}</div>
                             ${r.description ? `<div class="rel-desc">${esc(r.description)}</div>` : ''}
@@ -206,6 +209,8 @@ const Dossier = {
 
         this.inner.innerHTML = html;
         this.panel.classList.add('open');
+        this.panel.setAttribute('aria-hidden', 'false');
+        this.panel.setAttribute('aria-labelledby', 'dossier-title');
 
         // Scroll to top on new entity
         this.panel.scrollTop = 0;
@@ -225,6 +230,12 @@ const Dossier = {
                 } else if (id) {
                     focusNode(id);
                     this.show(id);
+                }
+            });
+            el.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    el.click();
                 }
             });
         });

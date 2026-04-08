@@ -37,6 +37,41 @@
         <div class="loading-bar"><div class="loading-bar-fill" id="loading-bar-fill" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></div>
     </div>
 
+    <!-- Guide Popup -->
+    <div id="guide-overlay" role="dialog" aria-label="How to use Intel Console">
+        <div class="guide-card">
+            <div class="guide-header">
+                <div class="guide-title">INTEL CONSOLE</div>
+                <div class="guide-subtitle">Civilian OSINT Intelligence Graph</div>
+            </div>
+            <div class="guide-columns">
+                <div class="guide-col">
+                    <div class="guide-section-title">Navigation</div>
+                    <div class="guide-item"><span class="guide-icon">&#9679;</span> Click a <strong>branch</strong> to explore its entities</div>
+                    <div class="guide-item"><span class="guide-icon">&#8596;</span> Drag the <strong>center node</strong> left/right to rotate branches</div>
+                    <div class="guide-item"><span class="guide-icon">&#9673;</span> Click any <strong>entity</strong> to view dossier + connections</div>
+                    <div class="guide-item"><span class="guide-icon">&#10147;</span> Click a <strong>peripheral branch</strong> to switch focus</div>
+                </div>
+                <div class="guide-col">
+                    <div class="guide-section-title">Controls</div>
+                    <div class="guide-row"><span class="guide-desc">Zoom in / out</span><span class="guide-key">Scroll</span></div>
+                    <div class="guide-row"><span class="guide-desc">Pan the map</span><span class="guide-key">Click + Drag</span></div>
+                    <div class="guide-row"><span class="guide-desc">Go back</span><span class="guide-key">Backspace</span></div>
+                    <div class="guide-row"><span class="guide-desc">Search entities</span><span class="guide-key">/</span></div>
+                    <div class="guide-row"><span class="guide-desc">Branch index</span><span class="guide-key">i</span></div>
+                    <div class="guide-row"><span class="guide-desc">Toggle layout</span><span class="guide-key">Radial / Force</span></div>
+                </div>
+            </div>
+            <div class="guide-tiers">
+                <span class="guide-tier"><span class="guide-dot" style="background:#34d399"></span>Documented</span>
+                <span class="guide-tier"><span class="guide-dot" style="background:#fbbf24"></span>Credible</span>
+                <span class="guide-tier"><span class="guide-dot" style="background:#fb923c"></span>Inference</span>
+                <span class="guide-tier"><span class="guide-dot" style="background:#f87171"></span>Speculative</span>
+            </div>
+            <div class="guide-footer">CLICK ANYWHERE OR PRESS ANY KEY</div>
+        </div>
+    </div>
+
     <!-- Branch Directory Navigator -->
     <div id="navigator-overlay" class="nav-overlay" role="dialog" aria-modal="true" aria-label="Branch navigator"></div>
 
@@ -69,9 +104,6 @@
         </div>
         <div class="search-results" id="search-results"></div>
     </div>
-
-    <!-- Timeline slider -->
-    <div class="timeline-container" id="timeline-container"></div>
 
     <!-- Filter bar -->
     <div class="filter-bar" id="filter-bar">
@@ -129,13 +161,12 @@
     <script src="https://unpkg.com/layout-base@2.0.1/layout-base.js"></script>
     <script src="https://unpkg.com/cose-base@2.2.0/cose-base.js"></script>
     <script src="https://unpkg.com/cytoscape-fcose@2.2.0/cytoscape-fcose.js"></script>
-    <script src="js/api.js?v=9"></script>
-    <script src="js/branches.js?v=9"></script>
-    <script src="js/cytomap.js?v=9"></script>
-    <script src="js/dossier.js?v=9"></script>
-    <script src="js/search.js?v=9"></script>
-    <script src="js/timeline.js?v=9"></script>
-    <script src="js/navigator.js?v=9"></script>
-    <script src="js/app.js?v=9"></script>
+    <script src="js/api.js?v=10"></script>
+    <script src="js/branches.js?v=10"></script>
+    <script src="js/cytomap.js?v=10"></script>
+    <script src="js/dossier.js?v=10"></script>
+    <script src="js/search.js?v=10"></script>
+    <script src="js/navigator.js?v=10"></script>
+    <script src="js/app.js?v=10"></script>
 </body>
 </html>

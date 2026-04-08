@@ -1,13 +1,14 @@
 /**
  * Intel Console — Cytoscape.js Transformation Map Engine
  *
- * Three view modes:
- *   1. Radial (default): Pre-computed positions, 11 branches, 3 rings
- *   2. Force: fcose layout for exploring cross-branch connections
- *   3. Ego: BFS depth-2 neighborhood in concentric layout
+ * View modes:
+ *   1. Hub: 11 branch anchors as entry points
+ *   2. Focused: Active branch expanded at center, 10 others in depth-scaled peripheral ring
+ *   3. Force: fcose layout for exploring connections
+ *   4. Ego: BFS depth-2 neighborhood in concentric layout
  *
- * Exports the same global API surface as the old map.js so that
- * app.js, dossier.js, search.js, and timeline.js work unchanged.
+ * Exports the same global API surface so that
+ * app.js, dossier.js, search.js work unchanged.
  */
 
 // ---- Constants ----
@@ -52,16 +53,40 @@ const TIER_COLORS = {
     speculative: '#f87171',
 };
 
-// Radial layout distances (scaled for Cytoscape coordinate space)
-const RING_DISTANCES = [0, 300, 520, 740, 960];
+// Radial layout — adaptive: radius scales with entity count for tight packing
+// minDist is the ring radius when only 1 entity; nodeSpacing is the target arc gap between nodes
+const RING_CONFIG = {
+    1: { minDist: 80,  nodeSpacing: 55 },   // Ring 1: key players, biggest nodes
+    2: { minDist: 130, nodeSpacing: 38 },    // Ring 2: mid-tier
+    3: { minDist: 180, nodeSpacing: 28 },    // Ring 3: outermost, smallest
+};
 const NODE_SIZES = { 1: 44, 2: 28, 3: 20 };
-const EGO_RING_DISTANCES = [0, 240, 440];
-const EGO_NODE_SIZES = [50, 28, 18];
+const BRANCH_NODE_SIZES = { 1: 44, 2: 32, 3: 24 };
+const EGO_RING_DISTANCES = [0, 160, 300];
+const EGO_NODE_SIZES = [44, 24, 16];
+
+// Focused branch view — peripheral ring geometry
+const RING_LAYOUT = {
+    peripheralRadius: 700,    // distance from center to peripheral branch anchors
+    tilt: 0.45,               // ellipse aspect ratio (simulates viewing angle)
+    minScale: 0.3,            // node scale at "back" of ring (theta=PI)
+    maxScale: 0.7,            // node scale at "front" of ring (theta=0)
+    clusterRadius: 55,        // base radius of peripheral mini-cluster
+};
+
+/** Compute adaptive ring distance: tight when sparse, expands with count */
+function adaptiveRingDist(ring, count) {
+    const cfg = RING_CONFIG[ring];
+    if (!cfg || count <= 1) return cfg ? cfg.minDist : 100;
+    // circumference needed = count * nodeSpacing; radius = circumference / (2*PI)
+    const needed = (count * cfg.nodeSpacing) / (2 * Math.PI);
+    return Math.max(cfg.minDist, needed);
+}
 
 // Opacity
 const DIM_OPACITY = 0.08;
-const LINE_DEFAULT_OPACITY = 0.12;
-const LINE_HIGHLIGHT_OPACITY = 0.65;
+const LINE_DEFAULT_OPACITY = 0.35;
+const LINE_HIGHLIGHT_OPACITY = 0.8;
 
 // ---- State ----
 let graphData = null;
@@ -71,6 +96,7 @@ let egoMode = false;
 let hubMode = true;
 let isRecentering = false;
 let activeBranchFilter = null; // currently focused branch key, or null
+let activeBranchView = null;   // current branch-level view key, or null for hub overview
 
 let cy = null;
 let currentView = 'radial'; // 'radial' | 'force' | 'ego'
@@ -85,6 +111,28 @@ const filterState = {
     showConnections: true,
 };
 
+// Ring rotation state (for drag-to-rotate interaction)
+const ringState = {
+    rotation: 0,            // current rotation offset in radians
+    dragStartRotation: 0,   // rotation when drag began
+    activeBranch: null,     // current active branch key
+    otherBranches: [],      // ordered peripheral branch keys
+    branchRing1: {},        // { branchKey: [entityId, ...] } for each peripheral branch
+    entityNames: {},        // { entityId: name } for label toggling during rotation
+};
+
+
+// ---- Mobile detection ----
+const IS_MOBILE = window.innerWidth < 600;
+if (IS_MOBILE) {
+    // Scale up node sizes for touch targets
+    for (const k of Object.keys(BRANCH_NODE_SIZES)) {
+        BRANCH_NODE_SIZES[k] = Math.round(BRANCH_NODE_SIZES[k] * 1.3);
+    }
+    for (let i = 0; i < EGO_NODE_SIZES.length; i++) {
+        EGO_NODE_SIZES[i] = Math.round(EGO_NODE_SIZES[i] * 1.3);
+    }
+}
 
 // ---- Initialize ----
 
@@ -97,9 +145,9 @@ function initMap() {
         style: getCytoscapeStyle(),
         elements: [],
         layout: { name: 'preset' },
-        minZoom: 0.08,
+        minZoom: IS_MOBILE ? 0.15 : 0.08,
         maxZoom: 6,
-        wheelSensitivity: 0.3,
+        wheelSensitivity: 0.8,
         boxSelectionEnabled: false,
         selectionType: 'single',
         pixelRatio: 'auto',
@@ -108,12 +156,21 @@ function initMap() {
     // Node click
     cy.on('tap', 'node', (evt) => {
         const node = evt.target;
-        if (node.hasClass('title-badge')) return;
+        if (node.hasClass('title-badge') || node.hasClass('branch-center')) return;
 
-        // Branch anchor click — toggle branch focus
+        // Branch anchor click — switch to that branch
         if (node.hasClass('branch-anchor')) {
             const branchKey = node.id().replace('anchor_', '');
             toggleBranchFocus(branchKey);
+            return;
+        }
+
+        // Peripheral entity click — switch to that branch
+        if (node.data('isPeripheral') === 1) {
+            const branchKey = node.data('branchKey');
+            if (branchKey) {
+                toggleBranchFocus(branchKey);
+            }
             return;
         }
 
@@ -138,12 +195,64 @@ function initMap() {
     // Hover highlights
     cy.on('mouseover', 'node', (evt) => {
         const node = evt.target;
-        if (node.hasClass('title-badge')) return;
+        if (node.hasClass('title-badge') || node.hasClass('branch-center')) return;
         hoverHighlight(node);
     });
 
     cy.on('mouseout', 'node', (evt) => {
         hoverClear();
+    });
+
+    // ---- Ring rotation drag (on branch-center node) ----
+    let ringDragging = false;
+    let ringDragStartX = 0;
+
+    cy.on('tapstart', 'node.branch-center', (evt) => {
+        if (!activeBranchView) return;
+        ringDragging = true;
+        ringDragStartX = evt.renderedPosition.x;
+        ringState.dragStartRotation = ringState.rotation;
+        cy.panningEnabled(false);
+        cy.container().style.cursor = 'grabbing';
+    });
+
+    cy.on('vmousemove', (evt) => {
+        if (!ringDragging) return;
+        const dx = evt.renderedPosition.x - ringDragStartX;
+        ringState.rotation = ringState.dragStartRotation + dx * 0.004;
+        updatePeripheralPositions();
+    });
+
+    cy.on('vmouseup', () => {
+        if (!ringDragging) return;
+        ringDragging = false;
+        cy.panningEnabled(true);
+        cy.container().style.cursor = '';
+        snapToNearestBranch();
+    });
+
+    // Safety: release if pointer leaves window (mouse + touch)
+    const ringDragEnd = () => {
+        if (ringDragging) {
+            ringDragging = false;
+            cy.panningEnabled(true);
+            cy.container().style.cursor = '';
+            snapToNearestBranch();
+        }
+    };
+    document.addEventListener('mouseup', ringDragEnd);
+    document.addEventListener('touchend', ringDragEnd);
+
+    // Cursor hint on branch-center hover
+    cy.on('mouseover', 'node.branch-center', () => {
+        if (activeBranchView && !ringDragging) {
+            cy.container().style.cursor = 'grab';
+        }
+    });
+    cy.on('mouseout', 'node.branch-center', () => {
+        if (!ringDragging) {
+            cy.container().style.cursor = '';
+        }
     });
 }
 
@@ -181,7 +290,7 @@ function getCytoscapeStyle() {
                 'border-opacity': 0.6,
                 'transition-property': 'opacity, width, height',
                 'transition-duration': '0.2s',
-                'min-zoomed-font-size': 6,
+                'min-zoomed-font-size': 0,
             }
         },
         // Photo nodes (real photos)
@@ -240,14 +349,45 @@ function getCytoscapeStyle() {
                 'text-halign': 'center',
                 'text-wrap': 'wrap',
                 'text-max-width': '90px',
-                'width': 50,
-                'height': 50,
+                'width': 'data(size)',
+                'height': 'data(size)',
                 'background-color': '#0a0a0f',
                 'border-width': 2,
                 'border-color': 'data(color)',
                 'shape': 'ellipse',
                 'text-margin-y': 0,
                 'z-index': 5,
+            }
+        },
+        // Branch center node (focused view title — drag to rotate ring)
+        {
+            selector: 'node.branch-center',
+            style: {
+                'label': 'data(branchLabel)',
+                'font-size': 7,
+                'font-weight': 'bold',
+                'color': 'data(color)',
+                'text-valign': 'center',
+                'text-halign': 'center',
+                'text-wrap': 'wrap',
+                'text-max-width': '100px',
+                'width': 60,
+                'height': 60,
+                'background-color': '#0a0a0f',
+                'border-width': 1.5,
+                'border-color': 'data(color)',
+                'border-style': 'dashed',
+                'shape': 'ellipse',
+                'text-margin-y': 0,
+                'z-index': 5,
+                'min-zoomed-font-size': 0,
+            }
+        },
+        // Peripheral nodes (depth-scaled opacity)
+        {
+            selector: 'node[isPeripheral = 1]',
+            style: {
+                'opacity': 'mapData(depth, 0, 1, 0.2, 0.75)',
             }
         },
         // Edge base — unbundled bezier with center-pull (spiderweb aesthetic)
@@ -264,6 +404,17 @@ function getCytoscapeStyle() {
                 'overlay-opacity': 0,
                 'transition-property': 'line-opacity, opacity',
                 'transition-duration': '0.2s',
+            }
+        },
+        // Cross-branch edges (dashed, subtle)
+        {
+            selector: 'edge[isCrossBranch = 1]',
+            style: {
+                'curve-style': 'straight',
+                'line-opacity': 0.18,
+                'line-style': 'dashed',
+                'line-dash-pattern': [6, 3],
+                'width': 0.5,
             }
         },
         // Dimmed
@@ -309,97 +460,66 @@ function getCytoscapeStyle() {
 }
 
 
-// ---- Radial Layout ----
-
-function computeRadialPositions() {
-    if (!graphData || !branchAssignments) return {};
-
-    const branchKeys = Object.keys(BRANCHES);
-
-    // Equal angles: each branch gets 360/N degrees
-    const sliceWidth = 360 / branchKeys.length;
-    const branchAngles = {};
-    branchKeys.forEach((k, i) => {
-        const start = -90 + i * sliceWidth;
-        branchAngles[k] = {
-            start: start,
-            width: sliceWidth,
-            center: start + sliceWidth / 2,
-        };
-    });
-
-    // Group entities by branch and ring
-    const branchRings = {};
-    branchKeys.forEach(k => {
-        branchRings[k] = { 1: [], 2: [], 3: [] };
-    });
-    for (const [id, info] of Object.entries(branchAssignments)) {
-        const node = graphData.nodes.find(n => n.id === parseInt(id));
-        if (!node) continue;
-        if (branchRings[info.branch]) {
-            branchRings[info.branch][info.ring].push(parseInt(id));
-        }
-    }
-
-    const positions = {};
-
-    // Title badge at center
-    positions['title'] = { x: 0, y: 0 };
-
-    // Branch anchors
-    branchKeys.forEach(k => {
-        const angle = branchAngles[k].center;
-        const rad = angle * Math.PI / 180;
-        positions['anchor_' + k] = {
-            x: Math.cos(rad) * RING_DISTANCES[1] * 0.52,
-            y: Math.sin(rad) * RING_DISTANCES[1] * 0.52,
-        };
-    });
-
-    // Entity positions
-    branchKeys.forEach(k => {
-        const ba = branchAngles[k];
-        const sectorRad = ba.width * Math.PI / 180;
-
-        [1, 2, 3].forEach(ring => {
-            const entities = branchRings[k][ring];
-            if (entities.length === 0) return;
-
-            const dist = RING_DISTANCES[ring];
-            const centerRad = ba.center * Math.PI / 180;
-            const count = entities.length;
-
-            // Fan spread: distribute within sector
-            const maxSpread = sectorRad * 0.85;
-            const spacing = count > 1 ? Math.min(0.18, maxSpread / (count - 1)) : 0;
-            const totalSpread = spacing * (count - 1);
-            const startAngle = centerRad - totalSpread / 2;
-
-            entities.forEach((eid, i) => {
-                const angle = count > 1 ? startAngle + i * spacing : centerRad;
-                positions[String(eid)] = {
-                    x: Math.cos(angle) * dist,
-                    y: Math.sin(angle) * dist,
-                };
-            });
-        });
-    });
-
-    return positions;
-}
-
+// ---- Hub View (11 branch anchors) ----
 
 function buildRadialMap() {
     if (!cy || !graphData || !branchAssignments) return;
 
     egoMode = false;
     hubMode = true;
+    activeBranchView = null;
     currentCenterId = null;
     currentView = 'radial';
     activeBranchFilter = null;
 
-    const positions = computeRadialPositions();
-    const elements = buildElements(positions);
+    const branchKeys = Object.keys(BRANCHES);
+    const N = branchKeys.length;
+    const elements = [];
+    const positions = {};
+
+    // Title badge at center
+    positions['title'] = { x: 0, y: 0 };
+    elements.push({
+        group: 'nodes',
+        data: { id: 'title', label: '', size: 80, color: '#0a0a0f', borderColor: 'rgba(255,255,255,0.12)' },
+        classes: 'title-badge',
+        position: { x: 0, y: 0 },
+    });
+
+    // Branch anchors in a circle — sized by entity count
+    const branchStats = {};
+    branchKeys.forEach(k => { branchStats[k] = 0; });
+    for (const info of Object.values(branchAssignments)) {
+        if (branchStats[info.branch] !== undefined) branchStats[info.branch]++;
+    }
+    const maxCount = Math.max(...Object.values(branchStats));
+
+    branchKeys.forEach((k, i) => {
+        const angle = -Math.PI / 2 + (2 * Math.PI * i / N);
+        const dist = 200;
+        const pos = {
+            x: Math.cos(angle) * dist,
+            y: Math.sin(angle) * dist,
+        };
+        positions['anchor_' + k] = pos;
+
+        const sizeFactor = 0.6 + 0.4 * (branchStats[k] / maxCount);
+        const size = Math.round(70 * sizeFactor);
+
+        elements.push({
+            group: 'nodes',
+            data: {
+                id: 'anchor_' + k,
+                label: '',
+                branchLabel: `${BRANCHES[k].label}\n${branchStats[k]}`,
+                size: size,
+                color: BRANCHES[k].color,
+                borderColor: BRANCHES[k].color,
+            },
+            classes: 'branch-anchor',
+            position: pos,
+        });
+    });
 
     cy.batch(() => {
         cy.elements().remove();
@@ -408,61 +528,220 @@ function buildRadialMap() {
 
     cy.layout({
         name: 'preset',
-        positions: (node) => {
-            return positions[node.id()] || { x: 0, y: 0 };
-        },
+        positions: (node) => positions[node.id()] || { x: 0, y: 0 },
         fit: true,
         padding: 60,
     }).run();
 
-    applyAllFilters();
+    // Reset ring state for hub
+    ringState.rotation = 0;
+    ringState.activeBranch = null;
+    ringState.otherBranches = [];
+    ringState.branchRing1 = {};
+    ringState.entityNames = {};
 
-    // Update view toggle button
+    applyAllFilters();
     updateViewToggle();
 }
 
 
-function buildElements(positions) {
-    const elements = [];
-    const nodeIds = new Set();
+// ---- Center-Pull Bezier ----
 
-    // Title badge
-    elements.push({
-        group: 'nodes',
-        data: { id: 'title', label: '', size: 80, color: '#0a0a0f', borderColor: 'rgba(255,255,255,0.12)' },
-        classes: 'title-badge',
-        position: positions['title'] || { x: 0, y: 0 },
-    });
+/**
+ * Compute signed perpendicular distance to pull an edge's bezier
+ * control point toward center (0,0) — spiderweb aesthetic.
+ */
+const CENTER_PULL_FACTOR = 0.45;
 
-    // Branch anchors
-    Object.keys(BRANCHES).forEach(k => {
-        const b = BRANCHES[k];
-        elements.push({
-            group: 'nodes',
-            data: {
-                id: 'anchor_' + k,
-                label: '',
-                branchLabel: b.label,
-                size: 50,
-                color: b.color,
-                borderColor: b.color,
-            },
-            classes: 'branch-anchor',
-            position: positions['anchor_' + k] || { x: 0, y: 0 },
+function computeCenterPull(positions, srcId, tgtId) {
+    const p1 = positions[srcId];
+    const p2 = positions[tgtId];
+    if (!p1 || !p2) return 0;
+
+    const mx = (p1.x + p2.x) / 2;
+    const my = (p1.y + p2.y) / 2;
+
+    const toCenterX = -mx;
+    const toCenterY = -my;
+
+    const dx = p2.x - p1.x;
+    const dy = p2.y - p1.y;
+    const edgeLen = Math.sqrt(dx * dx + dy * dy);
+    if (edgeLen < 1) return 0;
+
+    const perpX = -dy / edgeLen;
+    const perpY = dx / edgeLen;
+
+    const projection = (toCenterX * perpX + toCenterY * perpY) * CENTER_PULL_FACTOR;
+
+    const maxPull = edgeLen * 0.6;
+    return Math.max(-maxPull, Math.min(maxPull, projection));
+}
+
+
+// ---- Focused Branch View (with peripheral ring) ----
+
+function computeFocusedLayout(branchKey) {
+    if (!graphData || !branchAssignments) return { positions: {}, scales: {}, depths: {} };
+
+    const positions = {};
+    const scales = {};
+    const depths = {};
+
+    // ---- Active branch at center ----
+    positions['branch_center'] = { x: 0, y: 0 };
+    scales['branch_center'] = 1.0;
+    depths['branch_center'] = 1.0;
+
+    // Gather active branch entities by ring
+    const activeRings = { 1: [], 2: [], 3: [] };
+    for (const [id, info] of Object.entries(branchAssignments)) {
+        if (info.branch !== branchKey) continue;
+        activeRings[info.ring].push(parseInt(id));
+    }
+
+    [1, 2, 3].forEach(ring => {
+        const entities = activeRings[ring];
+        if (entities.length === 0) return;
+        const dist = adaptiveRingDist(ring, entities.length);
+        const angleStep = (2 * Math.PI) / entities.length;
+
+        entities.forEach((eid, i) => {
+            const angle = -Math.PI / 2 + i * angleStep;
+            const key = String(eid);
+            positions[key] = {
+                x: Math.cos(angle) * dist,
+                y: Math.sin(angle) * dist,
+            };
+            scales[key] = 1.0;
+            depths[key] = 1.0;
         });
     });
 
-    // Entity nodes
+    // ---- Peripheral branches in elliptical ring ----
+    const otherBranches = Object.keys(BRANCHES).filter(k => k !== branchKey);
+    const N = otherBranches.length;
+
+    otherBranches.forEach((key, i) => {
+        const theta = 2 * Math.PI * i / N;
+        const R = RING_LAYOUT.peripheralRadius;
+
+        // Ellipse: x varies with sin, y with cos*tilt
+        // theta=0 → bottom (front/close), theta=PI → top (back/far)
+        const cx = R * Math.sin(theta);
+        const cy_pos = R * Math.cos(theta) * RING_LAYOUT.tilt;
+
+        // Depth: 1 at front (theta=0), 0 at back (theta=PI)
+        const depth = (1 + Math.cos(theta)) / 2;
+        const scale = RING_LAYOUT.minScale + (RING_LAYOUT.maxScale - RING_LAYOUT.minScale) * depth;
+
+        // Branch anchor
+        const anchorId = 'anchor_' + key;
+        positions[anchorId] = { x: cx, y: cy_pos };
+        scales[anchorId] = scale;
+        depths[anchorId] = depth;
+
+        // Ring 1 entities in mini-cluster around anchor
+        const ring1 = [];
+        for (const [id, info] of Object.entries(branchAssignments)) {
+            if (info.branch !== key || info.ring !== 1) continue;
+            ring1.push(parseInt(id));
+        }
+
+        const miniR = RING_LAYOUT.clusterRadius * scale;
+        ring1.forEach((eid, j) => {
+            const miniAngle = -Math.PI / 2 + (2 * Math.PI * j / ring1.length);
+            const eidKey = String(eid);
+            positions[eidKey] = {
+                x: cx + Math.cos(miniAngle) * miniR,
+                y: cy_pos + Math.sin(miniAngle) * miniR,
+            };
+            scales[eidKey] = scale;
+            depths[eidKey] = depth;
+        });
+    });
+
+    return { positions, scales, depths };
+}
+
+
+function buildBranchMap(branchKey) {
+    if (!cy || !graphData || !branchAssignments) return;
+
+    egoMode = false;
+    hubMode = true;
+    activeBranchView = branchKey;
+    currentCenterId = null;
+    currentView = 'radial';
+    activeBranchFilter = null;
+
+    // Populate ring state for rotation
+    ringState.rotation = 0;
+    ringState.activeBranch = branchKey;
+    ringState.otherBranches = Object.keys(BRANCHES).filter(k => k !== branchKey);
+    ringState.branchRing1 = {};
+    ringState.entityNames = {};
+    ringState.otherBranches.forEach(key => {
+        ringState.branchRing1[key] = [];
+        for (const [id, info] of Object.entries(branchAssignments)) {
+            if (info.branch !== key || info.ring !== 1) continue;
+            const eid = parseInt(id);
+            ringState.branchRing1[key].push(eid);
+            const node = graphData.nodes.find(n => n.id === eid);
+            if (node) ringState.entityNames[eid] = node.name;
+        }
+    });
+
+    const layout = computeFocusedLayout(branchKey);
+    const elements = buildFocusedElements(branchKey, layout);
+
+    cy.batch(() => {
+        cy.elements().remove();
+        cy.add(elements);
+    });
+
+    cy.layout({
+        name: 'preset',
+        positions: (node) => layout.positions[node.id()] || { x: 0, y: 0 },
+        fit: true,
+        padding: 40,
+    }).run();
+
+    applyAllFilters();
+    updateViewToggle();
+}
+
+
+function buildFocusedElements(branchKey, layout) {
+    const elements = [];
+    const nodeIds = new Set();
+    const activeBranch = BRANCHES[branchKey];
+    const { positions, scales, depths } = layout;
+
+    // Branch center title node (grabbable: false so drag is handled by ring rotation)
+    elements.push({
+        group: 'nodes',
+        data: {
+            id: 'branch_center',
+            label: '',
+            branchLabel: activeBranch.label + '\n\u25C0 drag to cycle \u25B6',
+            size: 60,
+            color: activeBranch.color,
+            borderColor: activeBranch.color,
+            depth: 1.0,
+        },
+        grabbable: false,
+        classes: 'branch-center',
+        position: positions['branch_center'],
+    });
+
+    // ---- Active branch entities (all rings) ----
     graphData.nodes.forEach(n => {
         const info = branchAssignments[String(n.id)];
-        if (!info) return;
+        if (!info || info.branch !== branchKey) return;
 
-        const branch = BRANCHES[info.branch];
-        if (!branch) return;
-
-        const size = NODE_SIZES[info.ring] || 20;
+        const size = BRANCH_NODE_SIZES[info.ring] || 26;
         const typeColor = TYPE_COLORS[n.entity_type] || '#888';
-        const branchColor = branch.color;
 
         const nodeData = {
             id: String(n.id),
@@ -472,9 +751,11 @@ function buildElements(positions) {
             branchKey: info.branch,
             ring: info.ring,
             size: size,
-            color: branchColor,
+            color: activeBranch.color,
             borderColor: typeColor,
             connectionCount: n.connection_count || 0,
+            depth: 1.0,
+            isPeripheral: 0,
         };
 
         if (n.photo_url) {
@@ -492,13 +773,89 @@ function buildElements(positions) {
         nodeIds.add(String(n.id));
     });
 
-    // Edges — compute center-pull bezier distance for each
+    // ---- Peripheral branch anchors + Ring 1 entities ----
+    const otherBranches = Object.keys(BRANCHES).filter(k => k !== branchKey);
+    otherBranches.forEach(key => {
+        const branch = BRANCHES[key];
+        const anchorId = 'anchor_' + key;
+        const scale = scales[anchorId] || 0.5;
+        const depth = depths[anchorId] || 0.5;
+
+        // Branch anchor node
+        elements.push({
+            group: 'nodes',
+            data: {
+                id: anchorId,
+                label: '',
+                branchLabel: branch.label,
+                size: Math.round(50 * scale),
+                color: branch.color,
+                borderColor: branch.color,
+                depth: depth,
+                isPeripheral: 1,
+            },
+            classes: 'branch-anchor',
+            position: positions[anchorId],
+        });
+        nodeIds.add(anchorId);
+
+        // Ring 1 entities of this peripheral branch
+        graphData.nodes.forEach(n => {
+            const info = branchAssignments[String(n.id)];
+            if (!info || info.branch !== key || info.ring !== 1) return;
+
+            const nodeSize = Math.round(BRANCH_NODE_SIZES[1] * scale * 0.7);
+            const typeColor = TYPE_COLORS[n.entity_type] || '#888';
+
+            const nodeData = {
+                id: String(n.id),
+                label: depth > 0.45 ? n.name : '',
+                entityId: n.id,
+                entityType: n.entity_type,
+                branchKey: info.branch,
+                ring: info.ring,
+                size: nodeSize,
+                color: branch.color,
+                borderColor: typeColor,
+                connectionCount: n.connection_count || 0,
+                depth: depth,
+                isPeripheral: 1,
+            };
+
+            if (n.photo_url) {
+                nodeData.photo_url = n.photo_url;
+            } else if (TYPE_ICONS[n.entity_type]) {
+                nodeData.photo_url = TYPE_ICONS[n.entity_type];
+                nodeData.isIcon = 1;
+            }
+
+            elements.push({
+                group: 'nodes',
+                data: nodeData,
+                position: positions[String(n.id)] || { x: 0, y: 0 },
+            });
+            nodeIds.add(String(n.id));
+        });
+    });
+
+    // ---- Edges: intra-branch + cross-branch to peripheral Ring 1 ----
     graphData.edges.forEach(e => {
         const srcId = String(e.source);
         const tgtId = String(e.target);
         if (!nodeIds.has(srcId) || !nodeIds.has(tgtId)) return;
 
-        const cpDist = computeCenterPull(positions, srcId, tgtId);
+        const srcInfo = branchAssignments[srcId];
+        const tgtInfo = branchAssignments[tgtId];
+        if (!srcInfo || !tgtInfo) return;
+
+        const srcIsActive = srcInfo.branch === branchKey;
+        const tgtIsActive = tgtInfo.branch === branchKey;
+
+        // Only: intra-branch OR cross-branch with one end in active branch
+        if (!srcIsActive && !tgtIsActive) return;
+
+        const isCrossBranch = srcIsActive !== tgtIsActive;
+        const cpDist = isCrossBranch ? 0 : computeCenterPull(positions, srcId, tgtId);
 
         elements.push({
             group: 'edges',
@@ -514,54 +871,12 @@ function buildElements(positions) {
                 yearEnd: e.year_end,
                 description: e.description || '',
                 cpDist: cpDist,
+                isCrossBranch: isCrossBranch ? 1 : 0,
             },
         });
     });
 
     return elements;
-}
-
-
-/**
- * Compute signed perpendicular distance to pull an edge's bezier
- * control point toward center (0,0) — spiderweb aesthetic.
- *
- * pullFactor controls how aggressively curves bow inward:
- *   0.0 = straight line, 0.5 = halfway to center, 1.0 = through center
- */
-const CENTER_PULL_FACTOR = 0.45;
-
-function computeCenterPull(positions, srcId, tgtId) {
-    const p1 = positions[srcId];
-    const p2 = positions[tgtId];
-    if (!p1 || !p2) return 0;
-
-    // Midpoint of the edge
-    const mx = (p1.x + p2.x) / 2;
-    const my = (p1.y + p2.y) / 2;
-
-    // Vector from midpoint toward center (0,0)
-    const toCenterX = -mx;
-    const toCenterY = -my;
-
-    // Edge direction vector (source → target)
-    const dx = p2.x - p1.x;
-    const dy = p2.y - p1.y;
-    const edgeLen = Math.sqrt(dx * dx + dy * dy);
-    if (edgeLen < 1) return 0;
-
-    // Unit perpendicular to edge (rotate 90° left: (-dy, dx))
-    const perpX = -dy / edgeLen;
-    const perpY = dx / edgeLen;
-
-    // Project the center-pull vector onto the perpendicular
-    // This gives the signed distance: positive = left of src→tgt
-    const pullMag = Math.sqrt(toCenterX * toCenterX + toCenterY * toCenterY);
-    const projection = (toCenterX * perpX + toCenterY * perpY) * CENTER_PULL_FACTOR;
-
-    // Clamp to avoid extreme curves on very short edges
-    const maxPull = edgeLen * 0.6;
-    return Math.max(-maxPull, Math.min(maxPull, projection));
 }
 
 
@@ -572,7 +887,6 @@ function switchToForce() {
     currentView = 'force';
 
     // Use fcose if available, fall back to built-in cose
-    const hasFcose = typeof cytoscapeFcose !== 'undefined' || cy.layout({ name: 'fcose', stop: () => {} }).options;
     let layoutOpts;
 
     try {
@@ -600,7 +914,6 @@ function switchToForce() {
         };
         cy.layout(layoutOpts).run();
     } catch (e) {
-        // Fallback to built-in cose
         console.warn('fcose unavailable, using cose:', e.message);
         layoutOpts = {
             name: 'cose',
@@ -625,29 +938,23 @@ function switchToRadial() {
     if (!cy || currentView === 'radial') return;
 
     if (egoMode) {
-        // Can't switch to radial from ego — go back to hub first
         navStack = [];
         Dossier.close();
-        buildRadialMap();
+        if (activeBranchView) {
+            buildBranchMap(activeBranchView);
+        } else {
+            buildRadialMap();
+        }
         updateBreadcrumb();
         return;
     }
 
-    currentView = 'radial';
-    const positions = computeRadialPositions();
-
-    cy.layout({
-        name: 'preset',
-        positions: (node) => {
-            return positions[node.id()] || { x: 0, y: 0 };
-        },
-        animate: true,
-        animationDuration: 600,
-        animationEasing: 'ease-in-out',
-        fit: true,
-        padding: 60,
-    }).run();
-
+    // Rebuild the radial/focused view
+    if (activeBranchView) {
+        buildBranchMap(activeBranchView);
+    } else {
+        buildRadialMap();
+    }
     updateViewToggle();
 }
 
@@ -696,8 +1003,6 @@ async function recenterOn(nodeId) {
         currentCenterId = nodeId;
         currentView = 'ego';
 
-        // Build ego elements
-        const egoNodeIds = new Set(neighborhood.nodes.map(n => n.id));
         const egoPositions = computeEgoPositions(nodeId, neighborhood);
         const elements = buildEgoElements(nodeId, neighborhood, egoPositions);
 
@@ -723,14 +1028,9 @@ async function recenterOn(nodeId) {
 }
 
 
-function computeEgoPositions(centerId, neighborhood) {
-    const positions = {};
-    positions[String(centerId)] = { x: 0, y: 0 };
-
-    // BFS to find ring assignment
-    const edgeList = neighborhood.edges;
+function computeBfsRingMap(centerId, neighborhood) {
     const adj = {};
-    edgeList.forEach(e => {
+    neighborhood.edges.forEach(e => {
         if (!adj[e.source]) adj[e.source] = [];
         if (!adj[e.target]) adj[e.target] = [];
         adj[e.source].push(e.target);
@@ -751,8 +1051,16 @@ function computeEgoPositions(centerId, neighborhood) {
         }
         frontier = next;
     }
+    return ringMap;
+}
 
-    // Position ring 1 and ring 2 nodes
+
+function computeEgoPositions(centerId, neighborhood) {
+    const positions = {};
+    positions[String(centerId)] = { x: 0, y: 0 };
+
+    const ringMap = computeBfsRingMap(centerId, neighborhood);
+
     [1, 2].forEach(ring => {
         const nodesInRing = neighborhood.nodes.filter(n =>
             ringMap[n.id] === ring
@@ -781,29 +1089,7 @@ function buildEgoElements(centerId, neighborhood, positions) {
     const nodeIds = new Set();
     const centerIdStr = String(centerId);
 
-    // BFS ring map
-    const adj = {};
-    neighborhood.edges.forEach(e => {
-        if (!adj[e.source]) adj[e.source] = [];
-        if (!adj[e.target]) adj[e.target] = [];
-        adj[e.source].push(e.target);
-        adj[e.target].push(e.source);
-    });
-
-    const ringMap = { [centerId]: 0 };
-    let frontier = [centerId];
-    for (let depth = 1; depth <= 2; depth++) {
-        const next = [];
-        for (const nid of frontier) {
-            for (const neighbor of (adj[nid] || [])) {
-                if (ringMap[neighbor] === undefined) {
-                    ringMap[neighbor] = depth;
-                    next.push(neighbor);
-                }
-            }
-        }
-        frontier = next;
-    }
+    const ringMap = computeBfsRingMap(centerId, neighborhood);
 
     neighborhood.nodes.forEach(n => {
         const info = branchAssignments[String(n.id)];
@@ -883,7 +1169,7 @@ function filterByType(activeTypes) {
     filterState.activeTypes = activeTypes instanceof Set ? activeTypes : new Set(activeTypes);
     cy.batch(() => {
         cy.nodes().forEach(node => {
-            if (node.hasClass('title-badge') || node.hasClass('branch-anchor')) return;
+            if (node.hasClass('title-badge') || node.hasClass('branch-anchor') || node.hasClass('branch-center')) return;
             const type = node.data('entityType');
             if (type && !filterState.activeTypes.has(type)) {
                 node.addClass('hidden');
@@ -965,16 +1251,13 @@ function highlightNode(nodeId) {
     const connectedNodes = connectedEdges.connectedNodes();
 
     cy.batch(() => {
-        // Dim everything
         cy.elements().addClass('dimmed');
 
-        // Undim connected
         node.removeClass('dimmed').addClass('highlighted');
         connectedEdges.removeClass('dimmed').addClass('highlighted');
         connectedNodes.removeClass('dimmed');
 
-        // Keep branch anchors and title visible
-        cy.nodes('.title-badge, .branch-anchor').removeClass('dimmed');
+        cy.nodes('.title-badge, .branch-anchor, .branch-center').removeClass('dimmed');
     });
 }
 
@@ -1004,75 +1287,134 @@ function focusNode(nodeId) {
 // ---- Branch Focus ----
 
 function toggleBranchFocus(branchKey) {
-    if (!cy || !hubMode) return;
+    if (!cy || egoMode) return;
 
-    if (activeBranchFilter === branchKey) {
-        clearBranchFocus();
+    if (activeBranchView === branchKey) {
+        // Already viewing this branch — go back to hub
+        buildRadialMap();
+        if (typeof updateBreadcrumb === 'function') updateBreadcrumb();
         return;
     }
 
-    activeBranchFilter = branchKey;
-
-    cy.batch(() => {
-        cy.elements().removeClass('dimmed highlighted');
-
-        // Dim all entity nodes and edges
-        cy.nodes().forEach(node => {
-            if (node.hasClass('title-badge')) return;
-
-            if (node.hasClass('branch-anchor')) {
-                // Dim other branch anchors
-                const key = node.id().replace('anchor_', '');
-                if (key !== branchKey) {
-                    node.addClass('dimmed');
-                }
-                return;
-            }
-
-            const nodeBranch = node.data('branchKey');
-            if (nodeBranch !== branchKey) {
-                node.addClass('dimmed');
-            }
-        });
-
-        // Dim edges not connecting two nodes in this branch
-        cy.edges().forEach(edge => {
-            const srcBranch = edge.source().data('branchKey');
-            const tgtBranch = edge.target().data('branchKey');
-            if (srcBranch !== branchKey && tgtBranch !== branchKey) {
-                edge.addClass('dimmed');
-            } else {
-                edge.style('line-opacity', LINE_HIGHLIGHT_OPACITY);
-                edge.style('width', 1.2);
-            }
-        });
-    });
-
-    // Zoom to the branch
-    const branchNodes = cy.nodes().filter(n =>
-        n.data('branchKey') === branchKey || n.id() === 'anchor_' + branchKey
-    );
-    if (branchNodes.length > 0) {
-        cy.animate({
-            fit: { eles: branchNodes, padding: 80 },
-            duration: 400,
-            easing: 'ease-in-out',
-        });
-    }
+    buildBranchMap(branchKey);
+    if (typeof updateBreadcrumb === 'function') updateBreadcrumb();
 }
 
 function clearBranchFocus() {
-    if (!cy) return;
-    activeBranchFilter = null;
+    if (!cy || !activeBranchView) return;
+    buildRadialMap();
+    if (typeof updateBreadcrumb === 'function') updateBreadcrumb();
+}
+
+
+// ---- Ring Rotation ----
+
+function updatePeripheralPositions() {
+    if (!cy || !ringState.otherBranches.length) return;
+
+    const N = ringState.otherBranches.length;
+    const R = RING_LAYOUT.peripheralRadius;
 
     cy.batch(() => {
-        cy.elements().removeClass('dimmed highlighted');
-        cy.edges().removeStyle('line-opacity width');
-    });
+        ringState.otherBranches.forEach((key, i) => {
+            const theta = 2 * Math.PI * i / N + ringState.rotation;
+            const cx = R * Math.sin(theta);
+            const cy_pos = R * Math.cos(theta) * RING_LAYOUT.tilt;
+            const depth = (1 + Math.cos(theta)) / 2;
+            const scale = RING_LAYOUT.minScale + (RING_LAYOUT.maxScale - RING_LAYOUT.minScale) * depth;
 
-    cy.animate({
-        fit: { eles: cy.elements(), padding: 60 },
-        duration: 300,
+            // Update branch anchor
+            const anchorNode = cy.getElementById('anchor_' + key);
+            if (anchorNode && !anchorNode.empty()) {
+                anchorNode.position({ x: cx, y: cy_pos });
+                anchorNode.data('size', Math.round(50 * scale));
+                anchorNode.data('depth', depth);
+            }
+
+            // Update Ring 1 entities in this cluster
+            const ring1 = ringState.branchRing1[key] || [];
+            const miniR = RING_LAYOUT.clusterRadius * scale;
+            ring1.forEach((eid, j) => {
+                const miniAngle = -Math.PI / 2 + (2 * Math.PI * j / ring1.length);
+                const node = cy.getElementById(String(eid));
+                if (node && !node.empty()) {
+                    node.position({
+                        x: cx + Math.cos(miniAngle) * miniR,
+                        y: cy_pos + Math.sin(miniAngle) * miniR,
+                    });
+                    node.data('size', Math.round(BRANCH_NODE_SIZES[1] * scale * 0.7));
+                    node.data('depth', depth);
+                    node.data('label', depth > 0.45 ? (ringState.entityNames[eid] || '') : '');
+                }
+            });
+        });
+    });
+}
+
+
+function animateRingRotation(targetRotation, onComplete) {
+    const startRotation = ringState.rotation;
+    const duration = 300;
+    const startTime = performance.now();
+
+    function step(now) {
+        const elapsed = now - startTime;
+        const t = Math.min(elapsed / duration, 1);
+        const eased = 1 - (1 - t) * (1 - t); // ease-out quadratic
+
+        ringState.rotation = startRotation + (targetRotation - startRotation) * eased;
+        updatePeripheralPositions();
+
+        if (t < 1) {
+            requestAnimationFrame(step);
+        } else if (onComplete) {
+            onComplete();
+        }
+    }
+
+    requestAnimationFrame(step);
+}
+
+
+function snapToNearestBranch() {
+    if (!ringState.otherBranches.length) return;
+
+    const N = ringState.otherBranches.length;
+    const snapThreshold = Math.PI / N; // half the angle between branches
+
+    // Small drag — snap back without switching
+    if (Math.abs(ringState.rotation - ringState.dragStartRotation) < snapThreshold * 0.5) {
+        animateRingRotation(ringState.dragStartRotation, null);
+        return;
+    }
+
+    // Find which branch is closest to the front (theta ≈ 0)
+    let bestIdx = 0;
+    let bestDist = Infinity;
+
+    for (let i = 0; i < N; i++) {
+        let theta = (2 * Math.PI * i / N + ringState.rotation) % (2 * Math.PI);
+        if (theta > Math.PI) theta -= 2 * Math.PI;
+        if (theta < -Math.PI) theta += 2 * Math.PI;
+
+        if (Math.abs(theta) < bestDist) {
+            bestDist = Math.abs(theta);
+            bestIdx = i;
+        }
+    }
+
+    const frontBranch = ringState.otherBranches[bestIdx];
+
+    // Animate to align this branch to front, then switch
+    const targetRotation = -(2 * Math.PI * bestIdx / N);
+    let diff = targetRotation - ringState.rotation;
+    while (diff > Math.PI) diff -= 2 * Math.PI;
+    while (diff < -Math.PI) diff += 2 * Math.PI;
+
+    animateRingRotation(ringState.rotation + diff, () => {
+        ringState.rotation = 0;
+        buildBranchMap(frontBranch);
+        if (typeof updateBreadcrumb === 'function') updateBreadcrumb();
     });
 }
 
@@ -1081,8 +1423,8 @@ function clearBranchFocus() {
 
 function hoverHighlight(node) {
     if (!cy) return;
-    if (activeBranchFilter) return; // Branch focus takes precedence
-    if (cy.elements('.highlighted').length > 0) return; // Active highlight takes precedence
+    if (activeBranchFilter) return;
+    if (cy.elements('.highlighted').length > 0) return;
 
     const connectedEdges = node.connectedEdges();
     connectedEdges.forEach(e => {
@@ -1136,7 +1478,6 @@ function toggleConnections() {
 
 function setBranchAssignments(assignments) {
     branchAssignments = assignments;
-    // Also set global for backwards compat
     ENTITY_BRANCH_MAP = {};
     for (const [id, info] of Object.entries(assignments)) {
         ENTITY_BRANCH_MAP[id] = { branch: info.branch, ring: info.ring };

@@ -11,9 +11,9 @@
     --border: rgba(255, 255, 255, 0.08);
     --border-hover: rgba(255, 255, 255, 0.18);
     --text-primary: rgba(255, 255, 255, 0.92);
-    --text-secondary: rgba(255, 255, 255, 0.6);
-    --text-tertiary: rgba(255, 255, 255, 0.35);
-    --text-dim: rgba(255, 255, 255, 0.18);
+    --text-secondary: rgba(255, 255, 255, 0.75);
+    --text-tertiary: rgba(255, 255, 255, 0.55);
+    --text-dim: rgba(255, 255, 255, 0.4);
     --accent: #4a9eff;
     --accent-dim: rgba(74, 158, 255, 0.2);
     --threat-green: #34d399;
@@ -25,6 +25,34 @@
     --blur: blur(20px);
     --radius: 8px;
     --radius-lg: 14px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: var(--accent);
+    color: #0a0a0f;
+    padding: 8px 16px;
+    z-index: 10000;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 14px;
+}
+.skip-link:focus {
+    top: 0;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 *, *::before, *::after {
@@ -47,7 +75,7 @@ html, body {
 /* ---- Header ---- */
 .header {
     position: fixed;
-    top: 14px;
+    top: 12px;
     left: 20px;
     z-index: 100;
     pointer-events: none;
@@ -74,7 +102,7 @@ html, body {
 /* ---- Breadcrumb Bar ---- */
 .breadcrumb-bar {
     position: fixed;
-    top: 56px;
+    top: 62px;
     left: 20px;
     z-index: 100;
     display: flex;
@@ -111,7 +139,7 @@ html, body {
 /* ---- Stats Bar ---- */
 .stats-bar {
     position: fixed;
-    top: 36px;
+    top: 42px;
     left: 20px;
     z-index: 100;
     display: flex;
@@ -136,7 +164,7 @@ html, body {
 /* ---- Search ---- */
 .search-container {
     position: fixed;
-    top: 80px;
+    top: 88px;
     left: 20px;
     z-index: 200;
     width: 320px;
@@ -167,6 +195,11 @@ html, body {
 
 .search-wrap input:focus {
     border-color: var(--accent-dim);
+}
+
+.search-wrap input:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: -2px;
 }
 
 .search-icon {
@@ -1344,5 +1377,253 @@ a.entity-source-item .entity-source-title {
     }
     .nav-scroll {
         padding: 40px 16px 60px;
+    }
+}
+
+/* Accessibility: focus indicators */
+.toolbar button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.panel-close:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.search-result-item:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: -1px;
+}
+
+.breadcrumb-item:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.type-pill:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.tier-toggle input:focus-visible + .tier-dot {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.nav-card:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.tl-undated-toggle input:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+/* ---- Guide Popup ---- */
+#guide-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(5, 5, 10, 0.88);
+    backdrop-filter: blur(8px);
+    z-index: 8000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease;
+}
+#guide-overlay.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+#guide-overlay.dismissing {
+    opacity: 0;
+    pointer-events: none;
+}
+.guide-card {
+    max-width: 620px;
+    width: 92%;
+    max-height: 88vh;
+    overflow-y: auto;
+    background: rgba(16, 16, 22, 0.96);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    font-family: var(--font-mono);
+}
+.guide-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.guide-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+    letter-spacing: 3px;
+}
+.guide-subtitle {
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+    margin-top: 4px;
+}
+.guide-columns {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 18px;
+}
+.guide-col {
+    flex: 1;
+}
+.guide-section-title {
+    font-size: 9px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--border);
+}
+.guide-item {
+    font-size: 11px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+.guide-item strong {
+    color: var(--text-primary);
+}
+.guide-icon {
+    display: inline-block;
+    width: 16px;
+    color: var(--text-dim);
+    font-size: 10px;
+}
+.guide-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    font-size: 11px;
+    color: var(--text-secondary);
+}
+.guide-key {
+    font-size: 9px;
+    padding: 2px 6px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    color: var(--text-dim);
+    white-space: nowrap;
+}
+.guide-tiers {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    padding: 12px 0;
+    border-top: 1px solid var(--border);
+    margin-bottom: 14px;
+}
+.guide-tier {
+    font-size: 10px;
+    color: var(--text-tertiary);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.guide-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.guide-footer {
+    text-align: center;
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+    .guide-columns { flex-direction: column; gap: 16px; }
+    .guide-card { padding: 20px 18px; }
+    .guide-tiers { flex-wrap: wrap; gap: 8px; }
+}
+
+/* ---- Mobile (phones, 480px and below) ---- */
+@media (max-width: 480px) {
+    /* Collapse top UI stack: ~130px → ~70px */
+    .header { top: 6px; left: 14px; }
+    .header-title { font-size: 13px; letter-spacing: 2px; }
+    .header-sub { font-size: 8px; }
+    .stats-bar { display: none; }
+    .breadcrumb-bar {
+        top: 30px;
+        left: 14px;
+        max-width: calc(100vw - 28px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 10px;
+    }
+    .search-container {
+        top: 50px;
+        left: 10px;
+        width: calc(100% - 20px);
+    }
+    .search-wrap { padding: 5px 10px; }
+    #search-input { font-size: 12px; }
+
+    /* Collapse bottom UI: hide filter, compact toolbar */
+    .filter-bar { display: none; }
+    .toolbar {
+        bottom: 8px;
+        padding: 4px 10px;
+        gap: 4px;
+        border-radius: 10px;
+    }
+    .toolbar button { padding: 4px 8px; font-size: 9px; }
+    .toolbar .btn-label { font-size: 9px; }
+
+    /* Dossier: shorter bottom sheet */
+    .panel {
+        height: 45vh;
+    }
+    .panel-inner {
+        padding: 16px 14px 60px;
+    }
+    .panel-close {
+        top: 8px;
+        right: 10px;
+    }
+
+    /* Guide popup */
+    .guide-card { padding: 18px 14px; }
+    .guide-title { font-size: 15px; }
+    .guide-footer { font-size: 8px; }
+
+    /* Navigator */
+    .nav-scroll { padding: 40px 16px 60px; }
+    .nav-header { padding: 0 0 16px; }
+    .nav-title { font-size: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+@media (prefers-contrast: more) {
+    :root {
+        --text-secondary: rgba(255, 255, 255, 0.9);
+        --text-tertiary: rgba(255, 255, 255, 0.75);
+        --text-dim: rgba(255, 255, 255, 0.6);
     }
 }
