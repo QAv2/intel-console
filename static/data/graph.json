@@ -124,7 +124,7 @@
       "name": "Adnan Khashoggi",
       "entity_type": "person",
       "connection_count": 11,
-      "photo_url": "photos/khashoggi.jpg"
+      "photo_url": ""
     },
     {
       "id": 20,
@@ -159,7 +159,7 @@
       "name": "Alan Dershowitz",
       "entity_type": "person",
       "connection_count": 5,
-      "photo_url": "photos/dershowitz.jpg"
+      "photo_url": ""
     },
     {
       "id": 209,
@@ -222,14 +222,14 @@
       "name": "Alex Karp",
       "entity_type": "person",
       "connection_count": 6,
-      "photo_url": "photos/karp.jpg"
+      "photo_url": ""
     },
     {
       "id": 37,
       "name": "Alexander Acosta",
       "entity_type": "person",
       "connection_count": 5,
-      "photo_url": "photos/acosta.jpg"
+      "photo_url": ""
     },
     {
       "id": 337,
@@ -677,7 +677,7 @@
       "name": "Bill Clinton",
       "entity_type": "person",
       "connection_count": 37,
-      "photo_url": "photos/clinton.jpg"
+      "photo_url": ""
     },
     {
       "id": 471,
@@ -873,7 +873,7 @@
       "name": "Bugsy Siegel",
       "entity_type": "person",
       "connection_count": 3,
-      "photo_url": "photos/siegel.jpg"
+      "photo_url": ""
     },
     {
       "id": 350,
@@ -1195,7 +1195,7 @@
       "name": "Clark Clifford",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": "photos/clifford.jpg"
+      "photo_url": ""
     },
     {
       "id": 435,
@@ -1447,7 +1447,7 @@
       "name": "Danny Casolaro",
       "entity_type": "person",
       "connection_count": 2,
-      "photo_url": "photos/casolaro.jpg"
+      "photo_url": ""
     },
     {
       "id": 103,
@@ -1678,7 +1678,7 @@
       "name": "Donald Trump",
       "entity_type": "person",
       "connection_count": 53,
-      "photo_url": "photos/trump.jpg"
+      "photo_url": ""
     },
     {
       "id": 543,
@@ -1853,7 +1853,7 @@
       "name": "Ehud Barak",
       "entity_type": "person",
       "connection_count": 10,
-      "photo_url": "photos/barak.jpg"
+      "photo_url": ""
     },
     {
       "id": 434,
@@ -2056,7 +2056,7 @@
       "name": "Fat Tony Salerno",
       "entity_type": "person",
       "connection_count": 8,
-      "photo_url": "photos/salerno.jpg"
+      "photo_url": ""
     },
     {
       "id": 331,
@@ -2392,7 +2392,7 @@
       "name": "Ghislaine Maxwell",
       "entity_type": "person",
       "connection_count": 40,
-      "photo_url": "photos/maxwell.jpg"
+      "photo_url": ""
     },
     {
       "id": 717,
@@ -2805,7 +2805,7 @@
       "name": "J. Edgar Hoover",
       "entity_type": "person",
       "connection_count": 8,
-      "photo_url": "photos/hoover.jpg"
+      "photo_url": ""
     },
     {
       "id": 323,
@@ -2882,7 +2882,7 @@
       "name": "James Angleton",
       "entity_type": "person",
       "connection_count": 9,
-      "photo_url": "photos/angleton.jpg"
+      "photo_url": ""
     },
     {
       "id": 847,
@@ -2945,7 +2945,7 @@
       "name": "Jeffrey Epstein",
       "entity_type": "person",
       "connection_count": 99,
-      "photo_url": "photos/epstein.jpg"
+      "photo_url": ""
     },
     {
       "id": 334,
@@ -3022,7 +3022,7 @@
       "name": "Joey Merlino",
       "entity_type": "person",
       "connection_count": 3,
-      "photo_url": "photos/merlino.jpg"
+      "photo_url": ""
     },
     {
       "id": 296,
@@ -3078,7 +3078,7 @@
       "name": "John Gotti",
       "entity_type": "person",
       "connection_count": 8,
-      "photo_url": "photos/gotti.jpg"
+      "photo_url": ""
     },
     {
       "id": 225,
@@ -3127,7 +3127,7 @@
       "name": "John Poindexter",
       "entity_type": "person",
       "connection_count": 5,
-      "photo_url": "photos/poindexter.jpg"
+      "photo_url": ""
     },
     {
       "id": 42,
@@ -3218,7 +3218,7 @@
       "name": "Kamal Adham",
       "entity_type": "person",
       "connection_count": 7,
-      "photo_url": "photos/adham.jpg"
+      "photo_url": ""
     },
     {
       "id": 884,
@@ -3491,7 +3491,7 @@
       "name": "Les Wexner",
       "entity_type": "person",
       "connection_count": 19,
-      "photo_url": "photos/wexner.jpg"
+      "photo_url": ""
     },
     {
       "id": 151,
@@ -3568,7 +3568,7 @@
       "name": "Lucky Luciano",
       "entity_type": "person",
       "connection_count": 4,
-      "photo_url": "photos/luciano.jpg"
+      "photo_url": ""
     },
     {
       "id": 756,
@@ -3694,7 +3694,7 @@
       "name": "Mar-a-Lago",
       "entity_type": "facility",
       "connection_count": 5,
-      "photo_url": "photos/mar_a_lago.jpg"
+      "photo_url": ""
     },
     {
       "id": 641,
@@ -3897,7 +3897,7 @@
       "name": "Meyer Lansky",
       "entity_type": "person",
       "connection_count": 14,
-      "photo_url": "photos/lansky.jpg"
+      "photo_url": ""
     },
     {
       "id": 662,
@@ -4219,7 +4219,7 @@
       "name": "Nicky Scarfo",
       "entity_type": "person",
       "connection_count": 7,
-      "photo_url": "photos/scarfo.jpg"
+      "photo_url": ""
     },
     {
       "id": 876,
@@ -4548,7 +4548,7 @@
       "name": "Paul Castellano",
       "entity_type": "person",
       "connection_count": 9,
-      "photo_url": "photos/castellano.jpg"
+      "photo_url": ""
     },
     {
       "id": 851,
@@ -4653,7 +4653,7 @@
       "name": "Peter Thiel",
       "entity_type": "person",
       "connection_count": 12,
-      "photo_url": "photos/thiel.jpg"
+      "photo_url": ""
     },
     {
       "id": 413,
@@ -4968,7 +4968,7 @@
       "name": "Richard Helms",
       "entity_type": "person",
       "connection_count": 8,
-      "photo_url": "photos/helms.jpg"
+      "photo_url": ""
     },
     {
       "id": 834,
@@ -5150,7 +5150,7 @@
       "name": "Roy Cohn",
       "entity_type": "person",
       "connection_count": 7,
-      "photo_url": "photos/cohn.jpg"
+      "photo_url": ""
     },
     {
       "id": 477,
@@ -5297,7 +5297,7 @@
       "name": "Sammy Gravano",
       "entity_type": "person",
       "connection_count": 4,
-      "photo_url": "photos/gravano.jpg"
+      "photo_url": ""
     },
     {
       "id": 895,
@@ -6200,7 +6200,7 @@
       "name": "William Barr",
       "entity_type": "person",
       "connection_count": 10,
-      "photo_url": "photos/barr.jpg"
+      "photo_url": ""
     },
     {
       "id": 578,
@@ -6221,7 +6221,7 @@
       "name": "William Casey",
       "entity_type": "person",
       "connection_count": 10,
-      "photo_url": "photos/casey.jpg"
+      "photo_url": ""
     },
     {
       "id": 841,

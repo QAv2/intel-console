@@ -10,11 +10,13 @@ Usage:
 import json
 import os
 import re
+import sqlite3
 import sys
 from pathlib import Path
 
 PHOTOS_DIR = Path(__file__).parent.parent / "static" / "photos"
 STATIC_DATA = Path(__file__).parent.parent / "static" / "data"
+DB_PATH = Path(__file__).parent.parent / "data" / "intel.db"
 
 
 def name_to_slugs(name):
@@ -179,13 +181,41 @@ def main():
             node['photo_url'] = f"photos/{matches[node['name']]}"
             updated_n += 1
 
-    # Write back
+    # Write back JSON files
     with open(STATIC_DATA / "entities.json", "w") as f:
         json.dump(entities, f, indent=2)
     with open(STATIC_DATA / "graph.json", "w") as f:
         json.dump(graph, f, indent=2)
 
-    print(f"\nUpdated {updated_e} entities, {updated_n} graph nodes")
+    # Write back to DB so future exports preserve photo links
+    updated_db = 0
+    if DB_PATH.exists():
+        conn = sqlite3.connect(DB_PATH)
+        cur = conn.cursor()
+        cur.execute("SELECT id, name, metadata FROM entities")
+        for eid, name, meta_str in cur.fetchall():
+            if name not in matches:
+                continue
+            meta = {}
+            if meta_str:
+                try:
+                    meta = json.loads(meta_str)
+                except (json.JSONDecodeError, TypeError):
+                    meta = {}
+            if not isinstance(meta, dict):
+                meta = {}
+            photo_url = f"/static/photos/{matches[name]}"
+            if meta.get("photo_url") == photo_url:
+                continue
+            meta["photo_url"] = photo_url
+            cur.execute("UPDATE entities SET metadata = ? WHERE id = ?",
+                        (json.dumps(meta), eid))
+            updated_db += 1
+        conn.commit()
+        conn.close()
+        print(f"\nUpdated {updated_e} entities, {updated_n} graph nodes, {updated_db} DB rows")
+    else:
+        print(f"\nUpdated {updated_e} entities, {updated_n} graph nodes (DB not found, skipped)")
 
     # Report what's still missing (people only)
     still_missing = []
