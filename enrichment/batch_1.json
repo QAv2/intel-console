@@ -1,0 +1,2475 @@
+[
+  {
+    "id": 2,
+    "name": "Ghislaine Maxwell",
+    "description": "Ghislaine Noelle Marion Maxwell (b. 1961). Convicted sex trafficker, socialite, and intelligence network connector. Daughter of Robert Maxwell, documented Mossad asset.\n\nFAMILY BACKGROUND: Father Robe",
+    "current_connections": [
+      {
+        "entity_id": 146,
+        "type": "recruited"
+      },
+      {
+        "entity_id": 153,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 4,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 789,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 149,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 1,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 151,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 33,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 160,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 796,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 1,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 101,
+        "type": "implicated_in"
+      },
+      {
+        "entity_id": 440,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 147,
+        "type": "trafficked_by"
+      },
+      {
+        "entity_id": 801,
+        "type": "founded_by"
+      },
+      {
+        "entity_id": 108,
+        "type": "introduced_by"
+      },
+      {
+        "entity_id": 563,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 799,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 142,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 135,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 3,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 108,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 126,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 33,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 1,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 1,
+        "type": "recruited_by"
+      },
+      {
+        "entity_id": 643,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 100,
+        "type": "implicated_in"
+      },
+      {
+        "entity_id": 128,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 521,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 134,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 432,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 141,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 102,
+        "type": "implicated_in"
+      },
+      {
+        "entity_id": 3,
+        "type": "related_to"
+      },
+      {
+        "entity_id": 138,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 32,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 146,
+        "type": "trafficked_by"
+      },
+      {
+        "entity_id": 649,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 112,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Alex Karp",
+    "description": "Palantir CEO. PhD from Frankfurt School lineage. Runs Palantir's intelligence community relationships.",
+    "current_connections": [
+      {
+        "entity_id": 6,
+        "type": "co_founder_of"
+      },
+      {
+        "entity_id": 59,
+        "type": "director_of"
+      },
+      {
+        "entity_id": 60,
+        "type": "funded_by"
+      },
+      {
+        "entity_id": 85,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 86,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 6,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Robert Keith Gray",
+    "description": "Hill & Knowlton CEO. CIA blackmail specialist per DeCamp. George Town Club president. Reagan deputy comms under Casey.",
+    "current_connections": [
+      {
+        "entity_id": 85,
+        "type": "asset_of"
+      },
+      {
+        "entity_id": 72,
+        "type": "director_of"
+      },
+      {
+        "entity_id": 61,
+        "type": "director_of"
+      },
+      {
+        "entity_id": 200,
+        "type": "employed_by"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "James Angleton",
+    "description": "CIA counterintelligence chief. Held Hoover compromise material. Managed CIA-Mossad relationship.",
+    "current_connections": [
+      {
+        "entity_id": 85,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 551,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 85,
+        "type": "founder_of"
+      },
+      {
+        "entity_id": 28,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 533,
+        "type": "monitored"
+      },
+      {
+        "entity_id": 16,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 529,
+        "type": "mentored_by"
+      },
+      {
+        "entity_id": 88,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 523,
+        "type": "intelligence_link"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Marc Rich",
+    "description": "Commodities trader, Mossad's primary oil source for 20 years. Founded Glencore. Pardoned by Clinton.",
+    "current_connections": [
+      {
+        "entity_id": 32,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 88,
+        "type": "asset_of"
+      },
+      {
+        "entity_id": 71,
+        "type": "founder_of"
+      },
+      {
+        "entity_id": 32,
+        "type": "pardoned"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Adnan Khashoggi",
+    "description": "Saudi arms dealer. Iran-Contra middleman. BCCI Monte Carlo client. Connected to Epstein network.",
+    "current_connections": [
+      {
+        "entity_id": 693,
+        "type": "operated"
+      },
+      {
+        "entity_id": 85,
+        "type": "asset_of"
+      },
+      {
+        "entity_id": 693,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 687,
+        "type": "family_of"
+      },
+      {
+        "entity_id": 694,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 111,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 1,
+        "type": "client_of"
+      },
+      {
+        "entity_id": 96,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 692,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 683,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 54,
+        "type": "affiliated_with"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Bill Clinton",
+    "description": "Arkansas Governor, later President. Sent AR National Guard to Honduras. Pardoned Marc Rich. Epstein flight logs document 26+ flights on Epstein's aircraft.",
+    "current_connections": [
+      {
+        "entity_id": 109,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 227,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 134,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 563,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 128,
+        "type": "patron_of"
+      },
+      {
+        "entity_id": 226,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 76,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 228,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 112,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 1,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 23,
+        "type": "funded"
+      },
+      {
+        "entity_id": 209,
+        "type": "appointed_by"
+      },
+      {
+        "entity_id": 167,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 233,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 110,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 789,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 316,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 126,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 219,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 224,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 62,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 114,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 2,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 22,
+        "type": "pardoned"
+      },
+      {
+        "entity_id": 408,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 136,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 225,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 31,
+        "type": "married_to"
+      },
+      {
+        "entity_id": 22,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 205,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 226,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 229,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Alexander Acosta",
+    "description": "Robert Alexander Acosta (b. 1969). US Attorney for the Southern District of Florida (2005-2009). US Secretary of Labor (2017-2019).\n\nAs US Attorney, Acosta negotiated the 2007 Non-Prosecution Agreemen",
+    "current_connections": [
+      {
+        "entity_id": 148,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 33,
+        "type": "appointed"
+      },
+      {
+        "entity_id": 100,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 89,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 1,
+        "type": "authorized"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "John Stanfa",
+    "description": "Giovanni Stanfa (b. 1940). Boss of the Philadelphia crime family from 1991 to 1994, installed with Gambino family backing after the Scarfo era. Born in Caccamo, Sicily. Was the driver for Angelo Bruno",
+    "current_connections": [
+      {
+        "entity_id": 43,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 44,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 39,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 78,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 41,
+        "type": "critic_of"
+      },
+      {
+        "entity_id": 43,
+        "type": "successor_to"
+      },
+      {
+        "entity_id": 40,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 81,
+        "type": "boss_of"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Sammy Gravano",
+    "description": "Salvatore 'Sammy the Bull' Gravano (b. 1945). Gambino family underboss under John Gotti. The highest-ranking member of the American Mafia to turn government witness. Admitted to involvement in 19 murd",
+    "current_connections": [
+      {
+        "entity_id": 35,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 39,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 78,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 87,
+        "type": "asset_of"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Robert LiButti",
+    "description": "Robert LiButti. High-rolling gambler and Gambino crime family associate. FBI wiretap recordings captured LiButti referring to John Gotti as 'my boss.' Lost $12 million gambling at Trump casinos. Trump",
+    "current_connections": [
+      {
+        "entity_id": 78,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 33,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 39,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 33,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 33,
+        "type": "business_partner"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Henry Kissinger",
+    "description": "Heinz Alfred 'Henry' Kissinger (1923-2023). German-born American diplomat who served as National Security Advisor (1969-1975) and Secretary of State (1973-1977) under Presidents Nixon and Ford \u2014 the o",
+    "current_connections": [
+      {
+        "entity_id": 818,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 696,
+        "type": "mentored_by"
+      },
+      {
+        "entity_id": 116,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 219,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 561,
+        "type": "supported"
+      },
+      {
+        "entity_id": 201,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 85,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 696,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 1,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 701,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 27,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 215,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 567,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 380,
+        "type": "related_to"
+      },
+      {
+        "entity_id": 202,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 115,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 700,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 56,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 109,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 4,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 697,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 413,
+        "type": "created"
+      },
+      {
+        "entity_id": 702,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 216,
+        "type": "associated_with"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Edgar Bronfman Sr.",
+    "description": "Edgar Miles Bronfman Sr. (1929-2013). CEO of Seagram, president of the World Jewish Congress, and patriarch of a family whose influence spans liquor, media, intelligence-adjacent philanthropy, and a c",
+    "current_connections": [
+      {
+        "entity_id": 131,
+        "type": "director_of"
+      },
+      {
+        "entity_id": 119,
+        "type": "family_of"
+      },
+      {
+        "entity_id": 66,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 121,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "name": "Steven Hoffenberg",
+    "description": "Steven Jude Hoffenberg (1945-2022). Jeffrey Epstein's early business partner and mentor who ran the largest Ponzi scheme in American history before Bernie Madoff \u2014 and who claimed Epstein was the 'arc",
+    "current_connections": [
+      {
+        "entity_id": 130,
+        "type": "founder_of"
+      },
+      {
+        "entity_id": 1,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 30,
+        "type": "accused"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "name": "Harvey Weinstein",
+    "description": "Harvey Weinstein (b. 1952). Co-founder of Miramax Films and The Weinstein Company. Convicted sex offender whose decades-long pattern of sexual assault, coercion, and surveillance-based intimidation pa",
+    "current_connections": [
+      {
+        "entity_id": 5,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 141,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 32,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 2,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 138,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 143,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 1,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 138,
+        "type": "critic_of"
+      },
+      {
+        "entity_id": 494,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 139,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 495,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 136,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 140,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 129,
+        "type": "business_partner"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "name": "Ari Emanuel",
+    "description": "Ariel Zev Emanuel (b. 1961). CEO of Endeavor (parent of WME talent agency), CEO and executive chairman of TKO Group Holdings (UFC/WWE). One of the most powerful figures in Hollywood whose position at ",
+    "current_connections": [
+      {
+        "entity_id": 134,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "name": "Courtney Wild",
+    "description": "Courtney Wild. Epstein victim and legal advocate who led the most significant challenge to the 2007 Non-Prosecution Agreement through the federal courts.\n\nRECRUITMENT: Wild was 14 years old when she w",
+    "current_connections": [
+      {
+        "entity_id": 1,
+        "type": "trafficked_by"
+      },
+      {
+        "entity_id": 100,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 147,
+        "type": "ally_of"
+      },
+      {
+        "entity_id": 37,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "name": "Eva Andersson-Dubin",
+    "description": "Eva Birgitta Andersson-Dubin (b. 1961, Uddevalla, Sweden). Physician, former model, Miss Sweden 1980, and longtime Epstein social circle member whose continued relationship with Epstein after his conv",
+    "current_connections": [
+      {
+        "entity_id": 1,
+        "type": "romantic_partner_of"
+      },
+      {
+        "entity_id": 2,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 123,
+        "type": "funded"
+      },
+      {
+        "entity_id": 123,
+        "type": "founder_of"
+      },
+      {
+        "entity_id": 160,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 123,
+        "type": "married_to"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "name": "Nawaf al-Hazmi",
+    "description": "9/11 hijacker on Flight 77 (Pentagon). CIA tracked him at Kuala Lumpur Al-Qaeda summit in Jan 2000 but failed to watchlist him or notify FBI for 18 months. Received financial support from Saudi embass",
+    "current_connections": [
+      {
+        "entity_id": 180,
+        "type": "target"
+      },
+      {
+        "entity_id": 163,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 165,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 85,
+        "type": "monitored"
+      },
+      {
+        "entity_id": 174,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 161,
+        "type": "subordinate_of"
+      },
+      {
+        "entity_id": 162,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 181,
+        "type": "participated_in"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "name": "Philip Zelikow",
+    "description": "Executive Director of the 9/11 Commission \u2014 effectively controlled the investigation. Had co-authored book with Condoleezza Rice. Wrote 1998 paper on 'catastrophic terrorism' eerily predicting 9/11-ty",
+    "current_connections": [
+      {
+        "entity_id": 168,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 170,
+        "type": "directed"
+      },
+      {
+        "entity_id": 202,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 201,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 354,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 181,
+        "type": "investigated"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "name": "Ken Alibek",
+    "description": "Kazakh-born microbiologist, born Kanatjan Alibekov. First Deputy Director of Biopreparat, the Soviet Union's bioweapons program. Defected to the United States in 1992 and revealed the full scope of So",
+    "current_connections": [
+      {
+        "entity_id": 190,
+        "type": "directed"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "name": "George W. Bush",
+    "description": "43rd President (2001-09). Bohemian Club member. Drove Iraq invasion alongside fellow Club members Cheney, Rumsfeld, and Powell \u2014 Bechtel Corporation (led by fellow members) received hundreds of millio",
+    "current_connections": [
+      {
+        "entity_id": 111,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 166,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 578,
+        "type": "critic_of"
+      },
+      {
+        "entity_id": 407,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 219,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 205,
+        "type": "appointed_by"
+      },
+      {
+        "entity_id": 203,
+        "type": "served_under"
+      },
+      {
+        "entity_id": 407,
+        "type": "appointed_by"
+      },
+      {
+        "entity_id": 209,
+        "type": "appointed_by"
+      },
+      {
+        "entity_id": 167,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 205,
+        "type": "served_under"
+      },
+      {
+        "entity_id": 349,
+        "type": "supported"
+      },
+      {
+        "entity_id": 215,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 167,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 169,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 354,
+        "type": "signed_by"
+      },
+      {
+        "entity_id": 204,
+        "type": "served_under"
+      },
+      {
+        "entity_id": 750,
+        "type": "authorized"
+      },
+      {
+        "entity_id": 683,
+        "type": "ally_of"
+      },
+      {
+        "entity_id": 168,
+        "type": "appointed_by"
+      },
+      {
+        "entity_id": 350,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 332,
+        "type": "member_of"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "name": "George Shultz",
+    "description": "Secretary of State under Reagan (1982-89). Bohemian Club member. Former President of Bechtel Corporation \u2014 went from running America's largest private construction firm to running American foreign pol",
+    "current_connections": [
+      {
+        "entity_id": 219,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 200,
+        "type": "served_under"
+      },
+      {
+        "entity_id": 206,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 221,
+        "type": "executive_at"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "name": "Charles Koch",
+    "description": "CEO of Koch Industries, synonymous with anti-worker political spending and dark money networks. Bohemian Club member/attendee. Funder of Heritage Foundation and vast network of pro-corporate advocacy ",
+    "current_connections": [
+      {
+        "entity_id": 219,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 220,
+        "type": "funded"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "name": "Brendan Bechtel",
+    "description": "Current CEO of Bechtel Corporation, latest heir to the Bechtel fortune. On 2023 Bohemian Grove attendance list. Appeared with Trump and David McCormick for PA AI data center deal. Bechtel positioned f",
+    "current_connections": [
+      {
+        "entity_id": 219,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 215,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 221,
+        "type": "leads"
+      },
+      {
+        "entity_id": 33,
+        "type": "government_contracts"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "name": "Bernard Schwartz",
+    "description": "Bernard L. Schwartz (1925-2024). Chairman and CEO of Loral Space & Communications (1972-2006). During the 1996 election cycle, Schwartz was the single largest individual donor to the Democratic Party ",
+    "current_connections": [
+      {
+        "entity_id": 89,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 234,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 32,
+        "type": "financial_connection"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "name": "Jessica Utts",
+    "description": "Professor of Statistics at UC Irvine. Commissioned by the American Institutes for Research (AIR) to provide statistical evaluation of the Stargate remote viewing data (1995). Her conclusion: the stati",
+    "current_connections": []
+  },
+  {
+    "id": 241,
+    "name": "Angela Dellafiora Ford",
+    "description": "DIA civilian remote viewer in the Stargate program. Most famous for her 1989 session that accurately located fugitive Charles Jordan \u2014 she identified his location as 'Lowell, Wyoming' and he was found",
+    "current_connections": []
+  },
+  {
+    "id": 254,
+    "name": "Ingo Swann",
+    "description": "Artist and psychic researcher. Co-developed Coordinate Remote Viewing (CRV) protocol with Hal Puthoff at SRI. Demonstrated ability to influence magnetometer readings, describe Jupiter's rings before V",
+    "current_connections": [
+      {
+        "entity_id": 255,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 267,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 258,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 266,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 257,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 239,
+        "type": "mentored_by"
+      },
+      {
+        "entity_id": 238,
+        "type": "trained_by"
+      },
+      {
+        "entity_id": 256,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 264,
+        "type": "worked_for"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "name": "Edwin May",
+    "description": "Nuclear physicist who directed the SRI/SAIC remote viewing research program (1985-1995) after Puthoff and Targ. Conducted rigorous statistical analyses. Continued private research after program termin",
+    "current_connections": [
+      {
+        "entity_id": 255,
+        "type": "predecessor_of"
+      },
+      {
+        "entity_id": 264,
+        "type": "directed"
+      },
+      {
+        "entity_id": 258,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 266,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 256,
+        "type": "predecessor_of"
+      },
+      {
+        "entity_id": 267,
+        "type": "directed"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "name": "Brien Foerster",
+    "description": "Canadian-born researcher based in Peru specializing in elongated skulls and megalithic sites. Has conducted DNA testing on Paracas skulls through independent laboratories, with preliminary results sho",
+    "current_connections": [
+      {
+        "entity_id": 288,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 281,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 292,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 287,
+        "type": "investigated"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "name": "Walter Cruttenden",
+    "description": "American researcher and director of the Binary Research Institute. Proposes that the precession of the equinoxes is caused not by Earth's wobble but by the solar system's orbit around a binary compani",
+    "current_connections": [
+      {
+        "entity_id": 286,
+        "type": "founded"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "name": "John Anthony West",
+    "description": "Independent Egyptologist and author (1932-2018). Authored 'Serpent in the Sky' (1979, revised 1993), which drew on R.A. Schwaller de Lubicz's work to argue Egyptian civilization was far older than con",
+    "current_connections": [
+      {
+        "entity_id": 274,
+        "type": "influenced_by"
+      },
+      {
+        "entity_id": 295,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 293,
+        "type": "influenced_by"
+      },
+      {
+        "entity_id": 273,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 289,
+        "type": "investigated"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "name": "Freeway Rick Ross",
+    "description": "Ricky Donnell Ross. Born January 26, 1960, Tyler, Texas. Became the largest crack cocaine dealer in Los Angeles in the early-to-mid 1980s, distributing an estimated $600 million worth of crack between",
+    "current_connections": [
+      {
+        "entity_id": 96,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 562,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 562,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 318,
+        "type": "supplied_by"
+      },
+      {
+        "entity_id": 85,
+        "type": "implicated_in"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "name": "Oscar Danilo Blandon",
+    "description": "Nicaraguan exile and cocaine trafficker. Key link in the CIA-Contra-crack pipeline documented in Gary Webb's 'Dark Alliance' and confirmed by the CIA Inspector General's 1998 report.\n\nBlandon was the ",
+    "current_connections": [
+      {
+        "entity_id": 312,
+        "type": "informant_for"
+      },
+      {
+        "entity_id": 562,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 319,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 96,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 562,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 85,
+        "type": "implicated_in"
+      },
+      {
+        "entity_id": 319,
+        "type": "supplied_by"
+      },
+      {
+        "entity_id": 303,
+        "type": "supplied_by"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "name": "Andrew Carnegie",
+    "description": "Steel magnate, philanthropist. Carnegie Steel was the world's largest. Sold to J.P. Morgan for $480M (1901) creating U.S. Steel. 'Gospel of Wealth' (1889) advocated using fortunes for public good. Cre",
+    "current_connections": [
+      {
+        "entity_id": 322,
+        "type": "business_partner"
+      },
+      {
+        "entity_id": 323,
+        "type": "business_partner"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "name": "Alexander Nix",
+    "description": "Alexander James Ashburner Nix (born 1975). British businessman who served as CEO of Cambridge Analytica (2014-2018) and a director of its parent company, SCL Group. Educated at Eton College and the Un",
+    "current_connections": [
+      {
+        "entity_id": 341,
+        "type": "funded_by"
+      },
+      {
+        "entity_id": 343,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 338,
+        "type": "boss_of"
+      },
+      {
+        "entity_id": 33,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 344,
+        "type": "member_of"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "name": "John Bolton",
+    "description": "John Robert Bolton (born 1948). American attorney, diplomat, and Republican foreign policy hawk. Served as U.S. Ambassador to the United Nations (2005-2006, recess appointment), Under Secretary of Sta",
+    "current_connections": [
+      {
+        "entity_id": 343,
+        "type": "contracted"
+      },
+      {
+        "entity_id": 33,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 341,
+        "type": "funded"
+      },
+      {
+        "entity_id": 352,
+        "type": "critic_of"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "name": "Stanley Pons",
+    "description": "American electrochemist, chair of the University of Utah chemistry department, who together with Martin Fleischmann announced the discovery of cold fusion on March 23, 1989. Pons and Fleischmann repor",
+    "current_connections": [
+      {
+        "entity_id": 359,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 368,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 372,
+        "type": "led"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "name": "Mohammad Mossadegh",
+    "description": "Democratically elected Prime Minister of Iran (1951-1953). Nationalized the Anglo-Iranian Oil Company (now BP), which had been extracting Iranian oil under terms widely seen as exploitative. Named TIM",
+    "current_connections": [
+      {
+        "entity_id": 380,
+        "type": "overthrew"
+      },
+      {
+        "entity_id": 85,
+        "type": "overthrew_by"
+      },
+      {
+        "entity_id": 791,
+        "type": "overthrew_by"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "name": "Admiral Thomas Moorer",
+    "description": "Chairman of the Joint Chiefs of Staff (1970-1974). In retirement, chaired the independent USS Liberty commission of inquiry (2003), which found that Israel's attack on the USS Liberty was 'a deliberat",
+    "current_connections": [
+      {
+        "entity_id": 376,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 200,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 379,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 389,
+        "type": "led"
+      },
+      {
+        "entity_id": 388,
+        "type": "served_in"
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "name": "Ben Bernanke",
+    "description": "Chairman of the Federal Reserve (2006-2014). Academic economist (Princeton) specializing in the Great Depression. Appointed by George W. Bush, reappointed by Obama. Managed the Fed's response to the 2",
+    "current_connections": [
+      {
+        "entity_id": 411,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 331,
+        "type": "led"
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "name": "G\u00e9rald Marie",
+    "description": "Head of Elite Model Management's European operations in Paris. One of the most powerful figures in the fashion industry during the 1980s and 1990s. Married to supermodel Linda Evangelista (1987-1993).",
+    "current_connections": [
+      {
+        "entity_id": 135,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 441,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 437,
+        "type": "led"
+      },
+      {
+        "entity_id": 2,
+        "type": "associated_with"
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "name": "Albert Pike",
+    "description": "Attorney, Confederate general, and Freemason who served as Sovereign Grand Commander of the Scottish Rite Southern Jurisdiction (1859-1891). Authored 'Morals and Dogma' (1871), the defining philosophi",
+    "current_connections": [
+      {
+        "entity_id": 450,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 447,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 460,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 449,
+        "type": "led"
+      },
+      {
+        "entity_id": 456,
+        "type": "member_of"
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "name": "Albert Mackey",
+    "description": "American Freemason, physician, and author. Secretary General of the Supreme Council, Scottish Rite Southern Jurisdiction (served under Albert Pike). Authored 'An Encyclopaedia of Freemasonry' (1874), ",
+    "current_connections": [
+      {
+        "entity_id": 449,
+        "type": "served_in"
+      },
+      {
+        "entity_id": 450,
+        "type": "served_in"
+      },
+      {
+        "entity_id": 442,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 453,
+        "type": "created"
+      },
+      {
+        "entity_id": 456,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 456,
+        "type": "created"
+      }
+    ]
+  },
+  {
+    "id": 464,
+    "name": "William Broeksmit",
+    "description": "Senior Deutsche Bank executive \u2014 head of risk and capital optimization. American national who joined DB from Merrill Lynch in the 1990s alongside future co-CEO Anshu Jain.\n\nIn 2012, BaFin (German fina",
+    "current_connections": [
+      {
+        "entity_id": 465,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 57,
+        "type": "executive_at"
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "name": "Peter Daszak",
+    "description": "British-American zoologist and president of EcoHealth Alliance. Directed NIH-funded research on bat coronaviruses at the Wuhan Institute of Virology through NIAID grant R01 AI110964. Organized the Feb",
+    "current_connections": [
+      {
+        "entity_id": 484,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 481,
+        "type": "served_in"
+      },
+      {
+        "entity_id": 484,
+        "type": "director_of"
+      },
+      {
+        "entity_id": 490,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 473,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 480,
+        "type": "funded_by"
+      }
+    ]
+  },
+  {
+    "id": 477,
+    "name": "Royal Raymond Rife",
+    "description": "American inventor who in the 1930s developed a high-magnification optical microscope (the 'Universal Microscope') and claimed to observe live viruses, developing a theory of destroying pathogens using",
+    "current_connections": [
+      {
+        "entity_id": 478,
+        "type": "suppressed_by"
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "name": "Russell Simmons",
+    "description": "Russell Wendell Simmons (b. 1957). Co-founder of Def Jam Recordings and hip-hop mogul accused of sexual assault or misconduct by over 20 women, who relocated to Bali, Indonesia \u2014 a country with no US ",
+    "current_connections": [
+      {
+        "entity_id": 494,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 492,
+        "type": "critic_of"
+      },
+      {
+        "entity_id": 134,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 502,
+    "name": "Aziz Nasirzadeh",
+    "description": "Iranian Defence Minister (Brigadier General). Former commander of the Islamic Republic of Iran Air Force. Killed in strikes on the Defense Ministry compound in Tehran on February 28, 2026, during Oper",
+    "current_connections": [
+      {
+        "entity_id": 499,
+        "type": "directed_by"
+      },
+      {
+        "entity_id": 520,
+        "type": "served_in"
+      },
+      {
+        "entity_id": 503,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 497,
+        "type": "led"
+      },
+      {
+        "entity_id": 520,
+        "type": "led"
+      },
+      {
+        "entity_id": 497,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 520,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 497,
+        "type": "served_in"
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "name": "Shabtai Shavit",
+    "description": "Shabtai Shavit (born 1939). Director of the Mossad from 1989 to 1996 \u2014 the period during which the Robert Maxwell operation collapsed (Maxwell died November 1991) and the institutional transition to s",
+    "current_connections": [
+      {
+        "entity_id": 528,
+        "type": "predecessor_of"
+      },
+      {
+        "entity_id": 88,
+        "type": "directed"
+      },
+      {
+        "entity_id": 3,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 528,
+        "type": "subordinate_of"
+      }
+    ]
+  },
+  {
+    "id": 531,
+    "name": "David Atlee Phillips",
+    "description": "CIA Chief of Western Hemisphere Division. Ran anti-Castro propaganda operations. Managed CIA's Mexico City station monitoring of Oswald. HSCA investigated his potential role; former colleague Antonio ",
+    "current_connections": [
+      {
+        "entity_id": 85,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 533,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 532,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 547,
+        "type": "participated_in"
+      }
+    ]
+  },
+  {
+    "id": 536,
+    "name": "David Ferrie",
+    "description": "Pilot, ex-Eastern Airlines. Connected to Lee Harvey Oswald through Civil Air Patrol. Worked as investigator for Carlos Marcello's attorney. Connected to CIA anti-Castro operations. Found dead in 1967 ",
+    "current_connections": [
+      {
+        "entity_id": 537,
+        "type": "employed"
+      },
+      {
+        "entity_id": 538,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 535,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 533,
+        "type": "mentored"
+      },
+      {
+        "entity_id": 540,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 533,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 541,
+    "name": "Santos Trafficante",
+    "description": "Boss of the Tampa crime family. Participated in CIA-Mafia plots to assassinate Castro (documented by Church Committee). HSCA found credible evidence of his involvement in JFK assassination. His lawyer",
+    "current_connections": [
+      {
+        "entity_id": 552,
+        "type": "prosecuted"
+      },
+      {
+        "entity_id": 85,
+        "type": "worked_with"
+      },
+      {
+        "entity_id": 540,
+        "type": "ally_of"
+      },
+      {
+        "entity_id": 551,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 542,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 532,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 538,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 534,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 555,
+    "name": "Martin Luther King Jr.",
+    "description": "Civil rights leader assassinated April 4, 1968 in Memphis. James Earl Ray convicted but recanted. HSCA found 'likelihood of conspiracy.' In 1999, King family civil trial (Jowers v. King) jury found th",
+    "current_connections": [
+      {
+        "entity_id": 87,
+        "type": "monitored"
+      },
+      {
+        "entity_id": 556,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 557,
+        "type": "assassinated"
+      },
+      {
+        "entity_id": 16,
+        "type": "critic_of"
+      }
+    ]
+  },
+  {
+    "id": 561,
+    "name": "Augusto Pinochet",
+    "description": "Military general who seized power September 11, 1973 in CIA-backed coup overthrowing democratically elected President Salvador Allende of Chile. Born November 25, 1915. Died December 10, 2006.\n\nCIA sp",
+    "current_connections": [
+      {
+        "entity_id": 567,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 111,
+        "type": "supported"
+      },
+      {
+        "entity_id": 85,
+        "type": "installed_by"
+      }
+    ]
+  },
+  {
+    "id": 571,
+    "name": "Frank Wisner",
+    "description": "CIA officer who headed the Office of Policy Coordination (OPC, 1948-1951), the agency's covert operations arm. Architect of Operation Mockingbird \u2014 the CIA's systematic infiltration of American and in",
+    "current_connections": [
+      {
+        "entity_id": 529,
+        "type": "subordinate_of"
+      },
+      {
+        "entity_id": 588,
+        "type": "created"
+      },
+      {
+        "entity_id": 572,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 85,
+        "type": "served_in"
+      }
+    ]
+  },
+  {
+    "id": 576,
+    "name": "Edward Snowden",
+    "description": "Former NSA contractor (Booz Allen Hamilton) who in June 2013 disclosed thousands of classified documents revealing the NSA's global mass surveillance programs, including PRISM (direct access to tech c",
+    "current_connections": [
+      {
+        "entity_id": 589,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 578,
+        "type": "corroborated"
+      },
+      {
+        "entity_id": 577,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 749,
+        "type": "catalyzed"
+      },
+      {
+        "entity_id": 602,
+        "type": "employed"
+      },
+      {
+        "entity_id": 746,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 602,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 741,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 736,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 744,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 575,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 740,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 86,
+        "type": "exposed"
+      }
+    ]
+  },
+  {
+    "id": 608,
+    "name": "Norman Augustine",
+    "description": "CEO of Lockheed Martin during the 1995 merger. Author of 'Augustine's Laws' (satirical laws of defense procurement). Architect of defense industry consolidation in the 1990s \u2014 the 'Last Supper' where ",
+    "current_connections": [
+      {
+        "entity_id": 595,
+        "type": "directed"
+      }
+    ]
+  },
+  {
+    "id": 623,
+    "name": "Nassim Haramein",
+    "description": "Nassim Haramein. Self-taught physicist with no physics degree. His Schwarzschild Proton model is 'almost entirely inconsistent with experimental observation' per actual physicists. Published in pay-to",
+    "current_connections": [
+      {
+        "entity_id": 613,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 622,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 628,
+    "name": "Bentinho Massaro",
+    "description": "Bentinho Massaro. Self-proclaimed '8th density' being (claims higher than Jesus). High school dropout. Acknowledged narcissistic personality disorder diagnosis (Facebook, 2012). Claims to be 'not huma",
+    "current_connections": [
+      {
+        "entity_id": 627,
+        "type": "associate_of"
+      }
+    ]
+  },
+  {
+    "id": 633,
+    "name": "Alex Collier",
+    "description": "Alex Collier (Ralph Amigron). Claims lifelong contact with Andromedans since age 8. Former IRS revenue officer.\n\n1991: 4-count felony indictment \u2014 falsely claimed to be a certified public accountant a",
+    "current_connections": [
+      {
+        "entity_id": 615,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 635,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 636,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 638,
+    "name": "James Gilliland",
+    "description": "James Gilliland. Founder and operator of ECETI Ranch near Mt. Adams, Washington. No documented formal academic credentials. Claims regular ET contact at the ranch. Remote healing sessions ($175) descr",
+    "current_connections": [
+      {
+        "entity_id": 617,
+        "type": "founder_of"
+      },
+      {
+        "entity_id": 635,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 644,
+    "name": "Cardinal Bernard Law",
+    "description": "Archbishop of Boston (1984-2002). The Boston Globe Spotlight team's investigation (beginning January 2002) revealed that Law had systematically reassigned priests known to be sexually abusing children",
+    "current_connections": [
+      {
+        "entity_id": 89,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 651,
+        "type": "exposed_by"
+      },
+      {
+        "entity_id": 655,
+        "type": "exposed_by"
+      }
+    ]
+  },
+  {
+    "id": 660,
+    "name": "Jack Parsons",
+    "description": "Rocket engineer, co-founder of Jet Propulsion Laboratory (JPL) and Aerojet. Head of OTO Agape Lodge in Pasadena. Conducted the 'Babalon Working' ritual with L. Ron Hubbard (1946). Exemplifies the occu",
+    "current_connections": [
+      {
+        "entity_id": 94,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 663,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 663,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 677,
+        "type": "conducted"
+      },
+      {
+        "entity_id": 668,
+        "type": "led"
+      },
+      {
+        "entity_id": 94,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 661,
+        "type": "subordinate_of"
+      },
+      {
+        "entity_id": 661,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 665,
+    "name": "Larry King",
+    "description": "NOT the television host. Manager of Franklin Credit Union in Omaha, Nebraska. Republican power broker who sang the national anthem at the 1984 Republican National Convention. Convicted of financial fr",
+    "current_connections": [
+      {
+        "entity_id": 675,
+        "type": "implicated_in"
+      },
+      {
+        "entity_id": 667,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 666,
+        "type": "accused"
+      }
+    ]
+  },
+  {
+    "id": 682,
+    "name": "Dmitry Rybolovlev",
+    "description": "Dmitry Evgenievich Rybolovlev (born 1966). Russian oligarch, potash fertilizer magnate, former owner of AS Monaco football club. Forbes-estimated net worth ~$6.8B.\n\nTRUMP CONNECTION: In 2008, purchase",
+    "current_connections": [
+      {
+        "entity_id": 33,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 76,
+        "type": "proximity"
+      },
+      {
+        "entity_id": 678,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 688,
+    "name": "Al-Waleed bin Talal",
+    "description": "Prince Al-Waleed bin Talal Al Saud (born 1955). Saudi billionaire investor, grandson of the founder of Saudi Arabia (King Abdulaziz) and of Riad El-Solh (Lebanon's first Prime Minister). Known as 'the",
+    "current_connections": [
+      {
+        "entity_id": 33,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 691,
+        "type": "investor_in"
+      },
+      {
+        "entity_id": 689,
+        "type": "founder_of"
+      },
+      {
+        "entity_id": 686,
+        "type": "detained"
+      }
+    ]
+  },
+  {
+    "id": 698,
+    "name": "George Soros",
+    "description": "Billionaire investor and philanthropist. Founder of Open Society Foundations (1993). 'Broke the Bank of England' (1992). Funds civil society organizations globally through OSF. Connected to Bilderberg",
+    "current_connections": [
+      {
+        "entity_id": 702,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 700,
+        "type": "attended"
+      },
+      {
+        "entity_id": 701,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 707,
+        "type": "founded"
+      }
+    ]
+  },
+  {
+    "id": 716,
+    "name": "Salvador Dal\u00ed",
+    "description": "Salvador Domingo Felipe Jacinto Dal\u00ed i Dom\u00e8nech (1904-1989). Spanish surrealist artist. Expelled from official Surrealist movement 1939 (Andr\u00e9 Breton accused him of fascist sympathies). Despite expuls",
+    "current_connections": [
+      {
+        "entity_id": 712,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 714,
+        "type": "attended"
+      },
+      {
+        "entity_id": 720,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 722,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 711,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 715,
+        "type": "participated_in"
+      }
+    ]
+  },
+  {
+    "id": 721,
+    "name": "Charles de Beistegui",
+    "description": "Carlos de Beistegui y de Yturbe (1895-1970). Half-Mexican, half-French millionaire. Fortune from Mexican silver mines. Launched the entire postwar grand ball tradition.\n\nBAL ORIENTAL (1951): Palazzo L",
+    "current_connections": [
+      {
+        "entity_id": 720,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 715,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 712,
+        "type": "associate_of"
+      }
+    ]
+  },
+  {
+    "id": 726,
+    "name": "Anna Wintour",
+    "description": "Dame Anna Wintour DBE (b. 1949). Editor-in-chief of Vogue since 1988. Permanent chairperson of the Met Gala since 1999.\n\nCORPORATE CAPTURE: Transformed the Met Gala from 'a social event that happened ",
+    "current_connections": [
+      {
+        "entity_id": 729,
+        "type": "controlled"
+      }
+    ]
+  },
+  {
+    "id": 733,
+    "name": "Elsa Maxwell",
+    "description": "Elsa Maxwell (1883-1963). Iowa-born party organizer. Made a career organizing events for royalty and high society despite having no money of her own. Invented the scavenger hunt. Organized internation",
+    "current_connections": [
+      {
+        "entity_id": 724,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 725,
+        "type": "associate_of"
+      }
+    ]
+  },
+  {
+    "id": 753,
+    "name": "Daniel Sheehan",
+    "description": "Harvard-trained constitutional attorney. Represented NYT in Pentagon Papers (1971), led Karen Silkwood case, filed Avirgan v. Hull RICO suit exposing Iran-Contra 'Secret Team' via Christic Institute. ",
+    "current_connections": [
+      {
+        "entity_id": 765,
+        "type": "served_as"
+      },
+      {
+        "entity_id": 755,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 764,
+        "type": "co-founded"
+      },
+      {
+        "entity_id": 772,
+        "type": "supported"
+      },
+      {
+        "entity_id": 768,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 770,
+        "type": "supported"
+      },
+      {
+        "entity_id": 757,
+        "type": "supported"
+      },
+      {
+        "entity_id": 758,
+        "type": "supported"
+      },
+      {
+        "entity_id": 756,
+        "type": "legal_counsel"
+      },
+      {
+        "entity_id": 759,
+        "type": "supported"
+      },
+      {
+        "entity_id": 85,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 763,
+        "type": "founded"
+      },
+      {
+        "entity_id": 754,
+        "type": "legal_counsel"
+      }
+    ]
+  },
+  {
+    "id": 758,
+    "name": "David Fravor",
+    "description": "Retired U.S. Navy Commander, former commanding officer of Black Aces Squadron (VFA-41). Eyewitness to the 2004 USS Nimitz UAP encounter ('Tic Tac' incident). Testified before House Oversight Committee",
+    "current_connections": [
+      {
+        "entity_id": 767,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 756,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 772,
+        "type": "testified_at"
+      },
+      {
+        "entity_id": 757,
+        "type": "testified_at"
+      },
+      {
+        "entity_id": 753,
+        "type": "supported"
+      },
+      {
+        "entity_id": 759,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 773,
+    "name": "Robert Bigelow",
+    "description": "Billionaire founder of Bigelow Aerospace and Budget Suites. Founded NIDS (1995) to study UAP/paranormal. Purchased Skinwalker Ranch. Won $22M DIA AAWSAP contract (2008) through Bigelow Aerospace Advan",
+    "current_connections": [
+      {
+        "entity_id": 778,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 784,
+        "type": "owned_by"
+      },
+      {
+        "entity_id": 774,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 754,
+        "type": "funded_by"
+      },
+      {
+        "entity_id": 783,
+        "type": "funded"
+      },
+      {
+        "entity_id": 775,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 777,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 756,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 775,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 779,
+        "type": "founded"
+      },
+      {
+        "entity_id": 780,
+        "type": "founded"
+      }
+    ]
+  },
+  {
+    "id": 778,
+    "name": "George Knapp",
+    "description": "Investigative journalist, KLAS-TV Las Vegas. First to report Bob Lazar's S-4 claims (1989). George Polk Award winner. Co-authored Skinwalker books with Kelleher. Key journalist connecting public to UA",
+    "current_connections": [
+      {
+        "entity_id": 777,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 785,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 773,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 784,
+        "type": "investigated"
+      }
+    ]
+  },
+  {
+    "id": 799,
+    "name": "Stuart Roffey",
+    "description": "Stuart Roffey. British businessman named in unsealed Epstein court documents in January 2024. Described in documents as an associate of Ghislaine Maxwell who attended social events in Epstein's orbit.",
+    "current_connections": [
+      {
+        "entity_id": 2,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 1,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 1,
+        "type": "associate_of"
+      }
+    ]
+  },
+  {
+    "id": 806,
+    "name": "T. Boone Pickens",
+    "description": "American businessman and financier (1928-2019). Oil and gas magnate who became the largest individual water rights holder in the United States through Mesa Water Inc., purchasing rights over the Ogall",
+    "current_connections": [
+      {
+        "entity_id": 816,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 824,
+    "name": "Sam Altman",
+    "description": "CEO of OpenAI. Previously president of Y Combinator. Central figure in AI commercialization and the race to AGI. Briefly ousted by OpenAI board in November 2023 before being reinstated. Struck Pentago",
+    "current_connections": []
+  },
+  {
+    "id": 829,
+    "name": "Ancel Keys",
+    "description": "Physiologist behind the Seven Countries Study that blamed dietary fat for heart disease. His lipid hypothesis shaped US dietary guidelines for decades. Later research revealed the sugar industry funde",
+    "current_connections": []
+  },
+  {
+    "id": 834,
+    "name": "Richard Sackler",
+    "description": "Former president of Purdue Pharma and member of the Sackler family. Key architect of OxyContin's aggressive marketing strategy that fueled the US opioid epidemic. Shielded by family bankruptcy deal th",
+    "current_connections": []
+  },
+  {
+    "id": 839,
+    "name": "Prince Bernhard",
+    "description": "Prince Consort of the Netherlands. Former member of the Nazi Party and IG Farben employee. Co-founder of the Bilderberg Group (1954) alongside Polish political advisor J\u00f3zef Retinger. Chairman of Bild",
+    "current_connections": []
+  },
+  {
+    "id": 844,
+    "name": "John Brennan",
+    "description": "CIA Director (2013-2017) under Obama. Former CIA station chief in Saudi Arabia. Homeland Security Advisor. Oversaw expansion of drone strike program. Post-CIA, became vocal Trump critic. Controversial",
+    "current_connections": []
+  },
+  {
+    "id": 849,
+    "name": "Bob Lazar",
+    "description": "Claimed to have worked on reverse-engineering extraterrestrial technology at S-4 facility near Area 51 in the late 1980s. His 1989 public disclosure introduced Area 51 to mainstream awareness. His cla",
+    "current_connections": []
+  },
+  {
+    "id": 854,
+    "name": "Karl Wolfe",
+    "description": "US Air Force Sergeant who testified at the National Press Club (2001 Disclosure Project) that he saw photographs of structures on the far side of the Moon while stationed at NSA's Tactical Air Command",
+    "current_connections": []
+  },
+  {
+    "id": 859,
+    "name": "Helena Blavatsky",
+    "description": "Founder of the Theosophical Society (1875). Author of 'The Secret Doctrine' and 'Isis Unveiled'. Her esoteric philosophy influenced both New Age movements and early 20th-century occult organizations. ",
+    "current_connections": []
+  },
+  {
+    "id": 864,
+    "name": "Jim Morrison",
+    "description": "Lead singer of The Doors. Son of Admiral George S. Morrison, who commanded the fleet during the Gulf of Tonkin incident. His military intelligence family background and proximity to Laurel Canyon's mu",
+    "current_connections": []
+  },
+  {
+    "id": 869,
+    "name": "Ida Tarbell",
+    "description": "Pioneering investigative journalist whose 'The History of the Standard Oil Company' (1904) exposed John D. Rockefeller's monopolistic practices. Her work led to the Supreme Court's breakup of Standard",
+    "current_connections": []
+  },
+  {
+    "id": 874,
+    "name": "Muammar Gaddafi",
+    "description": "Libyan leader (1969-2011). Nationalized Libya's oil. Proposed a gold-backed African currency (the Gold Dinar) that threatened petrodollar hegemony. Overthrown and killed in NATO-backed intervention in",
+    "current_connections": []
+  },
+  {
+    "id": 879,
+    "name": "David Keith",
+    "description": "Harvard professor and leading proponent of solar geoengineering research. Founded the Harvard Solar Geoengineering Research Program and the SCoPEx experiment. Also co-founded Carbon Engineering. Centr",
+    "current_connections": []
+  },
+  {
+    "id": 884,
+    "name": "Karen Silkwood",
+    "description": "Chemical technician at the Kerr-McGee plutonium processing plant in Oklahoma. Discovered safety violations and plutonium contamination. Died in a suspicious car crash in 1974 while en route to deliver",
+    "current_connections": []
+  }
+]

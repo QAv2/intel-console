@@ -100,7 +100,8 @@ def main():
         f.write('ENTITIES = []\n\n')
         f.write('ENTITY_SOURCES = {}\n\n')
         f.write('RELATIONSHIPS = ')
-        f.write(json.dumps(rels_py, indent=2))
+        # json.dumps produces null for None; replace with Python None
+        f.write(json.dumps(rels_py, indent=2).replace(': null', ': None'))
         f.write('\n')
 
     print(f"\nExpansion module written to: {OUTPUT}")

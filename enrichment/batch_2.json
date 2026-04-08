@@ -1,0 +1,2404 @@
+[
+  {
+    "id": 3,
+    "name": "Robert Maxwell",
+    "description": "Media mogul, Mossad asset. Sold PROMIS software backdoored by Israeli intelligence to governments worldwide. Died 1991.",
+    "current_connections": [
+      {
+        "entity_id": 127,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 796,
+        "type": "owned_by"
+      },
+      {
+        "entity_id": 2,
+        "type": "related_to"
+      },
+      {
+        "entity_id": 678,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 795,
+        "type": "owned"
+      },
+      {
+        "entity_id": 91,
+        "type": "asset_of"
+      },
+      {
+        "entity_id": 119,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 528,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 88,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 526,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 800,
+        "type": "parallel_pattern"
+      },
+      {
+        "entity_id": 104,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 523,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 795,
+        "type": "owned_by"
+      },
+      {
+        "entity_id": 521,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 88,
+        "type": "asset_of"
+      },
+      {
+        "entity_id": 53,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 2,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 790,
+        "type": "monitored"
+      },
+      {
+        "entity_id": 791,
+        "type": "intelligence_link"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "William Barr",
+    "description": "William Pelham Barr (b. 1950). US Attorney General under George H.W. Bush (1991-1993) and Donald Trump (2019-2020). Connected to multiple cover-ups spanning three decades.\n\nFAMILY CONNECTION TO EPSTEI",
+    "current_connections": [
+      {
+        "entity_id": 85,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 102,
+        "type": "covered_for"
+      },
+      {
+        "entity_id": 201,
+        "type": "appointed"
+      },
+      {
+        "entity_id": 33,
+        "type": "appointed"
+      },
+      {
+        "entity_id": 200,
+        "type": "appointed_by"
+      },
+      {
+        "entity_id": 10,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 9,
+        "type": "related_to"
+      },
+      {
+        "entity_id": 691,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 89,
+        "type": "led"
+      },
+      {
+        "entity_id": 522,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Craig Spence",
+    "description": "DC lobbyist who ran bugged apartments. Entered Bush White House with minors. Predicted CIA would kill him. Found dead, ruled suicide.",
+    "current_connections": [
+      {
+        "entity_id": 85,
+        "type": "asset_of"
+      },
+      {
+        "entity_id": 201,
+        "type": "hosted_by"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Meyer Lansky",
+    "description": "Meyer Suchowljansky (1902-1983). 'The Mob's Accountant.' Architect of the National Crime Syndicate and the most important bridge node between organized crime and the intelligence apparatus.\n\nNATIONAL ",
+    "current_connections": [
+      {
+        "entity_id": 82,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 680,
+        "type": "successor_to"
+      },
+      {
+        "entity_id": 552,
+        "type": "prosecuted"
+      },
+      {
+        "entity_id": 45,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 16,
+        "type": "handler_of"
+      },
+      {
+        "entity_id": 40,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 46,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 122,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 53,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 534,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 77,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 45,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 77,
+        "type": "founder_of"
+      },
+      {
+        "entity_id": 74,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Jackson Stephens",
+    "description": "Arkansas oligarch. Bankrolled Clinton's rise. Worthen Bank provided $3.5M campaign credit. Rose Law Firm client.",
+    "current_connections": [
+      {
+        "entity_id": 62,
+        "type": "client_of"
+      },
+      {
+        "entity_id": 63,
+        "type": "director_of"
+      },
+      {
+        "entity_id": 32,
+        "type": "funded"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Richard Helms",
+    "description": "CIA Director. Ordered MKULTRA files destroyed 1973. Drafted legal language protecting BCCI front-men despite later denials.",
+    "current_connections": [
+      {
+        "entity_id": 54,
+        "type": "covered_for"
+      },
+      {
+        "entity_id": 530,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 85,
+        "type": "director_of"
+      },
+      {
+        "entity_id": 529,
+        "type": "boss_of"
+      },
+      {
+        "entity_id": 475,
+        "type": "supervised"
+      },
+      {
+        "entity_id": 17,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 548,
+        "type": "authorized"
+      },
+      {
+        "entity_id": 94,
+        "type": "covered_for"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Donald Trump",
+    "description": "Donald John Trump (b. 1946). 45th and 47th President of the United States. Real estate developer and media figure whose career intersects organized crime, intelligence operations, and the Epstein netw",
+    "current_connections": [
+      {
+        "entity_id": 74,
+        "type": "acquired"
+      },
+      {
+        "entity_id": 342,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 37,
+        "type": "appointed"
+      },
+      {
+        "entity_id": 8,
+        "type": "appointed"
+      },
+      {
+        "entity_id": 678,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 50,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 83,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 113,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 462,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 217,
+        "type": "government_contracts"
+      },
+      {
+        "entity_id": 52,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 686,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 2,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 36,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 682,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 462,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 210,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 220,
+        "type": "policy_influence"
+      },
+      {
+        "entity_id": 337,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 34,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 133,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 433,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 461,
+        "type": "facilitated"
+      },
+      {
+        "entity_id": 683,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 38,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 75,
+        "type": "owned"
+      },
+      {
+        "entity_id": 73,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 51,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 129,
+        "type": "appointed_by"
+      },
+      {
+        "entity_id": 1,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 154,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 2,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 688,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 569,
+        "type": "ally_of"
+      },
+      {
+        "entity_id": 52,
+        "type": "financial_connection"
+      },
+      {
+        "entity_id": 219,
+        "type": "rejected_by"
+      },
+      {
+        "entity_id": 215,
+        "type": "political_alliance"
+      },
+      {
+        "entity_id": 84,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 465,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 75,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 11,
+        "type": "mentor_of"
+      },
+      {
+        "entity_id": 129,
+        "type": "led"
+      },
+      {
+        "entity_id": 57,
+        "type": "financed"
+      },
+      {
+        "entity_id": 52,
+        "type": "business_partner"
+      },
+      {
+        "entity_id": 129,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 341,
+        "type": "funded"
+      },
+      {
+        "entity_id": 57,
+        "type": "funded"
+      },
+      {
+        "entity_id": 355,
+        "type": "supported"
+      },
+      {
+        "entity_id": 691,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 352,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 35,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 606,
+        "type": "ally_of"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Alan Dershowitz",
+    "description": "Alan Morton Dershowitz (b. 1938). Harvard Law School professor emeritus. Constitutional lawyer. Defense attorney for Jeffrey Epstein during the 2007 NPA negotiations.\n\nServed as Epstein's defense coun",
+    "current_connections": [
+      {
+        "entity_id": 33,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 1,
+        "type": "legal_counsel"
+      },
+      {
+        "entity_id": 146,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 100,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 126,
+        "type": "introduced_by"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Joey Merlino",
+    "description": "Joseph Salvatore Merlino (b. 1962). 'Skinny Joey.' Boss of the Philadelphia crime family from 1999, succeeding the Stanfa era after winning the bloody Stanfa-Merlino war. Son of Salvatore 'Chuckie' Me",
+    "current_connections": [
+      {
+        "entity_id": 81,
+        "type": "boss_of"
+      },
+      {
+        "entity_id": 42,
+        "type": "successor_to"
+      },
+      {
+        "entity_id": 42,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Frankie Carbo",
+    "description": "Paolo Giovanni 'Frankie' Carbo (1904-1976). Murder Incorporated triggerman turned boxing czar. Connected to the Lucchese crime family. Suspected in the killing of Bugsy Siegel (1947). With partner Bli",
+    "current_connections": [
+      {
+        "entity_id": 49,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 82,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 46,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 80,
+        "type": "affiliated_with"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Rafi Eitan",
+    "description": "Rafael 'Rafi' Eitan (1926-2019). Legendary Israeli intelligence operative. Led the team that captured Adolf Eichmann in Buenos Aires (1960). Ran Jonathan Pollard as a spy inside the US Navy (1984-85).",
+    "current_connections": [
+      {
+        "entity_id": 91,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 522,
+        "type": "directed"
+      },
+      {
+        "entity_id": 18,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 522,
+        "type": "directed_by"
+      },
+      {
+        "entity_id": 523,
+        "type": "directed_by"
+      },
+      {
+        "entity_id": 523,
+        "type": "directed"
+      },
+      {
+        "entity_id": 521,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 85,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 96,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 3,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 88,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 91,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Larry Summers",
+    "description": "Lawrence Henry Summers (born 1954). Economist who served as Secretary of the Treasury (1999-2001) under Clinton, President of Harvard University (2001-2006), and Director of the National Economic Coun",
+    "current_connections": [
+      {
+        "entity_id": 76,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 398,
+        "type": "advisor_to"
+      },
+      {
+        "entity_id": 32,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 408,
+        "type": "predecessor_of"
+      },
+      {
+        "entity_id": 399,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 1,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 408,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 2,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 30,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Ronald Lauder",
+    "description": "Ronald Steven Lauder (b. 1944). Estee Lauder heir, Mega Group member, World Jewish Congress president, and a figure at the intersection of US defense policy, Israeli intelligence infrastructure, and c",
+    "current_connections": [
+      {
+        "entity_id": 91,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 1,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 4,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 66,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 120,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 88,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "name": "Lynn Forester de Rothschild",
+    "description": "Lynn Forester, Lady de Rothschild (b. 1954). American-British businesswoman who served as a key social connector between Jeffrey Epstein and the Clinton-Rothschild orbit.\n\nCAREER: Born in Bergen Count",
+    "current_connections": [
+      {
+        "entity_id": 32,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 711,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 38,
+        "type": "introduced_by"
+      },
+      {
+        "entity_id": 818,
+        "type": "attended"
+      },
+      {
+        "entity_id": 700,
+        "type": "attended"
+      },
+      {
+        "entity_id": 717,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 1,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 2,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "name": "Jean-Luc Brunel",
+    "description": "Jean-Luc Brunel (1946-2022). French model scout, agency founder, and accused sex trafficker. Epstein's primary modeling industry pipeline who funneled young women into the trafficking network through ",
+    "current_connections": [
+      {
+        "entity_id": 432,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 435,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 4,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 437,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 434,
+        "type": "enabled"
+      },
+      {
+        "entity_id": 142,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 2,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 643,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 435,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 563,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 441,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 433,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 438,
+        "type": "led"
+      },
+      {
+        "entity_id": 1,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 145,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 440,
+        "type": "associated_with"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "name": "Les Moonves",
+    "description": "Leslie Roy Moonves (b. 1949). Former Chairman and CEO of CBS Corporation whose sexual misconduct closely parallels Weinstein's and Epstein's patterns, combined with documented use of law enforcement t",
+    "current_connections": [
+      {
+        "entity_id": 141,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 1,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 134,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "name": "Sarah Kellen",
+    "description": "Sarah Kellen (b. circa 1979-1980). Epstein's primary day-to-day scheduler and operational coordinator, described by victims and investigators as the administrative infrastructure of Epstein's traffick",
+    "current_connections": [
+      {
+        "entity_id": 146,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 1,
+        "type": "employed_by"
+      },
+      {
+        "entity_id": 2,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 147,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 150,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 151,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 100,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "name": "Celina Midelfart",
+    "description": "Celina Midelfart (b. February 1973, Oslo, Norway). Norwegian cosmetics heiress and businesswoman. Granddaughter of the founder of the Midelfart cosmetics company. Connected to both Epstein and Trump t",
+    "current_connections": [
+      {
+        "entity_id": 75,
+        "type": "attended"
+      },
+      {
+        "entity_id": 33,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 1,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 1,
+        "type": "introduced_by"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "name": "Khalid al-Mihdhar",
+    "description": "9/11 hijacker on Flight 77 (Pentagon). CIA monitored his attendance at Kuala Lumpur Al-Qaeda meeting (Jan 2000) and knew he had a US visa, but did not notify FBI or add him to watchlist until August 2",
+    "current_connections": [
+      {
+        "entity_id": 163,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 85,
+        "type": "monitored"
+      },
+      {
+        "entity_id": 174,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 164,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 162,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 180,
+        "type": "target_of"
+      },
+      {
+        "entity_id": 181,
+        "type": "participated_in"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "name": "Sibel Edmonds",
+    "description": "FBI contract linguist and whistleblower. Discovered FBI had pre-9/11 intelligence about the attacks that was suppressed. DOJ invoked 'state secrets' privilege to gag her testimony. DOJ Inspector Gener",
+    "current_connections": [
+      {
+        "entity_id": 170,
+        "type": "testified_at"
+      },
+      {
+        "entity_id": 89,
+        "type": "critic_of"
+      },
+      {
+        "entity_id": 181,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 87,
+        "type": "worked_for"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "name": "William Patrick III",
+    "description": "American biological weapons scientist (1926-2010). Worked at Fort Detrick for over 30 years, specializing in weaponizing biological agents for aerosol dispersal. Held five classified patents on method",
+    "current_connections": [
+      {
+        "entity_id": 195,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 188,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 85,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "name": "Dick Cheney",
+    "description": "Vice President under George W. Bush (2001-09), Secretary of Defense under George H.W. Bush (1989-93). Bohemian Club member. Former CEO of Halliburton. Key architect of Iraq War alongside fellow Grove ",
+    "current_connections": [
+      {
+        "entity_id": 603,
+        "type": "directed"
+      },
+      {
+        "entity_id": 202,
+        "type": "served_under"
+      },
+      {
+        "entity_id": 205,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 219,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 201,
+        "type": "served_under"
+      },
+      {
+        "entity_id": 168,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "name": "Edwin Meese",
+    "description": "Attorney General under Reagan (1985-88). Bohemian Club member. Close Reagan advisor \u2014 part of the 'troika' with James Baker and Michael Deaver. Connected to Bechtel network through Grove membership.",
+    "current_connections": [
+      {
+        "entity_id": 219,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 89,
+        "type": "led"
+      },
+      {
+        "entity_id": 200,
+        "type": "served_under"
+      },
+      {
+        "entity_id": 200,
+        "type": "advisor_to"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "name": "Harlan Crow",
+    "description": "Dallas real estate billionaire. Bohemian Club member (on 2023 list). Took Supreme Court Justice Clarence Thomas on undisclosed luxury trips including to Bohemian Grove \u2014 exposed by ProPublica in 2023.",
+    "current_connections": [
+      {
+        "entity_id": 219,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 214,
+        "type": "financial_gifts"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "name": "Michael Bloomberg",
+    "description": "Billionaire media mogul, former Mayor of New York City (2002-13), 2020 presidential candidate. On 2023 Bohemian Grove attendance list \u2014 Mandalay camp alongside David McCormick and Henry Kissinger (Kis",
+    "current_connections": [
+      {
+        "entity_id": 219,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 215,
+        "type": "associated_with"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "name": "Liu Chaoying",
+    "description": "Liu Chaoying (born c. 1962). Former Lieutenant Colonel in the People's Liberation Army and executive at China Aerospace International Holdings (CASIL), the Hong Kong-based subsidiary of China Aerospac",
+    "current_connections": [
+      {
+        "entity_id": 32,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 231,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 224,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "name": "Jim Marrs",
+    "description": "American journalist and author (1943-2017). Wrote 'PSI Spies' (2007) documenting the Stargate program from participants' accounts. Also authored 'Crossfire' (JFK assassination, basis for Oliver Stone'",
+    "current_connections": []
+  },
+  {
+    "id": 242,
+    "name": "Ed Dames",
+    "description": "Major (ret.), U.S. Army. Served in the Stargate remote viewing unit. Co-founded PSI Tech (1989), one of the first commercial remote viewing companies, while still on active duty. Known for frequent me",
+    "current_connections": [
+      {
+        "entity_id": 248,
+        "type": "founded"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "name": "Hal Puthoff",
+    "description": "Physicist, former NSA officer. Co-founded SRI remote viewing program with Russell Targ. Published in Nature (1974). Later founded EarthTech International and served as advisor to AATIP/AAWSAP. Bridge ",
+    "current_connections": [
+      {
+        "entity_id": 235,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 774,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 259,
+        "type": "predecessor_of"
+      },
+      {
+        "entity_id": 86,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 783,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 258,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 243,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 254,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 257,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 238,
+        "type": "trained_by"
+      },
+      {
+        "entity_id": 256,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 264,
+        "type": "worked_for"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "name": "Dale Graff",
+    "description": "DIA physicist who managed the Stargate program from the Defense Intelligence Agency side. Served as both project officer and director. Personally experienced and documented precognitive dreams. Wrote ",
+    "current_connections": [
+      {
+        "entity_id": 266,
+        "type": "worked_for"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "name": "Christopher Dunn",
+    "description": "British-American manufacturing engineer and author. Applied modern machining expertise to analyze ancient Egyptian artifacts, identifying tool marks, precision surfaces, and manufacturing tolerances t",
+    "current_connections": [
+      {
+        "entity_id": 295,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 296,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 356,
+        "type": "context"
+      },
+      {
+        "entity_id": 278,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 289,
+        "type": "investigated"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "name": "Flinders Petrie",
+    "description": "Sir William Matthew Flinders Petrie (1853-1942). Father of modern Egyptology and pioneer of systematic archaeological methodology. Conducted the first precision survey of the Great Pyramid (1880-1882)",
+    "current_connections": [
+      {
+        "entity_id": 273,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "name": "Klaus Schmidt",
+    "description": "German archaeologist (1953-2014) at the German Archaeological Institute (DAI). Led excavations at Gobekli Tepe from 1995 until his death. His work established the site's radiocarbon-confirmed dating (",
+    "current_connections": [
+      {
+        "entity_id": 293,
+        "type": "critic_of"
+      },
+      {
+        "entity_id": 287,
+        "type": "investigated"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "name": "Michael Levine",
+    "description": "DEA special agent for 25 years (1965-1990). Became the most decorated agent in DEA history. Ran some of the largest undercover drug operations in U.S. history, including Operation Hun \u2014 the 1980 inves",
+    "current_connections": [
+      {
+        "entity_id": 85,
+        "type": "accused"
+      },
+      {
+        "entity_id": 312,
+        "type": "member_of"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "name": "Norwin Meneses",
+    "description": "Nicaraguan drug lord known as 'Rey de la Droga' (King of Drugs) in Nicaragua. Head of a cocaine trafficking network that operated from Central America to California. Identified by the CIA Inspector Ge",
+    "current_connections": [
+      {
+        "entity_id": 562,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 85,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 318,
+        "type": "supplied_by"
+      },
+      {
+        "entity_id": 318,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "name": "Averell Harriman",
+    "description": "Diplomat, Governor of New York, Cold War architect. Partner at Brown Brothers Harriman (with Prescott Bush). Ambassador to USSR and UK. Skull and Bones member. Connected the banking, political, and in",
+    "current_connections": [
+      {
+        "entity_id": 330,
+        "type": "founded"
+      },
+      {
+        "entity_id": 326,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 326,
+        "type": "business_partner"
+      },
+      {
+        "entity_id": 332,
+        "type": "member_of"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "name": "Christopher Wylie",
+    "description": "Christopher Frederick Wylie (born 1989). Canadian data scientist and whistleblower who exposed Cambridge Analytica's harvesting of Facebook user data for political targeting. Born in Victoria, British",
+    "current_connections": [
+      {
+        "entity_id": 337,
+        "type": "boss_of"
+      },
+      {
+        "entity_id": 343,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 344,
+        "type": "employed_by"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "name": "Nikola Tesla",
+    "description": "Serbian-American inventor, electrical engineer, and physicist. Developed the alternating current (AC) induction motor and polyphase AC power system that became the global standard for electrical power",
+    "current_connections": [
+      {
+        "entity_id": 357,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 365,
+        "type": "licensed_to"
+      },
+      {
+        "entity_id": 87,
+        "type": "seized_papers"
+      },
+      {
+        "entity_id": 363,
+        "type": "built_on"
+      },
+      {
+        "entity_id": 323,
+        "type": "suppressed"
+      },
+      {
+        "entity_id": 357,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 374,
+        "type": "created"
+      },
+      {
+        "entity_id": 369,
+        "type": "context"
+      },
+      {
+        "entity_id": 273,
+        "type": "context"
+      },
+      {
+        "entity_id": 243,
+        "type": "researched"
+      },
+      {
+        "entity_id": 364,
+        "type": "competed_with"
+      },
+      {
+        "entity_id": 85,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "name": "Eugene Mallove",
+    "description": "American science writer, MIT alumnus (ScD, aeronautical/astronautical engineering), and the most prominent advocate for cold fusion research from 1991 until his death in 2004. Mallove was the chief sc",
+    "current_connections": [
+      {
+        "entity_id": 372,
+        "type": "advocated_for"
+      },
+      {
+        "entity_id": 368,
+        "type": "petitioned"
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "name": "Jacobo \u00c1rbenz",
+    "description": "Democratically elected President of Guatemala (1951-1954). His agrarian reform (Decree 900) redistributed uncultivated land from large estates \u2014 including United Fruit Company holdings \u2014 to landless p",
+    "current_connections": [
+      {
+        "entity_id": 381,
+        "type": "overthrew"
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "name": "Larry Fink",
+    "description": "CEO and co-founder of BlackRock. Former First Boston bond trader. Built BlackRock into the world's largest asset manager ($10+ trillion AUM). Created the Aladdin risk analytics platform used across th",
+    "current_connections": [
+      {
+        "entity_id": 702,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 818,
+        "type": "Co-Chairman_of"
+      },
+      {
+        "entity_id": 395,
+        "type": "founded"
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "name": "Hugh Grant",
+    "description": "Scottish-American businessman. CEO of Monsanto (2003-2018) during the company's most aggressive period of GMO expansion, farmer litigation, and Roundup defense. Oversaw the $63 billion sale to Bayer (",
+    "current_connections": [
+      {
+        "entity_id": 487,
+        "type": "CEO_of"
+      },
+      {
+        "entity_id": 487,
+        "type": "director_of"
+      }
+    ]
+  },
+  {
+    "id": 433,
+    "name": "John Casablancas",
+    "description": "Founder of Elite Model Management (1972), credited with 'inventing the supermodel.' Born December 12, 1942 in New York to a Spanish family, raised in Europe. Died July 20, 2013 in Rio de Janeiro from ",
+    "current_connections": [
+      {
+        "entity_id": 33,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 437,
+        "type": "founded"
+      },
+      {
+        "entity_id": 135,
+        "type": "associated_with"
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "name": "Manly P. Hall",
+    "description": "Canadian-born author and mystic who wrote 'The Secret Teachings of All Ages' (1928) at age 27 \u2014 an encyclopedic synthesis of Masonic, Hermetic, Qabbalistic, and Rosicrucian philosophy. Founded the Phi",
+    "current_connections": [
+      {
+        "entity_id": 449,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 449,
+        "type": "member_of"
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "name": "William Donovan",
+    "description": "U.S. Army Major General who founded the Office of Strategic Services (OSS, 1942), the direct predecessor of the CIA. Awarded the Medal of Honor in WWI. As OSS Director, built the first centralized U.S",
+    "current_connections": [
+      {
+        "entity_id": 607,
+        "type": "appointed_by"
+      },
+      {
+        "entity_id": 455,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 85,
+        "type": "founder_of"
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "name": "Val Broeksmit",
+    "description": "Deutsche Bank whistleblower and FBI informant. Adopted son of senior DB executive William Broeksmit.\n\nAfter his father's suicide in January 2014, discovered thousands of confidential Deutsche Bank doc",
+    "current_connections": [
+      {
+        "entity_id": 87,
+        "type": "informant_for"
+      },
+      {
+        "entity_id": 33,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 464,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 87,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 57,
+        "type": "whistleblower_on"
+      },
+      {
+        "entity_id": 57,
+        "type": "associated_with"
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "name": "Ralph Baric",
+    "description": "American virologist and epidemiologist at the University of North Carolina at Chapel Hill. Pioneered reverse genetics techniques for coronaviruses, enabling construction of chimeric viruses from synth",
+    "current_connections": [
+      {
+        "entity_id": 490,
+        "type": "pioneered"
+      },
+      {
+        "entity_id": 480,
+        "type": "funded_by"
+      },
+      {
+        "entity_id": 472,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 484,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 491,
+    "name": "Leonardo DiCaprio",
+    "description": "Leonardo Wilhelm DiCaprio (b. 1974). Academy Award-winning actor whose name appears multiple times in DOJ-released Epstein files, though not in flight logs or direct correspondence with Epstein.\n\nCARE",
+    "current_connections": [
+      {
+        "entity_id": 1,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 137,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 496,
+    "name": "R. Kelly",
+    "description": "Robert Sylvester Kelly (b. 1967). Grammy Award-winning R&B singer convicted of federal racketeering and sex trafficking, sentenced to 30 years in prison \u2014 one of the most prominent entertainment indus",
+    "current_connections": [
+      {
+        "entity_id": 494,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 1,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 503,
+    "name": "Abdul Rahim Mousavi",
+    "description": "Chief of Staff of the Iranian Armed Forces. Major General. Killed alongside Supreme Leader Khamenei in the strike on the Supreme Leader's compound in Tehran on February 28, 2026.",
+    "current_connections": [
+      {
+        "entity_id": 499,
+        "type": "directed_by"
+      },
+      {
+        "entity_id": 497,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 499,
+        "type": "subordinate_of"
+      },
+      {
+        "entity_id": 500,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 501,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 502,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 527,
+    "name": "Meir Dagan",
+    "description": "Meir Dagan (1945-2016). Director of the Mossad from 2002 to 2011. Widely regarded as having rebuilt and modernized the agency during one of its most operationally active periods.\n\nMILITARY CAREER: Bor",
+    "current_connections": [
+      {
+        "entity_id": 143,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 88,
+        "type": "directed"
+      },
+      {
+        "entity_id": 85,
+        "type": "intelligence_link"
+      }
+    ]
+  },
+  {
+    "id": 532,
+    "name": "E. Howard Hunt",
+    "description": "CIA officer, Bay of Pigs planner, later Watergate burglar. In 2007 deathbed confession to son Saint John Hunt, named Cord Meyer, David Atlee Phillips, and LBJ as involved in JFK assassination. Describ",
+    "current_connections": [
+      {
+        "entity_id": 537,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 547,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 85,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 551,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 531,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 542,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 529,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 381,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 541,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 540,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 537,
+    "name": "Guy Banister",
+    "description": "Former FBI Special Agent in Charge of Chicago. Ran private detective agency at 544 Camp Street, New Orleans \u2014 same building where Oswald distributed pro-Castro leaflets (stamped with that address). Co",
+    "current_connections": [
+      {
+        "entity_id": 535,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 538,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 532,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 87,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 551,
+        "type": "implicated_in"
+      },
+      {
+        "entity_id": 540,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 536,
+        "type": "employed"
+      },
+      {
+        "entity_id": 533,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 542,
+    "name": "Sam Giancana",
+    "description": "Boss of the Chicago Outfit. Participated in CIA-Mafia plots against Castro (Church Committee documented). Shared mistress Judith Exner with JFK. Murdered in 1975, days before he was scheduled to testi",
+    "current_connections": [
+      {
+        "entity_id": 552,
+        "type": "prosecuted"
+      },
+      {
+        "entity_id": 85,
+        "type": "worked_with"
+      },
+      {
+        "entity_id": 593,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 547,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 540,
+        "type": "co_conspirator_of"
+      },
+      {
+        "entity_id": 534,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 551,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 532,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 541,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 540,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 557,
+    "name": "James Earl Ray",
+    "description": "Convicted of MLK assassination after guilty plea. Recanted within days, spent remaining life seeking trial. Escaped convict who traveled internationally on fraudulent passports (suggesting support net",
+    "current_connections": [
+      {
+        "entity_id": 555,
+        "type": "assassinated"
+      },
+      {
+        "entity_id": 556,
+        "type": "participated_in"
+      }
+    ]
+  },
+  {
+    "id": 562,
+    "name": "Gary Webb",
+    "description": "Investigative journalist. Born August 31, 1955, Corona, California.\n\n'Dark Alliance': published August 18-20, 1996 in the San Jose Mercury News. Three-part series documenting that Nicaraguan Contra-li",
+    "current_connections": [
+      {
+        "entity_id": 318,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 303,
+        "type": "investigated_by"
+      },
+      {
+        "entity_id": 313,
+        "type": "created"
+      },
+      {
+        "entity_id": 318,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 319,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 303,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 85,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 96,
+        "type": "investigated"
+      }
+    ]
+  },
+  {
+    "id": 572,
+    "name": "Carl Bernstein",
+    "description": "American investigative journalist. Famous for Watergate reporting with Bob Woodward at The Washington Post. In 1977, published 'The CIA and the Media' in Rolling Stone \u2014 a 25,000-word expos\u00e9 documenti",
+    "current_connections": [
+      {
+        "entity_id": 85,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 571,
+        "type": "exposed"
+      },
+      {
+        "entity_id": 588,
+        "type": "exposed"
+      }
+    ]
+  },
+  {
+    "id": 577,
+    "name": "Chelsea Manning",
+    "description": "Former U.S. Army intelligence analyst. In 2010, leaked approximately 750,000 classified military and diplomatic documents to WikiLeaks, including the 'Collateral Murder' video showing a U.S. Apache he",
+    "current_connections": [
+      {
+        "entity_id": 585,
+        "type": "source_for"
+      },
+      {
+        "entity_id": 575,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 576,
+        "type": "influenced"
+      }
+    ]
+  },
+  {
+    "id": 619,
+    "name": "Robert Edward Grant",
+    "description": "Robert Edward Grant (b. ~1970). Self-styled 'Sir Robert Edward Grant.' Healthcare executive turned New Age polymath and AI consciousness grifter.\n\nLEGITIMATE CAREER: President of Allergan Medical (200",
+    "current_connections": [
+      {
+        "entity_id": 620,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 625,
+        "type": "associated_with"
+      },
+      {
+        "entity_id": 614,
+        "type": "founder_of"
+      },
+      {
+        "entity_id": 613,
+        "type": "affiliated_with"
+      }
+    ]
+  },
+  {
+    "id": 624,
+    "name": "Gregg Braden",
+    "description": "Gregg Braden. New Age author and Gaia TV host. Geology degree repurposed as authority across all sciences. 'God Code' gematria mappings shown to be 'ad hoc and reversible.' Failed 2012 fractal time pr",
+    "current_connections": [
+      {
+        "entity_id": 613,
+        "type": "affiliated_with"
+      },
+      {
+        "entity_id": 622,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 629,
+    "name": "Jordan Duchnycz",
+    "description": "Jordan Duchnycz (also Jordan David River, Jordan Pearce, 'Spiritpatch'). Creator of Spirit Science YouTube channel (1.4M subscribers). No formal academic credentials. Sacred geometry videos contain ba",
+    "current_connections": [
+      {
+        "entity_id": 627,
+        "type": "associated_with"
+      }
+    ]
+  },
+  {
+    "id": 634,
+    "name": "Simon Parkes",
+    "description": "Simon Parkes. Former Labour Party councillor for Whitby (Stakesby ward). Qualified driving instructor. Claims his 'real mother' is a 9ft tall green alien with eight fingers, lost his virginity to an a",
+    "current_connections": [
+      {
+        "entity_id": 635,
+        "type": "associated_with"
+      }
+    ]
+  },
+  {
+    "id": 639,
+    "name": "Sadhguru",
+    "description": "Sadhguru (Jagadish Vasudev, b. 1957). Yoga practitioner, mystic, founder of Isha Foundation (1992). Self-taught, no formal academic degrees in claimed fields. Personal net worth ~$25M.\n\nMIXED CASE: Yo",
+    "current_connections": [
+      {
+        "entity_id": 618,
+        "type": "founder_of"
+      },
+      {
+        "entity_id": 820,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 818,
+        "type": "attended"
+      }
+    ]
+  },
+  {
+    "id": 645,
+    "name": "Leon Brittan",
+    "description": "UK Home Secretary (1983-1985). In 1983, MP Geoffrey Dickens handed Brittan a dossier alleging a VIP paedophile network in Westminster. The dossier was never seen again. The Wanless-Whittam Review (201",
+    "current_connections": [
+      {
+        "entity_id": 794,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 659,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 653,
+        "type": "implicated_in"
+      }
+    ]
+  },
+  {
+    "id": 661,
+    "name": "Aleister Crowley",
+    "description": "British occultist, founder of Thelema, head of Ordo Templi Orientis (OTO). Documented connections to British intelligence (MI5/MI6) \u2014 worked as agent during WWI and WWII per Richard Spence's archival ",
+    "current_connections": [
+      {
+        "entity_id": 663,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 664,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 660,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 660,
+        "type": "subordinate_of"
+      },
+      {
+        "entity_id": 662,
+        "type": "influenced_by"
+      },
+      {
+        "entity_id": 88,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 668,
+        "type": "led"
+      },
+      {
+        "entity_id": 671,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 791,
+        "type": "intelligence_link"
+      }
+    ]
+  },
+  {
+    "id": 666,
+    "name": "Paul Bonacci",
+    "description": "Key witness in the Franklin Cover-Up. Testified under oath about being trafficked as a child through a network operating out of Boys Town, Omaha, connecting to Washington D.C. Named Larry King as a ce",
+    "current_connections": [
+      {
+        "entity_id": 665,
+        "type": "accused"
+      },
+      {
+        "entity_id": 667,
+        "type": "represented"
+      },
+      {
+        "entity_id": 673,
+        "type": "accused"
+      },
+      {
+        "entity_id": 674,
+        "type": "testified_at"
+      },
+      {
+        "entity_id": 675,
+        "type": "witness_in"
+      }
+    ]
+  },
+  {
+    "id": 683,
+    "name": "Prince Bandar bin Sultan",
+    "description": "Prince Bandar bin Sultan Al Saud (born 1949). Saudi Ambassador to the United States (1983-2005), the longest-serving Saudi ambassador to Washington. Known as 'Bandar Bush' for his extraordinarily clos",
+    "current_connections": [
+      {
+        "entity_id": 27,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 685,
+        "type": "directed"
+      },
+      {
+        "entity_id": 96,
+        "type": "financed"
+      },
+      {
+        "entity_id": 694,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 202,
+        "type": "ally_of"
+      },
+      {
+        "entity_id": 693,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 108,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 692,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 33,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 201,
+        "type": "ally_of"
+      },
+      {
+        "entity_id": 85,
+        "type": "intelligence_link"
+      },
+      {
+        "entity_id": 10,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 694,
+    "name": "Wafic Said",
+    "description": "Wafic Rida Said (born 1939). Syrian-born, Saudi-based billionaire businessman and philanthropist. The primary middleman in the BAE Systems Al-Yamamah arms deal \u2014 the largest arms contract in British h",
+    "current_connections": [
+      {
+        "entity_id": 683,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 27,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 690,
+        "type": "business_partner"
+      },
+      {
+        "entity_id": 692,
+        "type": "brokered"
+      }
+    ]
+  },
+  {
+    "id": 699,
+    "name": "Nelson Rockefeller",
+    "description": "Vice President (1974-77), 4-term NY governor. Chaired the Rockefeller Commission investigating CIA domestic activities (1975) \u2014 widely seen as limited hangout. Rockefeller dynasty central to founding ",
+    "current_connections": [
+      {
+        "entity_id": 701,
+        "type": "funded"
+      },
+      {
+        "entity_id": 702,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 322,
+        "type": "related_to"
+      },
+      {
+        "entity_id": 708,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 85,
+        "type": "investigated"
+      },
+      {
+        "entity_id": 696,
+        "type": "related_to"
+      }
+    ]
+  },
+  {
+    "id": 717,
+    "name": "Gianni Agnelli",
+    "description": "Giovanni 'Gianni' Agnelli (1921-2003). Chairman of Fiat (1966-1996). Known as 'the Uncrowned King of Italy.' Principal shareholder of Italy's largest private industrial group controlling Fiat, Ferrari",
+    "current_connections": [
+      {
+        "entity_id": 126,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 712,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 711,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 700,
+        "type": "member_of"
+      },
+      {
+        "entity_id": 715,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 722,
+    "name": "Marquis de Cuevas",
+    "description": "George de Cuevas, 8th Marquis de Piedra Blanca de Guana (1885-1961). Chilean-born ballet impresario.\n\nROCKEFELLER MARRIAGE: Married Margaret Strong, granddaughter of John D. Rockefeller. This marriage",
+    "current_connections": [
+      {
+        "entity_id": 322,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 716,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 712,
+        "type": "attended"
+      },
+      {
+        "entity_id": 696,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 728,
+    "name": "Fran\u00e7ois Mitterrand",
+    "description": "Fran\u00e7ois Maurice Adrien Marie Mitterrand (1916-1996). President of France 1981-1995. Socialist who nationalized Banque Rothschild in 1981, severing the Rothschild family from its 150-year institutiona",
+    "current_connections": [
+      {
+        "entity_id": 436,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 711,
+        "type": "critic_of"
+      },
+      {
+        "entity_id": 727,
+        "type": "nationalized"
+      }
+    ]
+  },
+  {
+    "id": 734,
+    "name": "Eleanor Lambert",
+    "description": "Eleanor Lambert (1903-2003). Fashion publicist who created New York Fashion Week, the International Best Dressed List, and the Council of Fashion Designers of America. Organized the first Costume Inst",
+    "current_connections": [
+      {
+        "entity_id": 729,
+        "type": "created"
+      },
+      {
+        "entity_id": 735,
+        "type": "created"
+      },
+      {
+        "entity_id": 725,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 754,
+    "name": "John Mack",
+    "description": "Pulitzer Prize-winning Harvard Medical School professor of psychiatry. Conducted clinical research on alien abduction experiences. Faced unprecedented Harvard investigation (1994-1995) for his book 'A",
+    "current_connections": [
+      {
+        "entity_id": 755,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 773,
+        "type": "funded_by"
+      },
+      {
+        "entity_id": 753,
+        "type": "legal_counsel"
+      },
+      {
+        "entity_id": 779,
+        "type": "collaborated_with"
+      }
+    ]
+  },
+  {
+    "id": 759,
+    "name": "Ryan Graves",
+    "description": "Former U.S. Navy F/A-18F pilot. Executive Director of Americans for Safe Aerospace. Testified before House Oversight Committee on July 26, 2023 about repeated UAP encounters during training exercises ",
+    "current_connections": [
+      {
+        "entity_id": 766,
+        "type": "founded"
+      },
+      {
+        "entity_id": 760,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 769,
+        "type": "whistleblower_on"
+      },
+      {
+        "entity_id": 756,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 772,
+        "type": "testified_at"
+      },
+      {
+        "entity_id": 761,
+        "type": "influenced"
+      },
+      {
+        "entity_id": 757,
+        "type": "testified_at"
+      },
+      {
+        "entity_id": 758,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 753,
+        "type": "supported"
+      }
+    ]
+  },
+  {
+    "id": 774,
+    "name": "Eric Davis",
+    "description": "Astrophysicist at EarthTech International (Hal Puthoff's firm). Author of multiple DIRDs for AAWSAP. Authored the notes from the 2002 meeting with Admiral Wilson describing a UAP reverse-engineering p",
+    "current_connections": [
+      {
+        "entity_id": 787,
+        "type": "authored"
+      },
+      {
+        "entity_id": 255,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 783,
+        "type": "participated_in"
+      },
+      {
+        "entity_id": 779,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 780,
+        "type": "worked_for"
+      },
+      {
+        "entity_id": 773,
+        "type": "employed_by"
+      }
+    ]
+  },
+  {
+    "id": 789,
+    "name": "Peter Mandelson",
+    "description": "Peter Benjamin Mandelson, Baron Mandelson (born 1953). British Labour politician, First Secretary of State (2010), Secretary of State for Business (2008-2010), European Commissioner for Trade (2004-20",
+    "current_connections": [
+      {
+        "entity_id": 32,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 230,
+        "type": "introduced"
+      },
+      {
+        "entity_id": 2,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 1,
+        "type": "associate_of"
+      },
+      {
+        "entity_id": 232,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 800,
+    "name": "Evgeny Lebedev",
+    "description": "Evgeny Alexandrovich Lebedev, Baron Lebedev of Hampton and of Siberia (born 1980). Russian-British newspaper proprietor, owner of the Evening Standard and The Independent. Son of Alexander Lebedev, fo",
+    "current_connections": [
+      {
+        "entity_id": 3,
+        "type": "parallel_pattern"
+      },
+      {
+        "entity_id": 679,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 678,
+        "type": "connected_to"
+      },
+      {
+        "entity_id": 790,
+        "type": "investigated"
+      }
+    ]
+  },
+  {
+    "id": 819,
+    "name": "B\u00f8rge Brende",
+    "description": "Norwegian politician and business executive. Former Foreign Minister of Norway (2013-2017). Became President and CEO of the World Economic Forum in 2017. On February 26, 2026, Brende resigned after Ep",
+    "current_connections": [
+      {
+        "entity_id": 820,
+        "type": "collaborated_with"
+      },
+      {
+        "entity_id": 818,
+        "type": "director_of"
+      },
+      {
+        "entity_id": 1,
+        "type": "connected_to"
+      }
+    ]
+  },
+  {
+    "id": 825,
+    "name": "Mark Zuckerberg",
+    "description": "CEO of Meta Platforms (formerly Facebook). Built world's largest social network. Faced congressional hearings over Cambridge Analytica data harvesting, election interference, and content moderation fa",
+    "current_connections": []
+  },
+  {
+    "id": 830,
+    "name": "John Yudkin",
+    "description": "British physiologist who identified sugar as a primary cause of heart disease in 'Pure, White and Deadly' (1972). His work was systematically discredited by the sugar industry and Ancel Keys. Later vi",
+    "current_connections": []
+  },
+  {
+    "id": 835,
+    "name": "Cristin Kearns",
+    "description": "Dentist-turned-researcher at UCSF who uncovered sugar industry documents showing the Sugar Research Foundation paid Harvard scientists to shift blame for heart disease from sugar to fat. Her 2016 JAMA",
+    "current_connections": []
+  },
+  {
+    "id": 840,
+    "name": "John Foster Dulles",
+    "description": "US Secretary of State (1953-1959) under Eisenhower. Brother of CIA Director Allen Dulles. Senior partner at Sullivan & Cromwell, which represented IG Farben and other German industrial interests befor",
+    "current_connections": []
+  },
+  {
+    "id": 845,
+    "name": "Michael Hayden",
+    "description": "NSA Director (1999-2005) and CIA Director (2006-2009). Oversaw creation of warrantless surveillance programs including STELLARWIND after 9/11. First person to lead both NSA and CIA. Key figure in post",
+    "current_connections": []
+  },
+  {
+    "id": 850,
+    "name": "Christopher Mellon",
+    "description": "Former Deputy Assistant Secretary of Defense for Intelligence. Key figure in UAP disclosure alongside Luis Elizondo. Helped leak Navy UAP videos to the New York Times (2017). Testified before Congress",
+    "current_connections": []
+  },
+  {
+    "id": 855,
+    "name": "Timothy Leary",
+    "description": "Harvard psychologist and counterculture icon. Pioneer of psychedelic research with psilocybin and LSD. Fired from Harvard in 1963. His 'Turn on, tune in, drop out' slogan defined 1960s counterculture.",
+    "current_connections": []
+  },
+  {
+    "id": 860,
+    "name": "Alice Bailey",
+    "description": "Theosophist and author who founded the Lucis Trust (originally Lucifer Publishing Company) in 1922. Her writings on a 'New World Order' and global governance through spiritual evolution heavily influe",
+    "current_connections": []
+  },
+  {
+    "id": 865,
+    "name": "Frank Zappa",
+    "description": "Musician, composer, and Laurel Canyon scene figure. Son of Francis Zappa, a chemical warfare specialist at Edgewood Arsenal. Grew up on military bases. His family's military-intelligence background is",
+    "current_connections": []
+  },
+  {
+    "id": 870,
+    "name": "Henri Deterding",
+    "description": "Dutch businessman who led Royal Dutch Shell and was one of the most powerful figures in the early oil industry. Known as the 'Napoleon of Oil.' Became a Nazi sympathizer in the 1930s. His rivalry with",
+    "current_connections": []
+  },
+  {
+    "id": 875,
+    "name": "Hugo Ch\u00e1vez",
+    "description": "President of Venezuela (1999-2013). Nationalized the oil industry and challenged US hegemony in Latin America. Survived a US-backed coup attempt in 2002. Used oil revenues to fund social programs. Die",
+    "current_connections": []
+  },
+  {
+    "id": 880,
+    "name": "Frank Keutsch",
+    "description": "Harvard atmospheric chemist and principal investigator of the SCoPEx (Stratospheric Controlled Perturbation Experiment) project. SCoPEx aimed to test aerosol injection at small scale but was halted af",
+    "current_connections": []
+  },
+  {
+    "id": 885,
+    "name": "Neil Armstrong",
+    "description": "NASA astronaut, first human to walk on the Moon (Apollo 11, July 20, 1969). Naval aviator and test pilot. His post-Apollo reclusiveness and cryptic public statements about 'truth's protective layers' ",
+    "current_connections": []
+  }
+]

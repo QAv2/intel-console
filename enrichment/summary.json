@@ -1,0 +1,9 @@
+{
+  "total_raw": 108,
+  "total_valid": 96,
+  "skipped_existing": 0,
+  "skipped_duplicate": 2,
+  "skipped_unknown": 10,
+  "by_type": {},
+  "by_tier": {}
+}
