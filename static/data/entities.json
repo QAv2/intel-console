@@ -183,7 +183,6 @@
     "description": "Saudi arms dealer. Iran-Contra middleman. BCCI Monte Carlo client. Connected to Epstein network.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/khashoggi.jpg",
       "birth_date": "1935-07-25",
       "death_date": "2017-06-06",
       "nationality": "Saudi",
@@ -241,7 +240,6 @@
     "description": "Alan Morton Dershowitz (b. 1938). Harvard Law School professor emeritus. Constitutional lawyer. Defense attorney for Jeffrey Epstein during the 2007 NPA negotiations.\n\nServed as Epstein's defense counsel during negotiations that produced the unprecedented Non-Prosecution Agreement. Named by Virginia Roberts Giuffre as a participant in Epstein's sex trafficking operation. Dershowitz and Giuffre filed competing defamation claims; Giuffre's suit was settled in 2022 (terms undisclosed). Dershowitz initially denied ever meeting Giuffre, later acknowledged meeting her but denied any sexual contact.\n\nDocumented as a frequent guest at Epstein properties, appearing in flight logs and witness testimony. Published academic arguments advocating for lowering the statutory age of consent. Connected to both Trump and Epstein legal circles \u2014 served on Trump's first impeachment defense team in 2020.\n\nFlight logs and witness depositions place Dershowitz at Epstein's residences in Manhattan, Palm Beach, New Mexico, and the US Virgin Islands on multiple occasions.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/dershowitz.jpg",
       "birth_date": "1938-09-01",
       "nationality": "American",
       "status": "alive"
@@ -348,7 +346,6 @@
     "description": "Palantir CEO. PhD from Frankfurt School lineage. Runs Palantir's intelligence community relationships.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/karp.jpg",
       "birth_date": "1967-10-02",
       "nationality": "American",
       "status": "alive"
@@ -361,7 +358,6 @@
     "description": "Robert Alexander Acosta (b. 1969). US Attorney for the Southern District of Florida (2005-2009). US Secretary of Labor (2017-2019).\n\nAs US Attorney, Acosta negotiated the 2007 Non-Prosecution Agreement with Jeffrey Epstein \u2014 an unprecedented deal that allowed Epstein to plead guilty to state solicitation charges, serve 13 months in county jail with work release privileges, and register as a sex offender, while shielding unnamed co-conspirators from federal prosecution. Victims were not notified as required by the Crime Victims' Rights Act (later ruled a violation by Judge Kenneth Marra in 2019).\n\nAccording to the Daily Beast (2019), Acosta told the Trump transition team during his vetting for Labor Secretary that he had been told to back off the Epstein case because Epstein 'belonged to intelligence.' Despite this disclosure, Trump appointed Acosta as Secretary of Labor in 2017.\n\nResigned from the Labor Secretary position in July 2019, days after renewed scrutiny of the NPA following Epstein's re-arrest by SDNY.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/acosta.jpg",
       "birth_date": "1969-01-16",
       "nationality": "American",
       "status": "alive"
@@ -887,11 +883,11 @@
     "description": "CIA drug pilot operating out of Mena Airport. Used Southern Air Transport aircraft. Assassinated 1986.",
     "aliases": "Adler Berriman Seal",
     "metadata": {
-      "photo_url": "photos/barry_seal.jpg",
       "birth_date": "1939-07-16",
       "death_date": "1986-02-19",
       "nationality": "American",
-      "status": "deceased"
+      "status": "deceased",
+      "photo_url": "photos/barry_seal.jpg"
     }
   },
   "781": {
@@ -1054,7 +1050,6 @@
     "description": "Arkansas Governor, later President. Sent AR National Guard to Honduras. Pardoned Marc Rich. Epstein flight logs document 26+ flights on Epstein's aircraft.",
     "aliases": "William Clinton",
     "metadata": {
-      "photo_url": "photos/clinton.jpg",
       "birth_date": "1946-08-19",
       "nationality": "American",
       "status": "alive"
@@ -1363,7 +1358,6 @@
     "description": "Benjamin 'Bugsy' Siegel (1906-1947). Murder Incorporated co-founder and the man who built Las Vegas. Childhood friend and lifelong partner of Meyer Lansky. Sent west by the syndicate to establish operations in California and Las Vegas. Built the Flamingo Hotel (1946), transforming Las Vegas from a desert outpost into the mob's legitimate front. Cost overruns and skimming led the Commission to approve his murder. Shot through the window of his Beverly Hills home on June 20, 1947. Frankie Carbo was one of several suspected triggermen. Within 20 minutes of the shooting, Lansky associates walked into the Flamingo and took control.",
     "aliases": "Benjamin Siegel",
     "metadata": {
-      "photo_url": "photos/siegel.jpg",
       "birth_date": "1906-02-28",
       "death_date": "1947-06-20",
       "nationality": "American",
@@ -1851,7 +1845,6 @@
     "description": "Washington power broker. Front-man for BCCI's acquisition of First American Bank. Indicted 1992.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/clifford.jpg",
       "birth_date": "1906-12-25",
       "death_date": "1998-10-10",
       "nationality": "American",
@@ -2229,7 +2222,6 @@
     "description": "Journalist investigating INSLAW/PROMIS and 'The Octopus.' Found dead in hotel bathtub 1991, ruled suicide. Arms slashed 10+ times.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/casolaro.jpg",
       "birth_date": "1947-06-16",
       "death_date": "1991-08-10",
       "nationality": "American",
@@ -2546,11 +2538,11 @@
     "description": "Headmaster at Dalton School who hired Epstein to teach (1974). OSS veteran. Father of William Barr. Authored 'Space Relations' (1973), a sci-fi novel depicting oligarchs practicing sexual slavery in space.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/donald_barr.jpg",
       "birth_date": "1921-08-08",
       "death_date": "2004-02-05",
       "nationality": "American",
-      "status": "deceased"
+      "status": "deceased",
+      "photo_url": "photos/donald_barr.jpg"
     }
   },
   "476": {
@@ -2584,7 +2576,6 @@
     "description": "Donald John Trump (b. 1946). 45th and 47th President of the United States. Real estate developer and media figure whose career intersects organized crime, intelligence operations, and the Epstein network through decades of documented connections.\n\nROY COHN MENTORSHIP (1973-1986): Retained attorney Roy Cohn in 1973 to fight federal housing discrimination charges. For 13 years, Cohn served as Trump's fixer, connecting him to organized crime figures, intelligence operatives, and political power brokers. Through Cohn, Trump gained access to Fat Tony Salerno (Genovese family boss) and Paul Castellano (Gambino family boss), whose S&A Concrete supplied Trump Tower construction. NJ Casino Control Commission records document these organized crime associations.\n\nRESORTS INTERNATIONAL (1987): Purchased Resorts International, a casino company with documented intelligence community connections. Resorts operated through Intertel (International Intelligence Inc.), a private intelligence firm staffed by former FBI and CIA personnel. The company had historical ties to Meyer Lansky's gambling operations. Later reorganized as Trump Taj Mahal.\n\nEPSTEIN RELATIONSHIP (~1987-2004): Social relationship documented through quotes, photographs, party footage, and flight logs. In a 2002 New York Magazine profile, Trump stated: 'I've known Jeff for 15 years. Terrific guy. He's a lot of fun to be with. It is even said that he likes beautiful women as much as I do, and many of them are on the younger side.' Trump claims to have banned Epstein from Mar-a-Lago, though the timing is disputed. Epstein's Palm Beach residence was approximately one mile from Mar-a-Lago.\n\nKEY APPOINTMENTS: Appointed Alexander Acosta \u2014 the US Attorney who gave Epstein the 2007 NPA \u2014 as Secretary of Labor (2017-2019). Appointed William Barr \u2014 whose father hired Epstein at Dalton \u2014 as Attorney General (2019-2020). Barr was AG when Epstein died in federal custody.\n\nDEUTSCHE BANK: After every major US bank refused to lend to Trump following multiple bankruptcies, Deutsche Bank provided over $340M in loans. Deutsche Bank was later fined for Russian mirror trading (money laundering) and for maintaining Epstein's Butterfly Trust accounts.\n\nFELIX SATER AND BAYROCK GROUP: Partnered with Felix Sater through Bayrock Group on Trump SoHo and other projects. Sater, a convicted felon with documented ties to Russian organized crime, was also an FBI informant. His business card read 'Senior Advisor to Donald Trump.' Bayrock connected Trump to Russian and Central Asian money flows documented in multiple lawsuits.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/trump.jpg",
       "birth_date": "1946-06-14",
       "nationality": "American",
       "status": "alive"
@@ -2871,7 +2862,6 @@
     "description": "Former Israeli PM and IDF Chief of Staff. Visited Epstein's residences. Wexner Foundation paid $2M for vague 'research.' Carbyne co-founder.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/barak.jpg",
       "birth_date": "1942-02-12",
       "nationality": "Israeli",
       "status": "alive"
@@ -3165,7 +3155,6 @@
     "description": "Anthony 'Fat Tony' Salerno (1911-1992). Boss of the Genovese crime family, one of the most powerful organized crime figures in New York. Roy Cohn served as Salerno's attorney, connecting him to Donald Trump and the political establishment. Salerno and Paul Castellano (Gambino family) jointly controlled S&A Concrete, which held a monopoly on concrete deliveries for large construction projects in Manhattan. S&A Concrete provided concrete for Trump Tower's construction. Convicted in the 1986 Mafia Commission Trial and sentenced to 100 years. Died in federal prison in 1992.",
     "aliases": "Anthony Salerno",
     "metadata": {
-      "photo_url": "photos/salerno.jpg",
       "birth_date": "1911-08-15",
       "death_date": "1992-07-27",
       "nationality": "American",
@@ -3688,7 +3677,6 @@
     "description": "Ghislaine Noelle Marion Maxwell (b. 1961). Convicted sex trafficker, socialite, and intelligence network connector. Daughter of Robert Maxwell, documented Mossad asset.\n\nFAMILY BACKGROUND: Father Robert Maxwell (born Jan Ludvik Hoch) was a British media mogul and documented Israeli intelligence asset who distributed backdoored PROMIS software to governments worldwide on behalf of Mossad. Robert Maxwell died under mysterious circumstances on November 5, 1991, found floating near his yacht, the Lady Ghislaine (named after his daughter). He received an Israeli state funeral attended by six serving and former heads of Israeli intelligence. His death occurred months after the BCCI shutdown and Danny Casolaro's death \u2014 three Octopus-connected events within five months.\n\nEPSTEIN OPERATION: Moved to New York after her father's death and became Jeffrey Epstein's primary companion and accomplice. Federal prosecutors established that Maxwell recruited, groomed, and trafficked underage girls for Epstein from at least 1994 to 2004. She used her social connections and aristocratic credibility to normalize access to victims and provide cover for the operation.\n\nTERRAMAR PROJECT: Founded the TerraMar Project, an ocean conservation nonprofit, in 2012. The organization closed the day after Epstein's July 2019 arrest, raising questions about its true purpose. TerraMar had applied for diplomatic status at the United Nations.\n\nARREST AND CONVICTION: After Epstein's death, Maxwell became the FBI's most wanted target in the case. Arrested July 2, 2020 at a New Hampshire property. Convicted in December 2021 on five of six counts including sex trafficking of a minor. Sentenced to 20 years in federal prison in June 2022. Currently incarcerated.\n\nINTELLIGENCE NEXUS: Maxwell served as the bridge between her father's Mossad intelligence network and Epstein's operation. Through Robert Maxwell, the family had deep connections to Israeli intelligence leadership. Multiple researchers have documented this as a continuation of the Maxwell family's intelligence role.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/maxwell.jpg",
       "birth_date": "1961-12-25",
       "nationality": "British-American",
       "status": "incarcerated"
@@ -4110,10 +4098,10 @@
     "description": "Rose Law Firm partner. Firm represented both Systematics and assisted BCCI's US entry.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/hillary_clinton.jpg",
       "birth_date": "1947-10-26",
       "nationality": "American",
-      "status": "alive"
+      "status": "alive",
+      "photo_url": "photos/hillary_clinton.jpg"
     }
   },
   "116": {
@@ -4318,7 +4306,6 @@
     "description": "FBI Director 1924-1972. Compromised by Lansky photographs. Refused to investigate organized crime for decades.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/hoover.jpg",
       "birth_date": "1895-01-01",
       "death_date": "1972-05-02",
       "nationality": "American",
@@ -4449,7 +4436,6 @@
     "description": "CIA counterintelligence chief. Held Hoover compromise material. Managed CIA-Mossad relationship.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/angleton.jpg",
       "birth_date": "1917-12-09",
       "death_date": "1987-05-12",
       "nationality": "American",
@@ -4554,7 +4540,6 @@
     "description": "Jeffrey Edward Epstein (1953-2019). Financier, convicted sex offender, and intelligence asset whose network connected Wall Street, government, and intelligence services across multiple countries.\n\nEARLY CAREER: Hired in 1974 to teach calculus and physics at the Dalton School in Manhattan by headmaster Donald Barr (OSS veteran, father of future AG William Barr) despite lacking a college degree. Joined Bear Stearns in 1976, recruited by CEO Ace Greenberg, rising to limited partner before departing in 1981 under unclear circumstances.\n\nFINANCIAL ENIGMA: Established J. Epstein & Co. with Les Wexner as his only publicly confirmed client. Granted unprecedented power of attorney over Wexner's finances and a $46M Manhattan mansion (9 East 71st St, transferred for $0 in 1998). His claimed billionaire status was never independently verified \u2014 no former clients besides Wexner have been publicly identified.\n\nINTELLIGENCE CONNECTIONS: FBI Confidential Human Source memo (Oct 2020, FOIA) identifies Epstein as a 'co-opted Mossad agent.' Former Israeli PM Ehud Barak visited Epstein residences (photographed entering NYC building), received $2M from Wexner Foundation, and co-founded Carbyne (Israeli emergency tech, Epstein investor) with mass surveillance applications. Robert Maxwell (Ghislaine's father, documented Mossad asset) distributed backdoored PROMIS software \u2014 Epstein inherited this intelligence network connection through Ghislaine.\n\n2007 NON-PROSECUTION AGREEMENT: Palm Beach police investigation led to federal charges, but US Attorney Alexander Acosta granted an unprecedented NPA shielding unnamed co-conspirators. Victims were not notified as required by law. Acosta later told the Trump transition team he was told to back off because Epstein 'belonged to intelligence' (Daily Beast, 2019).\n\nFINANCIAL NETWORK: JPMorgan processed 4,725 suspicious Epstein-linked wires totaling $1.1B, filing SARs years late ($290M settlement, 2023). Deutsche Bank maintained Butterfly Trust accounts after JPMorgan dropped him ($75M NYDFS settlement, 2020). Leon Black paid $158M in Apollo advisory fees. Epstein attended Mega Group meetings (Wexner/Bronfman billionaire donor group).\n\n2019 ARREST AND DEATH: Re-arrested by SDNY July 6, 2019 on federal sex trafficking charges. Found dead in MCC cell August 10, 2019. Ruled suicide by hanging. Both surveillance cameras outside his cell simultaneously malfunctioned. Both assigned guards were sleeping and later falsified records. Dr. Michael Baden noted hyoid bone fracture pattern more consistent with homicidal strangulation than hanging. AG William Barr (whose father hired Epstein at Dalton) oversaw the investigation.\n\nPROPERTY EMPIRE: Residences in Manhattan, Palm Beach, Paris, New Mexico (Zorro Ranch), and US Virgin Islands (Little Saint James, Great Saint James). Flight logs document hundreds of prominent visitors.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/epstein.jpg",
       "birth_date": "1953-01-20",
       "death_date": "2019-08-10",
       "nationality": "American",
@@ -4681,7 +4666,6 @@
     "description": "Joseph Salvatore Merlino (b. 1962). 'Skinny Joey.' Boss of the Philadelphia crime family from 1999, succeeding the Stanfa era after winning the bloody Stanfa-Merlino war. Son of Salvatore 'Chuckie' Merlino, underboss under Scarfo. Led the young faction against Stanfa with Michael Ciancaglini. Survived being shot in 1993. Convicted of racketeering in 2001, sentenced to 14 years. Acquitted of murder charges in 2018 after a second trial. Considered the last traditional boss of the Philadelphia family.",
     "aliases": "Skinny Joey",
     "metadata": {
-      "photo_url": "photos/merlino.jpg",
       "birth_date": "1962-03-16",
       "nationality": "American",
       "status": "alive"
@@ -4772,7 +4756,6 @@
     "description": "John Joseph Gotti Jr. (1940-2002). 'The Teflon Don' and 'The Dapper Don.' Boss of the Gambino crime family from 1985 until his conviction in 1992.\n\nRISE TO POWER: On December 16, 1985, Gotti orchestrated the assassination of Gambino boss Paul Castellano outside Sparks Steak House in midtown Manhattan \u2014 one of the most brazen mob hits in history. Castellano and underboss Thomas Bilotti were shot by gunmen in trench coats while Gotti watched from a car across the street. Gotti became boss without Commission approval, violating the Mafia's fundamental governance structure.\n\nTHE TEFLON DON: Acquitted three times on federal racketeering charges between 1986 and 1990, earning the nickname 'Teflon Don' because charges seemed to slide off. His acquittals were later attributed to jury tampering and witness intimidation. He cultivated a celebrity persona \u2014 Armani suits, media appearances, lavish Fourth of July block parties in Ozone Park, Queens.\n\nROY COHN CONNECTION: Roy Cohn represented Gotti, adding him to a client list that already included Fat Tony Salerno (Genovese boss) and Castellano himself (the man Gotti would later murder). Through Cohn, the same attorney connected the bosses of two rival families AND Donald Trump.\n\nTRUMP CASINO CONNECTION: Robert LiButti, a Gambino associate caught on FBI wiretap calling Gotti 'my boss,' lost $12 million gambling at Trump casinos. Trump Plaza was fined $450,000 for funneling $1.6M in luxury cars to LiButti and $200,000 for removing Black and female dealers at LiButti's demand.\n\nPHILADELPHIA CONNECTION: John Stanfa, the Gambino-connected boss of the Philadelphia crime family, had brothers who were made Gambino members under Gotti's regime. When Stanfa was installed in Philadelphia, it was with Gambino backing.\n\nDOWNFALL: Underboss Sammy 'The Bull' Gravano turned government witness in 1991, providing devastating testimony. Gotti was convicted June 23, 1992 on 13 counts including five murders and sentenced to life without parole. He died of throat cancer in USP Marion on June 10, 2002. His conviction marked the symbolic end of the Italian-American Mafia's golden age.",
     "aliases": "The Teflon Don, The Dapper Don",
     "metadata": {
-      "photo_url": "photos/gotti.jpg",
       "birth_date": "1940-10-27",
       "death_date": "2002-06-10",
       "nationality": "American",
@@ -4853,7 +4836,6 @@
     "description": "National Security Advisor under Reagan. Later directed DARPA's Total Information Awareness program.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/poindexter.jpg",
       "nationality": "American",
       "status": "alive"
     }
@@ -5005,7 +4987,6 @@
     "description": "CIA's principal Middle East liaison (mid-1960s-1979). Secret lead front-man for BCCI takeover of First American Bank.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/adham.jpg",
       "nationality": "Saudi",
       "status": "deceased"
     }
@@ -5454,7 +5435,6 @@
     "description": "Leslie Herbert Wexner (b. 1937). Founder of L Brands (The Limited, Victoria's Secret, Bath & Body Works, Abercrombie & Fitch). Richest man in Ohio. Mega Group co-founder. Central figure in the Epstein network through an unprecedented financial relationship.\n\nEPSTEIN RELATIONSHIP: Granted Jeffrey Epstein full power of attorney over his finances \u2014 an arrangement virtually unheard of between a billionaire and a financial advisor. Transferred the largest private residence in Manhattan (9 East 71st St, valued at $46M) to Epstein for a reported $0 in 1998. The nature of Epstein's financial services to Wexner has never been adequately explained. Wexner claimed in 2019 that Epstein had 'misappropriated vast sums of money' but no legal action was ever filed.\n\nMEGA GROUP: Co-founded with Charles Bronfman in 1991 \u2014 a secretive annual gathering of approximately 20 of the wealthiest pro-Israel donors in North America. Epstein attended Mega Group meetings despite not qualifying for membership by wealth. The group's activities and membership are deliberately opaque.\n\nVICTORIA'S SECRET PIPELINE: Multiple witnesses and victims described Epstein using Victoria's Secret modeling recruitment as a lure. Epstein carried business cards identifying himself as a VS talent scout. Wexner's knowledge of this misuse has not been conclusively established.\n\nINTELLIGENCE AND MILITARY CONNECTIONS: Southern Air Transport \u2014 a documented CIA front airline used in Iran-Contra \u2014 shipped goods for The Limited. Ohio created taxpayer incentives for SAT at Wexner's behest. The Wexner Foundation paid former Israeli PM Ehud Barak $2M for vague 'research,' channeling money to Israeli military intelligence leadership.\n\nCO-CONSPIRATOR DESIGNATION: Named as a co-conspirator on a 2019 FBI document related to the Epstein investigation. The scope and specifics remain partially sealed.\n\n2026 HOUSE OVERSIGHT DEPOSITION: Testified before the House Oversight Committee on February 18, 2026. During the deposition, attorney Michael Levy was caught on a hot microphone threatening Wexner for answering committee questions, suggesting ongoing efforts to limit testimony about the Epstein network.",
     "aliases": "Leslie Wexner",
     "metadata": {
-      "photo_url": "photos/wexner.jpg",
       "birth_date": "1937-09-08",
       "nationality": "American",
       "status": "alive"
@@ -5568,7 +5548,6 @@
     "description": "Charles 'Lucky' Luciano (1897-1962). Founder of the modern American Mafia. With Meyer Lansky, created the National Crime Syndicate \u2014 organizing Italian and Jewish criminal enterprises into a corporate structure. Established The Commission in 1931 to govern the Five Families. Created Murder, Incorporated as the national enforcement arm. Imprisoned in 1936. Released in 1946 through Operation Underworld \u2014 ONI recruited the mob through Lansky to secure NYC waterfront and provide intelligence for the Sicily invasion. Deported to Italy. Organized the 1946 Havana Conference at the Hotel Nacional. Died in Naples, 1962.",
     "aliases": "Charles Luciano, Salvatore Lucania",
     "metadata": {
-      "photo_url": "photos/luciano.jpg",
       "birth_date": "1897-11-24",
       "death_date": "1962-01-26",
       "nationality": "American-Italian",
@@ -5756,9 +5735,7 @@
     "entity_type": "facility",
     "description": "Mar-a-Lago. Private estate and club in Palm Beach, Florida, owned by Donald Trump since 1985. Site of Trump's claimed ban of Jeffrey Epstein (timing disputed). Epstein's Palm Beach mansion was approximately one mile away. According to court documents and witness testimony, Mar-a-Lago was part of the Palm Beach social circuit where Trump and Epstein interacted in the late 1990s and early 2000s.",
     "aliases": "",
-    "metadata": {
-      "photo_url": "photos/mar_a_lago.jpg"
-    }
+    "metadata": {}
   },
   "641": {
     "id": 641,
@@ -5779,11 +5756,11 @@
     "description": "Commodities trader, Mossad's primary oil source for 20 years. Founded Glencore. Pardoned by Clinton.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/marc_rich.jpg",
       "birth_date": "1934-12-18",
       "death_date": "2013-06-26",
       "nationality": "American-Israeli-Spanish",
-      "status": "deceased"
+      "status": "deceased",
+      "photo_url": "photos/marc_rich.jpg"
     }
   },
   "147": {
@@ -6061,7 +6038,6 @@
     "description": "Meyer Suchowljansky (1902-1983). 'The Mob's Accountant.' Architect of the National Crime Syndicate and the most important bridge node between organized crime and the intelligence apparatus.\n\nNATIONAL CRIME SYNDICATE: With Lucky Luciano, Lansky created the organizational model for American organized crime \u2014 a national corporation transcending ethnic lines. The Commission (1931) governed the Five Families. Murder, Inc. served as the enforcement arm. Lansky served as the financial brain for all of it.\n\nOPERATION UNDERWORLD (1942-1945): Served as intermediary when the Office of Naval Intelligence recruited the mob to secure New York's waterfront during WWII. Lansky connected ONI to Lucky Luciano in prison, who ordered his entire network to prevent sabotage and strikes. Not a single incident occurred for the rest of the war. The mob also provided intelligence for the Sicily invasion. This established the structural relationship between organized crime and the national security state that has never been fully severed.\n\nHOOVER BLACKMAIL: Obtained compromising photographs of FBI Director J. Edgar Hoover, per multiple witnesses including Susan Rosenstiel (testimony under oath to NY State Crime Committee) and two former OSS officials. For three decades, Hoover refused to acknowledge organized crime existed \u2014 400 FBI agents assigned to communists, 4 to organized crime. Whether blackmail was the cause, the effect was identical: Lansky operated with de facto FBI protection.\n\nISRAEL AND INTELLIGENCE: Arranged arms smuggling for the Haganah (pre-IDF) in 1945-48, using Albert Anastasia's control of the longshoremen to load weapons onto ships. Worked directly with Rafi Eitan (legendary Israeli intelligence operative who captured Eichmann and later ran Jonathan Pollard). Through Tibor Rosenbaum's Banque de Credit International in Geneva, Lansky laundered criminal proceeds through the same institution that handled 90% of Israeli Defense Ministry arms purchases.\n\nCUBA AND LAS VEGAS: Partnered with Fulgencio Batista to build Havana's casino empire. Organized the 1946 Havana Conference at the Hotel Nacional \u2014 the national syndicate's postwar summit, attended by Luciano, Costello, Genovese, Bonanno, and others. When Castro's revolution destroyed Cuban operations, Lansky pivoted to Las Vegas, which he had been developing since assigning Bugsy Siegel to build the Flamingo Hotel in 1946.\n\nOFFSHORE BANKING: Pioneered the use of Swiss banks (from 1932), Bahamas shell companies, and Caribbean tax havens for money laundering \u2014 creating the infrastructure later adopted by intelligence agencies for covert finance. This architecture survived Lansky and was used by successor networks.\n\nLEGACY: Died January 15, 1983, officially leaving $57,000. FBI estimated $300M hidden worldwide. The money was never found. But the infrastructure \u2014 offshore routes, intelligence relationships, blackmail methodology, Israeli connections \u2014 was institutional, not personal. It persisted through Rafi Eitan to Robert Maxwell to Ghislaine Maxwell to Jeffrey Epstein.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/lansky.jpg",
       "birth_date": "1902-07-04",
       "death_date": "1983-01-15",
       "nationality": "American",
@@ -6553,7 +6529,6 @@
     "description": "Nicodemo Domenico Scarfo Sr. (1929-2017). 'Little Nicky.' Boss of the Philadelphia crime family from 1981 to 1991, succeeding Angelo Bruno after the bloody succession war. Unlike Bruno's restraint, Scarfo ruled through terror \u2014 responsibility for over 30 murders during his reign. Controlled Atlantic City construction through Scarf Inc. Kenneth Shapiro served as his financial advisor and front man for casino-area land deals, including properties sold to Donald Trump for casino development. Salvatore Testa, 'The Crown Prince,' also sold land to Trump's casino operations before Scarfo had him murdered. Convicted of first-degree murder, racketeering, and extortion in 1988. Died in federal prison in 2017.",
     "aliases": "Little Nicky, Nicodemo Scarfo",
     "metadata": {
-      "photo_url": "photos/scarfo.jpg",
       "birth_date": "1929-03-08",
       "death_date": "2017-01-13",
       "nationality": "American",
@@ -7047,7 +7022,6 @@
     "description": "Paul Castellano (1915-1985). Boss of the Gambino crime family. Jointly controlled S&A Concrete with Fat Tony Salerno (Genovese family), providing concrete for major Manhattan construction projects including Trump Tower. Roy Cohn represented both Castellano and Salerno. Assassinated outside Sparks Steak House in Manhattan on December 16, 1985, in a hit ordered by John Gotti, who succeeded him as Gambino boss.",
     "aliases": "Big Paul",
     "metadata": {
-      "photo_url": "photos/castellano.jpg",
       "birth_date": "1915-06-26",
       "death_date": "1985-12-16",
       "nationality": "American",
@@ -7216,7 +7190,6 @@
     "description": "Peter Andreas Thiel (b. 1967). Venture capitalist, technology entrepreneur, and political operative who bridges Silicon Valley, the intelligence community, and conservative politics.\n\nPAYPAL: Co-founded PayPal in 1998, creating one of the first major digital payment platforms. The 'PayPal Mafia' \u2014 Thiel, Elon Musk, Reid Hoffman, and others \u2014 went on to shape Silicon Valley's trajectory.\n\nPALANTIR TECHNOLOGIES: Co-founded Palantir in 2003 with Alex Karp and others. The company received early seed funding from In-Q-Tel, the CIA's venture capital arm. Palantir became a primary data analytics contractor for the CIA, NSA, FBI, and military. Researchers have documented Palantir as the private-sector successor to DARPA's Total Information Awareness program, which Congress defunded in 2003 after public outcry over mass surveillance. The capabilities Congress rejected were rebuilt in the private sector with intelligence community backing.\n\nFACEBOOK INVESTMENT: Made a $500,000 angel investment in Facebook in 2004, becoming the company's first outside investor and joining its board. DARPA's LifeLog program \u2014 designed to build a database of a person's entire existence \u2014 was cancelled February 4, 2004, the same day Facebook launched. Thiel's simultaneous involvement with CIA-funded Palantir and the world's largest personal data collection platform is structurally significant.\n\nSURVEILLANCE INFRASTRUCTURE: Through Palantir, Thiel built the analytical layer of the modern surveillance state. Palantir's software integrates data from multiple intelligence sources, enabling pattern analysis across communications, financial records, travel data, and social networks at scale.\n\nPOLITICAL INFLUENCE: Bilderberg Group steering committee member. Major Republican donor. Backed Trump's 2016 campaign. Funded the Hogan v. Gawker lawsuit that destroyed Gawker Media \u2014 demonstrating willingness to use financial power to eliminate critical press.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/thiel.jpg",
       "birth_date": "1967-10-11",
       "nationality": "American",
       "status": "alive"
@@ -7630,11 +7603,11 @@
     "description": "Rafael 'Rafi' Eitan (1926-2019). Legendary Israeli intelligence operative. Led the team that captured Adolf Eichmann in Buenos Aires (1960). Ran Jonathan Pollard as a spy inside the US Navy (1984-85). Worked directly with Meyer Lansky on arms smuggling for the Haganah (pre-IDF) using waterfront access provided by Albert Anastasia's longshoremen. Connected to Robert Maxwell's PROMIS distribution network. Served as a bridge between Lansky's organized crime-intelligence nexus and Israeli intelligence operations \u2014 the same structural pipeline that later connected through Maxwell to Epstein. Served in the Israeli Knesset 2006-2009. Died March 2019.",
     "aliases": "Rafael Eitan",
     "metadata": {
-      "photo_url": "photos/rafi_eitan.jpg",
       "birth_date": "1926-11-23",
       "death_date": "2019-03-23",
       "nationality": "Israeli",
-      "status": "deceased"
+      "status": "deceased",
+      "photo_url": "photos/rafi_eitan.jpg"
     }
   },
   "473": {
@@ -7712,7 +7685,6 @@
     "description": "CIA Director. Ordered MKULTRA files destroyed 1973. Drafted legal language protecting BCCI front-men despite later denials.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/helms.jpg",
       "birth_date": "1913-03-30",
       "death_date": "2002-10-22",
       "nationality": "American",
@@ -7817,11 +7789,11 @@
     "description": "Media mogul, Mossad asset. Sold PROMIS software backdoored by Israeli intelligence to governments worldwide. Died 1991.",
     "aliases": "Jan Ludvik Hoch",
     "metadata": {
-      "photo_url": "photos/robert_maxwell.jpg",
       "birth_date": "1923-06-10",
       "death_date": "1991-11-05",
       "nationality": "British",
-      "status": "deceased"
+      "status": "deceased",
+      "photo_url": "photos/robert_maxwell.jpg"
     }
   },
   "104": {
@@ -8005,7 +7977,6 @@
     "description": "Roy Marcus Cohn (1927-1986). Attorney, political fixer, and sexual blackmail operator who served as a nexus between organized crime, intelligence agencies, and political power for three decades.\n\nMCCARTHY ERA: Chief counsel to Senator Joseph McCarthy's investigations. Prosecuted Julius and Ethel Rosenberg (executed 1953). Used his anti-communist credentials to build a network spanning law, politics, organized crime, and intelligence.\n\nORGANIZED CRIME: Attorney for Fat Tony Salerno (Genovese family boss) and Paul Castellano (Gambino family boss). Through these clients, Cohn connected Donald Trump to the construction industry's mob-controlled concrete supply. S&A Concrete \u2014 a joint Genovese-Gambino venture run by Salerno and Castellano \u2014 provided concrete for Trump Tower. NJ Casino Control Commission records document Trump's organized crime associations through Cohn.\n\nTRUMP MENTORSHIP (1973-1986): Became Donald Trump's attorney and mentor in 1973, when Trump retained Cohn to fight federal housing discrimination charges. For 13 years, Cohn served as Trump's fixer, teaching him tactics of aggressive denial, counterattack, and media manipulation. Cohn connected Trump to New York's political and social elite, mob figures, and intelligence-adjacent networks.\n\nSEXUAL BLACKMAIL OPERATIONS: Ran sexual blackmail operations in coordination with J. Edgar Hoover and CIA Director William Casey, with whom he had daily phone calls. Cohn's blackmail network operated through parties at his townhouse and at Studio 54, where compromising situations were arranged and documented. This continued the Hoover-Lansky tradition of sexual compromise as a control mechanism.\n\nINTELLIGENCE CONNECTIONS: Maintained daily phone contact with CIA Director William Casey. This direct line between a mob-connected political fixer and the CIA Director illustrates the integration of organized crime, intelligence, and political power that characterizes this network.\n\nDEATH: Disbarred in 1986 for ethical violations. Died of AIDS complications in August 1986 while publicly denying his diagnosis and his homosexuality.",
     "aliases": "",
     "metadata": {
-      "photo_url": "photos/cohn.jpg",
       "birth_date": "1927-02-20",
       "death_date": "1986-08-02",
       "nationality": "American",
@@ -8244,7 +8215,6 @@
     "description": "Salvatore 'Sammy the Bull' Gravano (b. 1945). Gambino family underboss under John Gotti. The highest-ranking member of the American Mafia to turn government witness. Admitted to involvement in 19 murders. His 1991 decision to cooperate with the FBI provided devastating testimony that convicted Gotti on June 23, 1992. Entered witness protection but was expelled after being caught running an ecstasy ring in Arizona. His testimony marked the symbolic end of the Mafia's ability to maintain omerta. Lives in Arizona under his own name after serving his drug sentence.",
     "aliases": "Sammy the Bull",
     "metadata": {
-      "photo_url": "photos/gravano.jpg",
       "birth_date": "1945-03-12",
       "nationality": "American",
       "status": "alive"
@@ -9611,7 +9581,6 @@
     "description": "William Pelham Barr (b. 1950). US Attorney General under George H.W. Bush (1991-1993) and Donald Trump (2019-2020). Connected to multiple cover-ups spanning three decades.\n\nFAMILY CONNECTION TO EPSTEIN: Father Donald Barr was headmaster at the Dalton School when he hired 20-year-old Jeffrey Epstein to teach calculus and physics in 1974, despite Epstein lacking a college degree or teaching credentials. Donald Barr was an OSS (Office of Strategic Services) veteran \u2014 the WWII predecessor to the CIA. He authored a 1973 science fiction novel, 'Space Relations,' depicting a planet where oligarchs practice sexual slavery.\n\nFIRST TERM AS AG (BUSH 41): Oversaw the BCCI cover-up, ensuring the largest criminal banking scandal in history resulted in minimal accountability for CIA-connected figures. Recommended pardons for Iran-Contra figures, effectively ending investigations that could have exposed CIA drug trafficking and illegal arms deals. Per Terry Reed's testimony, Barr served as CIA Director Casey's emissary to Governor Bill Clinton regarding money laundering operations through Arkansas.\n\nSECOND TERM AS AG (TRUMP): Appointed by Donald Trump in 2019 \u2014 the same year Epstein was re-arrested. As Attorney General during Epstein's death at MCC on August 10, 2019, Barr oversaw the investigation. Declared the death a suicide despite multiple anomalies: simultaneous camera failures, sleeping guards who falsified records, and a hyoid bone fracture pattern disputed by forensic pathologists. The investigation into Epstein's co-conspirators produced no significant indictments beyond Ghislaine Maxwell.\n\nPATTERN: Barr's career spans both major cover-up eras \u2014 the BCCI/Iran-Contra period (1991-1993) and the Epstein death investigation (2019). In both cases, he held the office with authority to either expose or bury intelligence community connections to criminal networks. In both cases, investigations were curtailed.",
     "aliases": "Bill Barr",
     "metadata": {
-      "photo_url": "photos/barr.jpg",
       "birth_date": "1950-05-23",
       "nationality": "American",
       "status": "alive"
@@ -9645,7 +9614,6 @@
     "description": "CIA Director 1981-87. Iran-Contra architect. Daily calls with Roy Cohn. BCCI meetings alleged. Mena/Arkansas operations.",
     "aliases": "Bill Casey",
     "metadata": {
-      "photo_url": "photos/casey.jpg",
       "birth_date": "1913-03-13",
       "death_date": "1987-05-06",
       "nationality": "American",
