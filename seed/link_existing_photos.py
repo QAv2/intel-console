@@ -12,6 +12,7 @@ import os
 import re
 import sqlite3
 import sys
+import unicodedata
 from pathlib import Path
 
 PHOTOS_DIR = Path(__file__).parent.parent / "static" / "photos"
@@ -19,14 +20,24 @@ STATIC_DATA = Path(__file__).parent.parent / "static" / "data"
 DB_PATH = Path(__file__).parent.parent / "data" / "intel.db"
 
 
+def _normalize(text):
+    """Normalize unicode (é->e, á->a) and strip non-alphanumeric."""
+    text = unicodedata.normalize('NFD', text)
+    text = ''.join(c for c in text if unicodedata.category(c) != 'Mn')
+    return text
+
+
 def name_to_slugs(name):
     """Generate possible filename slugs from an entity name."""
     slugs = []
-    # Basic: lowercase, strip non-alpha, underscores
-    base = name.lower()
+    # Basic: lowercase, normalize accents, strip non-alpha, underscores
+    base = _normalize(name.lower())
     base = re.sub(r'[^a-z0-9\s]', '', base)
     base = re.sub(r'\s+', '_', base.strip())
     slugs.append(base)
+
+    # Hyphenated version (some files use hyphens instead of underscores)
+    slugs.append(base.replace('_', '-'))
 
     # Without common prefixes/suffixes
     for prefix in ['admiral_', 'prince_', 'cardinal_', 'dr_', 'sir_']:
@@ -42,6 +53,21 @@ def name_to_slugs(name):
     base_no_suffix = re.sub(r'_(?:jr|sr|iii|ii|iv)$', '', base)
     if base_no_suffix != base:
         slugs.append(base_no_suffix)
+
+    # Last name only (for person-like names with 2+ words)
+    parts = base.split('_')
+    if len(parts) >= 2:
+        slugs.append(parts[-1])  # last word: "william_barr" -> "barr"
+        # Last two words: "george_hw_bush" -> "hw_bush"
+        if len(parts) >= 3:
+            slugs.append('_'.join(parts[-2:]))
+
+    # Abbreviation / acronym: "Council on Foreign Relations" -> "cfr"
+    words = _normalize(name).split()
+    if len(words) >= 3:
+        initials = ''.join(w[0].lower() for w in words if w[0].isupper())
+        if len(initials) >= 2:
+            slugs.append(initials)
 
     return slugs
 
@@ -88,6 +114,64 @@ MANUAL_MAP = {
     "Oliver North": "oliver-north.jpg",
     "Robert LiButti": "robert_libutti.jpg",
     "Agha Hasan Abedi": "agha_hasan_abedi.jpg",
+    # Entities whose filenames don't match any slug pattern
+    "2008 Financial Crisis": "financial_crisis_2008.jpg",
+    "9/11 Commission": "september_11.jpg",
+    "Al-Qaeda": "al_qaeda.jpg",
+    "Ansar Allah (Houthis)": "ansar_allah.jpg",
+    "Bilderberg Group": "bilderberg.jpg",
+    "Bill & Melinda Gates Foundation": "bill__melinda_gates_foundation.jpg",
+    "Boeing Defense": "boeing.jpg",
+    "Brookings Institution": "brookings.jpg",
+    "Bush v. Gore (2000)": "bush_v_gore.jpg",
+    "Carnegie Endowment for International Peace": "carnegie_endowment.jpg",
+    "Citizens United v. FEC (2010)": "citizens_united.jpg",
+    "Cochabamba Water War": "cochabamba.jpg",
+    "Comcast Corporation": "comcast.jpg",
+    "Dominion Voting Systems": "dominion_voting.jpg",
+    "Dugway Proving Ground": "dugway.jpg",
+    "EcoHealth Alliance": "ecohealth.jpg",
+    "Epstein NPA (2007)": "epstein_npa.jpg",
+    "F-35 Joint Strike Fighter": "f35.jpg",
+    "Federal Reserve System": "federal_reserve.jpg",
+    "Fox Corporation": "fox_corp.jpg",
+    "Gambino Crime Family": "gambino.jpg",
+    "Genovese Crime Family": "genovese.jpg",
+    "Golden Triangle Drug Trade": "golden_triangle.jpg",
+    "Grusch Congressional Hearing": "grusch_hearing.jpg",
+    "Gulf of Tonkin Resolution": "gulf_of_tonkin.jpg",
+    "In-Q-Tel": "in_q_tel.jpg",
+    "Iran-Contra": "iran_contra.jpg",
+    "Mar-a-Lago": "mar_a_lago.jpg",
+    "Marie-Hélène de Rothschild": "marie_helene_de_rothschild.jpg",
+    "Natanz Nuclear Facility": "natanz.jpg",
+    "CIA": "cia.jpg",
+    "DIA": "dia.jpg",
+    "FBI": "fbi.jpg",
+    "MI5": "mi5.jpg",
+    "MI6": "mi6.jpg",
+    "Mossad": "mossad.jpg",
+    "NSA": "nsa.jpg",
+    "Ogallala Aquifer": "ogallala.jpg",
+    "Operation Fast and Furious": "fast_furious.jpg",
+    "P2 Lodge Scandal": "p2_lodge.jpg",
+    "Palantir Technologies": "palantir.jpg",
+    "Paramount Global": "paramount.jpg",
+    "Peter Brabeck-Letmathe": "peter_brabeck.jpg",
+    "Philadelphia Crime Family": "philly_mob.jpg",
+    "RAND Corporation": "rand.jpg",
+    "Roswell Incident": "roswell.jpg",
+    "School of the Americas": "school_of_americas.jpg",
+    "Scottish Rite Southern Jurisdiction": "scottish_rite.jpg",
+    "Smithsonian Institution": "smithsonian.jpg",
+    "Standing Rock Protests": "standing_rock.jpg",
+    # Stanley Kubrick, Eyes Wide Shut, Mentmore Towers — not in main DB
+    "The Walt Disney Company": "disney.jpg",
+    "Trilateral Commission": "trilateral.jpg",
+    "Tuskegee Syphilis Study": "tuskegee.jpg",
+    "United Fruit Company": "united_fruit.jpg",
+    "Wright-Patterson AFB": "wright_patterson_afb.jpg",
+    "Younger Dryas Impact Hypothesis": "younger_dryas.jpg",
 }
 
 # Entities that should NOT match (false positives from substring matching)
@@ -122,9 +206,10 @@ def main():
             already_linked.add(e['name'])
 
     # Build entity name -> id lookup (only those without photos)
+    # SKIP_ENTITIES blocks auto-matching but not manual overrides
     needs_photo = {}
     for eid, e in entities.items():
-        if e['name'] not in already_linked and e['name'] not in SKIP_ENTITIES:
+        if e['name'] not in already_linked:
             needs_photo[e['name']] = eid
 
     print(f"Photos on disk: {len(on_disk)}")
