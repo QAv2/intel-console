@@ -58,7 +58,7 @@ const Dossier = {
         // ---- Photo header ----
         if (meta.photo_url) {
             html += `<div class="panel-photo-header">`;
-            html += `<img class="panel-photo" src="${esc(meta.photo_url)}" alt="${esc(entity.name)}" style="border-color:${color}">`;
+            html += `<img class="panel-photo" src="${safeHref(meta.photo_url)}" alt="${esc(entity.name)}" style="border-color:${color}">`;
             html += `<div>`;
             html += `<div class="panel-type-tag" style="background:${color}22;color:${color}">${entity.entity_type.replace('_', ' ')}</div>`;
             html += `<h2 class="panel-title" id="dossier-title">${esc(entity.name)}</h2>`;
@@ -122,7 +122,7 @@ const Dossier = {
             html += `<div class="entity-sources">`;
             entitySources.forEach(s => {
                 if (s.url) {
-                    html += `<a class="entity-source-item" href="${esc(s.url)}" target="_blank">`;
+                    html += `<a class="entity-source-item" href="${safeHref(s.url)}" target="_blank">`;
                 } else {
                     html += `<span class="entity-source-item">`;
                 }
@@ -150,7 +150,7 @@ const Dossier = {
             html += `<div class="signal-list">`;
             signals.forEach(s => {
                 const feedColor = FEED_COLORS[s.source_feed] || '#888';
-                html += `<a class="signal-item" href="${esc(s.url)}" target="_blank" style="border-left-color:${feedColor}">`;
+                html += `<a class="signal-item" href="${safeHref(s.url)}" target="_blank" style="border-left-color:${feedColor}">`;
                 html += `<span class="signal-headline">${esc(s.headline)}<span class="sr-only">(opens in new tab)</span></span>`;
                 html += `<div class="signal-meta">`;
                 html += `<span class="signal-feed" style="color:${feedColor}">${esc(s.source_feed.replace('_', ' '))}</span>`;
@@ -188,7 +188,7 @@ const Dossier = {
                         sourcesHtml = '<div class="rel-sources">';
                         sourcesHtml += r.sources.map(s =>
                             s.url
-                                ? `<a class="rel-source-link" href="${esc(s.url)}" target="_blank">${esc(s.title)}<span class="sr-only">(opens in new tab)</span></a>`
+                                ? `<a class="rel-source-link" href="${safeHref(s.url)}" target="_blank">${esc(s.title)}<span class="sr-only">(opens in new tab)</span></a>`
                                 : esc(s.title)
                         ).join(' | ');
                         sourcesHtml += '</div>';
@@ -252,4 +252,18 @@ function esc(str) {
     const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
+}
+
+// Returns '#' unless the URL parses as an absolute http/https/mailto URL.
+// Blocks javascript:, data:, relative strings, and malformed URLs from
+// reaching an href/src attribute built from externally-sourced data.
+function safeHref(url) {
+    if (!url) return '#';
+    try {
+        const u = new URL(url);
+        if (u.protocol === 'http:' || u.protocol === 'https:' || u.protocol === 'mailto:') {
+            return esc(url);
+        }
+    } catch { /* not a valid URL */ }
+    return '#';
 }
