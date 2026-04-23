@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speaker for the Dead — David Wilcock (1973–2026)</title>
+    <meta name="description" content="David Wilcock (1973–2026): The person behind the pipeline. A Speaker for the Dead accounting.">
+    <meta property="og:title" content="Speaker for the Dead — David Wilcock">
+    <meta property="og:description" content="The person behind the pipeline. Not a villain. Not a martyr. A human being who deserved better.">
+    <meta property="og:type" content="article">
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <meta name="theme-color" content="#faf8f4">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #faf8f4;
+            --surface: #f2efe9;
+            --border: rgba(120, 100, 70, 0.15);
+            --border-warm: rgba(120, 100, 70, 0.25);
+            --text-primary: #1a1208;
+            --text-body: #2c2418;
+            --text-secondary: #4a4030;
+            --text-tertiary: #6e6352;
+            --text-dim: #8a7e6b;
+            --accent: #6b5630;
+            --accent-link: #5c4a28;
+            --section-rule: rgba(120, 100, 70, 0.12);
+            --font-serif: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+            --font-sans: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            background: var(--bg);
+            color: var(--text-primary);
+            font-family: var(--font-serif);
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .back-link {
+            position: fixed;
+            top: 20px;
+            left: 24px;
+            font-family: var(--font-sans);
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-tertiary);
+            text-decoration: none;
+            letter-spacing: 0.5px;
+            z-index: 100;
+            padding: 8px 14px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            background: rgba(250, 248, 244, 0.9);
+            backdrop-filter: blur(12px);
+            transition: color 0.2s, border-color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--text-primary);
+            border-color: var(--border-warm);
+        }
+
+        .memoriam-container {
+            max-width: 640px;
+            width: 100%;
+            padding: 100px 24px 80px;
+        }
+
+        .memoriam-header {
+            text-align: center;
+            margin-bottom: 56px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid var(--section-rule);
+        }
+
+        .memoriam-label {
+            font-family: var(--font-sans);
+            font-size: 11px;
+            font-weight: 500;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-bottom: 28px;
+        }
+
+        .memoriam-name {
+            font-family: var(--font-serif);
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--text-primary);
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+
+        .memoriam-dates {
+            font-family: var(--font-sans);
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--text-tertiary);
+            letter-spacing: 2px;
+        }
+
+        .memoriam-epigraph {
+            text-align: center;
+            margin-bottom: 56px;
+            padding: 0 16px;
+        }
+
+        .memoriam-epigraph blockquote {
+            font-family: var(--font-serif);
+            font-size: 16px;
+            font-style: italic;
+            color: var(--text-secondary);
+            line-height: 1.9;
+            margin-bottom: 12px;
+        }
+
+        .memoriam-epigraph cite {
+            font-family: var(--font-sans);
+            font-size: 12px;
+            font-style: normal;
+            color: var(--text-dim);
+            letter-spacing: 0.5px;
+        }
+
+        .memoriam-preface {
+            font-size: 16px;
+            line-height: 2;
+            color: var(--text-body);
+            margin-bottom: 48px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid var(--section-rule);
+        }
+
+        .section-title {
+            font-family: var(--font-sans);
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-top: 64px;
+            margin-bottom: 28px;
+        }
+
+        .section-title:first-of-type {
+            margin-top: 0;
+        }
+
+        .memoriam-text {
+            font-size: 16px;
+            line-height: 2;
+            color: var(--text-body);
+            margin-bottom: 28px;
+        }
+
+        .memoriam-text:last-child {
+            margin-bottom: 0;
+        }
+
+        .sources-section {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid var(--section-rule);
+        }
+
+        .sources-section .section-title {
+            margin-top: 0;
+        }
+
+        .source-category {
+            font-family: var(--font-sans);
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+
+        .source-item {
+            display: block;
+            font-family: var(--font-sans);
+            font-size: 13px;
+            color: var(--accent-link);
+            text-decoration: none;
+            padding: 6px 12px;
+            margin-bottom: 2px;
+            border-left: 2px solid var(--border);
+            line-height: 1.6;
+            transition: background 0.15s, border-color 0.2s;
+        }
+
+        .source-item:hover {
+            background: rgba(120, 100, 70, 0.04);
+            border-left-color: var(--accent);
+        }
+
+        .source-title {
+            color: var(--accent-link);
+        }
+
+        .source-outlet {
+            color: var(--text-dim);
+            font-size: 11px;
+        }
+
+        .memoriam-footer {
+            margin-top: 80px;
+            padding-top: 32px;
+            border-top: 1px solid var(--section-rule);
+            text-align: center;
+        }
+
+        .memoriam-footer p {
+            font-family: var(--font-sans);
+            font-size: 11px;
+            color: var(--text-dim);
+            letter-spacing: 0.5px;
+            line-height: 1.9;
+        }
+
+        .memoriam-footer a {
+            color: var(--accent-link);
+            text-decoration: none;
+        }
+
+        .memoriam-footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .memoriam-container { padding: 80px 18px 48px; }
+            .memoriam-name { font-size: 24px; }
+            .back-link { top: 12px; left: 12px; }
+            .memoriam-epigraph { padding: 0 8px; }
+        }
+    </style>
+</head>
+<body>
+    <a class="back-link" href="../index.html#entity/620">&larr; Return to Dossier</a>
+
+    <div class="memoriam-container">
+        <header class="memoriam-header">
+            <div class="memoriam-label">In Memoriam</div>
+            <h1 class="memoriam-name">David Wilcock</h1>
+            <div class="memoriam-dates">1973 &mdash; April 20, 2026</div>
+        </header>
+
+        <div class="memoriam-epigraph">
+            <blockquote>
+                "The truth about a person is more than just facts. It's more than what they did&thinsp;&mdash;&thinsp;it's what they meant to do, what they meant to the people around them, and what they might have been if the world had been kinder."
+            </blockquote>
+            <cite>&mdash; Orson Scott Card, Speaker for the Dead</cite>
+        </div>
+
+        <div class="memoriam-preface">
+            David Wilcock and I shared a mentor. His insider "daniel" was the pseudonym for Bruce Peret, the Reciprocal System physicist whose identity was only revealed posthumously. David and Bruce lived and worked together during the Carla Rueckert era and the Ra Material channeling. I watched David's trajectory from one degree removed for years and tried to reach out once through our common connection. He didn't respond. I'm sharing this because every time someone posts "David Wilcock died and 13 scientists are missing," the pipeline that consumed him gets stronger. The best way I know to honor him is the truth about who he actually was.
+        </div>
+
+        <h2 class="section-title">The Kid from Rotterdam</h2>
+
+        <p class="memoriam-text">
+            David grew up in Rotterdam, Schenectady County, New York&thinsp;&mdash;&thinsp;a conventional suburban town in upstate New York. His father, Donald, was a journalist and author who wrote a biography of blues musician Buddy Guy. There was creativity in the house. There was also fracture. His parents divorced when he was eleven, and by his own account it broke something open in him. He started eating for comfort&thinsp;&mdash;&thinsp;Mallomars, chocolate-covered marshmallow cookies, whatever dulled the edge&thinsp;&mdash;&thinsp;gained significant weight, and sank into what he later described as "a deep, prolonged depression that lasted throughout my entire time in junior high school and my first year of high school." He was, in his own words, "woefully unpopular in school" with only a handful of friends. By sophomore year, marijuana offered temporary social acceptance at the cost of everything else.
+        </p>
+
+        <p class="memoriam-text">
+            But there was something in David that refused to stay down. At sixteen, after discovering Stephen LaBerge's Lucid Dreaming, he committed to strict dieting and lost 85 pounds in a year&thinsp;&mdash;&thinsp;dropping from 225 to 140 through sheer willpower and the realization that transcendental experiences didn't require substances. His grades climbed alongside his self-esteem. Scotia-Glenville High School gave him the Martin J. Mahoney Memorial Award for personal and academic progress. He graduated SUNY New Paltz in 1995 with a BA in Psychology, completed master's-level equivalent work through a suicide hotline internship, and briefly worked at a psychiatric hospital.
+        </p>
+
+        <p class="memoriam-text">
+            That transformation at sixteen became a template he carried for life: the belief that consciousness could reshape reality, that inner work produced outer results. It was his greatest strength and, eventually, the thing that made him most vulnerable to what came later.
+        </p>
+
+        <h2 class="section-title">The Seeker</h2>
+
+        <p class="memoriam-text">
+            Between 1993 and 1995, David was reading approximately three metaphysical books per week&thinsp;&mdash;&thinsp;over 300 titles in two years. He maintained a daily dream journal for over fourteen years, averaging 80 to 100 pages every two weeks, with only a single lapse in the entire practice. He had his first out-of-body experience at age five. He was conducting telepathic experiments with classmates at seven. This wasn't someone who stumbled into the New Age circuit looking for a brand. This was someone who had been oriented toward these questions since before he could articulate them.
+        </p>
+
+        <p class="memoriam-text">
+            In January 1996, he discovered the Ra Material&thinsp;&mdash;&thinsp;the Law of One&thinsp;&mdash;&thinsp;and felt it "had been written for him," integrating everything he'd absorbed from those 300 books into a single framework. By November 1996, at age 23, he achieved what he described as sustained verbal contact with a higher intelligence, calling it "the most important single event" of his life.
+        </p>
+
+        <p class="memoriam-text">
+            In February 2003, he moved to Louisville, Kentucky, to live with Carla Rueckert and Jim McCarty&thinsp;&mdash;&thinsp;the two surviving members of the original Law of One contact team. He lived in Carla's house for two years and on her land for another year. He paid $601 per month in rent plus 25% of his gross online income, and contributed through cooking, cleaning, and remodeling their basement. When Carla died on April 1, 2015, he wrote that losing her was "the spiritual equivalent of losing one of the Beatles," and that he was grateful she was "very much a 'real person', with strengths and weaknesses like we all have."
+        </p>
+
+        <p class="memoriam-text">
+            Through our shared mentor Bruce, I learned things about David that the public never saw. The kind of details that make a person real&thinsp;&mdash;&thinsp;like the fact that he went through a phase where he would only eat white food, because white was the color of purity. That's not a detail you put on a conference poster. That's a detail that tells you someone was trying so hard to align every part of their life with what they believed that even a plate of food had to mean something. There's something both beautiful and heartbreaking about that.
+        </p>
+
+        <p class="memoriam-text">
+            His ex-wife Elizabeth described his "goofiness," his "playfulness," a "dear childlike little-boy side" that coexisted with the public gravity. He practiced fingerstyle guitar up to seven hours a day at times, performing romantic 1970s songs. He built his best friend's first mini chocolate factory in Malibu, serving as dishwasher and chocolate taster. He spent 14 or more hours a day at the computer and refused to watch television or socialize for years at a stretch. He admitted that living with people "invariably ended up becoming contentious"&thinsp;&mdash;&thinsp;that he was "always in trouble and always apologizing" and could see he was hurting the people closest to him but felt unable to abandon his mission.
+        </p>
+
+        <p class="memoriam-text">
+            That's the full picture of the person. Not a villain. Not a martyr. A sensitive, compulsive, brilliant, difficult man who found meaning in a quest and then couldn't find his way back out of it.
+        </p>
+
+        <h2 class="section-title">The Genuine Work</h2>
+
+        <p class="memoriam-text">
+            Before any of the controversy, David produced work that mattered.
+        </p>
+
+        <p class="memoriam-text">
+            The Convergence series (1998&ndash;2002)&thinsp;&mdash;&thinsp;three volumes published freely online&thinsp;&mdash;&thinsp;synthesized hundreds of sources across alternative physics, sacred geometry, Nikolai Kozyrev's torsion field research, interplanetary climate change data, and ancient civilizations into a coherent framework. Whether you accept the conclusions, the compilation work was serious and intellectually ambitious. He gave it away for free because he believed the information was more important than the income.
+        </p>
+
+        <p class="memoriam-text">
+            The Source Field Investigations (2011) drew on over 1,000 academic references and became a New York Times, Wall Street Journal, and USA Today bestseller. It was his most rigorous published work&thinsp;&mdash;&thinsp;a genuine attempt to build a bridge between frontier science and a public audience.
+        </p>
+
+        <p class="memoriam-text">
+            His Law of One scholarship brought the Ra Material to hundreds of thousands of people who never would have found it otherwise. Many people reading this probably first encountered the Law of One through David. That bridge was real, and it mattered.
+        </p>
+
+        <p class="memoriam-text">
+            Through his insider relationship with Bruce Peret, he served as a conduit between the Reciprocal System physics community and a broader audience. The daniel papers&thinsp;&mdash;&thinsp;applying Dewey Larson's framework to subjects those communities cared about&thinsp;&mdash;&thinsp;might never have found their readership without David's platform.
+        </p>
+
+        <p class="memoriam-text">
+            L/L Research itself would later publicly distance from David, separating themselves from "conspiracism and grifting in the modern New Age world, including on the part of those who draw upon their work such as David Wilcock." That distance was earned. But the fact that it became necessary doesn't erase what came before it.
+        </p>
+
+        <h2 class="section-title">The Capture</h2>
+
+        <p class="memoriam-text">
+            This is the part that matters for anyone reading this while grieving, or confused, or convinced that David was killed for what he knew.
+        </p>
+
+        <p class="memoriam-text">
+            In 2013, Gaiam TV (later Gaia) gave David his own show. Wisdom Teachings ran 276 episodes across 30 seasons. In 2015, Corey Goode appeared, and Cosmic Disclosure launched&thinsp;&mdash;&thinsp;David interviewing Goode about his alleged experiences in a Secret Space Program. Over 600 television episodes total across Gaia and History Channel's Ancient Aliens. Conference circuit. Subscription revenue. Paid courses. The Ascension Mystery School at $533 per enrollment. A nonprofit accepting tax-deductible donations alongside a for-profit LLC.
+        </p>
+
+        <p class="memoriam-text">
+            Each step brought more spectacular claims and less verification, deeper into a feedback loop where fear and salvation narratives drove engagement and income. The Edgar Cayce reincarnation claim&thinsp;&mdash;&thinsp;whatever its origins&thinsp;&mdash;&thinsp;created an identity structure that was simultaneously empowering and imprisoning. Once you are the reincarnation of a prophet, every failure must be reframed rather than acknowledged. Every prediction that doesn't come true becomes evidence of dark forces rather than evidence of error.
+        </p>
+
+        <p class="memoriam-text">
+            Jay Weidner, David's producer at Gaia and the former Head of Content, later said that Goode's lies "destroyed" David and ruined his "hold on reality." Weidner described the Cosmic Disclosure team as "naive and hopeful," eventually feeling "almost like a cult" when they became convinced they were "chosen by the Secret Space Program." Goode himself, under oath in a 2022 deposition, admitted he never went to space and that the Blue Avians were his invented intellectual property. He later recharacterized his claims as "creative intellectual property" for potential Hollywood adoption. Weidner admitted: "I got conned. But that is really painful to admit. I was totally taken by this guy, and a lot of other people were too."
+        </p>
+
+        <p class="memoriam-text">
+            By March 2020, David was telling over 20,000 YouTube Live viewers that the "Illuminati Deep State" was responsible for COVID-19, with hundreds of dollars in Superchat donations rolling in per stream. His messaging increasingly merged with QAnon-adjacent narratives about mass arrests, deep state takedowns, and imminent disclosure timelines that never materialized.
+        </p>
+
+        <p class="memoriam-text">
+            Here is how the capture pipeline works, and why it matters that you understand it: Genuine seekers find someone who has done real research. They get drawn in by real insight&thinsp;&mdash;&thinsp;the kind of insight David genuinely had in his early work. Then they find themselves inside a system that increasingly monetizes belief while discouraging verification. Failed predictions about 2012 ascension, mass arrests, disclosure timelines&thinsp;&mdash;&thinsp;none of it ever creates accountability. It just gets absorbed back into the narrative as evidence of suppression or dark interference. The early free books are the hook. The paid courses and fear-based livestreams are the trap. And the person most captured by this pipeline, the person who lost the most to it, was David himself.
+        </p>
+
+        <h2 class="section-title">The Final Years</h2>
+
+        <p class="memoriam-text">
+            David and Elizabeth Dean Wilcock divorced on November 30, 2021, after four years of marriage. By mid-2025, he was juggling three simultaneous legal cases, including the years-long Goode v. Gaia lawsuit in which he was entangled in discovery motions. He had relocated to Nederland, Colorado&thinsp;&mdash;&thinsp;a small mountain town west of Boulder&thinsp;&mdash;&thinsp;where he lived alone. Reports surfaced of a $1.4 million IRS debt connected to Stavatti Aerospace, the anti-gravity technology company he had joined as "director of advanced technology" in 2019, before one of its investors sued the company for racketeering and fraud.
+        </p>
+
+        <p class="memoriam-text">
+            He was cyberstalked. He received death threats. His revenue had declined significantly from the Gaia era. In a July 2025 livestream, he said it plainly: "I've been extremely unhappy, extremely depressed. My life basically just sucks like crazy right now. And I'm always nervous and anxious and sad and depressed." In his last conversation with Corey Goode, he couldn't stop talking about how the cyber-stalkers had destroyed his life. He was sleep-deprived, reporting that high winds in Nederland kept him up for two consecutive nights.
+        </p>
+
+        <p class="memoriam-text">
+            In December 2022, he had posted publicly: "I plan on LIVING. Not suicidal at all. Just concerned about what happens when you prove God is real."
+        </p>
+
+        <p class="memoriam-text">
+            His best friend&thinsp;&mdash;&thinsp;a woman who had relocated to the United States partly because of him, whose chocolate factory he had helped build with his own hands&thinsp;&mdash;&thinsp;described him as "the kindest friend" who was "misunderstood." In their last phone call, the Sunday before his death, she said "he was in good spirits and excited about the future." When she later called back to check on the rumors, "his phone rang out for the first time ever."
+        </p>
+
+        <p class="memoriam-text">
+            On April 19, 2026, David conducted what would be his final livestream. He expressed gratitude for being alive while noting mysterious deaths among UFO theorists: "I'm excited to be here, you know, every day that I have on earth is a gift and a blessing, and I'm very grateful for that, because frankly, people are disappearing. Scientists are going missing." He described the situation as "a little bit scary."
+        </p>
+
+        <p class="memoriam-text">
+            The next morning, April 20, at approximately 10:44 AM, a 911 call reported "an unknown problem" at Ridge Road, northeast of Nederland. The dispatcher believed the caller was in the middle of a mental health crisis. Deputies arrived and found a man outside a residence holding a weapon. Within minutes of their arrival, he used it on himself. He was pronounced dead at the scene. He was 53 years old&thinsp;&mdash;&thinsp;the same age Edgar Cayce would have been in 1930, the year Cayce's hospital, the culmination of his life's work, was lost.
+        </p>
+
+        <p class="memoriam-text">
+            A small, strange footnote: Wynn Free, co-author of The Reincarnation of Edgar Cayce?, reportedly died days before David&thinsp;&mdash;&thinsp;around April 14&ndash;18. No verified connection between the two deaths has been established.
+        </p>
+
+        <h2 class="section-title">Why I'm Writing This</h2>
+
+        <p class="memoriam-text">
+            David's death is not evidence that scientists are being silenced. David was not a scientist. He had a BA in Psychology. He was a gifted synthesizer and communicator who was consumed by the same machine he helped build. He spent his final years depressed, divorced, legally embattled, financially strained, isolated in a mountain town, and publicly saying all of it out loud to anyone who would listen. The trajectory is visible. The pain was not hidden.
+        </p>
+
+        <p class="memoriam-text">
+            Connecting his death to missing researchers is exactly what the pipeline does. It takes real human tragedy&thinsp;&mdash;&thinsp;the kind of tragedy that should make us stop and reflect on what this world does to sensitive people who get caught in its gears&thinsp;&mdash;&thinsp;and converts it into fuel for the next cycle of fear, engagement, and monetization. It turns a man's worst moment into content. It turns grief into clicks. It pulls more people into the same hole that David couldn't climb out of.
+        </p>
+
+        <p class="memoriam-text">
+            If you are hurting right now because of David's death, that hurt is real and it is valid. He touched people's lives. The early work was genuine. The curiosity was genuine. The kid who lost 85 pounds through lucid dreaming was genuine. The man who washed dishes in Carla Rueckert's house because he loved the work was genuine. The person who played guitar for seven hours and only ate white food and built chocolate factories and couldn't stop apologizing to the people he lived with&thinsp;&mdash;&thinsp;that was a real, full, complicated human being who deserved better than what the circuit gave him.
+        </p>
+
+        <p class="memoriam-text">
+            Honor that person. Don't let his death become another breadcrumb leading deeper into the maze. The pipeline didn't kill David. But it consumed everything that made him worth listening to in the first place, and left him alone on a mountain with lawsuits and strangers on the internet where a life should have been.
+        </p>
+
+        <p class="memoriam-text">
+            That's the cautionary tale. Not a conspiracy. A human being who needed help, and a system that was structured to extract from him instead.
+        </p>
+
+        <div class="sources-section">
+            <h2 class="section-title">Sources</h2>
+
+            <div class="source-category">Obituaries / Death Reporting</div>
+            <a class="source-item" href="https://www.tmz.com/2026/04/22/david-wilcock-dead/" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock, Paranormal Writer and YouTuber, Dead at 53</span>
+                <span class="source-outlet">TMZ</span>
+            </a>
+            <a class="source-item" href="https://www.washingtontimes.com/news/2026/apr/22/david-wilcock-ufo-writer-ancient-aliens-figure-dead-53/" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock, UFO Writer, Dead at 53</span>
+                <span class="source-outlet">Washington Times</span>
+            </a>
+            <a class="source-item" href="https://artvoice.com/2026/04/22/david-wilcock-ancient-aliens-researcher-is-being-mourned-after-a-death-near-his-colorado-home/" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock, Ancient Aliens Researcher, Mourned</span>
+                <span class="source-outlet">Artvoice</span>
+            </a>
+            <a class="source-item" href="https://dailycaller.com/2026/04/22/david-wilcock-ufo-dies-suicidal/" target="_blank" rel="noopener">
+                <span class="source-title">Famous UFO Researcher Dies After Saying He Wasn't Suicidal</span>
+                <span class="source-outlet">Daily Caller</span>
+            </a>
+
+            <div class="source-category">Statements After Death</div>
+            <a class="source-item" href="https://www.primetimer.com/news/devastated-and-shocked-corey-goode-confirms-david-wilcock-took-his-own-life-pays-tribute-to-kind-friend" target="_blank" rel="noopener">
+                <span class="source-title">Corey Goode Confirms David Wilcock Took His Own Life</span>
+                <span class="source-outlet">Primetimer</span>
+            </a>
+            <a class="source-item" href="https://www.bollywoodshaadis.com/articles/david-wilcocks-best-friend-shocked-over-ufo-experts-death-78088" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock's Best Friend Shocked Over Death</span>
+                <span class="source-outlet">BollywoodShaadis</span>
+            </a>
+            <a class="source-item" href="https://www.bollywoodshaadis.com/articles/david-wilcock-death-his-biographer-wynn-free-died-2-days-ago-78080" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock and Wynn Free Deaths</span>
+                <span class="source-outlet">BollywoodShaadis</span>
+            </a>
+
+            <div class="source-category">His Own Writings</div>
+            <a class="source-item" href="https://divinecosmos.com/about-david/" target="_blank" rel="noopener">
+                <span class="source-title">About David Wilcock</span>
+                <span class="source-outlet">Divine Cosmos</span>
+            </a>
+            <a class="source-item" href="https://divinecosmos.com/davids-blog/1176-carla-graduation/" target="_blank" rel="noopener">
+                <span class="source-title">Celebrating the Graduation of Carla Rueckert</span>
+                <span class="source-outlet">Divine Cosmos</span>
+            </a>
+            <a class="source-item" href="https://divinecosmos.com/books-free-online/wander-awakening-the-life-story-of-david-wilcock/138-wanderer-awakening-chapter-03-mystical-adolescent-experiences/" target="_blank" rel="noopener">
+                <span class="source-title">The Wanderer Awakening Ch. 3: Mystical Adolescent Experiences</span>
+                <span class="source-outlet">Divine Cosmos</span>
+            </a>
+            <a class="source-item" href="https://divinecosmos.com/articles/241-all-inclusive-list-of-dietetic-no-nos/" target="_blank" rel="noopener">
+                <span class="source-title">All-Inclusive List of Dietetic No-No's</span>
+                <span class="source-outlet">Divine Cosmos</span>
+            </a>
+            <a class="source-item" href="https://divinecosmos.com/articles/247-escaping-from-the-qconcrete-jungleq-davids-diet-rant/" target="_blank" rel="noopener">
+                <span class="source-title">David's Diet Rant</span>
+                <span class="source-outlet">Divine Cosmos</span>
+            </a>
+            <a class="source-item" href="https://divinecosmos.com/davids-blog/8094-david-wilcock-marriage-announcement-a-happy-life/" target="_blank" rel="noopener">
+                <span class="source-title">Marriage Announcement</span>
+                <span class="source-outlet">Divine Cosmos</span>
+            </a>
+
+            <div class="source-category">Biographical / Encyclopedic</div>
+            <a class="source-item" href="https://en.wikipedia.org/wiki/David_Wilcock" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock</span>
+                <span class="source-outlet">Wikipedia</span>
+            </a>
+            <a class="source-item" href="https://near-death.com/edgar-cayce-and-david-wilcock/" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock as the Reincarnation of Edgar Cayce</span>
+                <span class="source-outlet">Near-Death Experiences and the Afterlife</span>
+            </a>
+            <a class="source-item" href="https://www.equip.org/articles/humanitys-ascension-assessing-the-history-channels-new-age-time-travel-guru-david-wilcock/" target="_blank" rel="noopener">
+                <span class="source-title">Humanity's Ascension: Assessing David Wilcock</span>
+                <span class="source-outlet">Christian Research Institute</span>
+            </a>
+
+            <div class="source-category">Critical / Investigative</div>
+            <a class="source-item" href="https://www.jasoncolavito.com/blog/david-wilcock-issues-apology-to-gaia-tv-claims-conspiracy-by-dark-alliance-to-destroy-conspiracy-media" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock Issues Apology to Gaia TV</span>
+                <span class="source-outlet">Jason Colavito</span>
+            </a>
+            <a class="source-item" href="https://www.thegalacticmind.com/david-wilcock-and-the-spiritualization-of-disclosure/" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock Dossier</span>
+                <span class="source-outlet">The Galactic Mind</span>
+            </a>
+            <a class="source-item" href="https://www.vice.com/en/article/david-wilcock-ufo-conspiracy-theorist-covid-19-deep-state-ascension/" target="_blank" rel="noopener">
+                <span class="source-title">UFO Conspiracy Theorists Offer 'Ascension' for $333</span>
+                <span class="source-outlet">Vice</span>
+            </a>
+            <a class="source-item" href="https://thedebrief.org/inside-americas-ufo-cults-a-look-at-manipulation-and-misinformation-in-the-ufo-counterculture/" target="_blank" rel="noopener">
+                <span class="source-title">Inside America's UFO Cults</span>
+                <span class="source-outlet">The Debrief</span>
+            </a>
+            <a class="source-item" href="https://www.primetimer.com/features/who-is-corey-goode-gaia-lawsuit-controversy-explored-as-david-wilcocks-producer-accuses-whistleblower-of-lies" target="_blank" rel="noopener">
+                <span class="source-title">Who is Corey Goode? Gaia Lawsuit Controversy</span>
+                <span class="source-outlet">Primetimer</span>
+            </a>
+            <a class="source-item" href="https://pod.wave.co/podcast/nephilim-death-squad/126-david-wilcock-had-his-way-with-us-w-hidden-in-plain-sight-podcast-9e4e1c63" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock &mdash; Nephilim Death Squad Podcast (Episode 126)</span>
+                <span class="source-outlet">Pod.wave.co</span>
+            </a>
+
+            <div class="source-category">Divorce / Personal</div>
+            <a class="source-item" href="https://www.bollywoodshaadis.com/articles/david-wilcock-wife-elizabeth-divorce-reason-ufo-expert-death-rumours-78070" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock Wife Elizabeth Divorce Reason</span>
+                <span class="source-outlet">BollywoodShaadis</span>
+            </a>
+
+            <div class="source-category">Bruce Peret / Daniel</div>
+            <a class="source-item" href="https://reciprocalsystem.org/papers/daniel-phoenix-iii" target="_blank" rel="noopener">
+                <span class="source-title">The daniel Papers</span>
+                <span class="source-outlet">Reciprocal System</span>
+            </a>
+            <a class="source-item" href="http://reciprocal.systems/phpBB3/viewtopic.php?t=682" target="_blank" rel="noopener">
+                <span class="source-title">In Memoriam: Bruce Peret</span>
+                <span class="source-outlet">Reciprocal System Research Society</span>
+            </a>
+            <a class="source-item" href="https://reciprocalsystem.org/biography/bruce-peret" target="_blank" rel="noopener">
+                <span class="source-title">Bruce Peret Biography</span>
+                <span class="source-outlet">Reciprocal System</span>
+            </a>
+
+            <div class="source-category">Law of One / L/L Research</div>
+            <a class="source-item" href="https://projectavalon.net/lang/en/david_wilcock_interview_transcript_2_en.html" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock Interview Transcript Part 2</span>
+                <span class="source-outlet">Project Avalon</span>
+            </a>
+
+            <div class="source-category">Other</div>
+            <a class="source-item" href="https://retmeishka.wordpress.com/2026/04/22/the-death-of-david-wilcock-isnt-going-to-get-the-same-kind-of-publicity-as-the-death-of-charlie-kirk/" target="_blank" rel="noopener">
+                <span class="source-title">David Wilcock Death Commentary</span>
+                <span class="source-outlet">Retmeishka Blog</span>
+            </a>
+            <a class="source-item" href="https://www.pathwaytoascension.com/blog/2017/05/25/weaponized-food-high-vibrational-diet-and-the-mechanism-of-cancer-notes-from-lecture-by-david-wilcock/" target="_blank" rel="noopener">
+                <span class="source-title">Weaponized Food / High Vibrational Diet (Wilcock lecture notes)</span>
+                <span class="source-outlet">Pathway to Ascension</span>
+            </a>
+            <a class="source-item" href="https://www.goodreads.com/book/show/28110141-the-ascension-mysteries" target="_blank" rel="noopener">
+                <span class="source-title">The Ascension Mysteries (book reviews)</span>
+                <span class="source-outlet">Goodreads</span>
+            </a>
+        </div>
+
+        <footer class="memoriam-footer">
+            <p>
+                Intel Console &mdash; <a href="../index.html#entity/620">Return to David Wilcock Dossier</a>
+            </p>
+            <p style="margin-top: 16px;">
+                "Speaker for the Dead" is a reference to Orson Scott Card's novel, in which the speaker's role<br>
+                is to tell the complete truth about a person's life &mdash; not to praise or condemn, but to understand.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>

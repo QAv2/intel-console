@@ -111,6 +111,15 @@ const Dossier = {
             html += `<div class="meta-badges">${badges.join('')}</div>`;
         }
 
+        // ---- Memoriam link ----
+        if (meta.memoriam_url) {
+            html += `<a class="memoriam-link" href="${esc(meta.memoriam_url)}" target="_blank" rel="noopener">`;
+            html += `<span class="memoriam-link-icon">✚</span>`;
+            html += `<span class="memoriam-link-text">In Memoriam</span>`;
+            html += `<span class="sr-only">(opens in new tab)</span>`;
+            html += `</a>`;
+        }
+
         // ---- Description ----
         if (entity.description) {
             html += `<div class="panel-description">${esc(entity.description)}</div>`;
