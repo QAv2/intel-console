@@ -395,11 +395,9 @@
         var match = hash.match(/^entity\/(\d+)$/);
         if (!match) return;
         var entityId = parseInt(match[1]);
-        if (!graphData) { console.warn('[hash] no graphData'); return; }
+        if (!graphData) return;
         var node = graphData.nodes.find(n => n.id === entityId);
-        if (!node) { console.warn('[hash] entity not found:', entityId); return; }
-        // Navigate to entity
-        console.log('[hash] navigating to entity', entityId, node.name);
+        if (!node) return;
         navStack = [entityId];
         await recenterOn(entityId);
         updateBreadcrumb();
