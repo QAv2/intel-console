@@ -113,7 +113,7 @@ const Dossier = {
 
         // ---- Memoriam link ----
         if (meta.memoriam_url) {
-            html += `<a class="memoriam-link" href="${esc(meta.memoriam_url)}" target="_blank" rel="noopener">`;
+            html += `<a class="memoriam-link" href="${safeRelHref(meta.memoriam_url)}" target="_blank" rel="noopener">`;
             html += `<span class="memoriam-link-icon">✚</span>`;
             html += `<span class="memoriam-link-text">In Memoriam</span>`;
             html += `<span class="sr-only">(opens in new tab)</span>`;
@@ -275,4 +275,18 @@ function safeHref(url) {
         }
     } catch { /* not a valid URL */ }
     return '#';
+}
+
+// Like safeHref, but also accepts site-relative paths (no scheme).
+// Blocks any string that contains a colon before the first slash, which
+// catches javascript:, data:, vbscript: even when wrapped in whitespace.
+function safeRelHref(url) {
+    if (!url) return '#';
+    const trimmed = String(url).trim();
+    const firstSlash = trimmed.indexOf('/');
+    const firstColon = trimmed.indexOf(':');
+    if (firstColon !== -1 && (firstSlash === -1 || firstColon < firstSlash)) {
+        return safeHref(trimmed);
+    }
+    return esc(trimmed);
 }
