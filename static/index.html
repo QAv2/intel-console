@@ -26,6 +26,7 @@
     <link rel="canonical" href="https://qav2.github.io/intel-console/">
     <title>Intel Console</title>
     <link rel="stylesheet" href="css/style.css?v=12">
+    <link rel="stylesheet" href="css/timeline-arc.css?v=1">
 </head>
 <body>
     <a href="#cy-container" class="skip-link">Skip to graph</a>
@@ -109,6 +110,7 @@
     <header class="header">
         <h1 class="header-title">Intel Console</h1>
         <p class="header-sub">Civilian OSINT Dashboard</p>
+        <p class="header-sub" style="margin-top:6px;pointer-events:auto"><a href="contribute.html" style="color:#4a9eff;text-decoration:none">Submit a lead &rarr;</a></p>
     </header>
 
     <!-- Breadcrumb navigation -->
@@ -180,9 +182,13 @@
         <button id="btn-index" title="Branch Directory"><span class="btn-label">Index</span></button>
     </div>
 
-    <!-- Dossier panel -->
+    <!-- Dossier panel (also hosts the per-entity timeline-arc view via toggle) -->
     <div class="panel" id="dossier-panel" role="complementary" aria-label="Entity details" aria-hidden="true">
-        <button class="panel-close" id="panel-close">&times;</button>
+        <button class="panel-close" id="panel-close" aria-label="Close panel">&times;</button>
+        <div class="panel-view-toggle" id="panel-view-toggle" role="tablist" aria-label="View mode">
+            <button class="view-toggle-btn active" id="view-toggle-dossier" data-view="dossier" role="tab" aria-selected="true">Dossier</button>
+            <button class="view-toggle-btn" id="view-toggle-timeline" data-view="timeline" role="tab" aria-selected="false">Timeline</button>
+        </div>
         <div class="panel-inner" id="panel-inner"></div>
     </div>
 
@@ -194,10 +200,11 @@
     <script src="js/api.js?v=12"></script>
     <script src="js/branches.js?v=10"></script>
     <script src="js/cytomap.js?v=10"></script>
-    <script src="js/dossier.js?v=12"></script>
+    <script src="js/dossier.js?v=13"></script>
+    <script src="js/timeline-arc.js?v=1"></script>
     <script src="js/search.js?v=10"></script>
     <script src="js/navigator.js?v=10"></script>
     <script src="js/app.js?v=12"></script>
-    <script src="js/cinema.js?v=1"></script>
+    <script src="js/cinema.js?v=2"></script>
 </body>
 </html>
