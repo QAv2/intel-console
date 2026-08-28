@@ -21,18 +21,49 @@ const Dossier = {
         this.inner = document.getElementById('panel-inner');
         this.closeBtn = document.getElementById('panel-close');
         this.closeBtn.addEventListener('click', () => this.close());
+
+        // View-toggle row (Dossier ↔ Timeline)
+        const tDoss = document.getElementById('view-toggle-dossier');
+        const tTime = document.getElementById('view-toggle-timeline');
+        if (tDoss && tTime) {
+            tDoss.addEventListener('click', () => {
+                if (this.currentEntityId != null) this.show(this.currentEntityId);
+            });
+            tTime.addEventListener('click', () => {
+                if (this.currentEntityId != null && typeof TimelineArc !== 'undefined') {
+                    TimelineArc.show(this.currentEntityId);
+                }
+            });
+        }
     },
 
     close() {
         this.panel.classList.remove('open');
+        this.panel.classList.remove('timeline-active');
+        document.body.classList.remove('cinema-timeline-fullscreen');
         this.panel.setAttribute('aria-hidden', 'true');
         this.currentEntityId = null;
+        if (typeof TimelineArc !== 'undefined') TimelineArc.isOpen = false;
         clearHighlight();
         document.getElementById('cy-container').focus();
     },
 
+    _setToggleStateDossier() {
+        const tDoss = document.getElementById('view-toggle-dossier');
+        const tTime = document.getElementById('view-toggle-timeline');
+        if (tDoss && tTime) {
+            tDoss.classList.add('active');
+            tDoss.setAttribute('aria-selected', 'true');
+            tTime.classList.remove('active');
+            tTime.setAttribute('aria-selected', 'false');
+        }
+        if (this.panel) this.panel.classList.remove('timeline-active');
+        if (typeof TimelineArc !== 'undefined') TimelineArc.isOpen = false;
+    },
+
     async show(entityId) {
         this.currentEntityId = entityId;
+        this._setToggleStateDossier();
         highlightNode(entityId);
 
         const [entity, relationships, entitySources, signals] = await Promise.all([
@@ -58,7 +89,9 @@ const Dossier = {
         // ---- Photo header ----
         if (meta.photo_url) {
             html += `<div class="panel-photo-header">`;
-            html += `<img class="panel-photo" src="${safeHref(meta.photo_url)}" alt="${esc(entity.name)}" style="border-color:${color}">`;
+            // photo_url is site-relative ("photos/x.jpg") — safeHref() only accepts absolute
+            // http(s)/mailto URLs and was turning every dossier photo into src="#".
+            html += `<img class="panel-photo" src="${safeRelHref(meta.photo_url)}" alt="${esc(entity.name)}" style="border-color:${color}">`;
             html += `<div>`;
             html += `<div class="panel-type-tag" style="background:${color}22;color:${color}">${entity.entity_type.replace('_', ' ')}</div>`;
             html += `<h2 class="panel-title" id="dossier-title">${esc(entity.name)}</h2>`;
