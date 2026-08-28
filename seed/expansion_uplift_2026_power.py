@@ -643,7 +643,7 @@ ENTITIES = [
         "entity_type": "person",
         "description": (
             "Peter Brian Hegseth (born June 6, 1980). Secretary of Defense (January "
-            "2025-present), styled 'Secretary of War' since August 25, 2025, following "
+            "2025-present), styled 'Secretary of War' since the September 5, 2025 executive order (announced August 25), following "
             "Trump's executive order directing use of the historical 'Department of War' "
             "title. Former Fox News weekend co-host. Army National Guard veteran who served "
             "in Guantanamo Bay (2004), Iraq (Samarra, 2005-2006), and Afghanistan (Kabul, "
@@ -1309,7 +1309,7 @@ ENTITY_UPDATES = [
             "(Commerce), Steve Witkoff (Ukraine envoy). Authorized strikes on Iran's nuclear "
             "facilities on June 21, 2025 (Operation Midnight Hammer). Held the Anchorage "
             "Summit with Putin on August 15, 2025 — no Ukraine deal. Signed executive order "
-            "August 25, 2025 directing 'Department of War' name. Pardoned Binance founder "
+            "September 5, 2025 (announced August 25) restyling DoD as the 'Department of War' name. Pardoned Binance founder "
             "Changpeng Zhao on October 21, 2025. Announced 20-point Gaza peace plan with "
             "Netanyahu on September 29, 2025 ('Board of Peace'). Authorized Operation Epic "
             "Fury against Iran (February 28, 2026). On February 20, 2026, the Supreme Court "

@@ -113,6 +113,7 @@ EXPANSION_TO_BRANCH = {
     'expansion_uplift_2026_thin_nodes':     None,   # relationships/updates only
     'expansion_uplift_2026_crosslinks':     None,   # relationships only
     'expansion_kubrick_ews':                'elite_social',  # restored Kubrick / Eyes Wide Shut layer
+    'expansion_uap_pursue_2026':            'consciousness', # 2026 UAP records releases (PURSUE / NARA RG-615 / NSA FOIA)
 }
 
 # ============================================================
@@ -172,6 +173,8 @@ NAME_OVERRIDES = {
     'Flexner Report': 'health',
     # consciousness lineage nodes
     'Theosophical Society': 'consciousness',
+    # created inside expansion_uap_pursue_2026 but institutional
+    'Department of War': 'intelligence',
 }
 
 # ============================================================

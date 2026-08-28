@@ -14,7 +14,7 @@ entity_id,name,type,branch,ring,degree,source
 13,Craig Spence,person,exploitation,3,3,base_override
 14,Edwin Wilson,person,intelligence,3,3,old_branch:intelligence
 15,Frank Terpil,person,intelligence,3,3,old_branch:intelligence
-16,J. Edgar Hoover,person,intelligence,2,8,old_branch:intelligence
+16,J. Edgar Hoover,person,intelligence,1,9,old_branch:intelligence
 17,James Angleton,person,intelligence,1,10,old_branch:intelligence
 18,Meyer Lansky,person,hidden_history,1,14,old_branch:organized_crime
 19,Kamal Adham,person,intelligence,2,7,old_branch:intelligence
@@ -31,8 +31,8 @@ entity_id,name,type,branch,ring,degree,source
 30,Leon Black,person,financial,1,9,old_branch:financial
 31,Hillary Clinton,person,power,3,3,old_branch:political
 32,Bill Clinton,person,power,1,39,old_branch:political
-33,Donald Trump,person,power,1,93,old_branch:political
-34,Fat Tony Salerno,person,hidden_history,1,8,old_branch:organized_crime
+33,Donald Trump,person,power,1,94,old_branch:political
+34,Fat Tony Salerno,person,hidden_history,2,8,old_branch:organized_crime
 35,Paul Castellano,person,hidden_history,1,9,old_branch:organized_crime
 36,Felix Sater,person,hidden_history,2,4,old_branch:organized_crime
 37,Alexander Acosta,person,power,2,5,base_override
@@ -80,12 +80,12 @@ entity_id,name,type,branch,ring,degree,source
 79,Genovese Crime Family,organization,hidden_history,3,3,old_branch:organized_crime
 80,Lucchese Crime Family,organization,hidden_history,3,2,old_branch:organized_crime
 81,Philadelphia Crime Family,organization,hidden_history,2,7,old_branch:organized_crime
-82,Murder Incorporated,organization,hidden_history,2,4,old_branch:organized_crime
+82,Murder Incorporated,organization,hidden_history,3,4,old_branch:organized_crime
 83,Scarf Inc,organization,hidden_history,3,2,old_branch:organized_crime
 84,S&A Concrete,organization,hidden_history,3,3,old_branch:organized_crime
-85,CIA,agency,intelligence,1,151,old_branch:intelligence
-86,NSA,agency,intelligence,1,34,old_branch:intelligence
-87,FBI,agency,intelligence,1,35,old_branch:intelligence
+85,CIA,agency,intelligence,1,152,old_branch:intelligence
+86,NSA,agency,intelligence,1,35,old_branch:intelligence
+87,FBI,agency,intelligence,1,38,old_branch:intelligence
 88,Mossad,agency,intelligence,1,36,old_branch:intelligence
 89,DOJ,agency,power,1,31,old_branch:legal
 90,DARPA,agency,intelligence,2,7,old_branch:intelligence
@@ -178,7 +178,7 @@ entity_id,name,type,branch,ring,degree,source
 177,USA PATRIOT Act,legislation,intelligence,3,3,expansion:expansion_911
 178,Authorization for Use of Military Force (2001),legislation,intelligence,3,2,expansion:expansion_911
 179,World Trade Center,facility,intelligence,3,2,expansion:expansion_911
-180,The Pentagon,facility,intelligence,1,23,expansion:expansion_911
+180,The Pentagon,facility,intelligence,1,24,expansion:expansion_911
 181,September 11 Attacks,event,intelligence,1,17,expansion:expansion_911
 182,WTC Building 7 Collapse,event,intelligence,3,2,expansion:expansion_911
 183,Shirō Ishii,person,health,3,2,expansion:expansion_bioweapons
@@ -258,10 +258,10 @@ entity_id,name,type,branch,ring,degree,source
 257,Pat Price,person,consciousness,1,7,expansion:expansion_consciousness
 258,Joseph McMoneagle,person,consciousness,1,10,expansion:expansion_consciousness
 259,Edwin May,person,consciousness,2,6,expansion:expansion_consciousness
-260,Dale Graff,person,consciousness,2,3,expansion:expansion_consciousness
+260,Dale Graff,person,consciousness,3,3,expansion:expansion_consciousness
 261,Albert Stubblebine,person,consciousness,2,5,expansion:expansion_consciousness
 262,Jim Channon,person,consciousness,3,2,expansion:expansion_consciousness
-263,Robert Monroe,person,consciousness,2,3,expansion:expansion_consciousness
+263,Robert Monroe,person,consciousness,3,3,expansion:expansion_consciousness
 264,SRI International,organization,consciousness,1,10,expansion:expansion_consciousness
 265,Monroe Institute,organization,consciousness,2,5,expansion:expansion_consciousness
 266,DIA,agency,consciousness,1,18,expansion:expansion_consciousness
@@ -364,9 +364,9 @@ entity_id,name,type,branch,ring,degree,source
 363,John Hutchison,person,resource,3,2,expansion:expansion_energy_suppression
 364,General Electric,organization,resource,2,4,expansion:expansion_energy_suppression
 365,Westinghouse,organization,resource,3,2,expansion:expansion_energy_suppression
-366,American Medical Association,organization,health,2,5,expansion:expansion_energy_suppression
+366,American Medical Association,organization,health,2,5,expansion:expansion_disclosure_scrolls
 367,Federation of American Scientists,organization,resource,3,2,expansion:expansion_energy_suppression
-368,DOE,agency,resource,1,11,expansion:expansion_energy_suppression
+368,DOE,agency,resource,1,12,expansion:expansion_energy_suppression
 369,Invention Secrecy Act of 1951,legislation,resource,2,4,expansion:expansion_energy_suppression
 370,Patent Secrecy Orders,program,resource,1,5,expansion:expansion_energy_suppression
 371,Electrogravitics Research Program,program,resource,3,2,expansion:expansion_energy_suppression
@@ -557,7 +557,7 @@ entity_id,name,type,branch,ring,degree,source
 556,MLK Assassination,event,hidden_history,3,4,expansion:expansion_jfk
 557,James Earl Ray,person,hidden_history,3,2,expansion:expansion_jfk
 558,Oliver North,person,intelligence,2,8,expansion:expansion_latin_america
-559,Manuel Noriega,person,intelligence,1,9,expansion:expansion_latin_america
+559,Manuel Noriega,person,intelligence,2,9,expansion:expansion_latin_america
 560,Felix Rodriguez,person,intelligence,3,3,expansion:expansion_latin_america
 561,Augusto Pinochet,person,intelligence,3,3,expansion:expansion_latin_america
 562,Gary Webb,person,narrative,1,8,entity_override
@@ -587,7 +587,7 @@ entity_id,name,type,branch,ring,degree,source
 586,Tavistock Institute,organization,narrative,3,2,expansion:expansion_media
 587,Atlantic Council,organization,narrative,3,3,expansion:expansion_media
 588,Operation Mockingbird,program,intelligence,2,8,entity_override
-589,PRISM,program,intelligence,2,4,entity_override
+589,PRISM,program,intelligence,3,4,entity_override
 590,Telecommunications Act of 1996,legislation,narrative,2,6,expansion:expansion_media
 591,Smith-Mundt Modernization Act,legislation,narrative,3,2,expansion:expansion_media
 592,Pentagon Military Analyst Program,program,narrative,2,4,expansion:expansion_media
@@ -753,22 +753,22 @@ entity_id,name,type,branch,ring,degree,source
 752,ACLU v. Clapper,event,intelligence,3,3,expansion:expansion_tech_surveillance
 753,Daniel Sheehan,person,consciousness,1,14,expansion:expansion_uap_disclosure
 754,John Mack,person,consciousness,2,4,expansion:expansion_uap_disclosure
-755,Steven Greer,person,consciousness,2,7,expansion:expansion_uap_disclosure
+755,Steven Greer,person,consciousness,1,7,expansion:expansion_uap_disclosure
 756,Luis Elizondo,person,consciousness,1,11,expansion:expansion_uap_disclosure
-757,David Grusch,person,consciousness,1,16,expansion:expansion_uap_disclosure
+757,David Grusch,person,consciousness,1,18,expansion:expansion_uap_disclosure
 758,David Fravor,person,consciousness,2,6,expansion:expansion_uap_disclosure
-759,Ryan Graves,person,consciousness,1,9,expansion:expansion_uap_disclosure
+759,Ryan Graves,person,consciousness,1,10,expansion:expansion_uap_disclosure
 760,Chuck Schumer,person,consciousness,2,4,expansion:expansion_uap_disclosure
 761,Mike Rounds,person,consciousness,3,3,expansion:expansion_uap_disclosure
-762,Tim Burchett,person,consciousness,3,3,expansion:expansion_uap_disclosure
+762,Tim Burchett,person,consciousness,2,5,expansion:expansion_uap_disclosure
 763,New Paradigm Institute,organization,consciousness,3,3,expansion:expansion_uap_disclosure
 764,Christic Institute,organization,consciousness,3,2,expansion:expansion_uap_disclosure
 765,Disclosure Project,organization,consciousness,3,3,expansion:expansion_uap_disclosure
 766,Americans for Safe Aerospace,organization,consciousness,3,2,expansion:expansion_uap_disclosure
-767,AATIP,program,consciousness,2,6,expansion:expansion_uap_disclosure
-768,Project Blue Book,program,consciousness,2,4,expansion:expansion_uap_disclosure
+767,AATIP,program,consciousness,2,7,expansion:expansion_uap_disclosure
+768,Project Blue Book,program,consciousness,2,5,expansion:expansion_uap_disclosure
 769,UAP Task Force,program,consciousness,2,5,expansion:expansion_uap_disclosure
-770,UAP Disclosure Act,legislation,consciousness,2,7,expansion:expansion_uap_disclosure
+770,UAP Disclosure Act,legislation,consciousness,1,8,expansion:expansion_uap_disclosure
 771,Enhanced UAP Whistleblower Protection Act,legislation,consciousness,3,2,expansion:expansion_uap_disclosure
 772,Grusch Congressional Hearing,event,consciousness,2,6,expansion:expansion_uap_disclosure
 773,Robert Bigelow,person,consciousness,1,11,expansion:expansion_uap_programs
@@ -786,7 +786,7 @@ entity_id,name,type,branch,ring,degree,source
 785,Area 51,facility,consciousness,3,2,expansion:expansion_uap_programs
 786,Wright-Patterson AFB,facility,consciousness,3,3,expansion:expansion_uap_programs
 787,Wilson-Davis Memo,event,consciousness,3,2,expansion:expansion_uap_programs
-788,Roswell Incident,event,consciousness,3,3,expansion:expansion_disclosure_scrolls
+788,Roswell Incident,event,consciousness,2,4,expansion:expansion_disclosure_scrolls
 789,Peter Mandelson,person,power,2,8,entity_override
 790,MI5,agency,intelligence,2,6,entity_override
 791,MI6,agency,intelligence,1,11,entity_override
@@ -848,10 +848,10 @@ entity_id,name,type,branch,ring,degree,source
 847,James Clapper,person,intelligence,3,4,expansion:expansion_disclosure_scrolls
 848,John Kerry,person,power,3,2,expansion:expansion_disclosure_scrolls
 849,Bob Lazar,person,consciousness,2,4,expansion:expansion_disclosure_scrolls
-850,Christopher Mellon,person,consciousness,2,6,expansion:expansion_disclosure_scrolls
+850,Christopher Mellon,person,consciousness,2,7,expansion:expansion_disclosure_scrolls
 851,Paul Hellyer,person,consciousness,3,2,expansion:expansion_disclosure_scrolls
 852,Philip Corso,person,consciousness,3,2,expansion:expansion_disclosure_scrolls
-853,Gordon Cooper,person,consciousness,3,3,expansion:expansion_disclosure_scrolls
+853,Gordon Cooper,person,consciousness,2,4,expansion:expansion_disclosure_scrolls
 854,Karl Wolfe,person,consciousness,3,3,expansion:expansion_disclosure_scrolls
 855,Timothy Leary,person,consciousness,3,3,expansion:expansion_disclosure_scrolls
 856,Ken Kesey,person,consciousness,3,2,expansion:expansion_disclosure_scrolls
@@ -883,8 +883,8 @@ entity_id,name,type,branch,ring,degree,source
 882,Luke Iseman,person,resource,3,1,expansion:expansion_disclosure_scrolls
 883,Mark Lombardi,person,narrative,3,3,expansion:expansion_disclosure_scrolls
 884,Karen Silkwood,person,resource,3,1,expansion:expansion_disclosure_scrolls
-885,Neil Armstrong,person,consciousness,3,2,expansion:expansion_disclosure_scrolls
-886,Buzz Aldrin,person,consciousness,3,2,expansion:expansion_disclosure_scrolls
+885,Neil Armstrong,person,consciousness,3,3,expansion:expansion_disclosure_scrolls
+886,Buzz Aldrin,person,consciousness,3,3,expansion:expansion_disclosure_scrolls
 887,Joel Osteen,person,narrative,3,3,expansion:expansion_disclosure_scrolls
 888,Kenneth Copeland,person,narrative,3,3,expansion:expansion_disclosure_scrolls
 889,OpenAI,organization,narrative,2,4,expansion:expansion_disclosure_scrolls
@@ -905,10 +905,10 @@ entity_id,name,type,branch,ring,degree,source
 905,SCoPEx,program,resource,2,5,expansion:expansion_disclosure_scrolls
 906,Nag Hammadi Library,event,cosmology,3,1,expansion:expansion_disclosure_scrolls
 907,Dead Sea Scrolls,event,cosmology,2,3,expansion:expansion_disclosure_scrolls
-908,Office of the Director of National Intelligence,agency,intelligence,2,5,expansion:expansion_uplift_2026_intelligence
-909,Tulsi Gabbard,person,intelligence,3,3,expansion:expansion_uplift_2026_intelligence
+908,Office of the Director of National Intelligence,agency,intelligence,2,6,expansion:expansion_uplift_2026_intelligence
+909,Tulsi Gabbard,person,consciousness,2,4,expansion:expansion_uap_pursue_2026
 910,John Ratcliffe,person,intelligence,3,3,expansion:expansion_uplift_2026_intelligence
-911,Kash Patel,person,intelligence,3,2,expansion:expansion_uplift_2026_intelligence
+911,Kash Patel,person,consciousness,3,3,expansion:expansion_uap_pursue_2026
 912,Blaise Metreweli,person,intelligence,3,2,expansion:expansion_uplift_2026_intelligence
 913,Nicolás Maduro,person,intelligence,3,4,expansion:expansion_uplift_2026_intelligence
 914,SOUTHCOM,agency,intelligence,3,3,expansion:expansion_uplift_2026_intelligence
@@ -930,7 +930,7 @@ entity_id,name,type,branch,ring,degree,source
 930,Anchorage Summit (2025),event,power,2,5,expansion:expansion_uplift_2026_power
 931,JD Vance,person,power,3,3,expansion:expansion_uplift_2026_power
 932,Marco Rubio,person,power,2,5,expansion:expansion_uplift_2026_power
-933,Pete Hegseth,person,power,3,4,expansion:expansion_uplift_2026_power
+933,Pete Hegseth,person,consciousness,2,6,expansion:expansion_uap_pursue_2026
 934,Pam Bondi,person,power,3,4,expansion:expansion_uplift_2026_power
 935,Elon Musk,person,power,3,5,expansion:expansion_uplift_2026_power
 936,DOGE,program,power,3,1,expansion:expansion_uplift_2026_power
@@ -964,8 +964,8 @@ entity_id,name,type,branch,ring,degree,source
 964,Executive Order 14176,legislation,hidden_history,1,9,expansion:expansion_uplift_2026_hidden_history
 965,JFK Files Release (2025),event,hidden_history,1,11,expansion:expansion_uplift_2026_hidden_history
 966,George Joannides,person,hidden_history,2,6,expansion:expansion_uplift_2026_hidden_history
-967,Anna Paulina Luna,person,hidden_history,3,3,expansion:expansion_uplift_2026_hidden_history
-968,House Task Force on Declassification of Federal Secrets,organization,hidden_history,3,4,expansion:expansion_uplift_2026_hidden_history
+967,Anna Paulina Luna,person,consciousness,2,5,expansion:expansion_uap_pursue_2026
+968,House Task Force on Declassification of Federal Secrets,organization,hidden_history,2,5,expansion:expansion_uplift_2026_hidden_history
 969,Directorio Revolucionario Estudiantil,organization,hidden_history,3,4,expansion:expansion_uplift_2026_hidden_history
 970,Robert F. Kennedy Jr.,person,health,1,7,expansion:expansion_uplift_2026_health
 971,HHS,agency,health,2,4,expansion:expansion_uplift_2026_health
@@ -977,13 +977,13 @@ entity_id,name,type,branch,ring,degree,source
 977,Sugar Research Foundation,organization,health,3,3,expansion:expansion_uplift_2026_health
 978,Flexner Report,publication,health,2,4,expansion:expansion_uplift_2026_health
 979,2025 United States Measles Outbreak,event,health,3,2,expansion:expansion_uplift_2026_health
-980,AARO,program,consciousness,2,5,expansion:expansion_uplift_2026_consciousness
+980,AARO,program,consciousness,2,7,expansion:expansion_uap_pursue_2026
 981,Avi Loeb,person,consciousness,2,4,expansion:expansion_uplift_2026_consciousness
 982,Galileo Project,organization,consciousness,2,4,expansion:expansion_uplift_2026_consciousness
 983,3I/ATLAS,event,consciousness,3,2,expansion:expansion_uplift_2026_consciousness
 984,Garry Nolan,person,consciousness,3,2,expansion:expansion_uplift_2026_consciousness
 985,Ross Coulthart,person,consciousness,3,2,expansion:expansion_uplift_2026_consciousness
-986,Jeremy Corbell,person,consciousness,3,3,expansion:expansion_uplift_2026_consciousness
+986,Jeremy Corbell,person,consciousness,2,4,expansion:expansion_uplift_2026_consciousness
 987,Jon Kosloski,person,consciousness,3,2,expansion:expansion_uplift_2026_consciousness
 988,Theosophical Society,organization,consciousness,3,3,expansion:expansion_uplift_2026_consciousness
 989,Karl Nell,person,consciousness,3,2,expansion:expansion_uplift_2026_consciousness
@@ -1009,3 +1009,17 @@ entity_id,name,type,branch,ring,degree,source
 1009,Energy Transfer v. Greenpeace (2025),event,resource,3,1,expansion:expansion_uplift_2026_resource
 1010,Cartel FTO Designations (2025),legislation,resource,3,2,expansion:expansion_uplift_2026_resource
 1011,Primo Brands Corporation,organization,resource,3,1,expansion:expansion_uplift_2026_resource
+1012,PURSUE,program,consciousness,1,25,expansion:expansion_uap_pursue_2026
+1013,Department of War,agency,intelligence,3,4,expansion:expansion_uap_pursue_2026
+1014,NASA,agency,consciousness,3,2,expansion:expansion_uap_pursue_2026
+1015,"PURSUE Release 1 (May 8, 2026)",event,consciousness,2,4,expansion:expansion_uap_pursue_2026
+1016,"PURSUE Release 2 (May 22, 2026)",event,consciousness,3,1,expansion:expansion_uap_pursue_2026
+1017,"PURSUE Release 3 (June 12, 2026)",event,consciousness,3,3,expansion:expansion_uap_pursue_2026
+1018,UAP Records Collection (NARA RG-615),program,consciousness,3,2,expansion:expansion_uap_pursue_2026
+1019,NSA UAP FOIA Release (May 2026),event,consciousness,3,2,expansion:expansion_uap_pursue_2026
+1020,FBI File 62-HQ-83894,publication,consciousness,2,4,expansion:expansion_uap_pursue_2026
+1021,Hoover-Barnes Letter (1949),publication,consciousness,3,3,expansion:expansion_uap_pursue_2026
+1022,"Capitol UAP Press Conference (June 9, 2026)",event,consciousness,2,6,expansion:expansion_uap_pursue_2026
+1023,Leslie Kean,person,consciousness,3,3,expansion:expansion_uap_pursue_2026
+1024,Eric Burlison,person,consciousness,3,2,expansion:expansion_uap_pursue_2026
+1025,Jared Isaacman,person,consciousness,3,2,expansion:expansion_uap_pursue_2026

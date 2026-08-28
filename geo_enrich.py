@@ -1088,6 +1088,25 @@ GEO_COORDS = {
     "Cartel FTO Designations (2025)":            (38.8977, -77.0365, "documented"),   # Washington DC — White House executive order
     "Primo Brands Corporation":                  (41.0534, -73.5387, "credible"),   # Stamford, CT — corporate headquarters
 
+
+    # ══════════════════════════════════════════════════════════════════════
+    # 2026-08 REFRESH PASS — merged from expansion modules by tools/merge_geo.py
+    # ══════════════════════════════════════════════════════════════════════
+    "PURSUE":                                    (38.8719, -77.0563, "credible"),   # The Pentagon, Arlington VA — DOW headquarters
+    "Department of War":                         (38.8719, -77.0563, "credible"),   # The Pentagon, Arlington VA
+    "NASA":                                      (38.8830, -77.0164, "credible"),   # NASA Headquarters, Washington D.C.
+    "PURSUE Release 1 (May 8, 2026)":            (38.8719, -77.0563, "credible"),   # Published by DOW at The Pentagon
+    "PURSUE Release 2 (May 22, 2026)":           (38.8719, -77.0563, "credible"),   # Published by DOW at The Pentagon
+    "PURSUE Release 3 (June 12, 2026)":          (38.8719, -77.0563, "credible"),   # Published by DOW at The Pentagon
+    "UAP Records Collection (NARA RG-615)":      (38.9897, -76.9378, "documented"),   # National Archives, College Park MD
+    "NSA UAP FOIA Release (May 2026)":           (39.1087, -76.7713, "credible"),   # NSA, Fort Meade MD
+    "FBI File 62-HQ-83894":                      (38.8940, -77.0248, "credible"),   # FBI Headquarters, Washington D.C.
+    "Hoover-Barnes Letter (1949)":               (46.8500, -121.7500, "inference"),   # Cascade Mountains, WA — subject location of reported beams
+    "Capitol UAP Press Conference (June 9, 2026)": (38.8899, -77.0091, "documented"),   # U.S. Capitol steps, Washington D.C.
+    "Leslie Kean":                               (40.7128, -74.0060, "inference"),   # New York NY — primary professional association
+    "Eric Burlison":                             (37.2090, -93.2923, "inference"),   # Springfield MO — MO-7 congressional district
+    "Jared Isaacman":                            (38.8830, -77.0164, "inference"),   # NASA Headquarters, Washington D.C. — primary association
+
 }
 
 
