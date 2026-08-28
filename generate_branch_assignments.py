@@ -93,6 +93,85 @@ EXPANSION_TO_BRANCH = {
     'expansion_russia':               'elite_social',
     'expansion_saudi':                'elite_social',
     'expansion_uk':                   'elite_social',
+
+    # 2026-04 Disclosure Scrolls batch spans every theme — routed per-name via NAME_OVERRIDES
+    'expansion_disclosure_scrolls':   None,
+
+    # 2026-08 refresh pass (Topol/Mossad + per-branch uplifts)
+    'expansion_topol_mossad':         'intelligence',
+    'expansion_uplift_2026_power':          'power',
+    'expansion_uplift_2026_intelligence':   'intelligence',
+    'expansion_uplift_2026_financial':      'financial',
+    'expansion_uplift_2026_hidden_history': 'hidden_history',
+    'expansion_uplift_2026_consciousness':  'consciousness',
+    'expansion_uplift_2026_exploitation':   'exploitation',
+    'expansion_uplift_2026_narrative':      'narrative',
+    'expansion_uplift_2026_health':         'health',
+    'expansion_uplift_2026_resource':       'resource',
+    'expansion_uplift_2026_cosmology':      'cosmology',
+    'expansion_uplift_2026_elite_social':   'elite_social',
+    'expansion_uplift_2026_thin_nodes':     None,   # relationships/updates only
+    'expansion_uplift_2026_crosslinks':     None,   # relationships only
+    'expansion_kubrick_ews':                'elite_social',  # restored Kubrick / Eyes Wide Shut layer
+}
+
+# ============================================================
+# NAME OVERRIDES — keyed by exact entity name (survives DB rebuilds).
+# Highest precedence of all. Use for entities whose expansion module's
+# default branch is wrong, and for the per-name routing of multi-theme batches.
+# ============================================================
+
+NAME_OVERRIDES = {
+    # ---- Disclosure Scrolls batch (2026-04-08), 85 entities ----
+    # narrative / information environment
+    'Sean Parker': 'narrative', 'Walter Lippmann': 'narrative', 'Mark Lombardi': 'narrative',
+    'Joel Osteen': 'narrative', 'Kenneth Copeland': 'narrative',
+    'OpenAI': 'narrative', 'Meta': 'narrative', 'Anthropic': 'narrative',
+    'Jim Morrison': 'narrative', 'Frank Zappa': 'narrative',
+    # health & bio
+    'Abraham Flexner': 'health', 'Morris Fishbein': 'health', 'Ancel Keys': 'health',
+    'John Yudkin': 'health', 'Max Gerson': 'health', 'Harry Hoxsey': 'health',
+    'Wilhelm Reich': 'health', 'Richard Sackler': 'health', 'Cristin Kearns': 'health',
+    'AMA': 'health', 'American Medical Association': 'health', 'Fritz ter Meer': 'health', 'Sandoz Labs': 'health',
+    # power architecture
+    'Carroll Quigley': 'power', 'Cecil Rhodes': 'power', 'Prince Bernhard': 'power',
+    'John Foster Dulles': 'power', 'John Kerry': 'power', 'Nicolas Sarkozy': 'power',
+    # intelligence & covert
+    'William Colby': 'intelligence', 'James Woolsey': 'intelligence', 'Leon Panetta': 'intelligence',
+    'John Brennan': 'intelligence', 'Michael Hayden': 'intelligence', 'David Petraeus': 'intelligence',
+    'James Clapper': 'intelligence', 'AFOSI': 'intelligence', 'NRO': 'intelligence',
+    'US Space Force': 'intelligence', 'Kermit Roosevelt Jr.': 'intelligence',
+    # consciousness & anomalous (UAP witnesses, psychedelic research, esoteric lineage)
+    'Bob Lazar': 'consciousness', 'Christopher Mellon': 'consciousness', 'Paul Hellyer': 'consciousness',
+    'Philip Corso': 'consciousness', 'Gordon Cooper': 'consciousness', 'Karl Wolfe': 'consciousness',
+    'Richard Doty': 'consciousness', 'Paul Bennewitz': 'consciousness', 'USAF': 'consciousness',
+    'Neil Armstrong': 'consciousness', 'Buzz Aldrin': 'consciousness',
+    'Timothy Leary': 'consciousness', 'Ken Kesey': 'consciousness', 'Aldous Huxley': 'consciousness',
+    'R. Gordon Wasson': 'consciousness',
+    'Helena Blavatsky': 'consciousness', 'Alice Bailey': 'consciousness', 'Marilyn Ferguson': 'consciousness',
+    'Willis Harman': 'consciousness', 'Robert Muller': 'consciousness', 'Lucis Trust': 'consciousness',
+    'Esalen Institute': 'consciousness',
+    # resource control (oil, geoengineering/weather, MIC, nuclear)
+    'Enrico Mattei': 'resource', 'Ida Tarbell': 'resource', 'Henri Deterding': 'resource',
+    'John Perkins': 'resource', 'Muammar Gaddafi': 'resource', 'Hugo Chávez': 'resource',
+    'Bernard J. Eastlund': 'resource', 'Alan Robock': 'resource', 'David Keith': 'resource',
+    'Frank Keutsch': 'resource', 'Ken Caldeira': 'resource', 'Luke Iseman': 'resource',
+    'Make Sunsets': 'resource', 'HAARP': 'resource', 'SCoPEx': 'resource', 'NOAA': 'resource',
+    'Stardust Solutions': 'resource', 'Hughes Aircraft': 'resource', 'Karen Silkwood': 'resource',
+    # cosmology & origins
+    'Nag Hammadi Library': 'cosmology', 'Dead Sea Scrolls': 'cosmology',
+
+    # ---- 2026-08 refresh: entities created inside one module but belonging elsewhere ----
+    'Benjamin Netanyahu': 'power',
+    # cosmology entities created inside expansion_uplift_2026_elite_social
+    'Karahan Tepe': 'cosmology', 'Flint Dibble': 'cosmology',
+    'Ancient Apocalypse (TV Series)': 'cosmology', 'Comet Research Group': 'cosmology',
+    'Israel Antiquities Authority': 'cosmology',
+    # health-branch historical nodes created inside expansion_uplift_2026_health
+    'IG Farben': 'health', 'Albert Hofmann': 'health', 'Sugar Research Foundation': 'health',
+    'Flexner Report': 'health',
+    # consciousness lineage nodes
+    'Theosophical Society': 'consciousness',
 }
 
 # ============================================================
@@ -148,8 +227,78 @@ BASE_OVERRIDES = {
     825: 'elite_social',   # Mentmore Towers
 }
 
+ENTITY_NAME_OVERRIDES = {
+    "Carnegie Endowment for International Peace": 'financial',
+    "MI5": 'intelligence',
+    "MI6": 'intelligence',
+    "Jimmy Savile": 'exploitation',
+    "Peter Mandelson": 'power',
+    "Metropolitan Police": 'power',
+    "Crown Prosecution Service": 'power',
+    "Mark Thompson": 'narrative',
+    "Evgeny Lebedev": 'narrative',
+    "Newsnight Interview": 'narrative',
+    "TerraMar Project": 'exploitation',
+    "Stuart Roffey": 'exploitation',
+    "Pergamon Press": 'narrative',
+    "Mirror Group Newspapers": 'narrative',
+    "Saudi GID": 'intelligence',
+    "Prince Turki al-Faisal": 'intelligence',
+    "Jamal Khashoggi": 'narrative',
+    "BAE Al-Yamamah Deal": 'intelligence',
+    "Safari Club": 'intelligence',
+    "Wafic Said": 'intelligence',
+    "Carlyle Group": 'financial',
+    "Kingdom Holding": 'financial',
+    "Saudi Binladin Group": 'financial',
+    "FSB": 'intelligence',
+    "Vladimir Putin": 'power',
+    "Semion Mogilevich": 'hidden_history',
+    "Solntsevskaya Bratva": 'hidden_history',
+    "Dmitry Rybolovlev": 'financial',
+    "Medell\u00edn Cartel": 'resource',
+    "SETCO Aviation": 'intelligence',
+    "School of the Americas": 'intelligence',
+    "Gary Webb": 'narrative',
+    "Philippa Sigl-Gl\u00f6ckner": 'power',
+    "Open Society Foundations": 'financial',
+    "Rockefeller Foundation": 'financial',
+    "Ford Foundation": 'financial',
+    "Blackwater": 'intelligence',
+    "DynCorp": 'exploitation',
+    "Erik Prince": 'intelligence',
+    "Julian Assange": 'intelligence',
+    "Edward Snowden": 'intelligence',
+    "Chelsea Manning": 'intelligence',
+    "William Binney": 'intelligence',
+    "WikiLeaks": 'intelligence',
+    "Operation Mockingbird": 'intelligence',
+    "PRISM": 'intelligence',
+    "Sidney Gottlieb": 'intelligence',
+    "Donald Ewen Cameron": 'intelligence',
+    "Tuskegee Syphilis Study": 'intelligence',
+    "Guatemala Syphilis Experiments": 'intelligence',
+    "Operation Paperclip": 'hidden_history',
+    "Wernher von Braun": 'hidden_history',
+    "NATO": 'power',
+    "Joint Chiefs of Staff": 'power',
+    "United Fruit Company": 'financial',
+    "Air America": 'intelligence',
+    "Nugan Hand Bank": 'intelligence',
+    "DEA": 'power',
+    "ATF": 'power',
+    "Internet Research Agency": 'intelligence',
+    "Monsanto": 'health',
+    "Federal Reserve System": 'financial',
+    "Standard Oil": 'financial',
+    "Brown Brothers Harriman": 'financial',
+    "Skull and Bones": 'hidden_history',
+    "DuPont Family": 'financial',
+}
+
 # ============================================================
-# EXPANSION ENTITY OVERRIDES
+# EXPANSION ENTITY OVERRIDES (LEGACY, ID-KEYED — ids drifted after DB rebuilds;
+# superseded by ENTITY_NAME_OVERRIDES above, kept for the audit trail only)
 # Entities from expansion scripts that belong in a different branch
 # than their expansion's default
 # ============================================================
@@ -366,36 +515,48 @@ def main():
     # Base entities: use old branch → new mapping + overrides
     all_ids = sorted([int(k) for k in entities.keys()])
 
+    id_to_name = {int(k): v['name'] for k, v in entities.items()}
+
     for eid in all_ids:
-        if eid in BASE_OVERRIDES:
+        name = id_to_name[eid]
+        if name in NAME_OVERRIDES:
+            assignments[eid] = NAME_OVERRIDES[name]
+        elif eid in BASE_OVERRIDES:
             assignments[eid] = BASE_OVERRIDES[eid]
-        elif eid in ENTITY_OVERRIDES:
-            assignments[eid] = ENTITY_OVERRIDES[eid]
+        elif name in ENTITY_NAME_OVERRIDES:
+            assignments[eid] = ENTITY_NAME_OVERRIDES[name]
         elif eid in OLD_BRANCH_MAP:
             old_branch = OLD_BRANCH_MAP[eid]
             assignments[eid] = OLD_TO_NEW[old_branch]
         else:
-            # Must be from an expansion script
+            # Must be from an expansion script (first module that names it wins,
+            # skipping modules whose branch is None = "route per-name")
             assigned = False
             for exp_name, exp_ids in expansion_entities.items():
-                if eid in exp_ids:
+                if eid in exp_ids and EXPANSION_TO_BRANCH.get(exp_name, 'hidden_history') is not None:
                     assignments[eid] = EXPANSION_TO_BRANCH.get(exp_name, 'hidden_history')
                     assigned = True
                     break
             if not assigned:
                 # Fallback — shouldn't happen, but catch it
-                print(f'WARNING: Entity {eid} ({entities[str(eid)]["name"]}) has no assignment, defaulting to hidden_history')
+                print(f'WARNING: Entity {eid} ({name}) has no assignment, defaulting to hidden_history')
                 assignments[eid] = 'hidden_history'
 
-    # Apply entity overrides on top (expansion overrides take precedence)
-    for eid, branch in ENTITY_OVERRIDES.items():
-        if eid in assignments:
-            assignments[eid] = branch
+    # Apply name-keyed entity overrides on top (expansion overrides take precedence)
+    for eid in all_ids:
+        if id_to_name[eid] in ENTITY_NAME_OVERRIDES:
+            assignments[eid] = ENTITY_NAME_OVERRIDES[id_to_name[eid]]
 
     # Apply base overrides on top
     for eid, branch in BASE_OVERRIDES.items():
         if eid in assignments:
             assignments[eid] = branch
+
+    # Name overrides win over everything
+    for eid in all_ids:
+        name = id_to_name[eid]
+        if name in NAME_OVERRIDES:
+            assignments[eid] = NAME_OVERRIDES[name]
 
     # ---- Step 2: Assign rings by degree centrality within each branch ----
     # Group entities by branch
@@ -450,7 +611,7 @@ def main():
             # Determine source of assignment
             if eid in BASE_OVERRIDES:
                 src = 'base_override'
-            elif eid in ENTITY_OVERRIDES:
+            elif ent['name'] in ENTITY_NAME_OVERRIDES:
                 src = 'entity_override'
             elif eid in OLD_BRANCH_MAP:
                 src = f'old_branch:{OLD_BRANCH_MAP[eid]}'

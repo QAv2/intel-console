@@ -27,6 +27,7 @@ async def add_expansion(module_name: str):
     ENTITIES = getattr(mod, "ENTITIES", [])
     RELATIONSHIPS = getattr(mod, "RELATIONSHIPS", [])
     ENTITY_SOURCES = getattr(mod, "ENTITY_SOURCES", {})
+    ENTITY_UPDATES = getattr(mod, "ENTITY_UPDATES", [])
 
     await init_db()
     db = await get_db()
@@ -116,6 +117,62 @@ async def add_expansion(module_name: str):
             )
             es_added += 1
 
+    # ---- Entity updates (modify EXISTING entities; idempotent) ----
+    # Each entry: {"name": <exact DB name>, "description_append": str,
+    #              "description_replace": str, "metadata": {..merged..},
+    #              "aliases_add": str, "sources": [ids]}
+    upd_applied = 0
+    for u in ENTITY_UPDATES:
+        eid = name_to_id.get(u["name"])
+        if eid is None:
+            print(f"  [!] entity_updates: entity '{u['name']}' not found")
+            continue
+        row = (await db.execute_fetchall(
+            "SELECT description, aliases, metadata FROM entities WHERE id = ?", (eid,)
+        ))[0]
+        desc = row["description"] or ""
+        aliases = row["aliases"] or ""
+        try:
+            meta = json.loads(row["metadata"] or "{}")
+        except (json.JSONDecodeError, TypeError):
+            meta = {}
+        changed = False
+
+        if u.get("description_replace"):
+            if desc != u["description_replace"]:
+                desc = u["description_replace"]
+                changed = True
+        if u.get("description_append"):
+            para = u["description_append"].strip()
+            if para and para not in desc:          # idempotent: skip if already appended
+                desc = desc.rstrip() + "\n\n" + para
+                changed = True
+        if u.get("metadata"):
+            for k, v in u["metadata"].items():
+                if meta.get(k) != v:
+                    meta[k] = v
+                    changed = True
+        if u.get("aliases_add"):
+            have = [a.strip() for a in aliases.split(",") if a.strip()]
+            for a in [x.strip() for x in u["aliases_add"].split(",") if x.strip()]:
+                if a not in have:
+                    have.append(a)
+                    changed = True
+            aliases = ", ".join(have)
+
+        if changed:
+            await db.execute(
+                "UPDATE entities SET description = ?, aliases = ?, metadata = ?, "
+                "updated_at = datetime('now') WHERE id = ?",
+                (desc, aliases, json.dumps(meta), eid),
+            )
+            upd_applied += 1
+        for sid in u.get("sources", []):
+            await db.execute(
+                "INSERT OR IGNORE INTO entity_sources (entity_id, source_id) VALUES (?, ?)",
+                (eid, sid),
+            )
+
     await db.commit()
     await close_db()
 
@@ -124,6 +181,7 @@ async def add_expansion(module_name: str):
     print(f"    Entities:      +{ent_added} (of {len(ENTITIES)})")
     print(f"    Relationships: +{rel_added} (of {len(RELATIONSHIPS)}, {rel_skipped} skipped)")
     print(f"    Entity-source: +{es_added} links")
+    print(f"    Entity updates: {upd_applied} applied (of {len(ENTITY_UPDATES)})")
 
     # Re-read entity IDs after insertions (db is closed, use sync sqlite3)
     import sqlite3

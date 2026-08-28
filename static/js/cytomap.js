@@ -105,9 +105,6 @@ let branchAssignments = null;
 const filterState = {
     activeTiers: new Set(['documented', 'credible', 'inference', 'speculative']),
     activeTypes: null,
-    yearMin: null,
-    yearMax: null,
-    showUndated: true,
     showConnections: true,
 };
 
@@ -1180,14 +1177,6 @@ function filterByType(activeTypes) {
     });
 }
 
-function filterByYear(yearMin, yearMax, showUndated) {
-    if (!cy) return;
-    filterState.yearMin = yearMin;
-    filterState.yearMax = yearMax;
-    filterState.showUndated = showUndated;
-    applyEdgeFilters();
-}
-
 function applyEdgeFilters() {
     if (!cy) return;
 
@@ -1199,21 +1188,6 @@ function applyEdgeFilters() {
             const tier = edge.data('evidenceTier');
             if (tier && !filterState.activeTiers.has(tier)) {
                 visible = false;
-            }
-
-            // Year filter
-            if (visible && filterState.yearMin !== null) {
-                const ys = edge.data('yearStart');
-                const ye = edge.data('yearEnd');
-                if (ys == null && ye == null) {
-                    if (!filterState.showUndated) visible = false;
-                } else {
-                    const start = ys || ye;
-                    const end = ye || ys;
-                    if (end < filterState.yearMin || start > filterState.yearMax) {
-                        visible = false;
-                    }
-                }
             }
 
             // Connection visibility
@@ -1482,4 +1456,22 @@ function setBranchAssignments(assignments) {
     for (const [id, info] of Object.entries(assignments)) {
         ENTITY_BRANCH_MAP[id] = { branch: info.branch, ring: info.ring };
     }
+}
+
+
+// ---- Cinema Mode accessors ----
+// Live-value getters for cinema.js. Top-level function declarations in this
+// file (recenterOn, highlightNode, focusNode, etc.) are already on `window`
+// automatically — these getters only exist to expose the `let`-scoped state
+// variables (cy, graphData) that cinema needs to watch and read.
+if (typeof window !== 'undefined') {
+    window.__intelconsole = window.__intelconsole || {};
+    Object.defineProperty(window.__intelconsole, 'cy', {
+        get: function () { return cy; },
+        configurable: true,
+    });
+    Object.defineProperty(window.__intelconsole, 'graphData', {
+        get: function () { return graphData; },
+        configurable: true,
+    });
 }

@@ -37,7 +37,6 @@ FED_REGISTER_URL = (
     "https://www.federalregister.gov/api/v1/documents.json"
     "?per_page=50&order=newest&conditions[type][]=NOTICE&conditions[type][]=RULE"
 )
-SEC_EDGAR_SEARCH_URL = "https://efts.sec.gov/LATEST/search-index?q={query}&dateRange=custom&startdt={start}&enddt={end}&from=0&size=10"
 OFAC_SDN_URL = "https://www.treasury.gov/ofac/downloads/sdn.xml"
 
 # User-Agent for government APIs
@@ -171,7 +170,7 @@ def collect_sec_edgar(matcher: EntityMatcher) -> list[dict]:
     signals = []
     orgs = matcher.org_names[:20]  # Cap at 20 queries
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    # Look back 30 days
+    # Look back to the start of the current month
     start = datetime.now(timezone.utc).strftime("%Y-%m-01")
 
     total_hits = 0

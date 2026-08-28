@@ -633,7 +633,7 @@ ENTITIES = [
         "metadata": {},
     },
     {
-        "name": "AMA",
+        "name": "American Medical Association",
         "entity_type": "organization",
         "description": "American Medical Association. Professional organization that has wielded enormous influence over US medical practice and education since the early 20th century. Under Morris Fishbein's leadership, systematically suppressed alternative medical practitioners and treatments.",
         "aliases": "American Medical Association",

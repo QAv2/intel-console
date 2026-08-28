@@ -977,6 +977,117 @@ GEO_COORDS = {
     "James Gilliland":                   (46.0046, -121.5250, "documented"), # Trout Lake WA
     "Sadhguru":                          (11.0168, 76.6950, "documented"),   # Coimbatore India
     "Black Hat 2019 Crown Sterling Incident": (36.1699, -115.1398, "documented"), # Las Vegas NV
+
+    # ══════════════════════════════════════════════════════════════════════
+    # 2026-08 REFRESH PASS — merged from expansion modules by tools/merge_geo.py
+    # ══════════════════════════════════════════════════════════════════════
+    "Chaim Topol":                               (32.0853, 34.7818, "inference"),   # Born and based in Tel Aviv
+    "Peter Zvi Malkin":                          (40.7128, -74.0060, "credible"),   # Based in New York City post-service, died there 2005
+    "Isser Harel":                               (32.0853, 34.7818, "inference"),   # Mossad HQ area, Tel Aviv
+    "Eichmann Capture (1960)":                   (-34.4546, -58.5575, "documented"),   # Garibaldi Street, San Fernando, Buenos Aires
+    "Fiddler on the Roof (1971 film)":           (45.5800, 16.1800, "credible"),   # Filmed in Lekenik/Mala Gorica, Croatia (then Yugoslavia)
+    "Six-Day War":                               (31.7683, 35.2137, "credible"),   # Jerusalem, focal point of the conflict
+    "Benjamin Netanyahu":                        (31.7683, 35.2137, "inference"),   # Prime Minister's Office, Jerusalem
+    "Office of the Director of National Intelligence": (38.8602, -77.0595, "documented"),   # Liberty Crossing, McLean, Virginia
+    "Tulsi Gabbard":                             (38.8977, -77.0365, "inference"),   # Washington, D.C.
+    "John Ratcliffe":                            (38.9531, -77.1465, "credible"),   # CIA HQ, Langley, Virginia
+    "Kash Patel":                                (38.8977, -77.0365, "inference"),   # Washington, D.C.
+    "Blaise Metreweli":                          (51.4873, -0.1244, "credible"),   # SIS Building, Vauxhall Cross, London
+    "Nicolás Maduro":                            (10.4806, -66.9036, "credible"),   # Caracas, Venezuela
+    "SOUTHCOM":                                  (25.8249, -80.3427, "documented"),   # Doral, Florida
+    "Operation Southern Spear":                  (12.0000, -68.0000, "credible"),   # Caribbean Sea
+    "Signalgate":                                (38.8977, -77.0365, "credible"),   # Washington, D.C.
+    "Operation Grim Beeper":                     (33.8938, 35.5018, "credible"),   # Beirut, Lebanon
+    "Salt Typhoon Telecom Breach":               (38.8977, -77.0365, "inference"),   # U.S. telecommunications infrastructure
+    "Nord Stream Sabotage Investigation":        (53.5511, 9.9937, "documented"),   # Hamburg, Germany (trial venue)
+    "Russia-Ukraine War":                        (48.3794, 31.1656, "credible"),   # Geographic center of Ukraine
+    "Volodymyr Zelensky":                        (50.4501, 30.5234, "credible"),   # Kyiv, Ukraine — presidential office
+    "Budapest Memorandum (1994)":                (47.4979, 19.0402, "documented"),   # Budapest, Hungary — CSCE summit venue
+    "Anchorage Summit (2025)":                   (61.2501, -149.7948, "documented"),   # JBER, Anchorage, Alaska
+    "JD Vance":                                  (38.8921, -77.0669, "credible"),   # Washington DC — VP residence
+    "Marco Rubio":                               (38.8951, -77.0469, "credible"),   # Washington DC — State Department HQ
+    "Pete Hegseth":                              (38.8719, -77.0563, "credible"),   # The Pentagon, Arlington, VA
+    "Pam Bondi":                                 (38.8937, -77.0260, "credible"),   # Washington DC — DOJ Main Building
+    "Elon Musk":                                 (38.8977, -77.0365, "inference"),   # Washington DC — DOGE operations
+    "DOGE":                                      (38.8977, -77.0365, "credible"),   # Washington DC — federal government
+    "Steve Witkoff":                             (40.7128, -74.0060, "inference"),   # New York, NY — Witkoff Group HQ
+    "Howard Lutnick":                            (40.7527, -73.9772, "credible"),   # New York, NY — Cantor Fitzgerald HQ
+    "David Ellison":                             (34.0195, -118.4912, "credible"),   # Skydance Media HQ, Santa Monica, California
+    "Larry Ellison":                             (37.5282, -122.2495, "credible"),   # Oracle HQ, Redwood City, California
+    "FCC":                                       (38.9010, -77.0031, "documented"),   # FCC HQ, 45 L Street NE, Washington, D.C.
+    "Paramount-Skydance Merger (2025)":          (34.0928, -118.3287, "credible"),   # Paramount Pictures lot, Hollywood, California
+    "TikTok US Joint Venture (2026)":            (34.0211, -118.3965, "credible"),   # TikTok US HQ, Culver City, California
+    "Bari Weiss":                                (40.7614, -73.9776, "credible"),   # CBS Broadcast Center, New York, New York
+    "Brendan Carr":                              (38.9010, -77.0031, "credible"),   # FCC HQ, Washington, D.C.
+    "Meta Fact-Check Removal (2025)":            (37.4530, -122.1817, "credible"),   # Meta HQ, Menlo Park, California
+    "Epstein Files Transparency Act":            (38.8899, -77.0091, "documented"),   # U.S. Capitol, Washington DC
+    "Todd Blanche":                              (38.8934, -77.0250, "credible"),   # DOJ Main Building, Washington DC
+    "DOJ Epstein File Releases (2025-2026)":     (38.8934, -77.0250, "credible"),   # DOJ Main Building, Washington DC
+    "Prince Andrew Arrest (2026)":               (51.4198, -0.6183, "documented"),   # Royal Lodge, Windsor Great Park, England
+    "Combs Trial (2025)":                        (40.7141, -74.0028, "documented"),   # Daniel Patrick Moynihan U.S. Courthouse, Manhattan
+    "Maxwell House Oversight Deposition (2026)": (38.8899, -77.0091, "credible"),   # U.S. Capitol, Washington DC (virtual from FPC Bryan, TX)
+    "Kathryn Ruemmler":                          (40.7143, -74.0134, "credible"),   # Goldman Sachs HQ, New York
+    "Kevin Warsh":                               (38.8927, -77.0462, "credible"),   # Federal Reserve Board, Washington DC
+    "World Liberty Financial":                   (40.7128, -74.0060, "inference"),   # New York City, corporate base
+    "GENIUS Act":                                (38.8899, -77.0091, "credible"),   # US Capitol, Washington DC
+    "Changpeng Zhao":                            (25.2048, 55.2708, "credible"),   # Dubai, UAE — primary residence post-release
+    "Strategic Bitcoin Reserve":                 (38.8977, -77.0365, "credible"),   # White House, Washington DC
+    "IEEPA Tariff Ruling (2026)":                (38.8907, -77.0044, "documented"),   # US Supreme Court, Washington DC
+    "Trump v. Cook (2026)":                      (38.8907, -77.0044, "documented"),   # US Supreme Court, Washington DC
+    "Wyden Epstein-JPMorgan Investigation (2025)": (38.8846, -77.0122, "credible"),   # US Senate, Washington DC
+    "Pablo Hernández de Cos":                    (47.5543, 7.5917, "credible"),   # BIS headquarters, Basel, Switzerland
+    "Mary Erdoes":                               (40.7580, -73.9720, "credible"),   # JPMorgan Chase headquarters, New York
+    "Executive Order 14176":                     (38.8977, -77.0365, "documented"),   # White House, Washington DC
+    "JFK Files Release (2025)":                  (38.8937, -77.0230, "documented"),   # National Archives, Washington DC
+    "George Joannides":                          (25.7617, -80.1918, "credible"),   # JMWAVE station area, Miami FL
+    "Anna Paulina Luna":                         (38.8899, -77.0091, "credible"),   # US Capitol, Washington DC
+    "House Task Force on Declassification of Federal Secrets": (38.8899, -77.0091, "credible"),   # US Capitol, Washington DC
+    "Directorio Revolucionario Estudiantil":     (25.7617, -80.1918, "credible"),   # Miami, Florida - DRE base of operations
+    "Robert F. Kennedy Jr.":                     (38.8862, -77.0199, "credible"),   # HHS headquarters, Washington DC
+    "HHS":                                       (38.8862, -77.0199, "documented"),   # Hubert H. Humphrey Building, 200 Independence Ave SW, Washington DC
+    "Jay Bhattacharya":                          (38.9959, -77.0969, "credible"),   # NIH campus, Bethesda MD
+    "Marty Makary":                              (39.0303, -76.9760, "credible"),   # FDA White Oak campus, Silver Spring MD
+    "Vinay Prasad":                              (39.0303, -76.9760, "credible"),   # FDA/CBER, Silver Spring MD
+    "IG Farben":                                 (50.1275, 8.6697, "documented"),   # IG Farben Building (now Goethe University), Frankfurt am Main
+    "Albert Hofmann":                            (47.5596, 7.5886, "credible"),   # Basel, Switzerland — Sandoz Laboratories
+    "Sugar Research Foundation":                 (38.9072, -77.0369, "credible"),   # Washington DC
+    "Flexner Report":                            (40.7549, -73.9840, "credible"),   # New York City — Carnegie Foundation headquarters
+    "2025 United States Measles Outbreak":       (32.1400, -102.6300, "credible"),   # Gaines County, Texas — outbreak epicenter
+    "AARO":                                      (38.8719, -77.0563, "documented"),   # The Pentagon, Arlington, VA
+    "Avi Loeb":                                  (42.3770, -71.1167, "credible"),   # Harvard University, Cambridge, MA
+    "Galileo Project":                           (42.3770, -71.1167, "credible"),   # Harvard University, Cambridge, MA
+    "3I/ATLAS":                                  (-30.4975, -70.7647, "documented"),   # Discovered by ATLAS survey, Rio Hurtado, Chile
+    "Garry Nolan":                               (37.4275, -122.1697, "credible"),   # Stanford University, Palo Alto, CA
+    "Ross Coulthart":                            (41.8781, -87.6298, "inference"),   # NewsNation, Chicago, IL
+    "Jeremy Corbell":                            (34.0522, -118.2437, "inference"),   # Los Angeles, California
+    "Jon Kosloski":                              (38.8719, -77.0563, "credible"),   # The Pentagon, Arlington, VA
+    "Theosophical Society":                      (13.0007, 80.2578, "documented"),   # Adyar, Chennai, India (intl HQ)
+    "Karl Nell":                                 (38.8977, -77.0365, "inference"),   # Washington, D.C. area
+    "Jacob Rothschild":                          (51.7618, -0.8496, "credible"),   # Waddesdon Manor, Buckinghamshire
+    "Nathaniel Rothschild":                      (51.5074, -0.1278, "inference"),   # London, United Kingdom
+    "Bezos-Sánchez Wedding (2025)":              (45.4408, 12.3155, "documented"),   # Venice, Italy
+    "Karahan Tepe":                              (37.0514, 39.1658, "documented"),   # Sanliurfa Province, Turkey
+    "Flint Dibble":                              (51.4816, -3.1791, "credible"),   # Cardiff University, Wales
+    "Ancient Apocalypse (TV Series)":            (34.0522, -118.2437, "inference"),   # Netflix, Los Angeles
+    "Comet Research Group":                      (33.4484, -112.0740, "inference"),   # United States
+    "Israel Antiquities Authority":              (31.7767, 35.2345, "documented"),   # Jerusalem, Israel
+
+
+    # ══════════════════════════════════════════════════════════════════════
+    # 2026-08 REFRESH PASS — merged from expansion modules by tools/merge_geo.py
+    # ══════════════════════════════════════════════════════════════════════
+    "Sinaloa Cartel":                            (24.8091, -107.3940, "credible"),   # Culiacán, Sinaloa, Mexico — cartel base
+    "PDVSA":                                     (10.4806, -66.9036, "credible"),   # Caracas, Venezuela — PDVSA headquarters
+    "ENI":                                       (41.8327, 12.4388, "credible"),   # Rome, Italy — ENI headquarters
+    "Royal Dutch Shell":                         (51.5074, -0.1278, "credible"),   # London, UK — Shell plc headquarters
+    "Kerr-McGee Corporation":                    (35.4676, -97.5164, "credible"),   # Oklahoma City, OK — former headquarters
+    "Anduril Industries":                        (33.6846, -117.9112, "credible"),   # Costa Mesa, CA — Anduril headquarters
+    "Boeing F-47":                               (38.8977, -77.0365, "inference"),   # Washington DC — USAF program administration
+    "Chris Wright":                              (38.8977, -77.0365, "inference"),   # Washington DC — DOE headquarters
+    "Energy Transfer v. Greenpeace (2025)":      (46.7192, -100.9324, "documented"),   # Morton County, ND — trial location
+    "Cartel FTO Designations (2025)":            (38.8977, -77.0365, "documented"),   # Washington DC — White House executive order
+    "Primo Brands Corporation":                  (41.0534, -73.5387, "credible"),   # Stamford, CT — corporate headquarters
+
 }
 
 
