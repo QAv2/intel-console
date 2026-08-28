@@ -23,7 +23,7 @@ for a in "$@"; do
   esac
 done
 
-if [ -n "$(git status --porcelain -- static/data static/photos static/css/style.css static/js)" ]; then
+if [ -n "$(git status --porcelain --untracked-files=no -- static/data static/photos static/css/style.css static/js)" ]; then
   echo "!! uncommitted changes under static/ — commit on master first (deploy copies from master's tree)"; exit 1
 fi
 
