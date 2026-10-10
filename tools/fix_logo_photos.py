@@ -24,7 +24,7 @@ from PIL import Image, ImageChops
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PHOTOS = os.path.join(ROOT, "static", "photos")
 DB = os.path.join(ROOT, "data", "intel.db")
-UA = "IntelConsolePhotoFix/1.0 (https://qav2.github.io/intel-console/; contact: bigbuddha827@gmail.com)"
+UA = "IntelConsolePhotoFix/1.0 (https://qav2.github.io/intel-console/; contact: contact@qualia-algebra.com)"
 CANVAS = 400
 PAD = 34
 

@@ -27,7 +27,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT)
 PHOTOS = os.path.join(ROOT, "static", "photos")
 DB = os.path.join(ROOT, "data", "intel.db")
-UA = "IntelConsolePhotoFetch/1.0 (https://qav2.github.io/intel-console/; contact: bigbuddha827@gmail.com)"
+UA = "IntelConsolePhotoFetch/1.0 (https://qav2.github.io/intel-console/; contact: contact@qualia-algebra.com)"
 
 
 def slug(name):
