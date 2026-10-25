@@ -39,6 +39,13 @@
         Dossier.close();
     };
 
+    // ---- Toolbar elements (declared before boot: updateBreadcrumb reads btnBackToMap) ----
+    const btnReset = document.getElementById('btn-reset');
+    const btnZoomIn = document.getElementById('btn-zoom-in');
+    const btnZoomOut = document.getElementById('btn-zoom-out');
+    const btnConnections = document.getElementById('btn-connections');
+    const btnBackToMap = document.getElementById('btn-back-to-map');
+
     // ---- Load data and boot ----
     let graphLoaded = false;
     try {
@@ -98,12 +105,6 @@
     });
 
     // ---- Toolbar buttons ----
-    const btnReset = document.getElementById('btn-reset');
-    const btnZoomIn = document.getElementById('btn-zoom-in');
-    const btnZoomOut = document.getElementById('btn-zoom-out');
-    const btnConnections = document.getElementById('btn-connections');
-    const btnBackToMap = document.getElementById('btn-back-to-map');
-
     if (btnReset) btnReset.addEventListener('click', resetView);
     if (btnZoomIn) btnZoomIn.addEventListener('click', zoomIn);
     if (btnZoomOut) btnZoomOut.addEventListener('click', zoomOut);
