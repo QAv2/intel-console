@@ -33,3 +33,8 @@ app.mount("/static", StaticFiles(directory=str(STATIC_DIR)), name="static")
 @app.get("/")
 async def index():
     return FileResponse(str(STATIC_DIR / "index.html"))
+
+
+# The frontend uses page-relative paths (css/, js/, data/, photos/), so also
+# serve static/ at the root. Mounted last so /api routes match first.
+app.mount("/", StaticFiles(directory=str(STATIC_DIR), html=True), name="site")
